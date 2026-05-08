@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-08 17:31:48",
+  "date": "20260508",
+  "mode": "dry_run",
+  "stats": {
+    "open_positions": 0,
+    "trades_count": 0,
+    "buys": 0,
+    "sells": 0,
+    "buy_won": 0,
+    "sell_won": 0,
+    "realized_pnl_won": null,
+    "capital_won": 50000000,
+    "deployed_won": 0,
+    "cash_remaining_won": 50000000,
+    "total_eval_won": null,
+    "unrealized_pnl_won": null
+  },
+  "positions": [],
+  "trades": [],
+  "pm_decisions": [],
+  "calendar_dates": [
+    "20260428",
+    "20260429",
+    "20260430",
+    "20260504",
+    "20260506",
+    "20260507",
+    "20260508"
+  ],
+  "strategist_brief": null,
+  "auditor_verdict": null
+}
