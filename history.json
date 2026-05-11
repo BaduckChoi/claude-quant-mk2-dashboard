@@ -1,9 +1,9 @@
 {
   "20260511": {
-    "buy_won": 1881000,
-    "buys": 1,
+    "buy_won": 3877750,
+    "buys": 2,
     "date": "2026-05-11",
-    "open_positions": 1,
+    "open_positions": 2,
     "realized_pnl_won": null,
     "sell_won": 0,
     "sells": 0,
@@ -59,9 +59,14 @@
         "action": "buy",
         "code": "005380",
         "name": "현대차"
+      },
+      {
+        "action": "buy",
+        "code": "005930",
+        "name": "삼성전자"
       }
     ],
-    "trades_count": 1,
-    "unrealized_pnl_won": -3000
+    "trades_count": 2,
+    "unrealized_pnl_won": 10750
   }
 }
