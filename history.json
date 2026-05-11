@@ -1,1 +1,67 @@
-{}
+{
+  "20260511": {
+    "buy_won": 1881000,
+    "buys": 1,
+    "date": "2026-05-11",
+    "open_positions": 1,
+    "realized_pnl_won": null,
+    "sell_won": 0,
+    "sells": 0,
+    "themes": [
+      {
+        "days_active": 1,
+        "entry_status": "초입",
+        "leaders": [
+          {
+            "code": "",
+            "name": "삼성전자"
+          },
+          {
+            "code": "",
+            "name": "SK하이닉스"
+          },
+          {
+            "code": "",
+            "name": "DB하이텍"
+          },
+          {
+            "code": "",
+            "name": "주성엔지니어링"
+          }
+        ],
+        "name": "AI 반도체/HBM",
+        "strength_trend": "강화"
+      },
+      {
+        "days_active": 1,
+        "entry_status": "초입",
+        "leaders": [
+          {
+            "code": "",
+            "name": "한온시스템"
+          },
+          {
+            "code": "",
+            "name": "계양전기"
+          },
+          {
+            "code": "",
+            "name": "현대차"
+          }
+        ],
+        "name": "자동차 전동화/부품",
+        "strength_trend": "강화"
+      }
+    ],
+    "top_movers": [],
+    "traded_codes": [
+      {
+        "action": "buy",
+        "code": "005380",
+        "name": "현대차"
+      }
+    ],
+    "trades_count": 1,
+    "unrealized_pnl_won": -3000
+  }
+}
