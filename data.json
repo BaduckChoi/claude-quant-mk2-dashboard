@@ -1,25 +1,113 @@
 {
-  "generated_at": "2026-05-11 09:36:01",
+  "generated_at": "2026-05-11 09:40:48",
   "date": "20260511",
   "mode": "dry_run",
   "stats": {
-    "open_positions": 0,
-    "trades_count": 0,
-    "buys": 0,
+    "open_positions": 1,
+    "trades_count": 1,
+    "buys": 1,
     "sells": 0,
-    "buy_won": 0,
+    "buy_won": 1881000,
     "sell_won": 0,
     "realized_pnl_won": null,
     "capital_won": 50000000,
-    "deployed_won": 0,
-    "cash_remaining_won": 50000000,
-    "total_eval_won": null,
-    "unrealized_pnl_won": null
+    "deployed_won": 1881000,
+    "cash_remaining_won": 48119000,
+    "total_eval_won": 1878000,
+    "unrealized_pnl_won": -3000
   },
-  "positions": [],
-  "trades": [],
-  "pm_decisions": [],
-  "calendar_dates": [],
+  "positions": [
+    {
+      "code": "005380",
+      "name": "현대차",
+      "qty": 3,
+      "avg_price": 627000,
+      "cost_won": 1881000,
+      "current_price": 626000,
+      "change_rate": 2.12,
+      "eval_won": 1878000,
+      "pnl_won": -3000,
+      "pnl_pct": -0.1594896331738437,
+      "thesis": "자동차 전동화 active 테마 + 운송장비 sector rotating_in + 시총 5위. 오늘 +2.28%(627,000)로 후보 중 갭 가장 작아 가격 디스시플린 통과. 시드급 1차 200만원(자본 4%, 목표 600~800만원의 약 25~33%) 분할 진입. 약점: regime/themes 모두 days=1 첫 기록일 carry-over 없음 → 내일 테마 유효성·거래대금 carry-over 확인 후 2차 분할 트리거 발동. 손절은 일봉 610,000원(오늘 저가) 종가 이탈 + 운송장비 sector 약화 동시 충족 시 1/2 정리."
+    }
+  ],
+  "trades": [
+    {
+      "ts": "2026-05-11T09:40:48",
+      "cycle_id": "20260511-0940",
+      "action": "buy",
+      "code": "005380",
+      "name": "현대차",
+      "qty": 3,
+      "price": 627000,
+      "amount_won": 1881000,
+      "reason": "자동차 전동화 active 테마 + 운송장비 sector rotating_in + 시총 5위. 오늘 +2.28%(627,000)로 후보 중 갭 가장 작아 가격 디스시플린 통과. 시드급 1차 200만원(자본 4%, 목표 600~800만원의 약 25~33%) 분할 진입. 약점: regime/themes 모두 days=1 첫 기록일 carry-over 없음 → 내일 테마 유효성·거래대금 carry-over 확인 후 2차 분할 트리거 발동. 손절은 일봉 610,000원(오늘 저가) 종가 이탈 + 운송장비 sector 약화 동시 충족 시 1/2 정리.",
+      "dry_run": true,
+      "order_no": "",
+      "realized_pnl_won": null
+    }
+  ],
+  "pm_decisions": [
+    {
+      "slot": "0940",
+      "action": "buy",
+      "code": "005380",
+      "amount_won": 200,
+      "qty": null,
+      "reason": "자동차 전동화 active 테마 + 운송장비 sector rotating_in + 시총 5위. 오늘 +2.28%(627,000)로 후보 중 갭 가장 작아 가격 디스시플린 통과. 시드급 1차 200만원(자본 4%, 목표 600~800만원의 약 25~33%) 분할 진입. 약점: regime/themes 모두 days=1 첫 기록일 carry-over 없음 → 내일 테마 유효성·거래대금 carry-over 확인 후 2차 분할 트리거 발동. 손절은 일봉 610,000원(오늘 저가) 종가 이탈 + 운송장비 sector 약화 동시 충족 시 1/2 정리."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "005930",
+      "amount_won": null,
+      "qty": null,
+      "reason": "삼성전자 +7.08%(287,500) 추격가. 갭상승 폭 큼 + AI반도체 테마 본진이라 한 슬롯 신규 1종목 룰 상 005380 다음 슬롯/익일 눌림 대기. 280,000원 근처 조정 시 1차 후보."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "000660",
+      "amount_won": null,
+      "qty": null,
+      "reason": "SK하이닉스 +11.68%(1,883,000) 갭 너무 큼. 추격 부적합. 1,800,000원 이하 눌림 확인 후 다음 슬롯 검토."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "000990",
+      "amount_won": null,
+      "qty": null,
+      "reason": "DB하이텍 +15.23%(193,700) 추격 절대 위험 — 갭상승 폭 후보 중 2위. 단타 신호 영역. 패스."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "018880",
+      "amount_won": null,
+      "qty": null,
+      "reason": "한온시스템 +17.4%(5,600) 거래대금 폭발이나 시가 4,850→5,600 갭상승 추격 시 단타 영역 침범. 분할 1차도 부적합 — 자동차 테마 본진은 005380으로 대체."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "329180",
+      "amount_won": null,
+      "qty": null,
+      "reason": "HD현대중공업 +4.41% watching 단계. 조선/방산 promote 게이트(한화오션·삼성중공업·LIG넥스원 동반 +5%↑ 거래대금 확장) 미확인 — watching 종목은 본진 진입 후보 아님. theme_tracker 익일 갱신 + 본주 라인업 동반강세 확인 후 시드급."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "012450",
+      "amount_won": null,
+      "qty": null,
+      "reason": "한화에어로스페이스 +2.75% 갭 작으나 조선/방산 watching 단계 동일 게이트. 본주 동반강세 carry-over 미확인 → 보류. portfolio gate 자각: 오늘 진입 005380 1종목으로 남겨 슬롯 분산 유지."
+    }
+  ],
+  "calendar_dates": [
+    "20260511"
+  ],
   "strategist_brief": "```json\n{\n  \"themes\": [\n    {\n      \"name\": \"AI 반도체/HBM\",\n      \"stance\": \"active 주도 — 오늘 후보의 절반 이상이 이 테마. regime '추세장 강세' + 전기전자 sector rotating_in + active 테마 모두 정합. 다만 narrow leadership 우려와 오늘 대형주 갭상승(+7~22%) 상태라 추격 금지·분할진입·눌림 매수가 정석. days_active=1 이라 추세 유효성은 내일 carry-over 로 1차 검증.\"\n    },\n    {\n      \"name\": \"자동차 전동화/부품\",\n      \"stance\": \"active 보조 — 한온시스템 거래대금 폭발(시장 3위) + 운송장비 sector rotating_in + 시총 5위 현대차 동반. AI 반도체와 다른 산업이라 분산 가치 있음. 한온은 이미 갭상승이라 추격 위험, 현대차는 +2.45% 로 진입 여지 상대적 큼.\"\n    },\n    {\n      \"name\": \"조선/방산 (watching)\",\n      \"stance\": \"watching 단계지만 분산 옵션으로 1~2종 깔아둠. HD현대중공업·한화에어로스페이스 시총 9·10위 동반 +4% 수준 강세 — AI/자동차에 쏠림 방지용 헤지성. 정식 active 승격 전이라 비중 작게.\"\n    }\n  ],\n  \"candidates\": [\n    {\n      \"code\": \"005930\",\n      \"name\": \"삼성전자\",\n      \"reason\": \"AI 반도체/HBM 테마 대장주, 시총 1위. 오늘 +7.08% 거래대금 2.5조 단일 종목 1위. 분할진입 + 눌림 노림 — 287,500원 추격은 위험.\"\n    },\n    {\n      \"code\": \"000660\",\n      \"name\": \"SK하이닉스\",\n      \"reason\": \"HBM 최대 직접수혜, 시총 2위. 오늘 +10.79% 1,868,000원. 갭상승폭 가장 커서 추격 더 위험 — 분할진입 시 첫 트랜치 작게.\"\n    },\n    {\n      \"code\": \"000990\",\n      \"name\": \"DB하이텍\",\n      \"reason\": \"파운드리/후공정 중형주. +15.88% 거래대금 964억. 대형주 대비 베타 높아 분할진입 필수, 테마 유효성 깨지면 컷.\"\n    },\n    {\n      \"code\": \"005380\",\n      \"name\": \"현대차\",\n      \"reason\": \"자동차 전동화 + 시총 5위 안정성. 오늘 +2.45% 로 다른 후보 대비 갭상승 폭 작아 진입 여지 상대적으로 큼. 운송장비 sector rotating_in 정합.\"\n    },\n    {\n      \"code\": \"018880\",\n      \"name\": \"한온시스템\",\n      \"reason\": \"자동차 부품 폭발적 자금유입(거래대금 시장 3위). 다만 +16.14% 갭상승 상태라 추격 금지, 눌림 1차 매수 후 분할 추가가 정석. 테마 유효성(거래대금 carry-over) 깨지면 즉시 손절.\"\n    },\n    {\n      \"code\": \"329180\",\n      \"name\": \"HD현대중공업\",\n      \"reason\": \"조선/방산 watching 테마 분산용. 시총 9위 +4.26% 로 과열 적음. AI/자동차 쏠림 방지 헤지성 — PM 자율로 비중 작게.\"\n    },\n    {\n      \"code\": \"012450\",\n      \"name\": \"한화에어로스페이스\",\n      \"reason\": \"방산 시총 10위 +3.83%. HD현대중공업과 한 짝으로 조선/방산 테마 분산옵션. 단일 비중 작게.\"\n    }\n  ],\n  \"notes\": \"오늘 후보 7개 중 3개(005930/000660/000990)가 AI 반도체/HBM — portfolio 분산 관점에서 PM 자율 판단 필요(단일 테마 비중 게이트 켜는 것 권장). 거시 상황: regime '추세장 강세' days_in_regime=1 + breadth '선별상승'(narrow leadership) + 변동성 '높음' — 신규 진입 공격성 OK 이나 한 사이클 풀포지션 절대 금지, 모든 종목 분할진입(첫 트랜치 1/3 이하). 오늘 대형 주도주 대부분이 +7~22% 갭상승 상태라 추격 매수 위험 — 눌림(전일 종가 또는 5% 이내 조정) 대기가 정석. 손절은 기계적 ATR 아닌 테마 유효성(거래대금/leaders 동반강세 carry-over) 와 지지선 기준. 제외 종목: 코스모로보틱스(+245% 신규상장 이벤트성, 테마 시드 부적합), 계양전기우(우선주 상한가, 보통주 012200 도 오늘은 +1.18% 로 모멘텀 약화), ETF/인버스류(레버리지 추격 부적합), 대한광통신(+23% 단일종목 강세는 watching 단계라 후속주 동반확인 전엔 보류).\"\n}\n```",
   "auditor_verdict": null
 }
