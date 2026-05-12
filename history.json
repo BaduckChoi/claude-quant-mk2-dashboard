@@ -66,5 +66,94 @@
       }
     ],
     "trades_count": 2
+  },
+  "20260512": {
+    "buy_won": 1946500,
+    "buys": 1,
+    "date": "2026-05-12",
+    "open_positions": 3,
+    "realized_pnl_won": null,
+    "sell_won": 0,
+    "sells": 0,
+    "themes": [
+      {
+        "days_active": 2,
+        "entry_status": "중반",
+        "leaders": [
+          {
+            "code": "",
+            "name": "삼성전자"
+          },
+          {
+            "code": "",
+            "name": "SK하이닉스"
+          },
+          {
+            "code": "",
+            "name": "삼성전기"
+          },
+          {
+            "code": "",
+            "name": "LG전자"
+          }
+        ],
+        "name": "AI 반도체/HBM",
+        "strength_trend": "약화"
+      },
+      {
+        "days_active": 2,
+        "entry_status": "중반",
+        "leaders": [
+          {
+            "code": "",
+            "name": "현대차"
+          },
+          {
+            "code": "",
+            "name": "계양전기"
+          },
+          {
+            "code": "",
+            "name": "HD현대중공업"
+          }
+        ],
+        "name": "자동차 전동화/부품",
+        "strength_trend": "유지"
+      },
+      {
+        "days_active": 1,
+        "entry_status": "초입",
+        "leaders": [
+          {
+            "code": "",
+            "name": "코스모로보틱스"
+          },
+          {
+            "code": "",
+            "name": "휴림로봇"
+          },
+          {
+            "code": "",
+            "name": "뉴로메카"
+          },
+          {
+            "code": "",
+            "name": "에스비비테크"
+          }
+        ],
+        "name": "로봇/AI 자동화",
+        "strength_trend": "강화"
+      }
+    ],
+    "top_movers": [],
+    "traded_codes": [
+      {
+        "action": "buy",
+        "code": "000660",
+        "name": "SK하이닉스"
+      }
+    ],
+    "trades_count": 1,
+    "unrealized_pnl_won": 230000
   }
 }
