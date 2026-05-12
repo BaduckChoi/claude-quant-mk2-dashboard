@@ -68,8 +68,8 @@
     "trades_count": 2
   },
   "20260512": {
-    "buy_won": 1946500,
-    "buys": 1,
+    "buy_won": 3902500,
+    "buys": 2,
     "date": "2026-05-12",
     "open_positions": 3,
     "realized_pnl_won": null,
@@ -151,9 +151,14 @@
         "action": "buy",
         "code": "000660",
         "name": "SK하이닉스"
+      },
+      {
+        "action": "buy",
+        "code": "005380",
+        "name": "현대차"
       }
     ],
-    "trades_count": 1,
-    "unrealized_pnl_won": 230000
+    "trades_count": 2,
+    "unrealized_pnl_won": 8250
   }
 }
