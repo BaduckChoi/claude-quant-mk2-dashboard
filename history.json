@@ -158,5 +158,102 @@
       }
     ],
     "trades_count": 2
+  },
+  "20260513": {
+    "buy_won": 0,
+    "buys": 0,
+    "date": "2026-05-13",
+    "open_positions": 2,
+    "realized_pnl_won": -218500,
+    "sell_won": 2869000,
+    "sells": 2,
+    "themes": [
+      {
+        "days_active": 3,
+        "entry_status": "후반",
+        "leaders": [
+          {
+            "code": "",
+            "name": "삼성전자"
+          },
+          {
+            "code": "",
+            "name": "SK하이닉스"
+          },
+          {
+            "code": "",
+            "name": "삼성전기"
+          }
+        ],
+        "name": "AI 반도체/HBM",
+        "strength_trend": "약화"
+      },
+      {
+        "days_active": 3,
+        "entry_status": "후반",
+        "leaders": [
+          {
+            "code": "",
+            "name": "현대차"
+          },
+          {
+            "code": "",
+            "name": "계양전기"
+          },
+          {
+            "code": "",
+            "name": "모베이스전자"
+          },
+          {
+            "code": "",
+            "name": "HD현대중공업"
+          }
+        ],
+        "name": "자동차 전동화/부품",
+        "strength_trend": "유지"
+      },
+      {
+        "days_active": 2,
+        "entry_status": "중반",
+        "leaders": [
+          {
+            "code": "",
+            "name": "코스모로보틱스"
+          },
+          {
+            "code": "",
+            "name": "TPC로보틱스"
+          }
+        ],
+        "name": "로봇/AI 자동화",
+        "strength_trend": "유지"
+      }
+    ],
+    "top_movers": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "realized_pnl_won": -83000
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "realized_pnl_won": -135500
+      }
+    ],
+    "traded_codes": [
+      {
+        "action": "sell",
+        "code": "005930",
+        "name": "삼성전자"
+      },
+      {
+        "action": "sell",
+        "code": "000660",
+        "name": "SK하이닉스"
+      }
+    ],
+    "trades_count": 2,
+    "unrealized_pnl_won": 96750
   }
 }
