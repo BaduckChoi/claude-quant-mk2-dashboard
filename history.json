@@ -164,9 +164,9 @@
     "buys": 0,
     "date": "2026-05-13",
     "open_positions": 2,
-    "realized_pnl_won": -218500,
-    "sell_won": 2869000,
-    "sells": 2,
+    "realized_pnl_won": -99500,
+    "sell_won": 4267000,
+    "sells": 3,
     "themes": [
       {
         "days_active": 3,
@@ -231,6 +231,11 @@
     ],
     "top_movers": [
       {
+        "code": "005380",
+        "name": "현대차",
+        "realized_pnl_won": 119000
+      },
+      {
         "code": "005930",
         "name": "삼성전자",
         "realized_pnl_won": -83000
@@ -251,9 +256,14 @@
         "action": "sell",
         "code": "000660",
         "name": "SK하이닉스"
+      },
+      {
+        "action": "sell",
+        "code": "005380",
+        "name": "현대차"
       }
     ],
-    "trades_count": 2,
-    "unrealized_pnl_won": 96750
+    "trades_count": 3,
+    "unrealized_pnl_won": 223750
   }
 }
