@@ -164,9 +164,9 @@
     "buys": 0,
     "date": "2026-05-13",
     "open_positions": 2,
-    "realized_pnl_won": -99500,
-    "sell_won": 4267000,
-    "sells": 3,
+    "realized_pnl_won": -29000,
+    "sell_won": 4977000,
+    "sells": 4,
     "themes": [
       {
         "days_active": 3,
@@ -233,7 +233,7 @@
       {
         "code": "005380",
         "name": "현대차",
-        "realized_pnl_won": 119000
+        "realized_pnl_won": 189500
       },
       {
         "code": "005930",
@@ -263,7 +263,7 @@
         "name": "현대차"
       }
     ],
-    "trades_count": 3,
-    "unrealized_pnl_won": 223750
+    "trades_count": 4,
+    "unrealized_pnl_won": 207750
   }
 }
