@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-05-13 12:31:57",
+  "generated_at": "2026-05-13 15:21:02",
   "date": "20260513",
   "mode": "dry_run",
   "stats": {
     "open_positions": 2,
-    "trades_count": 3,
+    "trades_count": 4,
     "buys": 0,
-    "sells": 3,
+    "sells": 4,
     "buy_won": 0,
-    "sell_won": 4267000,
-    "realized_pnl_won": -99500,
+    "sell_won": 4977000,
+    "realized_pnl_won": -29000,
     "capital_won": 50000000,
-    "deployed_won": 3513250,
-    "cash_remaining_won": 46486750,
-    "total_eval_won": 3637500,
-    "unrealized_pnl_won": 223750
+    "deployed_won": 2803250,
+    "cash_remaining_won": 47196750,
+    "total_eval_won": 2982000,
+    "unrealized_pnl_won": 207750
   },
   "positions": [
     {
       "code": "005380",
       "name": "현대차",
-      "qty": 4,
+      "qty": 3,
       "avg_price": 639500,
-      "cost_won": 2558000,
-      "current_price": 699000,
-      "change_rate": 8.2,
-      "eval_won": 2796000,
-      "pnl_won": 238000,
-      "pnl_pct": 9.304143862392495,
+      "cost_won": 1918500,
+      "current_price": 709500,
+      "change_rate": 9.83,
+      "eval_won": 2128500,
+      "pnl_won": 210000,
+      "pnl_pct": 10.946051602814698,
       "thesis": "자동차 전동화/부품 carry-over 검증: 테마 라벨 '유지' + 운송장비 sector leading 2일 연속(+2.11%) + 현대차 현재 652,000(+0.93%) 갭 +5% 게이트 통과. portfolio gate 자각: 자동차 단일 테마 비중 합산 보유 188만원 + 추가 196만원 = 384만원(자본 7.7%) 로 8% 임계 안, max_positions 5/3 잔여 2, 분할 추가는 신규 1종목 한도와 별도. 분할 2차 시드 3주(약 196만원, 자본 사용률 11.6%→15.5%). 약점: 평단 627,000 위 평단 상승 추가매수 = 추격성·익절권 분할은 가격 디스시플린 마모 위험 — 약점 인지에도 시드급 200만원 한정으로 풀포지션 형성은 보류, carry-over 추가 1일 확인 전까지 3차 시드 발동 안 함."
     },
     {
@@ -36,11 +36,11 @@
       "qty": 3,
       "avg_price": 285250,
       "cost_won": 855750,
-      "current_price": 280500,
-      "change_rate": 0.54,
-      "eval_won": 841500,
-      "pnl_won": -14250,
-      "pnl_pct": -1.6652059596844873,
+      "current_price": 284500,
+      "change_rate": 1.97,
+      "eval_won": 853500,
+      "pnl_won": -2250,
+      "pnl_pct": -0.26292725679228746,
       "thesis": "AI 반도체/HBM active 테마 + 전기전자 sector rotating_in 1순위 + 시총 1위. 현재 285,250(+6.24%) 후보 7종 중 갭 가장 작은 축(SK하이닉스 +11.86%, DB하이텍 +8.51%, 한온 +18.66% 대비). 일중 저가 280,000(시가 284,500 근방) 까지 한 번 눌렸다 회복한 자리라 추격가 진입 위험 낮춤. 시드급 1차 7주×285,250≈200만원(자본 4%, 목표 600~800만원의 25~33%) 분할 진입. Portfolio gate 검증: 현재 보유 자동차 1종목 → 다른 테마(AI 반도체) 우선 정합, 신규 진입 이번 슬롯 1종목 한도 준수, 자본 사용률 3.76%→7.76% 점프 작음, max_positions 5/2 잔여 3. 손절 트리거: 갭 시가 280,000 종가 이탈 + AI 반도체 테마 leaders(SK하이닉스/DB하이텍) 거래대금 carry-over 실패 동시 충족 시 1/2 정리. 2차 분할 트리거: 내일 종가 기준 거래대금·테마 강도 유지 확인 시 추가 시드 200만원. 약점: +6%대 갭상승 자리 시드 진입은 가격 디스시플린 마모 우려 — 그래서 풀포지션 아닌 25~33% 시드급으로 한정, 갭 채움 실패 시 1/2 컷 룰로 방어. 약점 2: AI 반도체 테마 days_active=1 첫 기록일 — 익일 carry-over 실패 가능성 상존."
     }
   ],
@@ -89,6 +89,21 @@
       "order_no": "",
       "avg_cost": 639500,
       "realized_pnl_won": 119000
+    },
+    {
+      "ts": "2026-05-13T15:21:01",
+      "cycle_id": "20260513-1520",
+      "action": "sell",
+      "code": "005380",
+      "name": "현대차",
+      "qty": 1,
+      "price": 710000,
+      "amount_won": 710000,
+      "reason": "현대차 단일봉 +9.91%(642,000→710,000) vol_rate 80.68 폭등은 분할 익절 트리거. 평단 639,500 대비 +11.0% 익절권 — 며칠간 익절 0회 흐름에서 익절 근육 작동. 운송장비 sector leading 2일 carry-over + 자동차 테마 '유지' 라벨이라 thesis 전체 깨짐 아님 → 4주 중 1주(1/4) 부분 익절, 3주 잔량 트레일링. one-shot 디폴트. 어제 verdict §6-6 두 테마 portfolio 임계 직전에서 ammunition 재확보 액션과 정합. 약점: vol_rate 80.68 단일봉 거래 정점은 더 큰 정리 가능성 시사하지만 sector leading carry-over 가 thesis 본질 유지 — 1주 한정. 약점이 잔량 보유의 약점이라 룰 결손 회피용 추가 매수 정당화로 쓰지 않음.",
+      "dry_run": true,
+      "order_no": "",
+      "avg_cost": 639500,
+      "realized_pnl_won": 70500
     }
   ],
   "pm_decisions": [
@@ -147,6 +162,30 @@
       "amount_won": null,
       "qty": null,
       "reason": "신규 후보 003280/329180/012860 전원 보류. (1) regime '조정 진입' days=1 vol 높음 — 신규 공격성 최저, strategist 도 '신규 절대 금지 후보 분할 1차까지만' 권고, (2) 이번 슬롯은 005380 1/3 정리 슬롯 — 같은 슬롯에 자동차 테마 추가(329180 HD현대중공업·012860 모베이스전자)는 정리 의도 자기모순, portfolio gate 차원에서도 자동차 도배 회피, (3) 003280 흥아해운은 watching '해운/운송 회전' 1일째 — promote 게이트(HMM/팬오션 대형 해운 동반 양봉 + 운수창고 sector 거래대금 2일 연속 2만 이상 유지) 종가 검증 미완. 일중 +2.88% 회복도 일중 high 3,190 후 2,860 로 후퇴 = 단발 상한가 모멘텀 가능성. omission bias 자가체크: 매도 1 + 매수 0 비대칭은 '정리 슬롯' 정합 — 매 슬롯 매수 디폴트화 회피, ammunition 확보 후 익일 종가 검증 통과 시 다른 테마(해운/방어주) 시드 진입 여력 형성이 wrap 호흡 정합."
+    },
+    {
+      "slot": "1520",
+      "action": "sell",
+      "code": "005380",
+      "amount_won": 71,
+      "qty": 1,
+      "reason": "현대차 단일봉 +9.91%(642,000→710,000) vol_rate 80.68 폭등은 분할 익절 트리거. 평단 639,500 대비 +11.0% 익절권 — 며칠간 익절 0회 흐름에서 익절 근육 작동. 운송장비 sector leading 2일 carry-over + 자동차 테마 '유지' 라벨이라 thesis 전체 깨짐 아님 → 4주 중 1주(1/4) 부분 익절, 3주 잔량 트레일링. one-shot 디폴트. 어제 verdict §6-6 두 테마 portfolio 임계 직전에서 ammunition 재확보 액션과 정합. 약점: vol_rate 80.68 단일봉 거래 정점은 더 큰 정리 가능성 시사하지만 sector leading carry-over 가 thesis 본질 유지 — 1주 한정. 약점이 잔량 보유의 약점이라 룰 결손 회피용 추가 매수 정당화로 쓰지 않음."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": "005930",
+      "amount_won": null,
+      "qty": null,
+      "reason": "AI 반도체/HBM '약화'+'후반' + 전기전자 sector rotating_out 으로 비중 축소 1순위 카테고리지만 어제 verdict §6-8 mechanical 컷 트리거 '종가 280,000 이탈' 미발생(현재 284,500, 일중 저가 262,000 회복). 평가 -0.26% 본전 수준이라 부분 정리는 손실 확정 의미만 큼. 단 hold 자동 정당화는 아님 — 익일 종가 280,000 이탈 시 1/4 정리 룰 즉시 발동, 추가로 SK하이닉스/삼성전기 동반 약세 carry-over 또는 days_active=3 ended 강등 시 thesis 본질 붕괴로 1/2 디폴트. 어제 사이즈는 시드급 25~33% 한도라 추가매수 동결."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": null,
+      "amount_won": null,
+      "qty": null,
+      "reason": "신규 진입 보류. (1) regime '조정 진입' days=1 + 변동성 '높음' 으로 신규 공격성 최저. (2) portfolio gate 자각: 자동차 테마(005380) + AI 반도체(005930) 보유 — 마지막 슬롯 신규 1종목 한도 안이지만 후보 모두 약점. 329180 HD현대중공업 728,000(+2.97%) 은 자동차/운송장비 동일 테마라 portfolio gate '한 단계 보수' 적용. 003280 흥아해운 promote 게이트 미통과 — HMM/팬오션 대형 해운 동반강세 직접 확인 미흡 + 회전 1일째 + 일중 고가 3,190→종가 2,840 으로 갭 채움 실패 narrative 침범 위험. 012860 모베이스전자 -5.47% 단일 음봉으로 추세 붕괴, 어제 +13.6% 차익실현 매물 현실화 — thesis 위반. (3) 어제 verdict §6-7 '약점:' 명시 == 진입 보류 룰. (4) 마지막 슬롯 몰빵 패턴 자가검증 — 09:40/12:30 슬롯에서 시드 진입 2건 집행 후 15:20 추가 진입은 action bias. 어제 매수 2건 + 오늘 09:40 매수 1건 흐름에서 익절 0회 → 익절 한 번 발생 = wrap 호흡 정합."
     }
   ],
   "calendar_dates": [
