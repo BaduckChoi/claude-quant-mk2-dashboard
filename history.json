@@ -149,7 +149,7 @@
       {
         "action": "buy",
         "code": "000660",
-        "name": "SK하이닉스"
+        "name": ""
       },
       {
         "action": "buy",
@@ -163,7 +163,6 @@
     "buy_won": 0,
     "buys": 0,
     "date": "2026-05-13",
-    "open_positions": 2,
     "realized_pnl_won": -29000,
     "sell_won": 4977000,
     "sells": 4,
@@ -242,7 +241,7 @@
       },
       {
         "code": "000660",
-        "name": "SK하이닉스",
+        "name": "",
         "realized_pnl_won": -135500
       }
     ],
@@ -255,7 +254,7 @@
       {
         "action": "sell",
         "code": "000660",
-        "name": "SK하이닉스"
+        "name": ""
       },
       {
         "action": "sell",
@@ -263,7 +262,6 @@
         "name": "현대차"
       }
     ],
-    "trades_count": 4,
-    "unrealized_pnl_won": 207750
+    "trades_count": 4
   }
 }
