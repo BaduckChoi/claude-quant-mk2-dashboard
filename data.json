@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-05-14 09:40:50",
+  "generated_at": "2026-05-14 12:31:34",
   "date": "20260514",
   "mode": "dry_run",
   "stats": {
     "open_positions": 2,
-    "trades_count": 1,
+    "trades_count": 2,
     "buys": 0,
-    "sells": 1,
+    "sells": 2,
     "buy_won": 0,
-    "sell_won": 727000,
-    "realized_pnl_won": 87500,
+    "sell_won": 1429000,
+    "realized_pnl_won": 150000,
     "capital_won": 50000000,
-    "deployed_won": 2076250,
-    "cash_remaining_won": 47923750,
-    "total_eval_won": 2340250,
-    "unrealized_pnl_won": 205500
+    "deployed_won": 1374250,
+    "cash_remaining_won": 48625750,
+    "total_eval_won": 1574750,
+    "unrealized_pnl_won": 79500
   },
   "positions": [
     {
       "code": "005380",
       "name": "현대차",
-      "qty": 2,
+      "qty": 1,
       "avg_price": 639500,
-      "cost_won": 1279000,
-      "current_price": 728000,
-      "change_rate": 2.54,
-      "eval_won": 1456000,
-      "pnl_won": 177000,
-      "pnl_pct": 13.838936669272869,
+      "cost_won": 639500,
+      "current_price": 701000,
+      "change_rate": -1.27,
+      "eval_won": 701000,
+      "pnl_won": 61500,
+      "pnl_pct": 9.616888193901485,
       "thesis": "자동차 전동화/부품 carry-over 검증: 테마 라벨 '유지' + 운송장비 sector leading 2일 연속(+2.11%) + 현대차 현재 652,000(+0.93%) 갭 +5% 게이트 통과. portfolio gate 자각: 자동차 단일 테마 비중 합산 보유 188만원 + 추가 196만원 = 384만원(자본 7.7%) 로 8% 임계 안, max_positions 5/3 잔여 2, 분할 추가는 신규 1종목 한도와 별도. 분할 2차 시드 3주(약 196만원, 자본 사용률 11.6%→15.5%). 약점: 평단 627,000 위 평단 상승 추가매수 = 추격성·익절권 분할은 가격 디스시플린 마모 위험 — 약점 인지에도 시드급 200만원 한정으로 풀포지션 형성은 보류, carry-over 추가 1일 확인 전까지 3차 시드 발동 안 함."
     },
     {
@@ -36,11 +36,11 @@
       "qty": 3,
       "avg_price": 285250,
       "cost_won": 855750,
-      "current_price": 294750,
-      "change_rate": 3.79,
-      "eval_won": 884250,
-      "pnl_won": 28500,
-      "pnl_pct": 3.3304119193689745,
+      "current_price": 291250,
+      "change_rate": 2.55,
+      "eval_won": 873750,
+      "pnl_won": 18000,
+      "pnl_pct": 2.1034180543382996,
       "thesis": "AI 반도체/HBM active 테마 + 전기전자 sector rotating_in 1순위 + 시총 1위. 현재 285,250(+6.24%) 후보 7종 중 갭 가장 작은 축(SK하이닉스 +11.86%, DB하이텍 +8.51%, 한온 +18.66% 대비). 일중 저가 280,000(시가 284,500 근방) 까지 한 번 눌렸다 회복한 자리라 추격가 진입 위험 낮춤. 시드급 1차 7주×285,250≈200만원(자본 4%, 목표 600~800만원의 25~33%) 분할 진입. Portfolio gate 검증: 현재 보유 자동차 1종목 → 다른 테마(AI 반도체) 우선 정합, 신규 진입 이번 슬롯 1종목 한도 준수, 자본 사용률 3.76%→7.76% 점프 작음, max_positions 5/2 잔여 3. 손절 트리거: 갭 시가 280,000 종가 이탈 + AI 반도체 테마 leaders(SK하이닉스/DB하이텍) 거래대금 carry-over 실패 동시 충족 시 1/2 정리. 2차 분할 트리거: 내일 종가 기준 거래대금·테마 강도 유지 확인 시 추가 시드 200만원. 약점: +6%대 갭상승 자리 시드 진입은 가격 디스시플린 마모 우려 — 그래서 풀포지션 아닌 25~33% 시드급으로 한정, 갭 채움 실패 시 1/2 컷 룰로 방어. 약점 2: AI 반도체 테마 days_active=1 첫 기록일 — 익일 carry-over 실패 가능성 상존."
     }
   ],
@@ -59,6 +59,21 @@
       "order_no": "",
       "avg_cost": 639500,
       "realized_pnl_won": 87500
+    },
+    {
+      "ts": "2026-05-14T12:31:34",
+      "cycle_id": "20260514-1230",
+      "action": "sell",
+      "code": "005380",
+      "name": "현대차",
+      "qty": 1,
+      "price": 702000,
+      "amount_won": 702000,
+      "reason": "verdict 7-2 OR 룰 둘 다 발동: (1) 자동차 테마 '약화' 강등 (어제 '유지 후반' → 오늘 '약화 후반'), (2) 운송장비 sector rotating_out 강등 (어제 leading → 오늘 -0.71% 음전, 거래대금 6236 carry-over 실패). HD현대중공업 -6.0% 보조축 붕괴 동반. 현재 702,000 +9.78% 익절권. 격상 보류 사유: 자동차 테마 ended 미발동 (현대차 -1.13% < -3%, 운송장비 거래대금 6236 > 5000) → verdict 글자대로 1주만, 본질 격상은 motivated reasoning 회피. 잔량 1주 trail. 약점: 1차 시드 24시간만 부분청산 = wrap 호흡 살짝 위반이나 OR 둘 다 동시발동 + leaders 보조축 -6% = thesis 본질 사유 명확.",
+      "dry_run": true,
+      "order_no": "",
+      "avg_cost": 639500,
+      "realized_pnl_won": 62500
     }
   ],
   "pm_decisions": [
@@ -85,6 +100,30 @@
       "amount_won": null,
       "qty": null,
       "reason": "신규 진입 보류. (1) 005380 잔량 정리 중이라 portfolio 자리 우선 비움, (2) 322000 HD현대에너지솔루션 +17.22% vol_rate 125 = 추격 절대금지 + watching 게이트(가온전선/HD현대일렉트릭 동반 +5% 미확인)·004170 신세계 watching 게이트(종목 단위 +3% 동반강세 2일 carry-over 1일차) 모두 미충족, (3) 034220 LG디스플레이 +9.24% 갭 큼·추격 위험, (4) 373220 LG에너지솔루션 +3.02% 갭 작지만 005930 과 전기전자 sector 중복 + portfolio gate '슬롯 내 신규 1종목 한도' 005930 분할 추가 가능성 보호. regime '조정 진입 confidence 낮음' + KOSPI V-자 미확정(거래량 215k vs 5-11 738k 의 29%) → 보수 정합. 자본 5.6% 유지, omission bias 자가검증: 매도 1건 발생 + 잔량 hold 로 cash 100% 떨어짐 회피."
+    },
+    {
+      "slot": "1230",
+      "action": "sell",
+      "code": "005380",
+      "amount_won": null,
+      "qty": 1,
+      "reason": "verdict 7-2 OR 룰 둘 다 발동: (1) 자동차 테마 '약화' 강등 (어제 '유지 후반' → 오늘 '약화 후반'), (2) 운송장비 sector rotating_out 강등 (어제 leading → 오늘 -0.71% 음전, 거래대금 6236 carry-over 실패). HD현대중공업 -6.0% 보조축 붕괴 동반. 현재 702,000 +9.78% 익절권. 격상 보류 사유: 자동차 테마 ended 미발동 (현대차 -1.13% < -3%, 운송장비 거래대금 6236 > 5000) → verdict 글자대로 1주만, 본질 격상은 motivated reasoning 회피. 잔량 1주 trail. 약점: 1차 시드 24시간만 부분청산 = wrap 호흡 살짝 위반이나 OR 둘 다 동시발동 + leaders 보조축 -6% = thesis 본질 사유 명확."
+    },
+    {
+      "slot": "1230",
+      "action": "hold",
+      "code": "005930",
+      "amount_won": null,
+      "qty": null,
+      "reason": "종가 280,000 룰 미발동 (현재 291,000 +2.46%, 일중 저가 282,000 도 종가 아님). AI 반도체 테마 '약화→유지' 복원 (어제 verdict 가정한 ended 강등 미발생). 전기전자 sector 어제 rotating_out → 오늘 rotating_in 재진입 +1.69% 거래대금 45131 KOSPI 1위. 평단 285,250 위 +2.01% 회복. 분할 2차 트리거 ('내일 종가 거래대금·테마 강도 유지') 는 종가 후 판단 — 12:30 슬롯 추가 시드 보류. 약점: SK하이닉스 -0.96% 동반강세 여전히 미확인 → V-자 1일 단독캐리, 종가 280,000 룰 정조준 유지."
+    },
+    {
+      "slot": "1230",
+      "action": "hold",
+      "code": null,
+      "amount_won": null,
+      "qty": null,
+      "reason": "신규 진입 보류. 후보 갭 점검: 322000 +16.27% vol_rate 219 정점 신호 추격금지, 034220 +8.61% AI 반도체 보조축 갭 큼, 004170 +8.39% 유통 watching 1일차 + market_today 종목 부재 게이트 미충족, 373220 +1.74% 갭 작으나 전기전자 sector rotating_in 1일차 + 2차전지 단독 테마 부재로 신호 약함. regime '조정 진입 confidence 낮음' + KOSPI V-자 미확정 (5-12 고가 7999 미돌파, 거래량 미동반) + 005380 정리 후 자본 사용률 더 떨어지나 verdict 7-8 '자본 5.6% 유지 정합, 신규 진입 강박 회피' 적용. portfolio gate: 005380 정리 후 자동차 0, AI반도체 1 → 다른 테마 신규 정합하나 갭 큰 자리 추격 디폴트 회피. 분할 2차 트리거 (종가 기준)는 종가 후 익일 슬롯으로 carry."
     }
   ],
   "calendar_dates": [
