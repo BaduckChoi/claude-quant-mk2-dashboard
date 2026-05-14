@@ -1,427 +1,871 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>최바덕 — 매매 현황</title>
-<style>
-  :root {
-    --bg: #0f1115;
-    --panel: #161a22;
-    --border: #242a36;
-    --fg: #e6e9ef;
-    --muted: #8b94a7;
-    --accent: #4fa3ff;
-    --buy: #ff6b6b;
-    --sell: #4fb37a;
-    --pos: #ff5a6c;
-    --pos-bg: rgba(255, 90, 108, 0.10);
-    --pos-border: rgba(255, 90, 108, 0.35);
-    --neg: #4fa3ff;
-    --neg-bg: rgba(79, 163, 255, 0.10);
-    --neg-border: rgba(79, 163, 255, 0.35);
-    --flat: #8b94a7;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--bg);
-    color: var(--fg);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
-    font-size: 14px;
-  }
-  header {
-    padding: 16px 24px;
-    border-bottom: 1px solid var(--border);
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    flex-wrap: wrap;
-    gap: 12px;
-  }
-  header h1 { margin: 0; font-size: 18px; font-weight: 600; }
-  header .meta { color: var(--muted); font-size: 12px; }
-  main { padding: 16px 24px 48px; max-width: 1200px; margin: 0 auto; }
-  section { margin-bottom: 28px; }
-  h2 { font-size: 15px; font-weight: 600; margin: 0 0 10px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
-  .panel {
-    background: var(--panel);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    overflow: hidden;
-  }
-  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; }
-  .stat { background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 12px 16px; }
-  .stat .label { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px; }
-  .stat .val { font-size: 20px; font-weight: 600; }
-  table { width: 100%; border-collapse: collapse; }
-  th, td { padding: 10px 14px; text-align: left; border-bottom: 1px solid var(--border); }
-  th { color: var(--muted); font-weight: 500; font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; background: #1c2230; }
-  tbody tr:last-child td { border-bottom: none; }
-  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
-  .pos { color: var(--pos); }
-  .neg { color: var(--neg); }
-  .flat { color: var(--flat); }
-  .muted { color: var(--muted); }
-  .buy { color: var(--buy); font-weight: 600; }
-  .sell { color: var(--sell); font-weight: 600; }
-  .empty { padding: 24px; color: var(--muted); text-align: center; }
-  .arrow { display: inline-block; margin-right: 2px; font-size: 11px; transform: translateY(-1px); }
-  .pill {
-    display: inline-flex; align-items: center; gap: 4px;
-    padding: 3px 8px; border-radius: 999px;
-    font-size: 12px; font-weight: 600;
-    font-variant-numeric: tabular-nums;
-    border: 1px solid transparent;
-  }
-  .pill.pos { background: var(--pos-bg); border-color: var(--pos-border); color: var(--pos); }
-  .pill.neg { background: var(--neg-bg); border-color: var(--neg-border); color: var(--neg); }
-  .pill.flat { background: rgba(139, 148, 167, 0.10); border-color: rgba(139, 148, 167, 0.30); color: var(--flat); }
-  .price-stack { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; line-height: 1.2; }
-  .price-stack .main { font-weight: 600; font-size: 14px; }
-  .price-stack .sub { font-size: 11px; }
-  .pnl-stack { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; line-height: 1.2; }
-  .pnl-stack .main { font-weight: 700; font-size: 14px; }
-  .pnl-stack .sub { font-size: 11px; opacity: 0.85; }
-  .stat.highlight-pos { border-color: var(--pos-border); background: linear-gradient(180deg, var(--pos-bg), var(--panel) 60%); }
-  .stat.highlight-neg { border-color: var(--neg-border); background: linear-gradient(180deg, var(--neg-bg), var(--panel) 60%); }
-  tr.row-pos td:first-child { box-shadow: inset 3px 0 0 var(--pos); }
-  tr.row-neg td:first-child { box-shadow: inset 3px 0 0 var(--neg); }
-  .cal-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; flex-wrap: wrap; gap: 8px; }
-  .cal-nav { display: flex; align-items: center; gap: 6px; }
-  .cal-nav button {
-    background: var(--panel); color: var(--fg);
-    border: 1px solid var(--border); border-radius: 6px;
-    padding: 4px 10px; font-size: 13px; cursor: pointer;
-  }
-  .cal-nav button:hover { border-color: var(--accent); color: var(--accent); }
-  .cal-nav #cal-label { font-size: 14px; font-weight: 600; min-width: 110px; text-align: center; color: var(--fg); }
-  .cal-grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 1px; background: var(--border); padding: 1px; }
-  .cal-dow { background: #1c2230; color: var(--muted); padding: 6px 8px; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; text-align: center; }
-  .cal-cell {
-    background: var(--panel);
-    min-height: 78px;
-    padding: 6px 8px;
-    display: flex; flex-direction: column; gap: 4px;
-    cursor: default;
-    position: relative;
-  }
-  .cal-cell.has-data { cursor: pointer; }
-  .cal-cell.has-data:hover { background: #1c2230; }
-  .cal-cell.other-month { background: #11141b; opacity: 0.45; }
-  .cal-cell.today { box-shadow: inset 0 0 0 2px var(--accent); }
-  .cal-cell.selected { box-shadow: inset 0 0 0 2px var(--fg); }
-  .cal-cell .day-num { font-size: 12px; color: var(--muted); }
-  .cal-cell.today .day-num { color: var(--accent); font-weight: 700; }
-  .cal-cell.weekend .day-num { color: #b8425c; }
-  .cal-cell .pnl { font-size: 13px; font-weight: 700; font-variant-numeric: tabular-nums; }
-  .cal-cell .pnl.pos { color: var(--pos); }
-  .cal-cell .pnl.neg { color: var(--neg); }
-  .cal-cell .themes { display: flex; flex-direction: column; gap: 2px; }
-  .cal-cell .themes .t { font-size: 10px; line-height: 1.3; color: var(--fg); background: #1c2230; border-radius: 3px; padding: 2px 5px; word-break: break-word; }
-  .cal-cell .meta { font-size: 10px; color: var(--muted); margin-top: auto; }
-  .cal-cell.gain-strong { background: linear-gradient(180deg, var(--pos-bg), var(--panel) 70%); }
-  .cal-cell.gain-mild   { background: linear-gradient(180deg, rgba(255,90,108,0.04), var(--panel) 70%); }
-  .cal-cell.loss-strong { background: linear-gradient(180deg, var(--neg-bg), var(--panel) 70%); }
-  .cal-cell.loss-mild   { background: linear-gradient(180deg, rgba(79,163,255,0.04), var(--panel) 70%); }
-  .detail-head { padding: 12px 16px; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
-  .detail-head .date { font-size: 14px; font-weight: 600; }
-  .detail-head .pnl-summary { font-size: 13px; font-weight: 600; font-variant-numeric: tabular-nums; }
-  .detail-body { padding: 14px 16px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
-  .detail-body h3 { margin: 0 0 8px; font-size: 12px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
-  .theme-card { background: #1c2230; border: 1px solid var(--border); border-radius: 6px; padding: 10px 12px; margin-bottom: 8px; }
-  .theme-card .name { font-size: 13px; font-weight: 700; color: var(--fg); }
-  .theme-card .badge { display: inline-block; padding: 1px 6px; border-radius: 3px; background: rgba(255,90,108,0.15); color: var(--pos); font-size: 10px; font-weight: 600; margin-left: 6px; vertical-align: middle; }
-  .theme-card .leaders { font-size: 12px; color: var(--muted); margin-top: 4px; }
-  .mover-row { display: flex; justify-content: space-between; align-items: center; padding: 6px 0; border-bottom: 1px solid var(--border); font-size: 12px; }
-  .mover-row:last-child { border-bottom: none; }
-  .mover-row .nm { color: var(--fg); }
-  .mover-row .nm small { color: var(--muted); margin-left: 4px; }
-  .reason { color: var(--muted); font-size: 12px; max-width: 480px; }
-  .err { color: #ff6b6b; padding: 16px; }
-  footer { color: var(--muted); font-size: 11px; text-align: center; padding: 16px; }
-  details { margin-top: 8px; }
-  details summary { cursor: pointer; color: var(--accent); font-size: 12px; }
-  details pre { white-space: pre-wrap; word-break: break-word; background: #0c0e13; padding: 12px; border-radius: 6px; font-size: 12px; max-height: 320px; overflow: auto; }
-  .doc { padding: 16px 20px; white-space: pre-wrap; word-break: break-word; font-size: 13px; line-height: 1.55; max-height: 480px; overflow: auto; }
-  .doc pre { white-space: pre-wrap; word-break: break-word; margin: 0; font: inherit; }
-  a.toss { display: inline-block; padding: 3px 8px; border-radius: 4px; background: #0064ff; color: #fff; text-decoration: none; font-size: 11px; font-weight: 600; white-space: nowrap; }
-  a.toss:hover { background: #0052d4; }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>최바덕 — 매매 현황</title>
+  <style>
+    :root {
+      --bg: #0f1115;
+      --panel: #161a22;
+      --border: #242a36;
+      --fg: #e6e9ef;
+      --muted: #8b94a7;
+      --accent: #4fa3ff;
+      --buy: #ff6b6b;
+      --sell: #4fb37a;
+      --pos: #ff5a6c;
+      --pos-bg: rgba(255, 90, 108, 0.10);
+      --pos-border: rgba(255, 90, 108, 0.35);
+      --neg: #4fa3ff;
+      --neg-bg: rgba(79, 163, 255, 0.10);
+      --neg-border: rgba(79, 163, 255, 0.35);
+      --flat: #8b94a7;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+      font-size: 14px;
+    }
+
+    header {
+      padding: 16px 24px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    header .meta {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    main {
+      padding: 16px 24px 48px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    section {
+      margin-bottom: 28px;
+    }
+
+    h2 {
+      font-size: 15px;
+      font-weight: 600;
+      margin: 0 0 10px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 12px;
+    }
+
+    .stat {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px 16px;
+    }
+
+    .stat .label {
+      color: var(--muted);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 4px;
+    }
+
+    .stat .val {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      padding: 10px 14px;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+    }
+
+    th {
+      color: var(--muted);
+      font-weight: 500;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      background: #1c2230;
+    }
+
+    tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    td.num,
+    th.num {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .pos {
+      color: var(--pos);
+    }
+
+    .neg {
+      color: var(--neg);
+    }
+
+    .flat {
+      color: var(--flat);
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .buy {
+      color: var(--buy);
+      font-weight: 600;
+    }
+
+    .sell {
+      color: var(--sell);
+      font-weight: 600;
+    }
+
+    .empty {
+      padding: 24px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .arrow {
+      display: inline-block;
+      margin-right: 2px;
+      font-size: 11px;
+      transform: translateY(-1px);
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 3px 8px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 600;
+      font-variant-numeric: tabular-nums;
+      border: 1px solid transparent;
+    }
+
+    .pill.pos {
+      background: var(--pos-bg);
+      border-color: var(--pos-border);
+      color: var(--pos);
+    }
+
+    .pill.neg {
+      background: var(--neg-bg);
+      border-color: var(--neg-border);
+      color: var(--neg);
+    }
+
+    .pill.flat {
+      background: rgba(139, 148, 167, 0.10);
+      border-color: rgba(139, 148, 167, 0.30);
+      color: var(--flat);
+    }
+
+    .price-stack {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 2px;
+      line-height: 1.2;
+    }
+
+    .price-stack .main {
+      font-weight: 600;
+      font-size: 14px;
+    }
+
+    .price-stack .sub {
+      font-size: 11px;
+    }
+
+    .pnl-stack {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 2px;
+      line-height: 1.2;
+    }
+
+    .pnl-stack .main {
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    .pnl-stack .sub {
+      font-size: 11px;
+      opacity: 0.85;
+    }
+
+    .stat.highlight-pos {
+      border-color: var(--pos-border);
+      background: linear-gradient(180deg, var(--pos-bg), var(--panel) 60%);
+    }
+
+    .stat.highlight-neg {
+      border-color: var(--neg-border);
+      background: linear-gradient(180deg, var(--neg-bg), var(--panel) 60%);
+    }
+
+    tr.row-pos td:first-child {
+      box-shadow: inset 3px 0 0 var(--pos);
+    }
+
+    tr.row-neg td:first-child {
+      box-shadow: inset 3px 0 0 var(--neg);
+    }
+
+    .cal-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .cal-nav {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .cal-nav button {
+      background: var(--panel);
+      color: var(--fg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 4px 10px;
+      font-size: 13px;
+      cursor: pointer;
+    }
+
+    .cal-nav button:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .cal-nav #cal-label {
+      font-size: 14px;
+      font-weight: 600;
+      min-width: 110px;
+      text-align: center;
+      color: var(--fg);
+    }
+
+    .cal-grid {
+      display: grid;
+      grid-template-columns: repeat(7, minmax(0, 1fr));
+      gap: 1px;
+      background: var(--border);
+      padding: 1px;
+    }
+
+    .cal-dow {
+      background: #1c2230;
+      color: var(--muted);
+      padding: 6px 8px;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      text-align: center;
+    }
+
+    .cal-cell {
+      background: var(--panel);
+      min-height: 78px;
+      padding: 6px 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      cursor: default;
+      position: relative;
+    }
+
+    .cal-cell.has-data {
+      cursor: pointer;
+    }
+
+    .cal-cell.has-data:hover {
+      background: #1c2230;
+    }
+
+    .cal-cell.other-month {
+      background: #11141b;
+      opacity: 0.45;
+    }
+
+    .cal-cell.today {
+      box-shadow: inset 0 0 0 2px var(--accent);
+    }
+
+    .cal-cell.selected {
+      box-shadow: inset 0 0 0 2px var(--fg);
+    }
+
+    .cal-cell .day-num {
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .cal-cell.today .day-num {
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .cal-cell.weekend .day-num {
+      color: #b8425c;
+    }
+
+    .cal-cell .pnl {
+      font-size: 13px;
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .cal-cell .pnl.pos {
+      color: var(--pos);
+    }
+
+    .cal-cell .pnl.neg {
+      color: var(--neg);
+    }
+
+    .cal-cell .themes {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .cal-cell .themes .t {
+      font-size: 10px;
+      line-height: 1.3;
+      color: var(--fg);
+      background: #1c2230;
+      border-radius: 3px;
+      padding: 2px 5px;
+      word-break: break-word;
+    }
+
+    .cal-cell .meta {
+      font-size: 10px;
+      color: var(--muted);
+      margin-top: auto;
+    }
+
+    .cal-cell.gain-strong {
+      background: linear-gradient(180deg, var(--pos-bg), var(--panel) 70%);
+    }
+
+    .cal-cell.gain-mild {
+      background: linear-gradient(180deg, rgba(255, 90, 108, 0.04), var(--panel) 70%);
+    }
+
+    .cal-cell.loss-strong {
+      background: linear-gradient(180deg, var(--neg-bg), var(--panel) 70%);
+    }
+
+    .cal-cell.loss-mild {
+      background: linear-gradient(180deg, rgba(79, 163, 255, 0.04), var(--panel) 70%);
+    }
+
+    .detail-head {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .detail-head .date {
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .detail-head .pnl-summary {
+      font-size: 13px;
+      font-weight: 600;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .detail-body {
+      padding: 14px 16px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+    }
+
+    .detail-body h3 {
+      margin: 0 0 8px;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .theme-card {
+      background: #1c2230;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 10px 12px;
+      margin-bottom: 8px;
+    }
+
+    .theme-card .name {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--fg);
+    }
+
+    .theme-card .badge {
+      display: inline-block;
+      padding: 1px 6px;
+      border-radius: 3px;
+      background: rgba(255, 90, 108, 0.15);
+      color: var(--pos);
+      font-size: 10px;
+      font-weight: 600;
+      margin-left: 6px;
+      vertical-align: middle;
+    }
+
+    .theme-card .leaders {
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+
+    .mover-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 6px 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 12px;
+    }
+
+    .mover-row:last-child {
+      border-bottom: none;
+    }
+
+    .mover-row .nm {
+      color: var(--fg);
+    }
+
+    .mover-row .nm small {
+      color: var(--muted);
+      margin-left: 4px;
+    }
+
+    .reason {
+      color: var(--muted);
+      font-size: 12px;
+      max-width: 480px;
+    }
+
+    .err {
+      color: #ff6b6b;
+      padding: 16px;
+    }
+
+    footer {
+      color: var(--muted);
+      font-size: 11px;
+      text-align: center;
+      padding: 16px;
+    }
+
+    details {
+      margin-top: 8px;
+    }
+
+    details summary {
+      cursor: pointer;
+      color: var(--accent);
+      font-size: 12px;
+    }
+
+    details pre {
+      white-space: pre-wrap;
+      word-break: break-word;
+      background: #0c0e13;
+      padding: 12px;
+      border-radius: 6px;
+      font-size: 12px;
+      max-height: 320px;
+      overflow: auto;
+    }
+
+    .doc {
+      padding: 16px 20px;
+      white-space: pre-wrap;
+      word-break: break-word;
+      font-size: 13px;
+      line-height: 1.55;
+      max-height: 480px;
+      overflow: auto;
+    }
+
+    .doc pre {
+      white-space: pre-wrap;
+      word-break: break-word;
+      margin: 0;
+      font: inherit;
+    }
+
+    a.toss {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 4px;
+      background: #0064ff;
+      color: #fff;
+      text-decoration: none;
+      font-size: 11px;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    a.toss:hover {
+      background: #0052d4;
+    }
+  </style>
 </head>
+
 <body>
-<header>
-  <h1>claude_quant2 — 매매 현황</h1>
-  <div class="meta">
-    <span id="updated">로딩...</span>
-    <span> · 모드: <span id="mode">-</span></span>
-  </div>
-</header>
-<main>
-  <section>
-    <h2>오늘 통계</h2>
-    <div class="stats" id="stats"></div>
-  </section>
-  <section>
-    <h2>보유 포지션</h2>
-    <div class="panel" id="positions"><div class="empty">로딩...</div></div>
-  </section>
-  <section>
-    <h2>오늘 매매</h2>
-    <div class="panel" id="trades"><div class="empty">로딩...</div></div>
-  </section>
-  <section>
-    <div class="cal-head">
-      <h2 style="margin:0">월간 P&amp;L 달력</h2>
-      <div class="cal-nav">
-        <button id="cal-prev" type="button">‹</button>
-        <span id="cal-label">-</span>
-        <button id="cal-next" type="button">›</button>
-        <button id="cal-today" type="button">오늘</button>
-      </div>
+  <header>
+    <h1>>최바덕 — 매매 현황</h1>
+    <div class="meta">
+      <span id="updated">로딩...</span>
+      <span> · 모드: <span id="mode">-</span></span>
     </div>
-    <div class="panel" id="calendar"><div class="empty">로딩...</div></div>
-    <div class="panel" id="cal-detail" style="margin-top:12px; display:none"></div>
-  </section>
-  <section>
-    <h2>오늘 PM 결정</h2>
-    <div class="panel" id="pm"><div class="empty">로딩...</div></div>
-  </section>
-  <section>
-    <h2>오늘 Strategist 브리프</h2>
-    <div class="panel" id="strategist"><div class="empty">로딩...</div></div>
-  </section>
-  <section>
-    <h2>오늘 Auditor 평가</h2>
-    <div class="panel" id="auditor"><div class="empty">로딩...</div></div>
-  </section>
-</main>
-<footer>claude_quant2 · static dashboard</footer>
+  </header>
+  <main>
+    <section>
+      <h2>오늘 통계</h2>
+      <div class="stats" id="stats"></div>
+    </section>
+    <section>
+      <h2>보유 포지션</h2>
+      <div class="panel" id="positions">
+        <div class="empty">로딩...</div>
+      </div>
+    </section>
+    <section>
+      <h2>오늘 매매</h2>
+      <div class="panel" id="trades">
+        <div class="empty">로딩...</div>
+      </div>
+    </section>
+    <section>
+      <div class="cal-head">
+        <h2 style="margin:0">월간 P&amp;L 달력</h2>
+        <div class="cal-nav">
+          <button id="cal-prev" type="button">‹</button>
+          <span id="cal-label">-</span>
+          <button id="cal-next" type="button">›</button>
+          <button id="cal-today" type="button">오늘</button>
+        </div>
+      </div>
+      <div class="panel" id="calendar">
+        <div class="empty">로딩...</div>
+      </div>
+      <div class="panel" id="cal-detail" style="margin-top:12px; display:none"></div>
+    </section>
+    <section>
+      <h2>오늘 PM 결정</h2>
+      <div class="panel" id="pm">
+        <div class="empty">로딩...</div>
+      </div>
+    </section>
+    <section>
+      <h2>오늘 Strategist 브리프</h2>
+      <div class="panel" id="strategist">
+        <div class="empty">로딩...</div>
+      </div>
+    </section>
+    <section>
+      <h2>오늘 Auditor 평가</h2>
+      <div class="panel" id="auditor">
+        <div class="empty">로딩...</div>
+      </div>
+    </section>
+  </main>
+  <footer>claude_quant2 · static dashboard</footer>
 
-<script>
-const fmtNum = (n) => n == null ? "-" : Number(n).toLocaleString();
-const fmtPct = (n) => n == null ? "-" : (n >= 0 ? "+" : "") + Number(n).toFixed(2) + "%";
-const fmtMan = (won) => won == null ? "-" : Math.round(Number(won)).toLocaleString();
-const fmtSignedMan = (won) => won == null ? "-" : (won >= 0 ? "+" : "") + Math.round(Number(won)).toLocaleString();
-const cls = (n) => n == null ? "flat" : (n > 0 ? "pos" : n < 0 ? "neg" : "flat");
-const arrow = (n) => n == null ? "" : (n > 0 ? "▲" : n < 0 ? "▼" : "▬");
-const escapeHtml = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
+  <script>
+    const fmtNum = (n) => n == null ? "-" : Number(n).toLocaleString();
+    const fmtPct = (n) => n == null ? "-" : (n >= 0 ? "+" : "") + Number(n).toFixed(2) + "%";
+    const fmtMan = (won) => won == null ? "-" : Math.round(Number(won)).toLocaleString();
+    const fmtSignedMan = (won) => won == null ? "-" : (won >= 0 ? "+" : "") + Math.round(Number(won)).toLocaleString();
+    const cls = (n) => n == null ? "flat" : (n > 0 ? "pos" : n < 0 ? "neg" : "flat");
+    const arrow = (n) => n == null ? "" : (n > 0 ? "▲" : n < 0 ? "▼" : "▬");
+    const escapeHtml = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;", "'": "&#39;" }[c]));
 
-function pricePill(cur, ref) {
-  if (cur == null) return `<span class="muted">-</span>`;
-  const diff = ref != null ? cur - ref : null;
-  const pct = (ref != null && ref !== 0) ? (diff / ref) * 100 : null;
-  const c = cls(diff);
-  const a = arrow(diff);
-  const sub = pct == null
-    ? ""
-    : `<span class="sub ${c}">${a} ${fmtPct(pct)}</span>`;
-  return `<div class="price-stack"><span class="main ${c}">${fmtNum(cur)}</span>${sub}</div>`;
-}
-
-function pnlCellHTML(pnl_won, pnl_pct) {
-  if (pnl_won == null) return `<td class="num"><span class="muted">-</span></td>`;
-  const c = cls(pnl_won);
-  const a = arrow(pnl_won);
-  const pctStr = pnl_pct == null ? "" : `<span class="sub ${c}">${fmtPct(pnl_pct)}</span>`;
-  return `<td class="num"><div class="pnl-stack"><span class="main ${c}">${a} ${fmtSignedMan(pnl_won)}원</span>${pctStr}</div></td>`;
-}
-
-// ── Calendar ─────────────────────────────────────────────
-let calArchive = null;     // {YYYYMMDD: entry}
-let calCursor = null;      // { y, m } 1-based month
-let calSelected = null;    // YYYYMMDD
-
-async function loadHistory() {
-  if (calArchive !== null) return calArchive;
-  try {
-    const res = await fetch("history.json?t=" + Date.now());
-    calArchive = res.ok ? await res.json() : {};
-  } catch (e) {
-    calArchive = {};
-  }
-  return calArchive;
-}
-
-async function loadCalendar(todayKey) {
-  await loadHistory();
-  // 시작 커서 = 오늘 또는 archive 의 가장 최근 일자
-  let baseKey = todayKey;
-  if (!baseKey) {
-    const keys = Object.keys(calArchive).sort();
-    baseKey = keys.length ? keys[keys.length - 1] : null;
-  }
-  if (baseKey) {
-    calCursor = { y: parseInt(baseKey.slice(0,4)), m: parseInt(baseKey.slice(4,6)) };
-  } else {
-    const now = new Date();
-    calCursor = { y: now.getFullYear(), m: now.getMonth() + 1 };
-  }
-  document.getElementById("cal-prev").onclick = () => { shiftMonth(-1); };
-  document.getElementById("cal-next").onclick = () => { shiftMonth(+1); };
-  document.getElementById("cal-today").onclick = () => {
-    const now = new Date();
-    calCursor = { y: now.getFullYear(), m: now.getMonth() + 1 };
-    renderCalendar();
-  };
-  renderCalendar();
-  // 디폴트 선택: 오늘 (있으면)
-  if (todayKey && calArchive[todayKey]) {
-    selectDay(todayKey);
-  }
-}
-
-function shiftMonth(delta) {
-  let m = calCursor.m + delta;
-  let y = calCursor.y;
-  while (m < 1) { m += 12; y -= 1; }
-  while (m > 12) { m -= 12; y += 1; }
-  calCursor = { y, m };
-  renderCalendar();
-}
-
-function pad2(n) { return String(n).padStart(2, "0"); }
-
-function renderCalendar() {
-  const { y, m } = calCursor;
-  document.getElementById("cal-label").textContent = `${y}년 ${m}월`;
-  const first = new Date(y, m - 1, 1);
-  const startDow = first.getDay(); // 0=Sun
-  const daysInMonth = new Date(y, m, 0).getDate();
-  const prevDays = new Date(y, m - 1, 0).getDate();
-  const todayKey = (() => {
-    const t = new Date();
-    return `${t.getFullYear()}${pad2(t.getMonth()+1)}${pad2(t.getDate())}`;
-  })();
-
-  // 그날의 강도 분류 임계 (만원 단위)
-  const STRONG = 500000, MILD = 1;
-
-  const cells = [];
-  // DOW header
-  const dowNames = ["일","월","화","수","목","금","토"];
-  for (let i = 0; i < 7; i++) cells.push(`<div class="cal-dow">${dowNames[i]}</div>`);
-
-  // 6 주 × 7일 = 42 셀
-  for (let i = 0; i < 42; i++) {
-    let cellY, cellM, cellD, otherMonth = false;
-    if (i < startDow) {
-      cellY = y; cellM = m - 1; cellD = prevDays - (startDow - 1 - i);
-      otherMonth = true;
-      if (cellM < 1) { cellM = 12; cellY -= 1; }
-    } else if (i >= startDow + daysInMonth) {
-      cellY = y; cellM = m + 1; cellD = i - (startDow + daysInMonth) + 1;
-      otherMonth = true;
-      if (cellM > 12) { cellM = 1; cellY += 1; }
-    } else {
-      cellY = y; cellM = m; cellD = i - startDow + 1;
+    function pricePill(cur, ref) {
+      if (cur == null) return `<span class="muted">-</span>`;
+      const diff = ref != null ? cur - ref : null;
+      const pct = (ref != null && ref !== 0) ? (diff / ref) * 100 : null;
+      const c = cls(diff);
+      const a = arrow(diff);
+      const sub = pct == null
+        ? ""
+        : `<span class="sub ${c}">${a} ${fmtPct(pct)}</span>`;
+      return `<div class="price-stack"><span class="main ${c}">${fmtNum(cur)}</span>${sub}</div>`;
     }
-    const key = `${cellY}${pad2(cellM)}${pad2(cellD)}`;
-    const entry = calArchive[key];
-    const isToday = key === todayKey;
-    const dow = i % 7;
-    const isWeekend = (dow === 0 || dow === 6);
-    const classes = ["cal-cell"];
-    if (otherMonth) classes.push("other-month");
-    if (isToday) classes.push("today");
-    if (calSelected === key) classes.push("selected");
-    if (isWeekend) classes.push("weekend");
 
-    let pnlHtml = "";
-    let metaHtml = "";
-    let themesHtml = "";
-    if (entry) {
-      classes.push("has-data");
-      const pnl = entry.realized_pnl_won;
-      if (pnl != null) {
-        const c = pnl > 0 ? "pos" : pnl < 0 ? "neg" : "flat";
-        if (pnl >= STRONG) classes.push("gain-strong");
-        else if (pnl >= MILD) classes.push("gain-mild");
-        else if (pnl <= -STRONG) classes.push("loss-strong");
-        else if (pnl <= -MILD) classes.push("loss-mild");
-        pnlHtml = `<div class="pnl ${c}">${arrow(pnl)} ${fmtSignedMan(pnl)}</div>`;
+    function pnlCellHTML(pnl_won, pnl_pct) {
+      if (pnl_won == null) return `<td class="num"><span class="muted">-</span></td>`;
+      const c = cls(pnl_won);
+      const a = arrow(pnl_won);
+      const pctStr = pnl_pct == null ? "" : `<span class="sub ${c}">${fmtPct(pnl_pct)}</span>`;
+      return `<td class="num"><div class="pnl-stack"><span class="main ${c}">${a} ${fmtSignedMan(pnl_won)}원</span>${pctStr}</div></td>`;
+    }
+
+    // ── Calendar ─────────────────────────────────────────────
+    let calArchive = null;     // {YYYYMMDD: entry}
+    let calCursor = null;      // { y, m } 1-based month
+    let calSelected = null;    // YYYYMMDD
+
+    async function loadHistory() {
+      if (calArchive !== null) return calArchive;
+      try {
+        const res = await fetch("history.json?t=" + Date.now());
+        calArchive = res.ok ? await res.json() : {};
+      } catch (e) {
+        calArchive = {};
       }
-      const tc = entry.trades_count || 0;
-      const themeList = entry.themes || [];
-      metaHtml = `<div class="meta">${tc}건${themeList.length ? ` · ${themeList.length}테마` : ""}</div>`;
-      if (themeList.length) {
-        themesHtml = `<div class="themes">${
-          themeList.map(t => `<div class="t">${escapeHtml(t.name || "")}</div>`).join("")
-        }</div>`;
+      return calArchive;
+    }
+
+    async function loadCalendar(todayKey) {
+      await loadHistory();
+      // 시작 커서 = 오늘 또는 archive 의 가장 최근 일자
+      let baseKey = todayKey;
+      if (!baseKey) {
+        const keys = Object.keys(calArchive).sort();
+        baseKey = keys.length ? keys[keys.length - 1] : null;
+      }
+      if (baseKey) {
+        calCursor = { y: parseInt(baseKey.slice(0, 4)), m: parseInt(baseKey.slice(4, 6)) };
+      } else {
+        const now = new Date();
+        calCursor = { y: now.getFullYear(), m: now.getMonth() + 1 };
+      }
+      document.getElementById("cal-prev").onclick = () => { shiftMonth(-1); };
+      document.getElementById("cal-next").onclick = () => { shiftMonth(+1); };
+      document.getElementById("cal-today").onclick = () => {
+        const now = new Date();
+        calCursor = { y: now.getFullYear(), m: now.getMonth() + 1 };
+        renderCalendar();
+      };
+      renderCalendar();
+      // 디폴트 선택: 오늘 (있으면)
+      if (todayKey && calArchive[todayKey]) {
+        selectDay(todayKey);
       }
     }
-    cells.push(`<div class="${classes.join(" ")}" data-key="${key}">
+
+    function shiftMonth(delta) {
+      let m = calCursor.m + delta;
+      let y = calCursor.y;
+      while (m < 1) { m += 12; y -= 1; }
+      while (m > 12) { m -= 12; y += 1; }
+      calCursor = { y, m };
+      renderCalendar();
+    }
+
+    function pad2(n) { return String(n).padStart(2, "0"); }
+
+    function renderCalendar() {
+      const { y, m } = calCursor;
+      document.getElementById("cal-label").textContent = `${y}년 ${m}월`;
+      const first = new Date(y, m - 1, 1);
+      const startDow = first.getDay(); // 0=Sun
+      const daysInMonth = new Date(y, m, 0).getDate();
+      const prevDays = new Date(y, m - 1, 0).getDate();
+      const todayKey = (() => {
+        const t = new Date();
+        return `${t.getFullYear()}${pad2(t.getMonth() + 1)}${pad2(t.getDate())}`;
+      })();
+
+      // 그날의 강도 분류 임계 (만원 단위)
+      const STRONG = 500000, MILD = 1;
+
+      const cells = [];
+      // DOW header
+      const dowNames = ["일", "월", "화", "수", "목", "금", "토"];
+      for (let i = 0; i < 7; i++) cells.push(`<div class="cal-dow">${dowNames[i]}</div>`);
+
+      // 6 주 × 7일 = 42 셀
+      for (let i = 0; i < 42; i++) {
+        let cellY, cellM, cellD, otherMonth = false;
+        if (i < startDow) {
+          cellY = y; cellM = m - 1; cellD = prevDays - (startDow - 1 - i);
+          otherMonth = true;
+          if (cellM < 1) { cellM = 12; cellY -= 1; }
+        } else if (i >= startDow + daysInMonth) {
+          cellY = y; cellM = m + 1; cellD = i - (startDow + daysInMonth) + 1;
+          otherMonth = true;
+          if (cellM > 12) { cellM = 1; cellY += 1; }
+        } else {
+          cellY = y; cellM = m; cellD = i - startDow + 1;
+        }
+        const key = `${cellY}${pad2(cellM)}${pad2(cellD)}`;
+        const entry = calArchive[key];
+        const isToday = key === todayKey;
+        const dow = i % 7;
+        const isWeekend = (dow === 0 || dow === 6);
+        const classes = ["cal-cell"];
+        if (otherMonth) classes.push("other-month");
+        if (isToday) classes.push("today");
+        if (calSelected === key) classes.push("selected");
+        if (isWeekend) classes.push("weekend");
+
+        let pnlHtml = "";
+        let metaHtml = "";
+        let themesHtml = "";
+        if (entry) {
+          classes.push("has-data");
+          const pnl = entry.realized_pnl_won;
+          if (pnl != null) {
+            const c = pnl > 0 ? "pos" : pnl < 0 ? "neg" : "flat";
+            if (pnl >= STRONG) classes.push("gain-strong");
+            else if (pnl >= MILD) classes.push("gain-mild");
+            else if (pnl <= -STRONG) classes.push("loss-strong");
+            else if (pnl <= -MILD) classes.push("loss-mild");
+            pnlHtml = `<div class="pnl ${c}">${arrow(pnl)} ${fmtSignedMan(pnl)}</div>`;
+          }
+          const tc = entry.trades_count || 0;
+          const themeList = entry.themes || [];
+          metaHtml = `<div class="meta">${tc}건${themeList.length ? ` · ${themeList.length}테마` : ""}</div>`;
+          if (themeList.length) {
+            themesHtml = `<div class="themes">${themeList.map(t => `<div class="t">${escapeHtml(t.name || "")}</div>`).join("")
+              }</div>`;
+          }
+        }
+        cells.push(`<div class="${classes.join(" ")}" data-key="${key}">
       <div class="day-num">${cellD}</div>
       ${pnlHtml}
       ${themesHtml}
       ${metaHtml}
     </div>`);
-  }
-  document.getElementById("calendar").innerHTML = `<div class="cal-grid">${cells.join("")}</div>`;
-  // bind clicks
-  document.querySelectorAll(".cal-cell.has-data").forEach(el => {
-    el.onclick = () => selectDay(el.dataset.key);
-  });
-}
+      }
+      document.getElementById("calendar").innerHTML = `<div class="cal-grid">${cells.join("")}</div>`;
+      // bind clicks
+      document.querySelectorAll(".cal-cell.has-data").forEach(el => {
+        el.onclick = () => selectDay(el.dataset.key);
+      });
+    }
 
-function selectDay(key) {
-  calSelected = key;
-  // refresh selected highlight
-  document.querySelectorAll(".cal-cell").forEach(el => {
-    el.classList.toggle("selected", el.dataset.key === key);
-  });
-  renderDayDetail(key);
-}
+    function selectDay(key) {
+      calSelected = key;
+      // refresh selected highlight
+      document.querySelectorAll(".cal-cell").forEach(el => {
+        el.classList.toggle("selected", el.dataset.key === key);
+      });
+      renderDayDetail(key);
+    }
 
-function renderDayDetail(key) {
-  const entry = (calArchive || {})[key];
-  const box = document.getElementById("cal-detail");
-  if (!entry) {
-    box.style.display = "none";
-    box.innerHTML = "";
-    return;
-  }
-  const pnl = entry.realized_pnl_won;
-  const pnlHtml = pnl == null
-    ? `<span class="muted">매매 없음</span>`
-    : `<span class="pill ${cls(pnl)}">${arrow(pnl)} ${fmtSignedMan(pnl)}원 실현</span>`;
-  const unreal = entry.unrealized_pnl_won;
-  const unrealHtml = unreal == null
-    ? ""
-    : ` · 평가손익 <span class="${cls(unreal)}">${arrow(unreal)} ${fmtSignedMan(unreal)}원</span>`;
+    function renderDayDetail(key) {
+      const entry = (calArchive || {})[key];
+      const box = document.getElementById("cal-detail");
+      if (!entry) {
+        box.style.display = "none";
+        box.innerHTML = "";
+        return;
+      }
+      const pnl = entry.realized_pnl_won;
+      const pnlHtml = pnl == null
+        ? `<span class="muted">매매 없음</span>`
+        : `<span class="pill ${cls(pnl)}">${arrow(pnl)} ${fmtSignedMan(pnl)}원 실현</span>`;
+      const unreal = entry.unrealized_pnl_won;
+      const unrealHtml = unreal == null
+        ? ""
+        : ` · 평가손익 <span class="${cls(unreal)}">${arrow(unreal)} ${fmtSignedMan(unreal)}원</span>`;
 
-  const themes = entry.themes || [];
-  const themesHtml = themes.length
-    ? themes.map(t => {
-        const status = t.entry_status ? `<span class="badge">${escapeHtml(t.entry_status)}</span>` : "";
-        const trend = t.strength_trend ? ` <span class="muted" style="font-size:11px">· ${escapeHtml(t.strength_trend)}</span>` : "";
-        const days = t.days_active ? ` <span class="muted" style="font-size:11px">· ${t.days_active}일차</span>` : "";
-        const leaders = (t.leaders || []).map(l => escapeHtml(l.name || l.code)).join(", ");
-        return `<div class="theme-card">
+      const themes = entry.themes || [];
+      const themesHtml = themes.length
+        ? themes.map(t => {
+          const status = t.entry_status ? `<span class="badge">${escapeHtml(t.entry_status)}</span>` : "";
+          const trend = t.strength_trend ? ` <span class="muted" style="font-size:11px">· ${escapeHtml(t.strength_trend)}</span>` : "";
+          const days = t.days_active ? ` <span class="muted" style="font-size:11px">· ${t.days_active}일차</span>` : "";
+          const leaders = (t.leaders || []).map(l => escapeHtml(l.name || l.code)).join(", ");
+          return `<div class="theme-card">
           <div><span class="name">${escapeHtml(t.name || "")}</span>${status}${trend}${days}</div>
           ${leaders ? `<div class="leaders">${leaders}</div>` : ""}
         </div>`;
-      }).join("")
-    : `<div class="muted" style="font-size:12px">테마 기록 없음</div>`;
+        }).join("")
+        : `<div class="muted" style="font-size:12px">테마 기록 없음</div>`;
 
-  const movers = entry.top_movers || [];
-  const moversHtml = movers.length
-    ? movers.map(m => {
-        const c = cls(m.realized_pnl_won);
-        return `<div class="mover-row">
+      const movers = entry.top_movers || [];
+      const moversHtml = movers.length
+        ? movers.map(m => {
+          const c = cls(m.realized_pnl_won);
+          return `<div class="mover-row">
           <span class="nm">${escapeHtml(m.name || "")}<small>${escapeHtml(m.code || "")}</small></span>
           <span class="${c}">${arrow(m.realized_pnl_won)} ${fmtSignedMan(m.realized_pnl_won)}원</span>
         </div>`;
-      }).join("")
-    : `<div class="muted" style="font-size:12px">실현 매매 없음</div>`;
+        }).join("")
+        : `<div class="muted" style="font-size:12px">실현 매매 없음</div>`;
 
-  const traded = entry.traded_codes || [];
-  const tradedHtml = traded.length
-    ? traded.map(t => `<span class="pill flat" style="margin:2px">${escapeHtml(t.name || t.code)}</span>`).join("")
-    : `<div class="muted" style="font-size:12px">매매 종목 없음</div>`;
+      const traded = entry.traded_codes || [];
+      const tradedHtml = traded.length
+        ? traded.map(t => `<span class="pill flat" style="margin:2px">${escapeHtml(t.name || t.code)}</span>`).join("")
+        : `<div class="muted" style="font-size:12px">매매 종목 없음</div>`;
 
-  box.style.display = "block";
-  box.innerHTML = `
+      box.style.display = "block";
+      box.innerHTML = `
     <div class="detail-head">
       <span class="date">${escapeHtml(entry.date || key)}</span>
       <span class="pnl-summary">${pnlHtml}${unrealHtml}</span>
@@ -440,86 +884,86 @@ function renderDayDetail(key) {
         <div>${tradedHtml}</div>
       </div>
     </div>`;
-}
+    }
 
-async function load() {
-  let data;
-  try {
-    const res = await fetch("data.json?t=" + Date.now());
-    if (!res.ok) throw new Error(res.status);
-    data = await res.json();
-  } catch (e) {
-    document.body.insertAdjacentHTML("beforeend", `<div class="err">데이터 로드 실패: ${e.message}</div>`);
-    return;
-  }
+    async function load() {
+      let data;
+      try {
+        const res = await fetch("data.json?t=" + Date.now());
+        if (!res.ok) throw new Error(res.status);
+        data = await res.json();
+      } catch (e) {
+        document.body.insertAdjacentHTML("beforeend", `<div class="err">데이터 로드 실패: ${e.message}</div>`);
+        return;
+      }
 
-  document.getElementById("updated").textContent = "갱신: " + (data.generated_at || "-");
-  document.getElementById("mode").textContent = data.mode || "-";
+      document.getElementById("updated").textContent = "갱신: " + (data.generated_at || "-");
+      document.getElementById("mode").textContent = data.mode || "-";
 
-  // 이번달 누적 (history 선로딩) — 통계에 사용
-  await loadHistory();
-  const todayKey = data.date || null;
-  const ym = todayKey ? todayKey.slice(0, 6) : null;
-  let monthSells = 0, monthSellWon = 0, monthRealized = 0;
-  let monthHasRealized = false;
-  if (ym) {
-    for (const [k, v] of Object.entries(calArchive || {})) {
-      if (!k.startsWith(ym)) continue;
-      if (k === todayKey) continue; // 오늘은 data.json 의 라이브 값 사용
-      monthSells += (v.sells || 0);
-      monthSellWon += (v.sell_won || 0);
-      if (v.realized_pnl_won != null) {
-        monthRealized += v.realized_pnl_won;
+      // 이번달 누적 (history 선로딩) — 통계에 사용
+      await loadHistory();
+      const todayKey = data.date || null;
+      const ym = todayKey ? todayKey.slice(0, 6) : null;
+      let monthSells = 0, monthSellWon = 0, monthRealized = 0;
+      let monthHasRealized = false;
+      if (ym) {
+        for (const [k, v] of Object.entries(calArchive || {})) {
+          if (!k.startsWith(ym)) continue;
+          if (k === todayKey) continue; // 오늘은 data.json 의 라이브 값 사용
+          monthSells += (v.sells || 0);
+          monthSellWon += (v.sell_won || 0);
+          if (v.realized_pnl_won != null) {
+            monthRealized += v.realized_pnl_won;
+            monthHasRealized = true;
+          }
+        }
+      }
+      // 오늘분 가산
+      const sToday = data.stats || {};
+      monthSells += (sToday.sells || 0);
+      monthSellWon += (sToday.sell_won || 0);
+      if (sToday.realized_pnl_won != null) {
+        monthRealized += sToday.realized_pnl_won;
         monthHasRealized = true;
       }
-    }
-  }
-  // 오늘분 가산
-  const sToday = data.stats || {};
-  monthSells += (sToday.sells || 0);
-  monthSellWon += (sToday.sell_won || 0);
-  if (sToday.realized_pnl_won != null) {
-    monthRealized += sToday.realized_pnl_won;
-    monthHasRealized = true;
-  }
-  const monthRealizedVal = monthHasRealized ? monthRealized : null;
+      const monthRealizedVal = monthHasRealized ? monthRealized : null;
 
-  // stats
-  const s = data.stats || {};
-  const signedPnl = (n) => n == null
-    ? `<span class="muted">-</span>`
-    : `<span class="${cls(n)}">${arrow(n)} ${fmtSignedMan(n)}원</span>`;
-  const remainingVal = s.cash_remaining_won == null
-    ? `<span class="muted">-</span>`
-    : `${fmtMan(s.cash_remaining_won)}원`;
-  const evalVal = s.total_eval_won == null
-    ? `<span class="muted">-</span>`
-    : `${fmtMan(s.total_eval_won)}원`;
-  const stats = [
-    ["총 자본", `${fmtMan(s.capital_won)}원`, ""],
-    ["투입 자본", `${fmtMan(s.deployed_won)}원`, ""],
-    ["잔고", remainingVal, ""],
-    ["보유 종목", `${s.open_positions ?? 0}`, ""],
-    ["평가금액", evalVal, ""],
-    ["평가손익", signedPnl(s.unrealized_pnl_won), cls(s.unrealized_pnl_won)],
-    ["오늘 매수", `${s.buys ?? 0}건 · ${fmtMan(s.buy_won)}원`, ""],
-    ["오늘 매도", `${s.sells ?? 0}건 · ${fmtMan(s.sell_won)}원`, ""],
-    ["오늘 실현손익", signedPnl(s.realized_pnl_won), cls(s.realized_pnl_won)],
-    ["이번달 매도", `${monthSells}건 · ${fmtMan(monthSellWon)}원`, ""],
-    ["이번달 실현손익", signedPnl(monthRealizedVal), cls(monthRealizedVal)],
-  ];
-  const statHtml = stats.map(([k, v, hl]) => {
-    const cls2 = hl === "pos" ? " highlight-pos" : hl === "neg" ? " highlight-neg" : "";
-    return `<div class="stat${cls2}"><div class="label">${k}</div><div class="val">${v}</div></div>`;
-  }).join("");
-  document.getElementById("stats").innerHTML = statHtml;
+      // stats
+      const s = data.stats || {};
+      const signedPnl = (n) => n == null
+        ? `<span class="muted">-</span>`
+        : `<span class="${cls(n)}">${arrow(n)} ${fmtSignedMan(n)}원</span>`;
+      const remainingVal = s.cash_remaining_won == null
+        ? `<span class="muted">-</span>`
+        : `${fmtMan(s.cash_remaining_won)}원`;
+      const evalVal = s.total_eval_won == null
+        ? `<span class="muted">-</span>`
+        : `${fmtMan(s.total_eval_won)}원`;
+      const stats = [
+        ["총 자본", `${fmtMan(s.capital_won)}원`, ""],
+        ["투입 자본", `${fmtMan(s.deployed_won)}원`, ""],
+        ["잔고", remainingVal, ""],
+        ["보유 종목", `${s.open_positions ?? 0}`, ""],
+        ["평가금액", evalVal, ""],
+        ["평가손익", signedPnl(s.unrealized_pnl_won), cls(s.unrealized_pnl_won)],
+        ["오늘 매수", `${s.buys ?? 0}건 · ${fmtMan(s.buy_won)}원`, ""],
+        ["오늘 매도", `${s.sells ?? 0}건 · ${fmtMan(s.sell_won)}원`, ""],
+        ["오늘 실현손익", signedPnl(s.realized_pnl_won), cls(s.realized_pnl_won)],
+        ["이번달 매도", `${monthSells}건 · ${fmtMan(monthSellWon)}원`, ""],
+        ["이번달 실현손익", signedPnl(monthRealizedVal), cls(monthRealizedVal)],
+      ];
+      const statHtml = stats.map(([k, v, hl]) => {
+        const cls2 = hl === "pos" ? " highlight-pos" : hl === "neg" ? " highlight-neg" : "";
+        return `<div class="stat${cls2}"><div class="label">${k}</div><div class="val">${v}</div></div>`;
+      }).join("");
+      document.getElementById("stats").innerHTML = statHtml;
 
-  // positions
-  const pos = data.positions || [];
-  if (!pos.length) {
-    document.getElementById("positions").innerHTML = `<div class="empty">보유 종목 없음</div>`;
-  } else {
-    document.getElementById("positions").innerHTML = `<table>
+      // positions
+      const pos = data.positions || [];
+      if (!pos.length) {
+        document.getElementById("positions").innerHTML = `<div class="empty">보유 종목 없음</div>`;
+      } else {
+        document.getElementById("positions").innerHTML = `<table>
       <thead><tr>
         <th>코드</th><th>종목</th>
         <th class="num">수량</th>
@@ -532,8 +976,8 @@ async function load() {
         <th>전략</th>
       </tr></thead>
       <tbody>${pos.map(p => {
-        const rowCls = p.pnl_won == null ? "" : (p.pnl_won > 0 ? "row-pos" : p.pnl_won < 0 ? "row-neg" : "");
-        return `
+          const rowCls = p.pnl_won == null ? "" : (p.pnl_won > 0 ? "row-pos" : p.pnl_won < 0 ? "row-neg" : "");
+          return `
         <tr class="${rowCls}">
           <td>${escapeHtml(p.code)}</td>
           <td>${escapeHtml(p.name)}</td>
@@ -546,23 +990,23 @@ async function load() {
           <td><a class="toss" href="https://tossinvest.com/stocks/A${escapeHtml(p.code)}/order" target="_blank" rel="noopener">토스에서 보기</a></td>
           <td class="reason">${escapeHtml(p.thesis || "")}</td>
         </tr>`;
-      }).join("")}</tbody>
+        }).join("")}</tbody>
     </table>`;
-  }
+      }
 
-  // trades
-  const tr = data.trades || [];
-  if (!tr.length) {
-    document.getElementById("trades").innerHTML = `<div class="empty">오늘 매매 없음</div>`;
-  } else {
-    document.getElementById("trades").innerHTML = `<table>
+      // trades
+      const tr = data.trades || [];
+      if (!tr.length) {
+        document.getElementById("trades").innerHTML = `<div class="empty">오늘 매매 없음</div>`;
+      } else {
+        document.getElementById("trades").innerHTML = `<table>
       <thead><tr><th>시각</th><th>구분</th><th>코드</th><th>종목</th><th class="num">수량</th><th class="num">단가</th><th class="num">금액</th><th class="num">손익</th><th>사유</th></tr></thead>
       <tbody>${tr.map(t => {
-        const pnl = t.realized_pnl_won;
-        const pnlCell = (t.action === "sell" && pnl != null)
-          ? `<td class="num"><span class="pill ${cls(pnl)}">${arrow(pnl)} ${fmtSignedMan(pnl)}원</span></td>`
-          : `<td class="num"><span class="muted">-</span></td>`;
-        return `
+          const pnl = t.realized_pnl_won;
+          const pnlCell = (t.action === "sell" && pnl != null)
+            ? `<td class="num"><span class="pill ${cls(pnl)}">${arrow(pnl)} ${fmtSignedMan(pnl)}원</span></td>`
+            : `<td class="num"><span class="muted">-</span></td>`;
+          return `
         <tr>
           <td>${escapeHtml((t.ts || "").slice(11, 19))}</td>
           <td class="${t.action}">${t.action === "buy" ? "매수" : t.action === "sell" ? "매도" : t.action}</td>
@@ -574,33 +1018,33 @@ async function load() {
           ${pnlCell}
           <td class="reason">${escapeHtml(t.reason || "")}</td>
         </tr>`;
-      }).join("")}</tbody>
+        }).join("")}</tbody>
     </table>`;
-  }
+      }
 
-  // calendar
-  await loadCalendar(data.date);
+      // calendar
+      await loadCalendar(data.date);
 
-  // strategist brief
-  const sb = data.strategist_brief;
-  const sbText = sb == null ? "" : (typeof sb === "string" ? sb : JSON.stringify(sb, null, 2));
-  document.getElementById("strategist").innerHTML = sbText
-    ? `<div class="doc"><pre>${escapeHtml(sbText)}</pre></div>`
-    : `<div class="empty">브리프 없음</div>`;
+      // strategist brief
+      const sb = data.strategist_brief;
+      const sbText = sb == null ? "" : (typeof sb === "string" ? sb : JSON.stringify(sb, null, 2));
+      document.getElementById("strategist").innerHTML = sbText
+        ? `<div class="doc"><pre>${escapeHtml(sbText)}</pre></div>`
+        : `<div class="empty">브리프 없음</div>`;
 
-  // auditor verdict
-  const av = data.auditor_verdict;
-  const avText = av == null ? "" : (typeof av === "string" ? av : JSON.stringify(av, null, 2));
-  document.getElementById("auditor").innerHTML = avText
-    ? `<div class="doc"><pre>${escapeHtml(avText)}</pre></div>`
-    : `<div class="empty">평가 없음</div>`;
+      // auditor verdict
+      const av = data.auditor_verdict;
+      const avText = av == null ? "" : (typeof av === "string" ? av : JSON.stringify(av, null, 2));
+      document.getElementById("auditor").innerHTML = avText
+        ? `<div class="doc"><pre>${escapeHtml(avText)}</pre></div>`
+        : `<div class="empty">평가 없음</div>`;
 
-  // pm
-  const pm = data.pm_decisions || [];
-  if (!pm.length) {
-    document.getElementById("pm").innerHTML = `<div class="empty">결정 없음</div>`;
-  } else {
-    document.getElementById("pm").innerHTML = `<table>
+      // pm
+      const pm = data.pm_decisions || [];
+      if (!pm.length) {
+        document.getElementById("pm").innerHTML = `<div class="empty">결정 없음</div>`;
+      } else {
+        document.getElementById("pm").innerHTML = `<table>
       <thead><tr><th>슬롯</th><th>구분</th><th>코드</th><th class="num">금액(만)</th><th>사유</th></tr></thead>
       <tbody>${pm.map(d => `
         <tr>
@@ -611,10 +1055,11 @@ async function load() {
           <td class="reason">${escapeHtml(d.reason || "")}</td>
         </tr>`).join("")}</tbody>
     </table>`;
-  }
-}
+      }
+    }
 
-load();
-</script>
+    load();
+  </script>
 </body>
+
 </html>
