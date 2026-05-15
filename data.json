@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15 09:34:26",
+  "generated_at": "2026-05-15 09:38:36",
   "date": "20260515",
   "mode": "dry_run",
   "stats": {
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 667250,
     "cash_remaining_won": 49332750,
-    "total_eval_won": 887250,
-    "unrealized_pnl_won": 31500
+    "total_eval_won": 880500,
+    "unrealized_pnl_won": 24750
   },
   "positions": [
     {
@@ -23,11 +23,11 @@
       "qty": 3,
       "avg_price": 285250,
       "cost_won": 855750,
-      "current_price": 295750,
-      "change_rate": -0.08,
-      "eval_won": 887250,
-      "pnl_won": 31500,
-      "pnl_pct": 3.6809815950920246,
+      "current_price": 293500,
+      "change_rate": -0.84,
+      "eval_won": 880500,
+      "pnl_won": 24750,
+      "pnl_pct": 2.892199824715162,
       "thesis": "AI 반도체/HBM active 테마 + 전기전자 sector rotating_in 1순위 + 시총 1위. 현재 285,250(+6.24%) 후보 7종 중 갭 가장 작은 축(SK하이닉스 +11.86%, DB하이텍 +8.51%, 한온 +18.66% 대비). 일중 저가 280,000(시가 284,500 근방) 까지 한 번 눌렸다 회복한 자리라 추격가 진입 위험 낮춤. 시드급 1차 7주×285,250≈200만원(자본 4%, 목표 600~800만원의 25~33%) 분할 진입. Portfolio gate 검증: 현재 보유 자동차 1종목 → 다른 테마(AI 반도체) 우선 정합, 신규 진입 이번 슬롯 1종목 한도 준수, 자본 사용률 3.76%→7.76% 점프 작음, max_positions 5/2 잔여 3. 손절 트리거: 갭 시가 280,000 종가 이탈 + AI 반도체 테마 leaders(SK하이닉스/DB하이텍) 거래대금 carry-over 실패 동시 충족 시 1/2 정리. 2차 분할 트리거: 내일 종가 기준 거래대금·테마 강도 유지 확인 시 추가 시드 200만원. 약점: +6%대 갭상승 자리 시드 진입은 가격 디스시플린 마모 우려 — 그래서 풀포지션 아닌 25~33% 시드급으로 한정, 갭 채움 실패 시 1/2 컷 룰로 방어. 약점 2: AI 반도체 테마 days_active=1 첫 기록일 — 익일 carry-over 실패 가능성 상존."
     }
   ],
@@ -39,6 +39,6 @@
     "20260513",
     "20260514"
   ],
-  "strategist_brief": null,
+  "strategist_brief": "[ERROR] claude rc=1: ",
   "auditor_verdict": null
 }
