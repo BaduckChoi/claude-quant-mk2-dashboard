@@ -1,37 +1,39 @@
 {
-  "generated_at": "2026-05-15 12:30:41",
+  "generated_at": "2026-05-15 15:20:39",
   "date": "20260515",
   "mode": "dry_run",
   "stats": {
-    "open_positions": 1,
-    "trades_count": 0,
+    "open_positions": 0,
+    "trades_count": 1,
     "buys": 0,
-    "sells": 0,
+    "sells": 1,
     "buy_won": 0,
-    "sell_won": 0,
-    "realized_pnl_won": null,
+    "sell_won": 817500,
+    "realized_pnl_won": -38250,
     "capital_won": 50000000,
-    "deployed_won": 667250,
-    "cash_remaining_won": 49332750,
-    "total_eval_won": 838500,
-    "unrealized_pnl_won": -17250
+    "deployed_won": -150250,
+    "cash_remaining_won": 50150250,
+    "total_eval_won": null,
+    "unrealized_pnl_won": null
   },
-  "positions": [
+  "positions": [],
+  "trades": [
     {
+      "ts": "2026-05-15T15:20:39",
+      "cycle_id": "20260515-1520",
+      "action": "sell",
       "code": "005930",
       "name": "삼성전자",
       "qty": 3,
-      "avg_price": 285250,
-      "cost_won": 855750,
-      "current_price": 279500,
-      "change_rate": -5.57,
-      "eval_won": 838500,
-      "pnl_won": -17250,
-      "pnl_pct": -2.0157756354075373,
-      "thesis": "AI 반도체/HBM active 테마 + 전기전자 sector rotating_in 1순위 + 시총 1위. 현재 285,250(+6.24%) 후보 7종 중 갭 가장 작은 축(SK하이닉스 +11.86%, DB하이텍 +8.51%, 한온 +18.66% 대비). 일중 저가 280,000(시가 284,500 근방) 까지 한 번 눌렸다 회복한 자리라 추격가 진입 위험 낮춤. 시드급 1차 7주×285,250≈200만원(자본 4%, 목표 600~800만원의 25~33%) 분할 진입. Portfolio gate 검증: 현재 보유 자동차 1종목 → 다른 테마(AI 반도체) 우선 정합, 신규 진입 이번 슬롯 1종목 한도 준수, 자본 사용률 3.76%→7.76% 점프 작음, max_positions 5/2 잔여 3. 손절 트리거: 갭 시가 280,000 종가 이탈 + AI 반도체 테마 leaders(SK하이닉스/DB하이텍) 거래대금 carry-over 실패 동시 충족 시 1/2 정리. 2차 분할 트리거: 내일 종가 기준 거래대금·테마 강도 유지 확인 시 추가 시드 200만원. 약점: +6%대 갭상승 자리 시드 진입은 가격 디스시플린 마모 우려 — 그래서 풀포지션 아닌 25~33% 시드급으로 한정, 갭 채움 실패 시 1/2 컷 룰로 방어. 약점 2: AI 반도체 테마 days_active=1 첫 기록일 — 익일 carry-over 실패 가능성 상존."
+      "price": 272500,
+      "amount_won": 817500,
+      "reason": "종가 272,500 = 280k 이탈(§7-2 1/2 컷 트리거), 단독 -7.94% 큰 음봉 + vol_rate 91.4 매도 폭증 = thesis 본질 깨짐. 어제 진입 thesis(V-자 회복 + 갭 최소 축) 24시간 만에 전면 부정, AI 반도체 days_active=1 carry-over 실패. 어제 +6%대 갭상승 자리 시드 진입 = 가격 디스시플린 마모의 결과. §7-7 본질 깨짐 = 1슬롯 전량 디폴트, 3주 작은 사이즈 1/2 분할은 단타 결(룰 우회). 1주 폐기 → 어제 시드 진입 자체 회수 + portfolio AI 반도체 0 으로 reset. 익일 §7-3 게이트(SK하이닉스 종가+2% + 전기전자 KOSPI 1위 carry-over 2일) 재충족 확인 후 신규 시드급 재평가.",
+      "dry_run": true,
+      "order_no": "",
+      "avg_cost": 285250,
+      "realized_pnl_won": -38250
     }
   ],
-  "trades": [],
   "pm_decisions": [
     {
       "slot": "0940",
@@ -48,13 +50,22 @@
       "amount_won": null,
       "qty": null,
       "reason": "§7-2 종가 280,000 이탈 = 1/2 컷 트리거. 현재 12:30 일중 저가 278,500, 현재가 279,750(-5.49%) 로 이탈 중이나 종가 미확정. 시스템 강제 불변: 일중 이탈 곧 발동 잡으면 분봉 narrative 침범 — 종가 기준 발동 판정 룰 그대로 적용. 15:20 슬롯에서 종가 흐름 확정 후 판정 carry. 잔여 4주(thesis 7주 계획 vs 실체결 3주)는 §7-1 명시 없음 → (B) 디폴트 폐기 — 추가 매수 자격 없음, 신규 시드 재평가만 가능. §7-3 AI 반도체 강화 게이트 (a) SK하이닉스 종가 +2%, (b) 전기전자 거래대금 1위 carry 2일차, (c) KOSPI 7,999 돌파 — 종가 미확정 + live 데이터에 SK하이닉스·KOSPI 부재로 판정 불가, 게이트 미충족 디폴트. 약점: 005930 단독 -5.49% 갭다운은 어제 +6.24% 단일 캐리 정점 + AI 반도체 테마 days_active=1 carry-over 실패 신호 가능성 — 종가 280k 이탈 확정 + SK하이닉스 동반 -3%↑ 시 §7-7 thesis 본질 깨짐(테마 ended 임박)으로 1슬롯 전량 정리 디폴트, 종가 280k~285k 사이 회복 시 §7-2 글자 그대로 1주 부분정리. 자본 사용률 1.33% — §7-8 < 5% 3일 연속 시 omission 점검이나 오늘 보유종목 단독 약세 day 라 신규 진입 omission 디폴트 정합, 라벨 misframe 회피."
+    },
+    {
+      "slot": "1520",
+      "action": "sell",
+      "code": "005930",
+      "amount_won": 82,
+      "qty": 3,
+      "reason": "종가 272,500 = 280k 이탈(§7-2 1/2 컷 트리거), 단독 -7.94% 큰 음봉 + vol_rate 91.4 매도 폭증 = thesis 본질 깨짐. 어제 진입 thesis(V-자 회복 + 갭 최소 축) 24시간 만에 전면 부정, AI 반도체 days_active=1 carry-over 실패. 어제 +6%대 갭상승 자리 시드 진입 = 가격 디스시플린 마모의 결과. §7-7 본질 깨짐 = 1슬롯 전량 디폴트, 3주 작은 사이즈 1/2 분할은 단타 결(룰 우회). 1주 폐기 → 어제 시드 진입 자체 회수 + portfolio AI 반도체 0 으로 reset. 익일 §7-3 게이트(SK하이닉스 종가+2% + 전기전자 KOSPI 1위 carry-over 2일) 재충족 확인 후 신규 시드급 재평가."
     }
   ],
   "calendar_dates": [
     "20260511",
     "20260512",
     "20260513",
-    "20260514"
+    "20260514",
+    "20260515"
   ],
   "strategist_brief": "[ERROR] claude rc=1: ",
   "auditor_verdict": null
