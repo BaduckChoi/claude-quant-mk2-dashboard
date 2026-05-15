@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15 09:38:36",
+  "generated_at": "2026-05-15 09:40:37",
   "date": "20260515",
   "mode": "dry_run",
   "stats": {
@@ -32,7 +32,16 @@
     }
   ],
   "trades": [],
-  "pm_decisions": [],
+  "pm_decisions": [
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "005930",
+      "amount_won": null,
+      "qty": null,
+      "reason": "verdict §7-1 default (B) 적용: 어제 1차 7주 계획 대비 3주 체결 사유 누락 상태라 잔여 4주 시드 폐기 처리. 추가 매수는 §7-3 게이트 (a)SK하이닉스 종가+2% (b)전기전자 sector carry 2일 (c)KOSPI 7999 돌파 — 세 조건 모두 09:40 종가 확정 전이라 미확인, 보류 디폴트. 보유 005930 현재 293,500 (-0.84% 일중, vs 평단 285,250 +2.89%): §7-2 손절 종가 280,000 이탈 미발동, §7-2 익절 단독+8% 갭 미발동(단지 -0.84%). vol_rate 12.0 정점 신호 아니라 잔량 트레일 유지 디폴트. 후보 풀: strategist_brief ERROR + candidate_codes=[] → strategist 게이트 과협소 신호 (§7-8). 전선/전력기기 watching 승격 게이트(가온전선/HD현대일렉트릭 종가+5%)는 종가 미확정으로 검증 불가, 내수유통·보험 watching 도 종목단위 검증 부재라 09:40 시점 신규 진입 후보 0. regime '조정 진입 confidence 낮음' + V-자 미확정 + KOSPI 7999 미돌파 — 신규 보수 디폴트와 정합. portfolio: AI반도체 1 / 자동차 0, max_positions 5/1, 자본 사용 1.3% (capacity 는 자격 아님, §7-8). 다음 슬롯(12:30) 재검증: SK하이닉스 일중 동향·전기전자 거래대금 carry·KOSPI 진행 — 종가 기준이라 12:30 도 잠정, 익일 15:20 마감 후 §7-3 게이트 정량 확정 가능."
+    }
+  ],
   "calendar_dates": [
     "20260511",
     "20260512",
