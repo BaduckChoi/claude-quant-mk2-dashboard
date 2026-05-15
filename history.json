@@ -57,7 +57,7 @@
       {
         "action": "buy",
         "code": "005380",
-        "name": "현대차"
+        "name": ""
       },
       {
         "action": "buy",
@@ -154,7 +154,7 @@
       {
         "action": "buy",
         "code": "005380",
-        "name": "현대차"
+        "name": ""
       }
     ],
     "trades_count": 2
@@ -231,7 +231,7 @@
     "top_movers": [
       {
         "code": "005380",
-        "name": "현대차",
+        "name": "",
         "realized_pnl_won": 189500
       },
       {
@@ -259,7 +259,7 @@
       {
         "action": "sell",
         "code": "005380",
-        "name": "현대차"
+        "name": ""
       }
     ],
     "trades_count": 4
@@ -268,7 +268,6 @@
     "buy_won": 0,
     "buys": 0,
     "date": "2026-05-14",
-    "open_positions": 1,
     "realized_pnl_won": 217500,
     "sell_won": 2136000,
     "sells": 3,
@@ -329,7 +328,7 @@
     "top_movers": [
       {
         "code": "005380",
-        "name": "현대차",
+        "name": "",
         "realized_pnl_won": 217500
       }
     ],
@@ -337,10 +336,9 @@
       {
         "action": "sell",
         "code": "005380",
-        "name": "현대차"
+        "name": ""
       }
     ],
-    "trades_count": 3,
-    "unrealized_pnl_won": 32250
+    "trades_count": 3
   }
 }
