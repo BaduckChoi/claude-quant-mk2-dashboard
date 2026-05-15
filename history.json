@@ -340,5 +340,84 @@
       }
     ],
     "trades_count": 3
+  },
+  "20260515": {
+    "buy_won": 0,
+    "buys": 0,
+    "date": "2026-05-15",
+    "open_positions": 0,
+    "realized_pnl_won": -38250,
+    "sell_won": 817500,
+    "sells": 1,
+    "themes": [
+      {
+        "days_active": 4,
+        "entry_status": "후반",
+        "leaders": [
+          {
+            "code": "",
+            "name": "삼성전자"
+          },
+          {
+            "code": "",
+            "name": "SK하이닉스"
+          },
+          {
+            "code": "",
+            "name": "삼성전기"
+          },
+          {
+            "code": "",
+            "name": "LG디스플레이"
+          }
+        ],
+        "name": "AI 반도체/HBM",
+        "strength_trend": "유지"
+      },
+      {
+        "days_active": 4,
+        "entry_status": "후반",
+        "leaders": [
+          {
+            "code": "",
+            "name": "현대차"
+          },
+          {
+            "code": "",
+            "name": "기아"
+          }
+        ],
+        "name": "자동차 전동화/부품",
+        "strength_trend": "약화"
+      },
+      {
+        "days_active": 3,
+        "entry_status": "후반",
+        "leaders": [
+          {
+            "code": "",
+            "name": "코스모로보틱스"
+          }
+        ],
+        "name": "로봇/AI 자동화",
+        "strength_trend": "약화"
+      }
+    ],
+    "top_movers": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "realized_pnl_won": -38250
+      }
+    ],
+    "traded_codes": [
+      {
+        "action": "sell",
+        "code": "005930",
+        "name": "삼성전자"
+      }
+    ],
+    "trades_count": 1,
+    "unrealized_pnl_won": null
   }
 }
