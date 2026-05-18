@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18 09:35:50",
+  "generated_at": "2026-05-18 09:40:39",
   "date": "20260518",
   "mode": "dry_run",
   "stats": {
@@ -18,7 +18,16 @@
   },
   "positions": [],
   "trades": [],
-  "pm_decisions": [],
+  "pm_decisions": [
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": null,
+      "amount_won": null,
+      "qty": null,
+      "reason": "regime 조정진입 conf높음 days4 + breadth 전면붕괴(adv/dec 66/830) + 인버스 ETF 거래대금 독식 = 신규 사실상 중단. 후보 274090 켄코아 watching 테마, promote 게이트 4조건 중 3 미충족(시총leader 한화에어로/LIG +3% 동반 미확인, KOSPI breadth 악화, regime 조정후반 미전환, 캐리오버 1건만 충족). live 22850 +14.31% open21200 = 1차 진입 부적격(+5%↑ 압도적 초과) + theme/strategist 추격 절대금지 명시. sectors leading/rotating_in 공백 회전축 부재 신규 발굴 0건. 보유0 단일테마 쏠림 분산불가. 익일 한화에어로/LIG +3% 동반+켄코아 눌림 캐리+breadth 개선 동시 충족시 시드급 분할1차 재평가."
+    }
+  ],
   "calendar_dates": [
     "20260511",
     "20260512",
