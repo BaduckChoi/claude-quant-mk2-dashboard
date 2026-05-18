@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18 09:33:49",
+  "generated_at": "2026-05-18 09:35:50",
   "date": "20260518",
   "mode": "dry_run",
   "stats": {
@@ -26,6 +26,6 @@
     "20260514",
     "20260515"
   ],
-  "strategist_brief": null,
+  "strategist_brief": "조정 진입 conf 높음 + breadth 전면붕괴(KOSPI adv/dec 66/830, KOSDAQ 172/1479, 인버스 ETF 거래대금 싹쓸이). 자금 보존 국면. 신규 진입 사실상 중단 = 거의 관망. 후보 풀 최소화.\n\n살아있는 narrative 하나뿐: 방산/우주항공 (켄코아 상대강도). 보험은 방어주지만 종목 데이터 부재 → 후보 불가, 모니터만. 단일 테마 쏠림 → PM 게이트용 명시.\n\n```json\n{\n  \"themes\": [\n    {\n      \"name\": \"방산/우주항공\",\n      \"status\": \"watching\",\n      \"stance\": \"소액 분할 한정. 추격 절대 금지. regime 조정진입 conf 높음 + breadth 전면붕괴 → 신규 공세 부적합, 켄코아 상대강도만 관찰\",\n      \"note\": \"오늘 actionable 후보 전부 단일 테마(방산/우주항공) — portfolio 분산 불가. PM 은 portfolio-level 게이트 켜고 신규 진입 자체를 보수적으로 (1종 소액 또는 전량 관망) 판단할 것\"\n    },\n    {\n      \"name\": \"보험/생명\",\n      \"status\": \"watching\",\n      \"stance\": \"조정장 방어 도피처. 종목단위 today 데이터 부재 → 후보 미제시, regime 'C 분기점'(거래량 동반 7493+ 회복 & adv/dec 1:1) 전까지 진입 보류. 삼성생명/삼성화재/DB손보 모니터만\"\n    },\n    {\n      \"name\": \"AI 반도체/HBM\",\n      \"status\": \"ended_for_entry\",\n      \"stance\": \"active 이나 약화/소진. 신규 진입 전면 금지(전기전자 sector rotating_out 강등). 기보유 한정 신고가권 분할 정리 대상 — 후보 아님\"\n    }\n  ],\n  \"candidates\": [\n    {\n      \"code\": \"274090\",\n      \"name\": \"켄코아에어로스페이스\",\n      \"reason\": \"방산/우주항공 watching leader. 오늘 22600 +13.06%, KOSPI -3.43% 전면하락 대비 명확한 상대강도(거래대금 132억). 단 (1) 어제 +17.56%→오늘 +13% 장중 둔화 단일주, (2) theme_tracker '켄코아 추격 절대 금지 / 분할 소액 한정' 명시, (3) regime 조정진입 conf 높음 + breadth 붕괴 → 진입 정당성 약함. PM 판단: 신규 띄우려면 mandate 최소 단위 1회 분할만, 22600 추격 금지(눌림 대기), 이노스페이스 캐리오버 + 한화에어로/LIG넥스원 +3% 동반 미확인 시 관망이 디폴트\"\n    }\n  ],\n  \"notes\": \"전체 스탠스 = 관망 우위. regime 조정진입(days_in_regime 4, conf 높음) + KOSPI -3.43%/KOSDAQ -4.69% + adv/dec 66:830 broad 붕괴 + 인버스 ETF 거래대금 상위 독식 → 자금 보존 1순위. sectors leading/rotating_in 전부 공백 = 회전축 부재. 후보 1종(켄코아)뿐이며 그조차 watch-tier 소액·추격금지 조건부 — candidates 단일 테마 쏠림이므로 PM 은 portfolio 분산 불가 인지하고 '신규 0~1종 소액' 범위로 게이트. 기보유 있으면 신고가권/약세 잔량 분할 정리가 오늘 핵심 액션. 바닥신호(거래량 감소+종가 안정+breadth 개선) 미관측 — 신규 공세 재개는 regime 'C 분기점' 이후.\"\n}\n```",
   "auditor_verdict": null
 }
