@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18 12:30:30",
+  "generated_at": "2026-05-18 15:20:37",
   "date": "20260518",
   "mode": "dry_run",
   "stats": {
@@ -34,6 +34,14 @@
       "amount_won": null,
       "qty": null,
       "reason": "regime 조정진입 conf높음+breadth 전면붕괴 자금보존 국면, 포지션0. 유일후보 274090 live +29.81%(25950 상한가권 vol_rate478%) = 추격자리, 1차진입 +5%↑ 부적격 디폴트 압도초과+theme/strategist 명시 추격금지. 방산/우주항공 watching promote게이트 복합조건(한화에어로/LIG +3%동반·이노스페이스 캐리·breadth개선) 3조건 전부 미확인/미충족 → 승격불가. 신규0 관망. carry: 274090 눌림(22000 이하) + leader 한화에어로/LIG +3%동반 종가확인 + breadth adv/dec 개선 동시 충족 시 익일 시드급(목표20~30%) 분할1차 재평가, 단 동일가 추격 금지."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": null,
+      "amount_won": null,
+      "qty": null,
+      "reason": "후보 274090 켄코아 live +29.81%(25950, high=현재가=상한가권, low 20000, vol_rate 726%) — 스냅샷 22600(+13%)서 상한가 폭주, 추격 자리. 차단: (1) 가격위치 +29.81% >> +5% 갭 1차 진입 부적격선, theme_tracker·strategist 둘다 '켄코아 추격 절대금지 눌림대기' 명시 — 상한가 추격은 분할 가격분산 정면 위배 (2) regime 조정진입 conf높음 days4 + breadth 전면붕괴(KOSPI adv/dec 66/830, 인버스ETF 거래대금 독식) = 신규 사실상 중단 (3) watching promote 게이트 = 한화에어로/LIG넥스원 +3%동반 + 이노스페이스 캐리 + breadth개선 동시, 셋다 미확인(시총leader 데이터 부재) = 미승격 (4) 후보풀 단일테마 분산불가. Omission 검증: strategist 후보 1건 평가완료 후 거절(가격위치+regime+게이트 미충족 실사유, '비었으니 0' 디폴트 아님). 보유 0 매도대상 없음. 익일 눌림 + leader 동반 확인 시 시드급 분할 1차 재평가."
     }
   ],
   "calendar_dates": [
