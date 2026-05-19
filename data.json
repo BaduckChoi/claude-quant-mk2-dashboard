@@ -1,31 +1,70 @@
 {
-  "generated_at": "2026-05-19 09:35:58",
+  "generated_at": "2026-05-19 09:41:15",
   "date": "20260519",
   "mode": "dry_run",
   "stats": {
-    "open_positions": 0,
-    "trades_count": 0,
-    "buys": 0,
+    "open_positions": 1,
+    "trades_count": 1,
+    "buys": 1,
     "sells": 0,
-    "buy_won": 0,
+    "buy_won": 1692000,
     "sell_won": 0,
     "realized_pnl_won": null,
     "capital_won": 50000000,
-    "deployed_won": 0,
-    "cash_remaining_won": 50000000,
-    "total_eval_won": null,
-    "unrealized_pnl_won": null
+    "deployed_won": 1692000,
+    "cash_remaining_won": 48308000,
+    "total_eval_won": 1683000,
+    "unrealized_pnl_won": -9000
   },
-  "positions": [],
-  "trades": [],
-  "pm_decisions": [],
+  "positions": [
+    {
+      "code": "000810",
+      "name": "삼성화재",
+      "qty": 3,
+      "avg_price": 564000,
+      "cost_won": 1692000,
+      "current_price": 561000,
+      "change_rate": 1.26,
+      "eval_won": 1683000,
+      "pnl_won": -9000,
+      "pnl_pct": -0.5319148936170213,
+      "thesis": "보험/생명 active 강화·보험 sector rotating_in 확정(거래대금 4519→13770 +205%, 2일 연속 상대강세, theme+sector 양쪽 승격 게이트 정면충족). 조정 진입 regime(days5,바닥탐색)에 금리/배당 방어 클러스터 정합. 삼성화재 +1.81% 시가하회 비연장 = 1차 가격위치 적격(한화에어로 +7.91%/한화생명 +5.11% 갭은 1차 부적격 거절). strategist 코어 지정종목. 시드 1차 3주(약169만,자본 3.4%)로 한정 — 약점: 조정 후반 미확정·삼성화재 개별 거래대금 thin(sector 신호 의존). 계획=체결 3주 가정(dry_run 유동). 2차 트리거: 보험 sector leading 승격 OR 삼성화재 종가 +3% 누적+거래대금 동반 — 차기 슬롯/익일 carry(미충족 시 게이트 무효 아닌 자동 carry). 손절: 보험 sector rotating_in 1일내 이탈 OR 진입가 종가 -4% 지지이탈 → 1/2 정리, 테마+sector+가격 동시붕괴 시 전량."
+    }
+  ],
+  "trades": [
+    {
+      "ts": "2026-05-19T09:41:14",
+      "cycle_id": "20260519-0940",
+      "action": "buy",
+      "code": "000810",
+      "name": "삼성화재",
+      "qty": 3,
+      "price": 564000,
+      "amount_won": 1692000,
+      "reason": "보험/생명 active 강화·보험 sector rotating_in 확정(거래대금 4519→13770 +205%, 2일 연속 상대강세, theme+sector 양쪽 승격 게이트 정면충족). 조정 진입 regime(days5,바닥탐색)에 금리/배당 방어 클러스터 정합. 삼성화재 +1.81% 시가하회 비연장 = 1차 가격위치 적격(한화에어로 +7.91%/한화생명 +5.11% 갭은 1차 부적격 거절). strategist 코어 지정종목. 시드 1차 3주(약169만,자본 3.4%)로 한정 — 약점: 조정 후반 미확정·삼성화재 개별 거래대금 thin(sector 신호 의존). 계획=체결 3주 가정(dry_run 유동). 2차 트리거: 보험 sector leading 승격 OR 삼성화재 종가 +3% 누적+거래대금 동반 — 차기 슬롯/익일 carry(미충족 시 게이트 무효 아닌 자동 carry). 손절: 보험 sector rotating_in 1일내 이탈 OR 진입가 종가 -4% 지지이탈 → 1/2 정리, 테마+sector+가격 동시붕괴 시 전량.",
+      "dry_run": true,
+      "order_no": "",
+      "realized_pnl_won": null
+    }
+  ],
+  "pm_decisions": [
+    {
+      "slot": "0940",
+      "action": "buy",
+      "code": "000810",
+      "amount_won": 169,
+      "qty": 3,
+      "reason": "보험/생명 active 강화·보험 sector rotating_in 확정(거래대금 4519→13770 +205%, 2일 연속 상대강세, theme+sector 양쪽 승격 게이트 정면충족). 조정 진입 regime(days5,바닥탐색)에 금리/배당 방어 클러스터 정합. 삼성화재 +1.81% 시가하회 비연장 = 1차 가격위치 적격(한화에어로 +7.91%/한화생명 +5.11% 갭은 1차 부적격 거절). strategist 코어 지정종목. 시드 1차 3주(약169만,자본 3.4%)로 한정 — 약점: 조정 후반 미확정·삼성화재 개별 거래대금 thin(sector 신호 의존). 계획=체결 3주 가정(dry_run 유동). 2차 트리거: 보험 sector leading 승격 OR 삼성화재 종가 +3% 누적+거래대금 동반 — 차기 슬롯/익일 carry(미충족 시 게이트 무효 아닌 자동 carry). 손절: 보험 sector rotating_in 1일내 이탈 OR 진입가 종가 -4% 지지이탈 → 1/2 정리, 테마+sector+가격 동시붕괴 시 전량."
+    }
+  ],
   "calendar_dates": [
     "20260511",
     "20260512",
     "20260513",
     "20260514",
     "20260515",
-    "20260518"
+    "20260518",
+    "20260519"
   ],
   "strategist_brief": "조정 진입(days 5, conf 보통, 바닥탐색). 신규 보수·분할 소액·추격 금지. 살아있는 테마 2개(방산 강화, 보험 강화) + 금융 watching. 후보 2테마 분산. HBM 소진 → 제외. 켄코아 +8.67% 1일 단봉 → theme_tracker \"절대 금지\" → 후보 제외, 모니터만.\n\n```json\n{\n  \"themes\": [\n    {\n      \"name\": \"방산/우주항공\",\n      \"stance\": \"active 강화/초입 — 신규 분할 소액 한정, 추격 금지\",\n      \"note\": \"한화에어로 +7.74% 시총leader 직접 동반강세(market_cap 9위). 켄코아 +8.67%/거래대금 2224억 강세이나 1일 단봉 추격 금지라 후보 제외·모니터. HD현대중공업 +1.3% 조선 leg 약함. regime 조정이라 되돌림 대기 분할.\"\n    },\n    {\n      \"name\": \"보험/생명\",\n      \"stance\": \"active 강화/초입 — 조정장 방어 클러스터, 분할 소액·대기 우선\",\n      \"note\": \"보험 sector rotating_in 승격(2일 연속 상대강세 + 거래대금 4519→13770 +205%). 한화생명 +5.47% 거래대금 718억 종목 확인되나 단봉 추격 금지. 삼성생명/삼성화재 sector leader carry — 저베타 방어 분할 우위.\"\n    },\n    {\n      \"name\": \"금융/은행 방어\",\n      \"stance\": \"watching — 미승격, 모니터만\",\n      \"note\": \"금융 sector laggard, 1일 상대방어(2일 미확인). 보험 active 와 금리/배당 방어 클러스터 가능성. rotating_in 승격 + KB/신한 2종 +3% 동반 시 active. 현 단계 진입 보류.\"\n    }\n  ],\n  \"candidates\": [\n    {\n      \"code\": \"012450\",\n      \"name\": \"한화에어로스페이스\",\n      \"reason\": \"방산 시총leader 동반강세 +7.74%. 단 당일 +7.74% 추격 절대 금지 — 되돌림 시 분할 소액 1차만. 약화선: -3% 이탈.\"\n    },\n    {\n      \"code\": \"329180\",\n      \"name\": \"HD현대중공업\",\n      \"reason\": \"방산/조선 leg, +1.3% 로 덜 연장 — 한화에어로 대비 추격 부담 적어 분할 진입 상대 우위. 조선 narrative 약함이라 소액.\"\n    },\n    {\n      \"code\": \"032830\",\n      \"name\": \"삼성생명\",\n      \"reason\": \"보험 sector rotating_in leader. 조정장 금리/배당 방어 narrative. 종목 스냅샷 부재 — sector 신호 기반, 소액 분할·확인 우선.\"\n    },\n    {\n      \"code\": \"000810\",\n      \"name\": \"삼성화재\",\n      \"reason\": \"보험 sector leader, 저베타 방어. 한화생명 대비 비연장 — 방어 클러스터 분할 진입 코어 후보.\"\n    },\n    {\n      \"code\": \"088350\",\n      \"name\": \"한화생명\",\n      \"reason\": \"보험 회전 확정 종목강세 +5.47%/거래대금 718억. 단 단봉 추격 금지 — 깊은 되돌림만 소액. 약화선: -3% + 거래대금 1000억 미만.\"\n    }\n  ],\n  \"notes\": \"조정 진입 regime — 후보 5개 전부 신규 즉시매수 아님, 되돌림 대기·분할 소액·확인 우선. 테마 분산: 방산 2 / 보험 3 — 단일테마 도배 아님, PM portfolio-level 자율. 보험 3종 중 1종(한화생명)은 연장종목이라 PM 분산 시 삼성화재 코어·한화생명 후순 권고. 켄코아에어로스페이스(274090) +8.67% 1일 단봉은 theme_tracker '절대 금지' — 의도적 후보 제외, 캐리 모니터만. HBM(삼성전자 -2.14%/SK하이닉스 -1.47%, 전기전자 rotating_out exit_confirmed) 신규 전면 금지로 후보 미포함. volume_top 인버스 ETF 도배(KODEX 인버스2X 1위) = 방어심리 — 신규 공세 자제 신호 일치.\"\n}\n```",
   "auditor_verdict": null
