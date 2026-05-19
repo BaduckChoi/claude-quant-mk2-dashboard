@@ -417,5 +417,39 @@
       }
     ],
     "trades_count": 1
+  },
+  "20260518": {
+    "buy_won": 20000,
+    "buys": 2,
+    "date": "2026-05-18",
+    "realized_pnl_won": -2500,
+    "sell_won": 17500,
+    "sells": 2,
+    "themes": [],
+    "top_movers": [
+      {
+        "code": "A",
+        "name": "",
+        "realized_pnl_won": 5000
+      },
+      {
+        "code": "B",
+        "name": "",
+        "realized_pnl_won": -7500
+      }
+    ],
+    "traded_codes": [
+      {
+        "action": "buy",
+        "code": "A",
+        "name": "alpha"
+      },
+      {
+        "action": "buy",
+        "code": "B",
+        "name": "beta"
+      }
+    ],
+    "trades_count": 4
   }
 }
