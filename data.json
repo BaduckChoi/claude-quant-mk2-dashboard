@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20 09:21:18",
+  "generated_at": "2026-05-20 09:26:00",
   "date": "20260520",
   "mode": "dry_run",
   "stats": {
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 1692000,
     "cash_remaining_won": 48308000,
-    "total_eval_won": 1608000,
-    "unrealized_pnl_won": -84000
+    "total_eval_won": 1626000,
+    "unrealized_pnl_won": -66000
   },
   "positions": [
     {
@@ -23,11 +23,11 @@
       "qty": 3,
       "avg_price": 564000,
       "cost_won": 1692000,
-      "current_price": 536000,
-      "change_rate": -2.72,
-      "eval_won": 1608000,
-      "pnl_won": -84000,
-      "pnl_pct": -4.964539007092199,
+      "current_price": 542000,
+      "change_rate": -1.63,
+      "eval_won": 1626000,
+      "pnl_won": -66000,
+      "pnl_pct": -3.900709219858156,
       "thesis": "보험/생명 active 강화·보험 sector rotating_in 확정(거래대금 4519→13770 +205%, 2일 연속 상대강세, theme+sector 양쪽 승격 게이트 정면충족). 조정 진입 regime(days5,바닥탐색)에 금리/배당 방어 클러스터 정합. 삼성화재 +1.81% 시가하회 비연장 = 1차 가격위치 적격(한화에어로 +7.91%/한화생명 +5.11% 갭은 1차 부적격 거절). strategist 코어 지정종목. 시드 1차 3주(약169만,자본 3.4%)로 한정 — 약점: 조정 후반 미확정·삼성화재 개별 거래대금 thin(sector 신호 의존). 계획=체결 3주 가정(dry_run 유동). 2차 트리거: 보험 sector leading 승격 OR 삼성화재 종가 +3% 누적+거래대금 동반 — 차기 슬롯/익일 carry(미충족 시 게이트 무효 아닌 자동 carry). 손절: 보험 sector rotating_in 1일내 이탈 OR 진입가 종가 -4% 지지이탈 → 1/2 정리, 테마+sector+가격 동시붕괴 시 전량."
     }
   ],
