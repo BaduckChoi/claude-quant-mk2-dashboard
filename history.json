@@ -526,5 +526,72 @@
       }
     ],
     "trades_count": 1
+  },
+  "20260520": {
+    "buy_won": 0,
+    "buys": 0,
+    "date": "2026-05-20",
+    "open_positions": 0,
+    "realized_pnl_won": -84000,
+    "sell_won": 1608000,
+    "sells": 1,
+    "themes": [
+      {
+        "days_active": 8,
+        "entry_status": "소진",
+        "leaders": [
+          {
+            "code": "",
+            "name": "삼성전자"
+          },
+          {
+            "code": "",
+            "name": "SK하이닉스"
+          },
+          {
+            "code": "",
+            "name": "삼성전기"
+          }
+        ],
+        "name": "AI 반도체/HBM",
+        "strength_trend": "약화"
+      },
+      {
+        "days_active": 2,
+        "entry_status": "초입",
+        "leaders": [
+          {
+            "code": "",
+            "name": "한화에어로스페이스"
+          },
+          {
+            "code": "",
+            "name": "HD현대중공업"
+          },
+          {
+            "code": "",
+            "name": "켄코아에어로스페이스"
+          }
+        ],
+        "name": "방산/우주항공",
+        "strength_trend": "유지"
+      }
+    ],
+    "top_movers": [
+      {
+        "code": "000810",
+        "name": "삼성화재",
+        "realized_pnl_won": -84000
+      }
+    ],
+    "traded_codes": [
+      {
+        "action": "sell",
+        "code": "000810",
+        "name": "삼성화재"
+      }
+    ],
+    "trades_count": 1,
+    "unrealized_pnl_won": null
   }
 }
