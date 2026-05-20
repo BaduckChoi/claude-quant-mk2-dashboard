@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20 09:32:36",
+  "generated_at": "2026-05-20 09:35:36",
   "date": "20260520",
   "mode": "dry_run",
   "stats": {
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 1692000,
     "cash_remaining_won": 48308000,
-    "total_eval_won": 1614000,
-    "unrealized_pnl_won": -78000
+    "total_eval_won": 1611000,
+    "unrealized_pnl_won": -81000
   },
   "positions": [
     {
@@ -23,11 +23,11 @@
       "qty": 3,
       "avg_price": 564000,
       "cost_won": 1692000,
-      "current_price": 538000,
-      "change_rate": -2.36,
-      "eval_won": 1614000,
-      "pnl_won": -78000,
-      "pnl_pct": -4.609929078014184,
+      "current_price": 537000,
+      "change_rate": -2.54,
+      "eval_won": 1611000,
+      "pnl_won": -81000,
+      "pnl_pct": -4.787234042553192,
       "thesis": "보험/생명 active 강화·보험 sector rotating_in 확정(거래대금 4519→13770 +205%, 2일 연속 상대강세, theme+sector 양쪽 승격 게이트 정면충족). 조정 진입 regime(days5,바닥탐색)에 금리/배당 방어 클러스터 정합. 삼성화재 +1.81% 시가하회 비연장 = 1차 가격위치 적격(한화에어로 +7.91%/한화생명 +5.11% 갭은 1차 부적격 거절). strategist 코어 지정종목. 시드 1차 3주(약169만,자본 3.4%)로 한정 — 약점: 조정 후반 미확정·삼성화재 개별 거래대금 thin(sector 신호 의존). 계획=체결 3주 가정(dry_run 유동). 2차 트리거: 보험 sector leading 승격 OR 삼성화재 종가 +3% 누적+거래대금 동반 — 차기 슬롯/익일 carry(미충족 시 게이트 무효 아닌 자동 carry). 손절: 보험 sector rotating_in 1일내 이탈 OR 진입가 종가 -4% 지지이탈 → 1/2 정리, 테마+sector+가격 동시붕괴 시 전량."
     }
   ],
@@ -42,6 +42,6 @@
     "20260518",
     "20260519"
   ],
-  "strategist_brief": null,
+  "strategist_brief": "```json\n{\n  \"themes\": [\n    {\n      \"name\": \"AI 반도체/HBM\",\n      \"status\": \"약화·소진\",\n      \"note\": \"삼성전자 단독 +1.0% 시총1위 leader 생존, SK하이닉스/삼성전기 약세 지속. 신규 진입 금지, 기보유 지지선 점검.\"\n    },\n    {\n      \"name\": \"방산/우주항공+조선\",\n      \"status\": \"유지·초입\",\n      \"note\": \"HD현대중공업 +5.02% 조선 leg 가속, 한화에어로 -3.03% 되돌림. 단봉 추격 금지·약봉 분할만.\"\n    }\n  ],\n  \"candidates\": [\n    {\n      \"code\": \"005930\",\n      \"name\": \"삼성전자\",\n      \"reason\": \"시총1위 단독 양전 +1.0%(KOSPI -0.72% 환경 outperform). AI/HBM 테마 유일 생존 leader. 기보유 유지용·신규 진입은 소액 분할만, 추격 금지.\"\n    },\n    {\n      \"code\": \"329180\",\n      \"name\": \"HD현대중공업\",\n      \"reason\": \"+5.02% 조선 슈퍼사이클·방산 leg 가속, 시총8위 leader 신규 등재. 단봉 추격 절대 금지 — 다음 약봉 분할 진입만 검토.\"\n    },\n    {\n      \"code\": \"012450\",\n      \"name\": \"한화에어로스페이스\",\n      \"reason\": \"어제 +7.33% 후 -3.03% 차익실현 되돌림. 방산 메인 leader, 1200000 지지선 유효시 분할 진입 후보. 깨지면 즉시 정리.\"\n    }\n  ],\n  \"notes\": \"regime '조정 진입' days 6 심화(MA20 종가 break, breadth KOSPI 69/830·KOSDAQ 171/1491 전면붕괴). 신규 진입 공격성 최저 — 후보 3종으로 의도적 좁힘, 보유 지지선 재점검·현금 보존 최우선. 후보 3개 중 2개(HD현대중공업·한화에어로)가 방산/조선 동일 테마 — portfolio 분산 관점에서 PM 자율 판단 필요(2종 동시 풀웨이트 금지·합산 1포지션 분량 권장). sectors rotating_in 비어 있어 별도 차주 후보 풀 확장 불가. 통신/음식료 watching 은 자금유입 미확인(거래대금 520·622)으로 후보 제외. ETF 인버스 거래대금 top 잠식·KODEX 2차전지레버리지 -5% 등 risk-off 명확 — 관망 비중↑가 옳음, candidates 비워도 무방한 환경이나 leader 생존 3종만 유지.\"\n}\n```",
   "auditor_verdict": null
 }
