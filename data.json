@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-20 09:40:56",
-  "date": "20260520",
+  "generated_at": "2026-05-21 09:21:18",
+  "date": "20260521",
   "mode": "dry_run",
   "stats": {
     "open_positions": 0,
-    "trades_count": 1,
+    "trades_count": 0,
     "buys": 0,
-    "sells": 1,
+    "sells": 0,
     "buy_won": 0,
-    "sell_won": 1608000,
-    "realized_pnl_won": -84000,
+    "sell_won": 0,
+    "realized_pnl_won": null,
     "capital_won": 50000000,
     "deployed_won": 0,
     "cash_remaining_won": 50000000,
@@ -17,33 +17,8 @@
     "unrealized_pnl_won": null
   },
   "positions": [],
-  "trades": [
-    {
-      "ts": "2026-05-20T09:40:56",
-      "cycle_id": "20260520-0940",
-      "action": "sell",
-      "code": "000810",
-      "name": "삼성화재",
-      "qty": 3,
-      "price": 536000,
-      "amount_won": 1608000,
-      "reason": "thesis 3축 동시붕괴 — (a) theme 보험/생명 active 1일만에 ended 강등(theme_tracker 명시), (b) sector 보험 rotating_in→rotating_out promotion_failed(거래대금 13770→6417 -53%, KOSPI -2.17% 대비 -3.87% underperform), (c) 가격 536000 평단 -4.96%·일중 저가 526000·vol_rate 22.9 매도 폭증. 진입 thesis '보험 sector rotating_in 확정+조정장 방어 클러스터' 의 모든 지지축이 단일슬롯 만에 사라짐 = 본질 깨짐 카테고리 → 시스템 룰 '본질 깨짐 1슬롯 전량 디폴트' 발동. 3주 작은 사이즈라고 슬롯당 1주씩 깎는 건 작은 사이즈 빙자 단타. 24h 청산이 wrap 호흡 모순으로 보일 수 있으나 라벨 자체가 24h 만에 죽었음 — 평단 회복 도망(disposition) 아닌 thesis 사망. 어제 verdict '평단은 의사결정 변수 아니다' 정합. 신호강도 단조성 self-check: 어제 day-1 sector rotating_in 신호로 진입 → 오늘 rotating_out 으로 신호 반전, 신호 약화에 정리 정합(손실회피 아님). 손절선은 진입가%아닌 'sector rotating_in 1일내 이탈' 구조 트리거 충족. 신규 진입 0: regime 조정 진입 days6+MA20 break+breadth 전면붕괴 환경에서 strategist 후보 3종 모두 1차 부적격 — 삼성전자 약화·소진 leader 생존만이라 추격금지, HD현대중공업 live +3.68% 갭상승+vol_rate 44 단봉 추격금지(시스템 룰 +5%↑ 갭 1차 부적격에 근접), 한화에어로 live -4.04%(어제 -2.88% 후 추가 -4%) 방산 leader 동반약세로 지지선 1200000 깨짐 임박. 어제 verdict '어제의 1순위 ≠ 오늘 진입권' 정합. 현금 보존 우선, 신규 후보 슬롯2/익일 sector 신호 2일 유지 확인 후 재평가.",
-      "dry_run": true,
-      "order_no": "",
-      "avg_cost": 564000,
-      "realized_pnl_won": -84000
-    }
-  ],
-  "pm_decisions": [
-    {
-      "slot": "0940",
-      "action": "sell",
-      "code": "000810",
-      "amount_won": null,
-      "qty": 3,
-      "reason": "thesis 3축 동시붕괴 — (a) theme 보험/생명 active 1일만에 ended 강등(theme_tracker 명시), (b) sector 보험 rotating_in→rotating_out promotion_failed(거래대금 13770→6417 -53%, KOSPI -2.17% 대비 -3.87% underperform), (c) 가격 536000 평단 -4.96%·일중 저가 526000·vol_rate 22.9 매도 폭증. 진입 thesis '보험 sector rotating_in 확정+조정장 방어 클러스터' 의 모든 지지축이 단일슬롯 만에 사라짐 = 본질 깨짐 카테고리 → 시스템 룰 '본질 깨짐 1슬롯 전량 디폴트' 발동. 3주 작은 사이즈라고 슬롯당 1주씩 깎는 건 작은 사이즈 빙자 단타. 24h 청산이 wrap 호흡 모순으로 보일 수 있으나 라벨 자체가 24h 만에 죽었음 — 평단 회복 도망(disposition) 아닌 thesis 사망. 어제 verdict '평단은 의사결정 변수 아니다' 정합. 신호강도 단조성 self-check: 어제 day-1 sector rotating_in 신호로 진입 → 오늘 rotating_out 으로 신호 반전, 신호 약화에 정리 정합(손실회피 아님). 손절선은 진입가%아닌 'sector rotating_in 1일내 이탈' 구조 트리거 충족. 신규 진입 0: regime 조정 진입 days6+MA20 break+breadth 전면붕괴 환경에서 strategist 후보 3종 모두 1차 부적격 — 삼성전자 약화·소진 leader 생존만이라 추격금지, HD현대중공업 live +3.68% 갭상승+vol_rate 44 단봉 추격금지(시스템 룰 +5%↑ 갭 1차 부적격에 근접), 한화에어로 live -4.04%(어제 -2.88% 후 추가 -4%) 방산 leader 동반약세로 지지선 1200000 깨짐 임박. 어제 verdict '어제의 1순위 ≠ 오늘 진입권' 정합. 현금 보존 우선, 신규 후보 슬롯2/익일 sector 신호 2일 유지 확인 후 재평가."
-    }
-  ],
+  "trades": [],
+  "pm_decisions": [],
   "calendar_dates": [
     "20260511",
     "20260512",
@@ -54,6 +29,6 @@
     "20260519",
     "20260520"
   ],
-  "strategist_brief": "```json\n{\n  \"themes\": [\n    {\n      \"name\": \"AI 반도체/HBM\",\n      \"status\": \"약화·소진\",\n      \"note\": \"삼성전자 단독 +1.0% 시총1위 leader 생존, SK하이닉스/삼성전기 약세 지속. 신규 진입 금지, 기보유 지지선 점검.\"\n    },\n    {\n      \"name\": \"방산/우주항공+조선\",\n      \"status\": \"유지·초입\",\n      \"note\": \"HD현대중공업 +5.02% 조선 leg 가속, 한화에어로 -3.03% 되돌림. 단봉 추격 금지·약봉 분할만.\"\n    }\n  ],\n  \"candidates\": [\n    {\n      \"code\": \"005930\",\n      \"name\": \"삼성전자\",\n      \"reason\": \"시총1위 단독 양전 +1.0%(KOSPI -0.72% 환경 outperform). AI/HBM 테마 유일 생존 leader. 기보유 유지용·신규 진입은 소액 분할만, 추격 금지.\"\n    },\n    {\n      \"code\": \"329180\",\n      \"name\": \"HD현대중공업\",\n      \"reason\": \"+5.02% 조선 슈퍼사이클·방산 leg 가속, 시총8위 leader 신규 등재. 단봉 추격 절대 금지 — 다음 약봉 분할 진입만 검토.\"\n    },\n    {\n      \"code\": \"012450\",\n      \"name\": \"한화에어로스페이스\",\n      \"reason\": \"어제 +7.33% 후 -3.03% 차익실현 되돌림. 방산 메인 leader, 1200000 지지선 유효시 분할 진입 후보. 깨지면 즉시 정리.\"\n    }\n  ],\n  \"notes\": \"regime '조정 진입' days 6 심화(MA20 종가 break, breadth KOSPI 69/830·KOSDAQ 171/1491 전면붕괴). 신규 진입 공격성 최저 — 후보 3종으로 의도적 좁힘, 보유 지지선 재점검·현금 보존 최우선. 후보 3개 중 2개(HD현대중공업·한화에어로)가 방산/조선 동일 테마 — portfolio 분산 관점에서 PM 자율 판단 필요(2종 동시 풀웨이트 금지·합산 1포지션 분량 권장). sectors rotating_in 비어 있어 별도 차주 후보 풀 확장 불가. 통신/음식료 watching 은 자금유입 미확인(거래대금 520·622)으로 후보 제외. ETF 인버스 거래대금 top 잠식·KODEX 2차전지레버리지 -5% 등 risk-off 명확 — 관망 비중↑가 옳음, candidates 비워도 무방한 환경이나 leader 생존 3종만 유지.\"\n}\n```",
+  "strategist_brief": null,
   "auditor_verdict": null
 }
