@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21 12:31:25",
+  "generated_at": "2026-05-21 15:20:42",
   "date": "20260521",
   "mode": "dry_run",
   "stats": {
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 3990000,
     "cash_remaining_won": 46010000,
-    "total_eval_won": 3990000,
-    "unrealized_pnl_won": 0
+    "total_eval_won": 4044000,
+    "unrealized_pnl_won": 54000
   },
   "positions": [
     {
@@ -23,11 +23,11 @@
       "qty": 6,
       "avg_price": 665000,
       "cost_won": 3990000,
-      "current_price": 665000,
-      "change_rate": 4.56,
-      "eval_won": 3990000,
-      "pnl_won": 0,
-      "pnl_pct": 0.0,
+      "current_price": 674000,
+      "change_rate": 5.97,
+      "eval_won": 4044000,
+      "pnl_won": 54000,
+      "pnl_pct": 1.3533834586466165,
       "thesis": "방산 active day-3 carry 단일 후보. +4.56% gap-up — 후보5종 중 유일 5%↓, 1차 진입 가격 부적격 룰 통과. day-3 carry 라 day-1 sector(전기전자/운송장비) 즉시진입 함정 회피. KOSPI +5% 시장베타 흡수 underperform -2.83%p — 추격 아님. 분할 1차 시드 400만(자본 8%, strategist 300~500만 범위 하단). 손절선=차트구조: 600000(어제 종가) 일봉 지지선 종가 이탈 시 1/2 정리, 한화에어로 시총10위권 미복귀 2일 지속 + HD현대중공업 일봉 음봉 -3%↑ 동시 충족 시 thesis 본질붕괴 전량(theme ended 카테고리). 2차 트리거: 5-22 종가 670000+ 유지 & 한화에어로/LIG넥스원 중 1종+ 동반 양봉 동시충족 시 익일 슬롯 추가 400만. 자가검증: 어제 보험 day-1 sector 손실 → 오늘 day-3 carry 종목만 진입 = 신호강도-신중함 단조. 약점: regime 조정 진입 days 7 dead-cat 미해소, 방산 클러스터 한화에어로 이탈로 narrative 약화 — 시드 size 가 약점 보완책. 슬롯간 분산: 12:30 신규 1종, 15:20 마지막 슬롯 몰빵 회피."
     }
   ],
@@ -95,6 +95,22 @@
       "amount_won": null,
       "qty": null,
       "reason": "+6.91% gap-up + 전력기기 watching 1일차 신호. 대형주 leg 이나 promote 게이트(5-22 대원전선 KOSPI 상회 + 후속주 1종+ +5% + vol 누적 2000억+) 미충족. 중소형 상한가 분리불가 + 시장베타 흡수 판별불가."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": "329180",
+      "amount_won": null,
+      "qty": null,
+      "reason": "기보유 시드 1차 +1.35% 평가익. 일봉 양봉 +5.97%, 일중 저가 631000(시가 -2.3%) 회복, 거래량 vol_rate 68.91 정상. 손절 트리거(600000 종가 이탈, 한화에어로 미복귀 2일+HD현대 음봉 -3% 동시) 미발동. 2차 add 트리거는 5-22 종가 670000+ & 한화에어로/LIG넥스원 동반양봉 — 익일 조건, 오늘 슬롯 집행 불가."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": null,
+      "amount_won": null,
+      "qty": null,
+      "reason": "신규 진입 0 — 후보 5종 전부 +5.97~+12.5% gap-up 추격 영역, 1차 진입 부적격 디폴트. 슬롯1(09:40)에 329180 +4.56% 가장 낮은 갭으로 진입 자격 통과시켰는데, 현재 슬롯3 모든 후보 슬롯1 보다 갭 위치 악화 — 신호강도-신중함 단조 일관(더 추격 영역이면 더 보류). 마지막 슬롯 몰빵 회피 원칙. regime 조정 진입 days 7 partial 한계, 분기점 (A)/(B) 미확정 dead-cat 가능성 — verdict 지침 '확인 우선' 압축 금지. 익일 09:40 슬롯에 백지 재유도하되 어제 1순위·오늘 슬롯3 미진입을 진입권으로 carry 금지. 현금 사용률 7.98% 유지, 슬롯3 capacity sleep 정당화: 트리거(add 은 익일조건, 신규는 갭위치 부적격)가 명시적으로 미충족이지 회피용 알리바이 아님."
     }
   ],
   "calendar_dates": [
