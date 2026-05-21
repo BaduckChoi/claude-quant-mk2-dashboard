@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21 09:32:36",
+  "generated_at": "2026-05-21 09:35:52",
   "date": "20260521",
   "mode": "dry_run",
   "stats": {
@@ -29,6 +29,6 @@
     "20260519",
     "20260520"
   ],
-  "strategist_brief": null,
+  "strategist_brief": "```json\n{\n  \"themes\": [\n    {\n      \"name\": \"AI 반도체/HBM\",\n      \"status\": \"active 유지/소진\",\n      \"stance\": \"기보유 carry 우선. 1일 강반등은 dead-cat 미해소 — 신규 진입 보수, 분할 1차 소액만. +5~9% gap-up 추격 절대 금지.\"\n    },\n    {\n      \"name\": \"방산/우주항공\",\n      \"status\": \"active 약화/초입\",\n      \"stance\": \"HD현대중공업 carry 3일 단일 leg. 한화에어로 leaders 이탈로 클러스터 narrative 약화 — 분산용 1자리만.\"\n    },\n    {\n      \"name\": \"자동차/운송장비\",\n      \"status\": \"watching (운송장비 sector rotating_in)\",\n      \"stance\": \"1일 신호 + ended 3영업일째. promote 전 단계 — PM 진입은 분기점 (A) 확정 후 권장. 현대차 +7.94% gap-up 추격 금지.\"\n    },\n    {\n      \"name\": \"전력기기/전선\",\n      \"status\": \"watching\",\n      \"stance\": \"상한가 2종 중소형 가벼움 + 시장베타 분리 불가. 대형주 carry 두산에너빌리티 정도만 후보, 중소형 상한가 추격 금지.\"\n    }\n  ],\n  \"candidates\": [\n    {\n      \"code\": \"005930\",\n      \"name\": \"삼성전자\",\n      \"reason\": \"HBM 1군 leader, 시총1위 carry. KOSPI +5.5% 환경 +6.7% +1.2%p outperform. 분할 1차 소액만 — 분기점 (A) 확정 후 증액.\"\n    },\n    {\n      \"code\": \"000660\",\n      \"name\": \"SK하이닉스\",\n      \"reason\": \"HBM 1군. 어제 -0.86% 반전 +5.27% 회복 — 절대강세 유지. 전기전자 sector rotating_in leader. 분할 1차 보수.\"\n    },\n    {\n      \"code\": \"329180\",\n      \"name\": \"HD현대중공업\",\n      \"reason\": \"방산/조선 carry 3일 연속 양봉 (+1.95→+5.35→+2.67). KOSPI 대비 -2.83%p underperform 으로 gap-up 부담 가장 낮음 — 600000 지지선 기준 분할 1차.\"\n    },\n    {\n      \"code\": \"005380\",\n      \"name\": \"현대차\",\n      \"reason\": \"운송장비 sector rotating_in leader, US 다우 +1.31 자동차 tailwind. 단 +7.94% gap-up 추격 금지 — PM 은 분기점 (A) 확정 + 5-22 추가 양봉 확인 후 진입 권장, 현 사이클은 watchlist 등록만.\"\n    },\n    {\n      \"code\": \"034020\",\n      \"name\": \"두산에너빌리티\",\n      \"reason\": \"전력기기/AI 데이터센터 capex narrative 대형주 leg. +6.42% 시총10위권 carry. 중소형 상한가 회피 + 분산용.\"\n    }\n  ],\n  \"notes\": \"regime '조정 진입' days 7, 5-21 partial 반등 1일 — dead-cat vs 바닥확인 분기 (A)/(B) 미확정. 후보 5종 전부 +2.67~+7.94% gap-up 환경 → PM 풀포지션 진입 절대 금지, 분할 1차 소액(자본 5000만 기준 1종당 300~500만 1차) 만 허용. 테마 분산: HBM/전기전자 2종(삼전·하이닉스), 방산 1종(HD현대중공업), 운송장비 1종(현대차, watchlist), 전력 1종(두산에너빌리티) — 단일 테마 쏠림 없음. 진입 보류·관망 비중 50%+ 권장. 손절은 지지선·테마 유효성 기준: 삼전 279000(어제 종가)·하이닉스 1730000·HD현대 600000·두산에너빌리티 100000 지지선 깨지면 정리. 강화 트리거 5-22 KOSPI 7400~7600 박스 + 삼전·하이닉스 중 1종 추가 양봉 동시 충족 시 증액 허가.\"\n}\n```",
   "auditor_verdict": null
 }
