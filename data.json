@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21 15:20:42",
+  "generated_at": "2026-05-21 15:40:31",
   "date": "20260521",
   "mode": "dry_run",
   "stats": {
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 3990000,
     "cash_remaining_won": 46010000,
-    "total_eval_won": 4044000,
-    "unrealized_pnl_won": 54000
+    "total_eval_won": 4032000,
+    "unrealized_pnl_won": 42000
   },
   "positions": [
     {
@@ -23,11 +23,11 @@
       "qty": 6,
       "avg_price": 665000,
       "cost_won": 3990000,
-      "current_price": 674000,
-      "change_rate": 5.97,
-      "eval_won": 4044000,
-      "pnl_won": 54000,
-      "pnl_pct": 1.3533834586466165,
+      "current_price": 672000,
+      "change_rate": 5.66,
+      "eval_won": 4032000,
+      "pnl_won": 42000,
+      "pnl_pct": 1.0526315789473684,
       "thesis": "방산 active day-3 carry 단일 후보. +4.56% gap-up — 후보5종 중 유일 5%↓, 1차 진입 가격 부적격 룰 통과. day-3 carry 라 day-1 sector(전기전자/운송장비) 즉시진입 함정 회피. KOSPI +5% 시장베타 흡수 underperform -2.83%p — 추격 아님. 분할 1차 시드 400만(자본 8%, strategist 300~500만 범위 하단). 손절선=차트구조: 600000(어제 종가) 일봉 지지선 종가 이탈 시 1/2 정리, 한화에어로 시총10위권 미복귀 2일 지속 + HD현대중공업 일봉 음봉 -3%↑ 동시 충족 시 thesis 본질붕괴 전량(theme ended 카테고리). 2차 트리거: 5-22 종가 670000+ 유지 & 한화에어로/LIG넥스원 중 1종+ 동반 양봉 동시충족 시 익일 슬롯 추가 400만. 자가검증: 어제 보험 day-1 sector 손실 → 오늘 day-3 carry 종목만 진입 = 신호강도-신중함 단조. 약점: regime 조정 진입 days 7 dead-cat 미해소, 방산 클러스터 한화에어로 이탈로 narrative 약화 — 시드 size 가 약점 보완책. 슬롯간 분산: 12:30 신규 1종, 15:20 마지막 슬롯 몰빵 회피."
     }
   ],
