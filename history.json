@@ -522,7 +522,7 @@
       {
         "action": "buy",
         "code": "000810",
-        "name": "삼성화재"
+        "name": ""
       }
     ],
     "trades_count": 1
@@ -531,7 +531,6 @@
     "buy_won": 0,
     "buys": 0,
     "date": "2026-05-20",
-    "open_positions": 0,
     "realized_pnl_won": -84000,
     "sell_won": 1608000,
     "sells": 1,
@@ -580,7 +579,7 @@
     "top_movers": [
       {
         "code": "000810",
-        "name": "삼성화재",
+        "name": "",
         "realized_pnl_won": -84000
       }
     ],
@@ -588,10 +587,9 @@
       {
         "action": "sell",
         "code": "000810",
-        "name": "삼성화재"
+        "name": ""
       }
     ],
-    "trades_count": 1,
-    "unrealized_pnl_won": null
+    "trades_count": 1
   }
 }
