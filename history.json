@@ -596,7 +596,6 @@
     "buy_won": 3990000,
     "buys": 1,
     "date": "2026-05-21",
-    "open_positions": 1,
     "realized_pnl_won": null,
     "sell_won": 0,
     "sells": 0,
@@ -642,7 +641,6 @@
         "name": "HD현대중공업"
       }
     ],
-    "trades_count": 1,
-    "unrealized_pnl_won": 42000
+    "trades_count": 1
   }
 }
