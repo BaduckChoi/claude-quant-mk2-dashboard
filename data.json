@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22 09:34:32",
+  "generated_at": "2026-05-22 09:36:20",
   "date": "20260522",
   "mode": "dry_run",
   "stats": {
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 3990000,
     "cash_remaining_won": 46010000,
-    "total_eval_won": 4134000,
-    "unrealized_pnl_won": 144000
+    "total_eval_won": 4170000,
+    "unrealized_pnl_won": 180000
   },
   "positions": [
     {
@@ -23,11 +23,11 @@
       "qty": 6,
       "avg_price": 665000,
       "cost_won": 3990000,
-      "current_price": 689000,
-      "change_rate": 2.53,
-      "eval_won": 4134000,
-      "pnl_won": 144000,
-      "pnl_pct": 3.6090225563909777,
+      "current_price": 695000,
+      "change_rate": 3.42,
+      "eval_won": 4170000,
+      "pnl_won": 180000,
+      "pnl_pct": 4.511278195488721,
       "thesis": "방산 active day-3 carry 단일 후보. +4.56% gap-up — 후보5종 중 유일 5%↓, 1차 진입 가격 부적격 룰 통과. day-3 carry 라 day-1 sector(전기전자/운송장비) 즉시진입 함정 회피. KOSPI +5% 시장베타 흡수 underperform -2.83%p — 추격 아님. 분할 1차 시드 400만(자본 8%, strategist 300~500만 범위 하단). 손절선=차트구조: 600000(어제 종가) 일봉 지지선 종가 이탈 시 1/2 정리, 한화에어로 시총10위권 미복귀 2일 지속 + HD현대중공업 일봉 음봉 -3%↑ 동시 충족 시 thesis 본질붕괴 전량(theme ended 카테고리). 2차 트리거: 5-22 종가 670000+ 유지 & 한화에어로/LIG넥스원 중 1종+ 동반 양봉 동시충족 시 익일 슬롯 추가 400만. 자가검증: 어제 보험 day-1 sector 손실 → 오늘 day-3 carry 종목만 진입 = 신호강도-신중함 단조. 약점: regime 조정 진입 days 7 dead-cat 미해소, 방산 클러스터 한화에어로 이탈로 narrative 약화 — 시드 size 가 약점 보완책. 슬롯간 분산: 12:30 신규 1종, 15:20 마지막 슬롯 몰빵 회피."
     }
   ],
@@ -44,6 +44,6 @@
     "20260520",
     "20260521"
   ],
-  "strategist_brief": null,
+  "strategist_brief": "조정 후반, V반등 2일차, 변동성 높음. 신규는 분할 진입만, full·gap 추격 금지. 신규 진입 살아있는 테마 1개뿐 — 금융/보험 밸류 로테이션 (강화·초입, sector_tracker 금융업+보험 동시 rotating_in 확정). AI반도체·방산은 둘 다 신규금지. 광통신/2차전지는 KOSDAQ +3.87% 베타 froth + 상한가 frenzy → 조정 후반 high-vol 에서 추격 위험, 후보 제외하고 관망.\n\n결과: 후보가 단일 테마(금융/보험)로 쏠림. 의도적 — 오늘 regime-aligned 신규 진입처가 그것뿐. PM portfolio 분산 게이트 켜야.\n\n```json\n{\n  \"themes\": [\n    {\n      \"name\": \"금융/보험 (밸류 로테이션)\",\n      \"stance\": \"신규 분할 진입 가능\",\n      \"note\": \"강화·초입. sector_tracker 금융업(+2.06%)·보험(+2.71%) 동시 rotating_in 확정. 성장주(전기전자/운송장비) rotating_out 과 동시 발생 = 명확한 value rotation. regime 조정 후반 분기(A) 정합. 분할만, gap 추격 금지.\"\n    },\n    {\n      \"name\": \"AI 반도체/HBM\",\n      \"stance\": \"신규 금지 (보유 분할 익절)\",\n      \"note\": \"약화·소진. 전기전자 rotating_out, 삼전 -1.5%/하이닉스 -0.52%. 삼성전기 +4.32% 단독 carry 만. 신규 진입 안 함.\"\n    },\n    {\n      \"name\": \"방산/우주항공\",\n      \"stance\": \"신규 금지\",\n      \"note\": \"약화·ended 근접. HD현대중공업 +2.53% 단일 종목 carry, 클러스터 narrative 부재.\"\n    },\n    {\n      \"name\": \"광통신/2차전지 (KOSDAQ froth)\",\n      \"stance\": \"관망\",\n      \"note\": \"빛과전자 +22%/광진실업 +29% 등 KOSDAQ +3.87% 베타 + 소형 상한가 frenzy. 조정 후반 high-vol 에서 gap 추격 = regime 위배. 베타 분리 안 됨 → 후보 제외. 5-26 베타 소멸 후 개별 강세 잔존 시 재검토.\"\n    }\n  ],\n  \"candidates\": [\n    {\n      \"code\": \"032830\",\n      \"name\": \"삼성생명\",\n      \"reason\": \"보험 leader, 시총9위. +1.13% KOSPI(+0.29) 상회 2일 연속 양봉. value rotation 핵심. 분할 진입.\"\n    },\n    {\n      \"code\": \"000810\",\n      \"name\": \"삼성화재\",\n      \"reason\": \"보험 sector rotating_in leader. 보험 +2.71% 2일 연속 양봉으로 jagged 해소·추세성 확인. 분할.\"\n    },\n    {\n      \"code\": \"105560\",\n      \"name\": \"KB금융\",\n      \"reason\": \"금융업 sector rotating_in leader (+2.06%, vol 9029 상위). 금융 complex 전반 rotation 대표주. 분할.\"\n    },\n    {\n      \"code\": \"055550\",\n      \"name\": \"신한지주\",\n      \"reason\": \"금융업 rotating_in leader. KB금융과 동반 강세 = 단일 종목 아닌 sector-wide rotation 확인. 분할.\"\n    }\n  ],\n  \"notes\": \"후보 4개 전부 금융/보험 단일 테마 — portfolio 분산 관점에서 PM 자율 게이트 필요. 의도적 쏠림: 오늘 신규 진입 가능 테마가 금융/보험 하나뿐(AI반도체·방산 신규금지, 광통신·2차전지 KOSDAQ froth 관망). 분산 옵션 부족 → 신규는 소량 분할 1~2종에 그치고 자금 보존 우선 권고. 다음 순환 후보: 화학(sector 1순위)·철강금속(2순위) laggard — 5-26 2일 연속 양봉 + vol 5000+ 확인 시 진입처 추가, 오늘은 1일 pop 으로 보류.\"\n}\n```",
   "auditor_verdict": null
 }
