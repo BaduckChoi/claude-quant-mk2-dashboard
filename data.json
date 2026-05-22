@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22 09:42:45",
+  "generated_at": "2026-05-22 12:33:17",
   "date": "20260522",
   "mode": "dry_run",
   "stats": {
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 3990000,
     "cash_remaining_won": 46010000,
-    "total_eval_won": 4122000,
-    "unrealized_pnl_won": 132000
+    "total_eval_won": 4098000,
+    "unrealized_pnl_won": 108000
   },
   "positions": [
     {
@@ -23,11 +23,11 @@
       "qty": 6,
       "avg_price": 665000,
       "cost_won": 3990000,
-      "current_price": 687000,
-      "change_rate": 2.23,
-      "eval_won": 4122000,
-      "pnl_won": 132000,
-      "pnl_pct": 3.308270676691729,
+      "current_price": 683000,
+      "change_rate": 1.64,
+      "eval_won": 4098000,
+      "pnl_won": 108000,
+      "pnl_pct": 2.706766917293233,
       "thesis": "방산 active day-3 carry 단일 후보. +4.56% gap-up — 후보5종 중 유일 5%↓, 1차 진입 가격 부적격 룰 통과. day-3 carry 라 day-1 sector(전기전자/운송장비) 즉시진입 함정 회피. KOSPI +5% 시장베타 흡수 underperform -2.83%p — 추격 아님. 분할 1차 시드 400만(자본 8%, strategist 300~500만 범위 하단). 손절선=차트구조: 600000(어제 종가) 일봉 지지선 종가 이탈 시 1/2 정리, 한화에어로 시총10위권 미복귀 2일 지속 + HD현대중공업 일봉 음봉 -3%↑ 동시 충족 시 thesis 본질붕괴 전량(theme ended 카테고리). 2차 트리거: 5-22 종가 670000+ 유지 & 한화에어로/LIG넥스원 중 1종+ 동반 양봉 동시충족 시 익일 슬롯 추가 400만. 자가검증: 어제 보험 day-1 sector 손실 → 오늘 day-3 carry 종목만 진입 = 신호강도-신중함 단조. 약점: regime 조정 진입 days 7 dead-cat 미해소, 방산 클러스터 한화에어로 이탈로 narrative 약화 — 시드 size 가 약점 보완책. 슬롯간 분산: 12:30 신규 1종, 15:20 마지막 슬롯 몰빵 회피."
     }
   ],
@@ -48,6 +48,22 @@
       "amount_won": null,
       "qty": null,
       "reason": "금융/보험 후보 4종 신규 진입 보류. active theme day-1(어제 watching→오늘 승격) + 금융업/보험 sector 모두 오늘 rotating_in 라벨 = 승격 당일 day-1 신호 → 확인 우선 디폴트, 한 슬롯 대기. 갭(+1.83~2.53%)은 1차 부담 없으나 sector 확인 duration 부족. regime 조정 후반 V반등 2일차 dead-cat 미해소. 후보 전부 단일 테마(금융/보험) → 진입해도 1종 한정 + 자금보존 우선. 단조 self-check: 어제 방산 multi-day carry 진입 / 오늘 day-1 신호 보류 = 신호 duration 기준 일관. 감시 조건(선약속 아님): 금융업·보험 양 sector 음전 없이 KOSPI 상회 유지로 2일째 확인되면 보험 leader 1종(삼성생명류, 2일 price 강세 firmest) 시드 ~200만(자본 4%, 목표 20%) 분할 1차 평가. 미충족 시 익일 자동 carry, sector 음전 시 게이트 무효."
+    },
+    {
+      "slot": "1230",
+      "action": "hold",
+      "code": "329180",
+      "amount_won": null,
+      "qty": null,
+      "reason": "방산 carry. 682000 +1.49% 양봉, 600000(어제 종가) 일봉 지지선 종가 사수 -> 1/2 정리 트리거 미발동. ended 트리거(HD현대 종가 -3% 음봉 OR 한화에어로/LIG/HD현대 양봉 0개) 미충족. 단일종목 thesis붕괴(일중 -5% 단봉 + 거래대금 평균 미만) 미충족 -- vol_rate 38.92 낮으나 +1.49% 양봉이라 매도폭증 아님. 2차 트리거(종가 670000+ & LIG/한화에어로 1종+ 동반양봉, 둘 다 종가 기준) 미충족 -> 익일 종가로 재판정, 미충족 시 자동 carry."
+    },
+    {
+      "slot": "1230",
+      "action": "hold",
+      "code": null,
+      "amount_won": null,
+      "qty": null,
+      "reason": "신규 보류. 금융/보험 theme active 승격 당일 + 금융업/보험 sector rotating_in 당일 = day-1+day-1 -> 확인 우선 default(2일째 sector 유지 확인 후 진입). monotone self-check: 어제 진입한 보험 leg 가 12:30 약화(삼성생명 +0.28%, 삼성화재 +1.24% -- sector +2.71% 대비 leaders 미동행) -> 동일 thesis 신호 더 약해짐, 재매수 안 함은 신호강도 추종이지 손실회피 아님. 은행 leg(KB +1.93% vol_rate77, 신한 +3.48% gap) 이 강세지만 day-1 sector -> 진입 게이트 = 익일 금융업/보험 종가 KOSPI 상회 추가 양봉 + vol 12000+/3000+ 유지(미충족 시 게이트 무효, carry 아님). 후보 4종 단일테마 쏠림 + 조정 후반 V반등 2일차 변동성 높음 -> 자금 보존. 이미 방산 8% 보유라 all-cash 아님, 12:30 신규 0은 마지막 슬롯 몰빵 회피와 정합."
     }
   ],
   "calendar_dates": [
