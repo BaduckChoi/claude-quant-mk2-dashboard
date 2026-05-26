@@ -644,8 +644,8 @@
     "trades_count": 1
   },
   "20260526": {
-    "buy_won": 2408000,
-    "buys": 1,
+    "buy_won": 4810000,
+    "buys": 2,
     "date": "2026-05-26",
     "open_positions": 2,
     "realized_pnl_won": null,
@@ -725,7 +725,7 @@
         "name": "삼성전자"
       }
     ],
-    "trades_count": 1,
-    "unrealized_pnl_won": 278000
+    "trades_count": 2,
+    "unrealized_pnl_won": 464000
   }
 }
