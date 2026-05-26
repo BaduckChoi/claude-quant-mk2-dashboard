@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26 12:31:57",
+  "generated_at": "2026-05-26 15:21:38",
   "date": "20260526",
   "mode": "dry_run",
   "stats": {
@@ -23,11 +23,11 @@
       "qty": 6,
       "avg_price": 665000,
       "cost_won": 3990000,
-      "current_price": 742000,
-      "change_rate": 9.12,
-      "eval_won": 4452000,
-      "pnl_won": 462000,
-      "pnl_pct": 11.578947368421053,
+      "current_price": 744000,
+      "change_rate": 9.41,
+      "eval_won": 4464000,
+      "pnl_won": 474000,
+      "pnl_pct": 11.879699248120302,
       "thesis": "방산 active day-3 carry 단일 후보. +4.56% gap-up — 후보5종 중 유일 5%↓, 1차 진입 가격 부적격 룰 통과. day-3 carry 라 day-1 sector(전기전자/운송장비) 즉시진입 함정 회피. KOSPI +5% 시장베타 흡수 underperform -2.83%p — 추격 아님. 분할 1차 시드 400만(자본 8%, strategist 300~500만 범위 하단). 손절선=차트구조: 600000(어제 종가) 일봉 지지선 종가 이탈 시 1/2 정리, 한화에어로 시총10위권 미복귀 2일 지속 + HD현대중공업 일봉 음봉 -3%↑ 동시 충족 시 thesis 본질붕괴 전량(theme ended 카테고리). 2차 트리거: 5-22 종가 670000+ 유지 & 한화에어로/LIG넥스원 중 1종+ 동반 양봉 동시충족 시 익일 슬롯 추가 400만. 자가검증: 어제 보험 day-1 sector 손실 → 오늘 day-3 carry 종목만 진입 = 신호강도-신중함 단조. 약점: regime 조정 진입 days 7 dead-cat 미해소, 방산 클러스터 한화에어로 이탈로 narrative 약화 — 시드 size 가 약점 보완책. 슬롯간 분산: 12:30 신규 1종, 15:20 마지막 슬롯 몰빵 회피."
     },
     {
@@ -36,11 +36,11 @@
       "qty": 16,
       "avg_price": 300625,
       "cost_won": 4810000,
-      "current_price": 300750,
-      "change_rate": 2.82,
-      "eval_won": 4812000,
-      "pnl_won": 2000,
-      "pnl_pct": 0.04158004158004158,
+      "current_price": 300000,
+      "change_rate": 2.56,
+      "eval_won": 4800000,
+      "pnl_won": -10000,
+      "pnl_pct": -0.2079002079002079,
       "thesis": "AI반도체 active 강화 중반(day-11) + 전기전자 leading day-1 강화 유지 — 2차 분할 트리거 '전기전자 leading 유지 & 삼전 지지 확인' 충족(가용 sector state·live 로 평가 가능). 삼전 +2.65% 후보 5종 중 최저 갭, 평단 301000 부근(300250) 유지 = 추격 아닌 분할 build. 1차 probe 8주와 동량 add → 목표 사이즈 약 50% 도달, 일괄 아님. 약점: regime day-1 conf 보통 + 전반 gap fade 경고 + breadth 협소 — 그래서 probe 동량으로 사이즈 억제, 추가 증액은 보류. 손절구조: 전기전자 rotating_out 재강등 + 삼전 일봉 음봉 종가 동시 시 정리(평단% 앵커 아님)."
     }
   ],
@@ -122,6 +122,30 @@
       "amount_won": null,
       "qty": null,
       "reason": "신규 1차 보류: SK하이닉스 +6.88%/SFA +7.61%/현대차 +5.04% 전부 갭 큰 추격권 — binary 컷 아니라 thesis×사이즈×시기 grading 상 눌림 미형성으로 1차 부적격. 현대차는 운송장비 rotating_in day-1 = 즉시 추격 함정. 이번 슬롯 신규 capacity 는 삼전 2차 add 로 충당, 갭 큰 leader 는 지지선 retest 대기."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": "329180",
+      "amount_won": null,
+      "qty": null,
+      "reason": "방산 active 강화 day-5. +9.41% 744k, vol_rate 223% 거래량 팽창하며 신고가 = 분산/distribution 아닌 추세지속, 추세장강세 regime 정합. 평단665k 대비 ~+12% 큰 익절권이나 600k 지지선 한참 위·구조 미붕괴·테마 강화 = 매도 사유(가격/거래대금/thesis) 셋 다 미충족, 강세 매도 부당. add 트리거(670k+ 유지 & 한화에어로/LIG넥스원 동반양봉)는 동반종목 quote 부재로 평가불가 + 마지막슬롯 +9.41% 갭 추격 회피 → 추가 안 함. 잔량 트레일링 스톱은 상승 지지선 따라 상향."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": "005930",
+      "amount_won": null,
+      "qty": null,
+      "reason": "AI반도체 active 강화 day-11, 전기전자 leading 유지 → 손절구조(전기전자 rotating_out 재강등 + 삼전 음봉종가) 미발동, 300k flat 양봉(+2.56%). 16주=목표 ~50% 이미 도달, regime day-1 conf 보통·gap fade·breadth 협소 조건 직전슬롯과 동일 → 증액 cap 유지. 마지막슬롯 add 안 함."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": null,
+      "amount_won": null,
+      "qty": null,
+      "reason": "신규 0. 후보 000660 +6.49%·036540 +8.1%·005380 +5.19% 전부 5%↑ 갭 일중고가권, 마지막슬롯 추격 부적격. 유일 5%↓ 005930 은 이미 cap 보유. 현대차 운송장비 rotating_in day-1 미확인(5-27 KOSPI 상회 미평가). regime day-1 conf 보통 + gap fade 경고 + breadth 협소 환경에 디시플린 1차 진입가 없음 → omission 아닌 신호약함 대응. 기보유 2종 모두 active 강화 테마라 가동 충분."
     }
   ],
   "calendar_dates": [
