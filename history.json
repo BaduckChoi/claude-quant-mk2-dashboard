@@ -62,7 +62,7 @@
       {
         "action": "buy",
         "code": "005930",
-        "name": ""
+        "name": "삼성전자"
       }
     ],
     "trades_count": 2
@@ -236,7 +236,7 @@
       },
       {
         "code": "005930",
-        "name": "",
+        "name": "삼성전자",
         "realized_pnl_won": -83000
       },
       {
@@ -249,7 +249,7 @@
       {
         "action": "sell",
         "code": "005930",
-        "name": ""
+        "name": "삼성전자"
       },
       {
         "action": "sell",
@@ -405,7 +405,7 @@
     "top_movers": [
       {
         "code": "005930",
-        "name": "",
+        "name": "삼성전자",
         "realized_pnl_won": -38250
       }
     ],
@@ -413,7 +413,7 @@
       {
         "action": "sell",
         "code": "005930",
-        "name": ""
+        "name": "삼성전자"
       }
     ],
     "trades_count": 1
@@ -642,5 +642,90 @@
       }
     ],
     "trades_count": 1
+  },
+  "20260526": {
+    "buy_won": 2408000,
+    "buys": 1,
+    "date": "2026-05-26",
+    "open_positions": 2,
+    "realized_pnl_won": null,
+    "sell_won": 0,
+    "sells": 0,
+    "themes": [
+      {
+        "days_active": 11,
+        "entry_status": "중반",
+        "leaders": [
+          {
+            "code": "",
+            "name": "삼성전자"
+          },
+          {
+            "code": "",
+            "name": "SK하이닉스"
+          },
+          {
+            "code": "",
+            "name": "삼성전기"
+          }
+        ],
+        "name": "AI 반도체/HBM",
+        "strength_trend": "강화"
+      },
+      {
+        "days_active": 5,
+        "entry_status": "초입",
+        "leaders": [
+          {
+            "code": "",
+            "name": "HD현대중공업"
+          },
+          {
+            "code": "",
+            "name": "켄코아에어로스페이스"
+          }
+        ],
+        "name": "방산/우주항공",
+        "strength_trend": "강화"
+      },
+      {
+        "days_active": 2,
+        "entry_status": "소진",
+        "leaders": [
+          {
+            "code": "",
+            "name": "삼성생명"
+          },
+          {
+            "code": "",
+            "name": "삼성화재"
+          },
+          {
+            "code": "",
+            "name": "KB금융"
+          },
+          {
+            "code": "",
+            "name": "신한지주"
+          },
+          {
+            "code": "",
+            "name": "메리츠금융"
+          }
+        ],
+        "name": "금융/보험 (밸류 로테이션)",
+        "strength_trend": "약화"
+      }
+    ],
+    "top_movers": [],
+    "traded_codes": [
+      {
+        "action": "buy",
+        "code": "005930",
+        "name": "삼성전자"
+      }
+    ],
+    "trades_count": 1,
+    "unrealized_pnl_won": 278000
   }
 }
