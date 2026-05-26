@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-05-26 09:41:33",
+  "generated_at": "2026-05-26 12:31:57",
   "date": "20260526",
   "mode": "dry_run",
   "stats": {
     "open_positions": 2,
-    "trades_count": 1,
-    "buys": 1,
+    "trades_count": 2,
+    "buys": 2,
     "sells": 0,
-    "buy_won": 2408000,
+    "buy_won": 4810000,
     "sell_won": 0,
     "realized_pnl_won": null,
     "capital_won": 50000000,
-    "deployed_won": 6398000,
-    "cash_remaining_won": 43602000,
-    "total_eval_won": 6676000,
-    "unrealized_pnl_won": 278000
+    "deployed_won": 8800000,
+    "cash_remaining_won": 41200000,
+    "total_eval_won": 9264000,
+    "unrealized_pnl_won": 464000
   },
   "positions": [
     {
@@ -23,25 +23,25 @@
       "qty": 6,
       "avg_price": 665000,
       "cost_won": 3990000,
-      "current_price": 712000,
-      "change_rate": 4.71,
-      "eval_won": 4272000,
-      "pnl_won": 282000,
-      "pnl_pct": 7.067669172932331,
+      "current_price": 742000,
+      "change_rate": 9.12,
+      "eval_won": 4452000,
+      "pnl_won": 462000,
+      "pnl_pct": 11.578947368421053,
       "thesis": "방산 active day-3 carry 단일 후보. +4.56% gap-up — 후보5종 중 유일 5%↓, 1차 진입 가격 부적격 룰 통과. day-3 carry 라 day-1 sector(전기전자/운송장비) 즉시진입 함정 회피. KOSPI +5% 시장베타 흡수 underperform -2.83%p — 추격 아님. 분할 1차 시드 400만(자본 8%, strategist 300~500만 범위 하단). 손절선=차트구조: 600000(어제 종가) 일봉 지지선 종가 이탈 시 1/2 정리, 한화에어로 시총10위권 미복귀 2일 지속 + HD현대중공업 일봉 음봉 -3%↑ 동시 충족 시 thesis 본질붕괴 전량(theme ended 카테고리). 2차 트리거: 5-22 종가 670000+ 유지 & 한화에어로/LIG넥스원 중 1종+ 동반 양봉 동시충족 시 익일 슬롯 추가 400만. 자가검증: 어제 보험 day-1 sector 손실 → 오늘 day-3 carry 종목만 진입 = 신호강도-신중함 단조. 약점: regime 조정 진입 days 7 dead-cat 미해소, 방산 클러스터 한화에어로 이탈로 narrative 약화 — 시드 size 가 약점 보완책. 슬롯간 분산: 12:30 신규 1종, 15:20 마지막 슬롯 몰빵 회피."
     },
     {
       "code": "005930",
       "name": "삼성전자",
-      "qty": 8,
-      "avg_price": 301000,
-      "cost_won": 2408000,
-      "current_price": 300500,
-      "change_rate": 2.74,
-      "eval_won": 2404000,
-      "pnl_won": -4000,
-      "pnl_pct": -0.16611295681063123,
-      "thesis": "AI반도체 11일 carry active-강화-중반(day-1 함정 아님) + 전기전자 leading 직접승격이 regime 추세장 강세 동력. 후보 4종 갭: 삼전 +2.91% < SK하이닉스 +7.11/SFA +8.2 — binary '갭최소=자격' 아니라 thesis최강(지배적 성숙테마+leading sector+시총1위 anchor 최저변동)·갭 modest·1차 probe size 셋 정합. 자본 4.8%(241만/8주) 소량 1차 probe = 분할 확인도구, 풀사이즈 추격 아님. SK하이닉스 +7%갭은 지지선 retest 대기 후보로 익일 carry, 슬롯당 신규 1종 규율로 이번 슬롯 제외. 손절=구조선: 전기전자 rotating_out 재강등 + 삼전 일봉 음봉(AI반도체 thesis 무효화) 종가 확인 시 정리 — 평단% 앵커 아님. 2차 add: 다음슬롯/익일 전기전자 leading 유지 & 삼전 지지 확인 시 분할 추가. 포트: 방산 1종에 AI반도체 추가=2테마 분산."
+      "qty": 16,
+      "avg_price": 300625,
+      "cost_won": 4810000,
+      "current_price": 300750,
+      "change_rate": 2.82,
+      "eval_won": 4812000,
+      "pnl_won": 2000,
+      "pnl_pct": 0.04158004158004158,
+      "thesis": "AI반도체 active 강화 중반(day-11) + 전기전자 leading day-1 강화 유지 — 2차 분할 트리거 '전기전자 leading 유지 & 삼전 지지 확인' 충족(가용 sector state·live 로 평가 가능). 삼전 +2.65% 후보 5종 중 최저 갭, 평단 301000 부근(300250) 유지 = 추격 아닌 분할 build. 1차 probe 8주와 동량 add → 목표 사이즈 약 50% 도달, 일괄 아님. 약점: regime day-1 conf 보통 + 전반 gap fade 경고 + breadth 협소 — 그래서 probe 동량으로 사이즈 억제, 추가 증액은 보류. 손절구조: 전기전자 rotating_out 재강등 + 삼전 일봉 음봉 종가 동시 시 정리(평단% 앵커 아님)."
     }
   ],
   "trades": [
@@ -55,6 +55,20 @@
       "price": 301000,
       "amount_won": 2408000,
       "reason": "AI반도체 11일 carry active-강화-중반(day-1 함정 아님) + 전기전자 leading 직접승격이 regime 추세장 강세 동력. 후보 4종 갭: 삼전 +2.91% < SK하이닉스 +7.11/SFA +8.2 — binary '갭최소=자격' 아니라 thesis최강(지배적 성숙테마+leading sector+시총1위 anchor 최저변동)·갭 modest·1차 probe size 셋 정합. 자본 4.8%(241만/8주) 소량 1차 probe = 분할 확인도구, 풀사이즈 추격 아님. SK하이닉스 +7%갭은 지지선 retest 대기 후보로 익일 carry, 슬롯당 신규 1종 규율로 이번 슬롯 제외. 손절=구조선: 전기전자 rotating_out 재강등 + 삼전 일봉 음봉(AI반도체 thesis 무효화) 종가 확인 시 정리 — 평단% 앵커 아님. 2차 add: 다음슬롯/익일 전기전자 leading 유지 & 삼전 지지 확인 시 분할 추가. 포트: 방산 1종에 AI반도체 추가=2테마 분산.",
+      "dry_run": true,
+      "order_no": "",
+      "realized_pnl_won": null
+    },
+    {
+      "ts": "2026-05-26T12:31:57",
+      "cycle_id": "20260526-1230",
+      "action": "buy",
+      "code": "005930",
+      "name": "삼성전자",
+      "qty": 8,
+      "price": 300250,
+      "amount_won": 2402000,
+      "reason": "AI반도체 active 강화 중반(day-11) + 전기전자 leading day-1 강화 유지 — 2차 분할 트리거 '전기전자 leading 유지 & 삼전 지지 확인' 충족(가용 sector state·live 로 평가 가능). 삼전 +2.65% 후보 5종 중 최저 갭, 평단 301000 부근(300250) 유지 = 추격 아닌 분할 build. 1차 probe 8주와 동량 add → 목표 사이즈 약 50% 도달, 일괄 아님. 약점: regime day-1 conf 보통 + 전반 gap fade 경고 + breadth 협소 — 그래서 probe 동량으로 사이즈 억제, 추가 증액은 보류. 손절구조: 전기전자 rotating_out 재강등 + 삼전 일봉 음봉 종가 동시 시 정리(평단% 앵커 아님).",
       "dry_run": true,
       "order_no": "",
       "realized_pnl_won": null
@@ -84,6 +98,30 @@
       "amount_won": null,
       "qty": null,
       "reason": "SK하이닉스 +7.11%·SFA반도체 +8.2% 갭 큰 영역 + 슬롯당 신규 1종 규율로 삼전 우선; SK하이닉스는 지지선 retest 대기 후보 carry. 현대차 운송장비 rotating_in day-1 미숙성 → 5-27 KOSPI 상회 양봉 확인 후 검토. 금융/보험 약화-소진 신규 중단."
+    },
+    {
+      "slot": "1230",
+      "action": "buy",
+      "code": "005930",
+      "amount_won": 240,
+      "qty": 8,
+      "reason": "AI반도체 active 강화 중반(day-11) + 전기전자 leading day-1 강화 유지 — 2차 분할 트리거 '전기전자 leading 유지 & 삼전 지지 확인' 충족(가용 sector state·live 로 평가 가능). 삼전 +2.65% 후보 5종 중 최저 갭, 평단 301000 부근(300250) 유지 = 추격 아닌 분할 build. 1차 probe 8주와 동량 add → 목표 사이즈 약 50% 도달, 일괄 아님. 약점: regime day-1 conf 보통 + 전반 gap fade 경고 + breadth 협소 — 그래서 probe 동량으로 사이즈 억제, 추가 증액은 보류. 손절구조: 전기전자 rotating_out 재강등 + 삼전 일봉 음봉 종가 동시 시 정리(평단% 앵커 아님)."
+    },
+    {
+      "slot": "1230",
+      "action": "hold",
+      "code": "329180",
+      "amount_won": null,
+      "qty": null,
+      "reason": "방산 강화 초입, 742000 +9.12% vol_rate 165% 강세 지속, 600000 지지·thesis 무손상 = 매도 트리거 미발동, 강화 theme 익절 조기 아님. +9% gap-up 이라 2차 add 보류(추격 + 한화에어로/LIG 동반 양봉 live 미확인 = 트리거 평가 불가). 잔량 carry."
+    },
+    {
+      "slot": "1230",
+      "action": "hold",
+      "code": null,
+      "amount_won": null,
+      "qty": null,
+      "reason": "신규 1차 보류: SK하이닉스 +6.88%/SFA +7.61%/현대차 +5.04% 전부 갭 큰 추격권 — binary 컷 아니라 thesis×사이즈×시기 grading 상 눌림 미형성으로 1차 부적격. 현대차는 운송장비 rotating_in day-1 = 즉시 추격 함정. 이번 슬롯 신규 capacity 는 삼전 2차 add 로 충당, 갭 큰 leader 는 지지선 retest 대기."
     }
   ],
   "calendar_dates": [
