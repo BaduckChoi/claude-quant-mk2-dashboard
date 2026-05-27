@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27 09:42:43",
+  "generated_at": "2026-05-27 12:33:02",
   "date": "20260527",
   "mode": "dry_run",
   "stats": {
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 8800000,
     "cash_remaining_won": 41200000,
-    "total_eval_won": 9514000,
-    "unrealized_pnl_won": 714000
+    "total_eval_won": 9538000,
+    "unrealized_pnl_won": 738000
   },
   "positions": [
     {
@@ -36,11 +36,11 @@
       "qty": 16,
       "avg_price": 300625,
       "cost_won": 4810000,
-      "current_price": 319000,
-      "change_rate": 6.69,
-      "eval_won": 5104000,
-      "pnl_won": 294000,
-      "pnl_pct": 6.112266112266113,
+      "current_price": 320500,
+      "change_rate": 7.19,
+      "eval_won": 5128000,
+      "pnl_won": 318000,
+      "pnl_pct": 6.611226611226612,
       "thesis": "AI반도체 active 강화 중반(day-11) + 전기전자 leading day-1 강화 유지 — 2차 분할 트리거 '전기전자 leading 유지 & 삼전 지지 확인' 충족(가용 sector state·live 로 평가 가능). 삼전 +2.65% 후보 5종 중 최저 갭, 평단 301000 부근(300250) 유지 = 추격 아닌 분할 build. 1차 probe 8주와 동량 add → 목표 사이즈 약 50% 도달, 일괄 아님. 약점: regime day-1 conf 보통 + 전반 gap fade 경고 + breadth 협소 — 그래서 probe 동량으로 사이즈 억제, 추가 증액은 보류. 손절구조: 전기전자 rotating_out 재강등 + 삼전 일봉 음봉 종가 동시 시 정리(평단% 앵커 아님)."
     }
   ],
@@ -77,6 +77,38 @@
       "amount_won": null,
       "qty": null,
       "reason": "삼성생명 분산옵션이나 금융업 sector laggards 유지(오늘 +2.14%, KOSPI -1.19%p underperform) → rotating_in 승격 미충족, theme 금융 신규중단·entry 소진. 오늘 +4.74% gap = 추격 부담. 반도체 쏠림 헤지 가치는 인정하나 sector 미확정+갭으로 보류(약점: 유일 분산처를 미루는 omission 위험 — 그래서 도달가능 게이트 명시). 게이트: 금융업 5-28 KOSPI 상회 양봉 rotating_in 승격(종가 기준) → 시드 1차 ~200만 즉시집행. 미충족 시 carry, 게이트 무효 아님."
+    },
+    {
+      "slot": "1230",
+      "action": "hold",
+      "code": "329180",
+      "amount_won": null,
+      "qty": null,
+      "reason": "방산 active day-6 약화이나 ended 아님. HD현대 733000, 600000 구조지지 한참 위 손절 미접근. 오늘 -1.61%는 반도체 단독 +4% narrow 장세 속 ex-반도체 동반약세지 단독약세 아님. 테마약화 1축/지지견조 1축 OR 게이트 중 지지 미이탈로 부분정리 미발동. 신규·add 중단(테마 약화). 정리 트리거: 600000 종가 이탈 시 1/2, 한화에어로 시총10위권 미복귀 2일+HD현대 일봉 -3%↑ 음봉 종가 동시 시 전량."
+    },
+    {
+      "slot": "1230",
+      "action": "hold",
+      "code": "005930",
+      "amount_won": null,
+      "qty": null,
+      "reason": "AI반도체 active day-12 강화·전기전자 leading 강화 유지, sell 트리거(전기전자 음전 종가+삼전 일봉 음봉 종가) 미발동. 추가 안 함: +7.19% parabolic 갭 추격 금지, 평단 300625 대비 위, 목표 ~50% 도달분 동결. 익절 트림 안 함: thesis 강화·구조 미붕괴라 blow-off regime 경고 단독으론 매도근거 불충분. 익일 전기전자 음전 종가+삼전 음봉 종가 동시 시 분할 정리."
+    },
+    {
+      "slot": "1230",
+      "action": "hold",
+      "code": "009150",
+      "amount_won": null,
+      "qty": null,
+      "reason": "신규 안 함: +8.46% parabolic 갭 추격 금지. 동일 AI반도체 테마(삼전 기보유) 중복이라 portfolio 분산상 동일테마 추가 회피. 눌림 retest 시에만 후보, 오늘 진입 부적격."
+    },
+    {
+      "slot": "1230",
+      "action": "hold",
+      "code": "032830",
+      "amount_won": null,
+      "qty": null,
+      "reason": "신규 안 함: 금융업 sector laggards(KOSPI -1.19%p underperform, rotating_in 미승격)+테마 entry 소진=확정 진입신호 부재. +2.73% 최저갭은 진입사유 아님, laggard sector 미확정 rotation 선취는 추격 반대편 함정. 게이트: 5-28 금융업 종가 KOSPI 상회 양봉+rotating_in 승격 시 분산 starter 자본 2-3% 1차 평가, 미충족 시 drop. 후보 전부 parabolic 추격 or 미확정 laggard라 현금 유지는 신호부재 정합이지 omission 아님."
     }
   ],
   "calendar_dates": [
