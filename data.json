@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27 12:33:02",
+  "generated_at": "2026-05-27 15:22:43",
   "date": "20260527",
   "mode": "dry_run",
   "stats": {
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 8800000,
     "cash_remaining_won": 41200000,
-    "total_eval_won": 9538000,
-    "unrealized_pnl_won": 738000
+    "total_eval_won": 9360000,
+    "unrealized_pnl_won": 560000
   },
   "positions": [
     {
@@ -23,11 +23,11 @@
       "qty": 6,
       "avg_price": 665000,
       "cost_won": 3990000,
-      "current_price": 735000,
-      "change_rate": -1.34,
-      "eval_won": 4410000,
-      "pnl_won": 420000,
-      "pnl_pct": 10.526315789473683,
+      "current_price": 744000,
+      "change_rate": -0.13,
+      "eval_won": 4464000,
+      "pnl_won": 474000,
+      "pnl_pct": 11.879699248120302,
       "thesis": "방산 active day-3 carry 단일 후보. +4.56% gap-up — 후보5종 중 유일 5%↓, 1차 진입 가격 부적격 룰 통과. day-3 carry 라 day-1 sector(전기전자/운송장비) 즉시진입 함정 회피. KOSPI +5% 시장베타 흡수 underperform -2.83%p — 추격 아님. 분할 1차 시드 400만(자본 8%, strategist 300~500만 범위 하단). 손절선=차트구조: 600000(어제 종가) 일봉 지지선 종가 이탈 시 1/2 정리, 한화에어로 시총10위권 미복귀 2일 지속 + HD현대중공업 일봉 음봉 -3%↑ 동시 충족 시 thesis 본질붕괴 전량(theme ended 카테고리). 2차 트리거: 5-22 종가 670000+ 유지 & 한화에어로/LIG넥스원 중 1종+ 동반 양봉 동시충족 시 익일 슬롯 추가 400만. 자가검증: 어제 보험 day-1 sector 손실 → 오늘 day-3 carry 종목만 진입 = 신호강도-신중함 단조. 약점: regime 조정 진입 days 7 dead-cat 미해소, 방산 클러스터 한화에어로 이탈로 narrative 약화 — 시드 size 가 약점 보완책. 슬롯간 분산: 12:30 신규 1종, 15:20 마지막 슬롯 몰빵 회피."
     },
     {
@@ -36,11 +36,11 @@
       "qty": 16,
       "avg_price": 300625,
       "cost_won": 4810000,
-      "current_price": 320500,
-      "change_rate": 7.19,
-      "eval_won": 5128000,
-      "pnl_won": 318000,
-      "pnl_pct": 6.611226611226612,
+      "current_price": 306000,
+      "change_rate": 2.34,
+      "eval_won": 4896000,
+      "pnl_won": 86000,
+      "pnl_pct": 1.787941787941788,
       "thesis": "AI반도체 active 강화 중반(day-11) + 전기전자 leading day-1 강화 유지 — 2차 분할 트리거 '전기전자 leading 유지 & 삼전 지지 확인' 충족(가용 sector state·live 로 평가 가능). 삼전 +2.65% 후보 5종 중 최저 갭, 평단 301000 부근(300250) 유지 = 추격 아닌 분할 build. 1차 probe 8주와 동량 add → 목표 사이즈 약 50% 도달, 일괄 아님. 약점: regime day-1 conf 보통 + 전반 gap fade 경고 + breadth 협소 — 그래서 probe 동량으로 사이즈 억제, 추가 증액은 보류. 손절구조: 전기전자 rotating_out 재강등 + 삼전 일봉 음봉 종가 동시 시 정리(평단% 앵커 아님)."
     }
   ],
@@ -109,6 +109,30 @@
       "amount_won": null,
       "qty": null,
       "reason": "신규 안 함: 금융업 sector laggards(KOSPI -1.19%p underperform, rotating_in 미승격)+테마 entry 소진=확정 진입신호 부재. +2.73% 최저갭은 진입사유 아님, laggard sector 미확정 rotation 선취는 추격 반대편 함정. 게이트: 5-28 금융업 종가 KOSPI 상회 양봉+rotating_in 승격 시 분산 starter 자본 2-3% 1차 평가, 미충족 시 drop. 후보 전부 parabolic 추격 or 미확정 laggard라 현금 유지는 신호부재 정합이지 omission 아님."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": "329180",
+      "amount_won": null,
+      "qty": null,
+      "reason": "방산 +11.9% (744000 vs 평단 665000). 두 축 점검 — 지지선: 744000, 어제수준/오늘저가 720000/원지지 600000 전부 상회, 종가이탈 없음. 테마유효성: 방산 약화(클러스터 단일종목 회귀, 한화에어로/LIG 시총10위권 미복귀, narrative 약화) — 침식 중이나 ended 아님(HD현대 600000 종가이탈 트리거 미발동, 오늘 -0.13% flat). 본질붕괴 카테고리 아님 → 전량 강제 사유 없음. 신규 중단(약화 테마). 익절 보호는 구체 트레일링: 일봉 종가 720000 하회 = 경고, 700000 종가 하회 = 1/2 정리, ended 트리거(HD현대 600000 종가이탈 OR 켄코아 부재 지속 + 한화에어로/LIG 미복귀 2일 동시) = 전량."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": "005930",
+      "amount_won": null,
+      "qty": null,
+      "reason": "삼전 16주 평단 300625, 현 306500(+2%), 오늘 종가기준 +2.51%. AI반도체 강화이되 entry 후반/parabolic, 오늘 시초 +5% 갭 후 후퇴. 이미 목표 ~50% 빌드 완료. 추가 안 함: regime distribution 경고 + breadth 붕괴 + 반도체 비중 book의 ~52%(도배 게이트) + 갭 추격 금지 — 신규 add 부적격. 정리 안 함: 테마 강화 유지, +2%뿐, 구조 미이탈. 정리 트리거: 전기전자 rotating_out 재강등 종가 + 삼전 일봉 음봉 종가 동시(OR로 단일종목 -5%↑ 단봉 + 거래대금 평균 미만)."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": "032830",
+      "amount_won": null,
+      "qty": null,
+      "reason": "신규 진입 0. 009150 삼성전기 = 동일 AI반도체, 진입 시 semis 60%↑(도배 게이트 위반) + 후반 parabolic 갭fade → 부적격. 032830 삼성생명 = 금융업 sector laggards(KOSPI -1.19%p underperform), theme entry 소진, promote 게이트 미충족(필요: 5-28 금융업 KOSPI 상회 종가 양봉 + rotating_in 승격). 갭fade 미확정 sector를 마지막 슬롯에 디폴트로 담지 않음 — 분산 명분으로 최약 신호 추격 회피. 진입 게이트: 5-28 금융업 rotating_in 승격 + KOSPI 상회 종가 충족 시 소량 1차. 환경(distribution 경고 + 전 후보 갭fade)이 약신호라 hold = regime 정합 디폴트, 현금 17.6% 유지."
     }
   ],
   "calendar_dates": [
