@@ -731,9 +731,9 @@
     "buys": 0,
     "date": "2026-05-28",
     "open_positions": 2,
-    "realized_pnl_won": 208000,
-    "sell_won": 2868000,
-    "sells": 2,
+    "realized_pnl_won": 247000,
+    "sell_won": 3572000,
+    "sells": 3,
     "themes": [
       {
         "days_active": 13,
@@ -792,7 +792,7 @@
       {
         "code": "329180",
         "name": "HD현대중공업",
-        "realized_pnl_won": 208000
+        "realized_pnl_won": 247000
       }
     ],
     "traded_codes": [
@@ -802,7 +802,7 @@
         "name": "HD현대중공업"
       }
     ],
-    "trades_count": 2,
-    "unrealized_pnl_won": 2000
+    "trades_count": 3,
+    "unrealized_pnl_won": 29000
   }
 }
