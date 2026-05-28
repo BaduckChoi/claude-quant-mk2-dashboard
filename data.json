@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-05-28 09:35:49",
+  "generated_at": "2026-05-28 09:42:13",
   "date": "20260528",
   "mode": "dry_run",
   "stats": {
     "open_positions": 2,
-    "trades_count": 0,
+    "trades_count": 1,
     "buys": 0,
-    "sells": 0,
+    "sells": 1,
     "buy_won": 0,
-    "sell_won": 0,
-    "realized_pnl_won": null,
+    "sell_won": 2169000,
+    "realized_pnl_won": 174000,
     "capital_won": 50000000,
-    "deployed_won": 8800000,
-    "cash_remaining_won": 41200000,
-    "total_eval_won": 9152000,
-    "unrealized_pnl_won": 352000
+    "deployed_won": 6805000,
+    "cash_remaining_won": 43195000,
+    "total_eval_won": 7028000,
+    "unrealized_pnl_won": 223000
   },
   "positions": [
     {
       "code": "329180",
       "name": "HD현대중공업",
-      "qty": 6,
+      "qty": 3,
       "avg_price": 665000,
-      "cost_won": 3990000,
+      "cost_won": 1995000,
       "current_price": 720000,
       "change_rate": -3.23,
-      "eval_won": 4320000,
-      "pnl_won": 330000,
+      "eval_won": 2160000,
+      "pnl_won": 165000,
       "pnl_pct": 8.270676691729323,
       "thesis": "방산 active day-3 carry 단일 후보. +4.56% gap-up — 후보5종 중 유일 5%↓, 1차 진입 가격 부적격 룰 통과. day-3 carry 라 day-1 sector(전기전자/운송장비) 즉시진입 함정 회피. KOSPI +5% 시장베타 흡수 underperform -2.83%p — 추격 아님. 분할 1차 시드 400만(자본 8%, strategist 300~500만 범위 하단). 손절선=차트구조: 600000(어제 종가) 일봉 지지선 종가 이탈 시 1/2 정리, 한화에어로 시총10위권 미복귀 2일 지속 + HD현대중공업 일봉 음봉 -3%↑ 동시 충족 시 thesis 본질붕괴 전량(theme ended 카테고리). 2차 트리거: 5-22 종가 670000+ 유지 & 한화에어로/LIG넥스원 중 1종+ 동반 양봉 동시충족 시 익일 슬롯 추가 400만. 자가검증: 어제 보험 day-1 sector 손실 → 오늘 day-3 carry 종목만 진입 = 신호강도-신중함 단조. 약점: regime 조정 진입 days 7 dead-cat 미해소, 방산 클러스터 한화에어로 이탈로 narrative 약화 — 시드 size 가 약점 보완책. 슬롯간 분산: 12:30 신규 1종, 15:20 마지막 슬롯 몰빵 회피."
     },
@@ -36,16 +36,57 @@
       "qty": 16,
       "avg_price": 300625,
       "cost_won": 4810000,
-      "current_price": 302000,
-      "change_rate": -1.63,
-      "eval_won": 4832000,
-      "pnl_won": 22000,
-      "pnl_pct": 0.4573804573804574,
+      "current_price": 304250,
+      "change_rate": -0.9,
+      "eval_won": 4868000,
+      "pnl_won": 58000,
+      "pnl_pct": 1.2058212058212059,
       "thesis": "AI반도체 active 강화 중반(day-11) + 전기전자 leading day-1 강화 유지 — 2차 분할 트리거 '전기전자 leading 유지 & 삼전 지지 확인' 충족(가용 sector state·live 로 평가 가능). 삼전 +2.65% 후보 5종 중 최저 갭, 평단 301000 부근(300250) 유지 = 추격 아닌 분할 build. 1차 probe 8주와 동량 add → 목표 사이즈 약 50% 도달, 일괄 아님. 약점: regime day-1 conf 보통 + 전반 gap fade 경고 + breadth 협소 — 그래서 probe 동량으로 사이즈 억제, 추가 증액은 보류. 손절구조: 전기전자 rotating_out 재강등 + 삼전 일봉 음봉 종가 동시 시 정리(평단% 앵커 아님)."
     }
   ],
-  "trades": [],
-  "pm_decisions": [],
+  "trades": [
+    {
+      "ts": "2026-05-28T09:42:13",
+      "cycle_id": "20260528-0940",
+      "action": "sell",
+      "code": "329180",
+      "name": "HD현대중공업",
+      "qty": 3,
+      "price": 723000,
+      "amount_won": 2169000,
+      "reason": "방산 active day-7 약화·ended 근접 = 테마 유효성 축 점등: 켄코아 부재 지속, 한화에어로/LIG넥스원 시총10위권 미복귀, narrative 무회복. HD현대중공업 723000 -2.82%이나 평단 665000 대비 +8.7% 익절권. 두 축(지지선·테마 유효성) 중 테마 유효성 깨짐 → 분할 익절 디폴트. 6주 중 1/2(3주) 익절, 잔여 3주 carry. 전량 아닌 이유: 어제 진입분 24h 전량청산은 wrap 호흡 위배 + ended 미강등(가격 지지 위). 잔량 3주 정리 트리거(OR): HD현대중공업 직전 일봉 저점대 700000 종가 이탈, 또는 켄코아 부재 지속+HD현대중공업 음봉 지속(ended 강등) 동시충족 시 전량.",
+      "dry_run": true,
+      "order_no": "",
+      "avg_cost": 665000,
+      "realized_pnl_won": 174000
+    }
+  ],
+  "pm_decisions": [
+    {
+      "slot": "0940",
+      "action": "sell",
+      "code": "329180",
+      "amount_won": null,
+      "qty": 3,
+      "reason": "방산 active day-7 약화·ended 근접 = 테마 유효성 축 점등: 켄코아 부재 지속, 한화에어로/LIG넥스원 시총10위권 미복귀, narrative 무회복. HD현대중공업 723000 -2.82%이나 평단 665000 대비 +8.7% 익절권. 두 축(지지선·테마 유효성) 중 테마 유효성 깨짐 → 분할 익절 디폴트. 6주 중 1/2(3주) 익절, 잔여 3주 carry. 전량 아닌 이유: 어제 진입분 24h 전량청산은 wrap 호흡 위배 + ended 미강등(가격 지지 위). 잔량 3주 정리 트리거(OR): HD현대중공업 직전 일봉 저점대 700000 종가 이탈, 또는 켄코아 부재 지속+HD현대중공업 음봉 지속(ended 강등) 동시충족 시 전량."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "005930",
+      "amount_won": null,
+      "qty": null,
+      "reason": "삼성전자 303500 -1.14%, 평단 300625 +0.96%. AI반도체 day-13 약화 후반·전기전자 leading 막바지 = 테마 유효성 약화 점등. 매도측 능동 점검: (a) 실현가능 이익 +0.96% 미미 → 익절 trailing 미룸 아닌 실현할 이익 자체 부재(손실회피 아님), (b) 전기전자 -0.02% 여전 KOSPI 상회 outperform·leading 유지·삼전 정배열 핵심, (c) 가격 지지 위 → hold. 트림 트리거: 전기전자 종가 음전 확정 + breadth 추가 악화(adv/dec 오늘보다 더 악화) 동시충족 시 다음 슬롯·익일 1/2 정리(종가 기준, 미충족 시 익일 carry). 신규 추가 없음 — regime confidence 낮음·약화 후반·gap 추격 금지."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": null,
+      "amount_won": null,
+      "qty": null,
+      "reason": "신규 진입 0. regime 추세장 강세 라벨이나 confidence 낮음·breadth 전체하락 risk-off, macro gate 극선별/사실상 중단. 후보 4종 전부 부적격: 373220 LG엔솔 +11.73% vol_rate 97 = 2차전지 day-1 승격 테마 gap 추격(절대금지), 005380 현대차 = 운송장비 rotating_in day-1 저확신 jagged cycle(승격당일 추격 함정), 000660 하이닉스 +0.85% = AI반도체 약화 후반 동일테마 추가인데 방산 트림으로 리스크 줄이는 중 약화 semis 증액은 모순. 갭 작은 anchor 후보도 thesis 약함. omission 아님 — risk-off 신규 중단 능동 적용, max_positions 여유는 진입 사유 아님."
+    }
+  ],
   "calendar_dates": [
     "20260511",
     "20260512",
@@ -56,7 +97,8 @@
     "20260519",
     "20260520",
     "20260521",
-    "20260526"
+    "20260526",
+    "20260528"
   ],
   "strategist_brief": "Regime confidence 낮음 + 전체하락 risk-off. Macro gate = 신규 극선별/사실상 중단, gap·추격 금지. 후보 풀 좁게, 분산 옵션만 깐다. 단일 테마 쏠림 없음 (반도체/자동차/2차전지 3갈래).\n\n```json\n{\n  \"themes\": [\n    {\n      \"name\": \"AI 반도체/HBM\",\n      \"status\": \"active 후반 / 약화\",\n      \"note\": \"13일차 parabolic 후 첫 눌림. 전기전자 broad red 속 유일 상대방어(leading 막바지). 신규 추격·gap 매수 금지. 정배열 핵심(삼전/하이닉스)만 보유 지속, 과대확장 대형주 반등 시 분할 익절 검토. 후속주(SK스퀘어/ETF군) 우선 정리 대상.\"\n    },\n    {\n      \"name\": \"2차전지/배터리 소재\",\n      \"status\": \"active 초입 / 강화\",\n      \"note\": \"watching->active 승격. LG엔솔 +11.86%, WCP +18.85% counter-trend 단독 폭등 = '한 발 앞선' rotation. 단 1일 급등 + 1군(에코프로/포스코퓨처엠) 폭 미확인 = 추격 절대금지, 되돌림 분할만. 5-29 추가 양봉 + 1군 동반 시 강화 확정, 음전 되돌림 시 spike 판정 재강등.\"\n    },\n    {\n      \"name\": \"운송장비(자동차)\",\n      \"status\": \"sector rotating_in 복귀 / 저확신\",\n      \"note\": \"운송장비 0015 +0.07% 양전 + vol 2위 복귀. 현대차 +1.17% 양전 outperform. jagged cycle 이력으로 저확신 — 신규 풀매수·추격 금지, 눌림 소량 관찰. 5-29 추가 양전 확인 시 승격.\"\n    }\n  ],\n  \"candidates\": [\n    {\n      \"code\": \"005930\",\n      \"name\": \"삼성전자\",\n      \"reason\": \"반도체 정배열 핵심 시총1위. -1.79% 건강한 눌림, 17699608 시총 사수. 추격 아닌 지지선 눌림 분할 관찰. 신규 공격성 상향 금지(regime 낮음).\"\n    },\n    {\n      \"code\": \"000660\",\n      \"name\": \"SK하이닉스\",\n      \"reason\": \"시총2위 +0.13% flat 방어. 주도주 정배열 유지, 보유 지속 핵심. 신규는 극선별 분할만, gap 금지.\"\n    },\n    {\n      \"code\": \"005380\",\n      \"name\": \"현대차\",\n      \"reason\": \"운송장비 rotating_in 복귀 leaders. +1.17% broad red 속 양전 outperform. 반도체 쏠림 분산 옵션. 추격 금지, 양전 확인 후 소량.\"\n    },\n    {\n      \"code\": \"373220\",\n      \"name\": \"LG에너지솔루션\",\n      \"reason\": \"2차전지 강화 주도 +11.86%. BUT 1일 gap 급등 = 추격 절대금지. 되돌림(음봉 후 지지) 확인 시에만 분할 진입 검토. 오늘은 관찰만.\"\n    }\n  ],\n  \"notes\": \"regime confidence 낮음(추세장 강세 라벨이나 내부 distribution 진행: 전체하락 adv219/dec660, KOSDAQ 2일 하락, 5-27 ATH fade). 분기점 (B)~(C) 경계. 디폴트는 신규 거의 중단/극선별 분할, full 일괄·gap·추격 전면 금지. 후보 4개 중 2개 반도체(삼전/하이닉스)지만 자동차·2차전지로 분산 — PM 자율로 portfolio 1테마 집중 피할 것. MLCC/전선 change_top 군집(삼화콘덴서/계양전기 등)은 우선주·소형주 1일 상한가 spec = noise 배제, 후보 제외. 인버스 ETF 거래대금 1·2위 = risk-off 자금 확인, 신규 진입 보수.\"\n}\n```",
   "auditor_verdict": null
