@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-27 16:05:27",
-  "date": "20260527",
+  "generated_at": "2026-05-28 09:22:48",
+  "date": "20260528",
   "mode": "dry_run",
   "stats": {
     "open_positions": 2,
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 8800000,
     "cash_remaining_won": 41200000,
-    "total_eval_won": 9376000,
-    "unrealized_pnl_won": 576000
+    "total_eval_won": 9166000,
+    "unrealized_pnl_won": 366000
   },
   "positions": [
     {
@@ -23,11 +23,11 @@
       "qty": 6,
       "avg_price": 665000,
       "cost_won": 3990000,
-      "current_price": 744000,
-      "change_rate": -0.13,
-      "eval_won": 4464000,
-      "pnl_won": 474000,
-      "pnl_pct": 11.879699248120302,
+      "current_price": 721000,
+      "change_rate": -3.09,
+      "eval_won": 4326000,
+      "pnl_won": 336000,
+      "pnl_pct": 8.421052631578947,
       "thesis": "방산 active day-3 carry 단일 후보. +4.56% gap-up — 후보5종 중 유일 5%↓, 1차 진입 가격 부적격 룰 통과. day-3 carry 라 day-1 sector(전기전자/운송장비) 즉시진입 함정 회피. KOSPI +5% 시장베타 흡수 underperform -2.83%p — 추격 아님. 분할 1차 시드 400만(자본 8%, strategist 300~500만 범위 하단). 손절선=차트구조: 600000(어제 종가) 일봉 지지선 종가 이탈 시 1/2 정리, 한화에어로 시총10위권 미복귀 2일 지속 + HD현대중공업 일봉 음봉 -3%↑ 동시 충족 시 thesis 본질붕괴 전량(theme ended 카테고리). 2차 트리거: 5-22 종가 670000+ 유지 & 한화에어로/LIG넥스원 중 1종+ 동반 양봉 동시충족 시 익일 슬롯 추가 400만. 자가검증: 어제 보험 day-1 sector 손실 → 오늘 day-3 carry 종목만 진입 = 신호강도-신중함 단조. 약점: regime 조정 진입 days 7 dead-cat 미해소, 방산 클러스터 한화에어로 이탈로 narrative 약화 — 시드 size 가 약점 보완책. 슬롯간 분산: 12:30 신규 1종, 15:20 마지막 슬롯 몰빵 회피."
     },
     {
@@ -36,105 +36,16 @@
       "qty": 16,
       "avg_price": 300625,
       "cost_won": 4810000,
-      "current_price": 307000,
-      "change_rate": 2.68,
-      "eval_won": 4912000,
-      "pnl_won": 102000,
-      "pnl_pct": 2.120582120582121,
+      "current_price": 302500,
+      "change_rate": -1.47,
+      "eval_won": 4840000,
+      "pnl_won": 30000,
+      "pnl_pct": 0.6237006237006237,
       "thesis": "AI반도체 active 강화 중반(day-11) + 전기전자 leading day-1 강화 유지 — 2차 분할 트리거 '전기전자 leading 유지 & 삼전 지지 확인' 충족(가용 sector state·live 로 평가 가능). 삼전 +2.65% 후보 5종 중 최저 갭, 평단 301000 부근(300250) 유지 = 추격 아닌 분할 build. 1차 probe 8주와 동량 add → 목표 사이즈 약 50% 도달, 일괄 아님. 약점: regime day-1 conf 보통 + 전반 gap fade 경고 + breadth 협소 — 그래서 probe 동량으로 사이즈 억제, 추가 증액은 보류. 손절구조: 전기전자 rotating_out 재강등 + 삼전 일봉 음봉 종가 동시 시 정리(평단% 앵커 아님)."
     }
   ],
   "trades": [],
-  "pm_decisions": [
-    {
-      "slot": "0940",
-      "action": "hold",
-      "code": "329180",
-      "amount_won": null,
-      "qty": null,
-      "reason": "방산 active day-6 약화·단일종목 고착. 오늘 -1.34%(시장 +4% 대비 underperform)이나 일중치이고 ended 트리거(HD 일봉 음봉 -3%↑ + 한화에어로 시총10위권 미복귀 2일) 미발동, 지지 intact. 평단 665000 대비 735000 +10.5% 익절권 — 진입가 앵커 아닌 구조선 trailing 격상: 원 stop 600000은 +22% 런으로 stale → HD 일봉 종가 700000(직전 up-leg 베이스) 이탈 시 1/2 정리(약화테마 보호), ended 트리거 충족 시 전량. 추가매수 없음(테마 약화·신규중단)."
-    },
-    {
-      "slot": "0940",
-      "action": "hold",
-      "code": "005930",
-      "amount_won": null,
-      "qty": null,
-      "reason": "AI반도체 day-12 강화·전기전자 leading day-2 단독주도. 16주 평단 300625 +5.9%, 목표~50% 도달. 오늘 +6.44% parabolic gap = 추격금지 + 동일테마 집중 → 3차 add 없음(눌림 일봉 종가 305000대 회귀 시에만 재평가). hold 근거: 정배열 주도주, 지지·테마 둘 다 유효. trailing(blow-off 후반 보호): 전기전자 rotating_out 강등 OR 삼전 일봉 종가 305000 이탈 음봉 시 1/2 정리. 분봉/일중고가 아닌 일 단위 종가 기준."
-    },
-    {
-      "slot": "0940",
-      "action": "hold",
-      "code": "009150",
-      "amount_won": null,
-      "qty": null,
-      "reason": "삼성전기 동일 AI반도체 후속, +5.03% gap parabolic. 삼전으로 이미 반도체 보유 → portfolio 게이트: 동일테마 2종·후반 집중 회피. 큰 갭 1차 부적격(thesis 강이나 시기 부적), 보류. 눌림 트리거(익일 재평가): 일봉 종가 1550000대 지지 retest + 전기전자 leading 유지 동시 충족 시 시드 1차 ~200만. 미충족 carry."
-    },
-    {
-      "slot": "0940",
-      "action": "hold",
-      "code": "032830",
-      "amount_won": null,
-      "qty": null,
-      "reason": "삼성생명 분산옵션이나 금융업 sector laggards 유지(오늘 +2.14%, KOSPI -1.19%p underperform) → rotating_in 승격 미충족, theme 금융 신규중단·entry 소진. 오늘 +4.74% gap = 추격 부담. 반도체 쏠림 헤지 가치는 인정하나 sector 미확정+갭으로 보류(약점: 유일 분산처를 미루는 omission 위험 — 그래서 도달가능 게이트 명시). 게이트: 금융업 5-28 KOSPI 상회 양봉 rotating_in 승격(종가 기준) → 시드 1차 ~200만 즉시집행. 미충족 시 carry, 게이트 무효 아님."
-    },
-    {
-      "slot": "1230",
-      "action": "hold",
-      "code": "329180",
-      "amount_won": null,
-      "qty": null,
-      "reason": "방산 active day-6 약화이나 ended 아님. HD현대 733000, 600000 구조지지 한참 위 손절 미접근. 오늘 -1.61%는 반도체 단독 +4% narrow 장세 속 ex-반도체 동반약세지 단독약세 아님. 테마약화 1축/지지견조 1축 OR 게이트 중 지지 미이탈로 부분정리 미발동. 신규·add 중단(테마 약화). 정리 트리거: 600000 종가 이탈 시 1/2, 한화에어로 시총10위권 미복귀 2일+HD현대 일봉 -3%↑ 음봉 종가 동시 시 전량."
-    },
-    {
-      "slot": "1230",
-      "action": "hold",
-      "code": "005930",
-      "amount_won": null,
-      "qty": null,
-      "reason": "AI반도체 active day-12 강화·전기전자 leading 강화 유지, sell 트리거(전기전자 음전 종가+삼전 일봉 음봉 종가) 미발동. 추가 안 함: +7.19% parabolic 갭 추격 금지, 평단 300625 대비 위, 목표 ~50% 도달분 동결. 익절 트림 안 함: thesis 강화·구조 미붕괴라 blow-off regime 경고 단독으론 매도근거 불충분. 익일 전기전자 음전 종가+삼전 음봉 종가 동시 시 분할 정리."
-    },
-    {
-      "slot": "1230",
-      "action": "hold",
-      "code": "009150",
-      "amount_won": null,
-      "qty": null,
-      "reason": "신규 안 함: +8.46% parabolic 갭 추격 금지. 동일 AI반도체 테마(삼전 기보유) 중복이라 portfolio 분산상 동일테마 추가 회피. 눌림 retest 시에만 후보, 오늘 진입 부적격."
-    },
-    {
-      "slot": "1230",
-      "action": "hold",
-      "code": "032830",
-      "amount_won": null,
-      "qty": null,
-      "reason": "신규 안 함: 금융업 sector laggards(KOSPI -1.19%p underperform, rotating_in 미승격)+테마 entry 소진=확정 진입신호 부재. +2.73% 최저갭은 진입사유 아님, laggard sector 미확정 rotation 선취는 추격 반대편 함정. 게이트: 5-28 금융업 종가 KOSPI 상회 양봉+rotating_in 승격 시 분산 starter 자본 2-3% 1차 평가, 미충족 시 drop. 후보 전부 parabolic 추격 or 미확정 laggard라 현금 유지는 신호부재 정합이지 omission 아님."
-    },
-    {
-      "slot": "1520",
-      "action": "hold",
-      "code": "329180",
-      "amount_won": null,
-      "qty": null,
-      "reason": "방산 +11.9% (744000 vs 평단 665000). 두 축 점검 — 지지선: 744000, 어제수준/오늘저가 720000/원지지 600000 전부 상회, 종가이탈 없음. 테마유효성: 방산 약화(클러스터 단일종목 회귀, 한화에어로/LIG 시총10위권 미복귀, narrative 약화) — 침식 중이나 ended 아님(HD현대 600000 종가이탈 트리거 미발동, 오늘 -0.13% flat). 본질붕괴 카테고리 아님 → 전량 강제 사유 없음. 신규 중단(약화 테마). 익절 보호는 구체 트레일링: 일봉 종가 720000 하회 = 경고, 700000 종가 하회 = 1/2 정리, ended 트리거(HD현대 600000 종가이탈 OR 켄코아 부재 지속 + 한화에어로/LIG 미복귀 2일 동시) = 전량."
-    },
-    {
-      "slot": "1520",
-      "action": "hold",
-      "code": "005930",
-      "amount_won": null,
-      "qty": null,
-      "reason": "삼전 16주 평단 300625, 현 306500(+2%), 오늘 종가기준 +2.51%. AI반도체 강화이되 entry 후반/parabolic, 오늘 시초 +5% 갭 후 후퇴. 이미 목표 ~50% 빌드 완료. 추가 안 함: regime distribution 경고 + breadth 붕괴 + 반도체 비중 book의 ~52%(도배 게이트) + 갭 추격 금지 — 신규 add 부적격. 정리 안 함: 테마 강화 유지, +2%뿐, 구조 미이탈. 정리 트리거: 전기전자 rotating_out 재강등 종가 + 삼전 일봉 음봉 종가 동시(OR로 단일종목 -5%↑ 단봉 + 거래대금 평균 미만)."
-    },
-    {
-      "slot": "1520",
-      "action": "hold",
-      "code": "032830",
-      "amount_won": null,
-      "qty": null,
-      "reason": "신규 진입 0. 009150 삼성전기 = 동일 AI반도체, 진입 시 semis 60%↑(도배 게이트 위반) + 후반 parabolic 갭fade → 부적격. 032830 삼성생명 = 금융업 sector laggards(KOSPI -1.19%p underperform), theme entry 소진, promote 게이트 미충족(필요: 5-28 금융업 KOSPI 상회 종가 양봉 + rotating_in 승격). 갭fade 미확정 sector를 마지막 슬롯에 디폴트로 담지 않음 — 분산 명분으로 최약 신호 추격 회피. 진입 게이트: 5-28 금융업 rotating_in 승격 + KOSPI 상회 종가 충족 시 소량 1차. 환경(distribution 경고 + 전 후보 갭fade)이 약신호라 hold = regime 정합 디폴트, 현금 17.6% 유지."
-    }
-  ],
+  "pm_decisions": [],
   "calendar_dates": [
     "20260511",
     "20260512",
@@ -147,6 +58,6 @@
     "20260521",
     "20260526"
   ],
-  "strategist_brief": "Caveman read done. Market = narrow blow-off. 반도체 parabolic 단독 견인, breadth 붕괴(KOSPI adv154/dec732, KOSDAQ -1.47%). Regime 추세장강세지만 confidence 보통, 신규 공격성 동결, gap 추격 금지. 살아있는 테마 사실상 AI반도체 하나 → 분산 신호 PM 한테 명시 줌.\n\n```json\n{\n  \"themes\": [\n    {\n      \"name\": \"AI 반도체/HBM\",\n      \"stance\": \"유일 주도이되 parabolic 후반 — 신규는 눌림·지지선 분할만, gap-up 추격 절대 금지\",\n      \"entry_status\": \"후반\",\n      \"note\": \"전기전자 sector +5.34% 단독 견인. 삼성전자 +6.52%/SK하이닉스 +9.36%/SK스퀘어 +10.92% blow-off. 기보유 유지·눌림 선별 추가, 강세 구간 일부 익절 검토.\"\n    },\n    {\n      \"name\": \"금융/보험 (밸류 로테이션)\",\n      \"stance\": \"분산 옵션 — 미확정. narrow growth blow-off 후반 value 선제유입 thesis 잠재이나 sector 아직 KOSPI underperform laggard\",\n      \"entry_status\": \"소진/관망\",\n      \"note\": \"삼성생명 +4.81% 상대강세. 확정 진입 아닌 소량 분산용. 5-28 금융업 KOSPI 상회 양봉 시 승격.\"\n    }\n  ],\n  \"candidates\": [\n    {\n      \"code\": \"005930\",\n      \"name\": \"삼성전자\",\n      \"reason\": \"AI반도체/전기전자 leading 대장, 시총1위 최고 유동성. 오늘 +6.52% parabolic — 신규는 추격 금지, 갭/고점 반납 시 눌림·지지선 분할 진입만. 기보유면 정배열 견조 주도주로 유지.\"\n    },\n    {\n      \"code\": \"009150\",\n      \"name\": \"삼성전기\",\n      \"reason\": \"AI반도체 후속(MLCC/기판), 시총6위 +5.85%. 1군 대비 상대 덜 과열이나 동일 narrow blow-off 후반 — 눌림 분할만. 단독 신규 비중 확대 금지.\"\n    },\n    {\n      \"code\": \"032830\",\n      \"name\": \"삼성생명\",\n      \"reason\": \"금융 defensive 로테이션 분산 옵션, 시총9위 +4.81% red sea 속 상대강세. 반도체 쏠림 헤지용 소량. 단 sector 아직 underperform laggard로 미확정 — 분산 목적 한정, 공격 진입 아님.\"\n    }\n  ],\n  \"notes\": \"오늘 후보 3개 중 2개(삼성전자·삼성전기)가 동일 AI반도체 테마 — 시장 유일 주도이나 parabolic/distribution 후반이라 단일테마 쏠림 위험. PM portfolio-level 분산 게이트 켜라(반도체 단일 도배 금지). 전 후보 gap-up/parabolic 상태 → 신규는 예외 없이 눌림·지지선 분할만, 추격·full 일괄 금지. regime breadth 붕괴(KOSPI adv154/dec732, KOSDAQ -1.47% adv244/dec1434) + confidence 보통 → 신규 공격성 동결, 기보유 유지·관망 우선. 삼성생명은 분산 헤지 옵션이며 금융 sector 미확정이므로 비중 소량.\"\n}\n```",
-  "auditor_verdict": "## 검증 결론 (2026-05-27)\n\n오늘 PM 3슬롯 전부 hold, 집행 0건. 잔고 2종 다 carry. 현금 82.4%.\n\n**먼저 잘한 것부터 짧게.** 시장은 narrow blow-off — 반도체 단독 견인(삼전 +6.52%, 하이닉스 +9.36%, SK스퀘어 +10.92%), breadth 붕괴(KOSPI adv154/dec732, KOSDAQ -1.47%). 후보 3종 전부 gap parabolic. 이 환경에서 gap 추격 안 한 것, 삼성전기 진입 거부해 semis 60% 도배 막은 것(strategist 분산 게이트 준수), 삼성생명 약신호 laggard 추격 안 한 것 — 전부 regime·mandate 정합. 신규 0은 결함 아님. **그리고 PM decision 어느 슬롯도 \"verdict §N\" 인용으로 시작 안 했다.** 어제 audit 을 alibi 로 안 깔고 regime·breadth·테마 state 본질로 추론함. 이 습관 유지해라.\n\n**문제는 매도/익절 쪽 비대칭이다.** 이게 오늘 핵심 지적.\n\nmandate 의 손절·정리 기준은 *지지선 그리고 테마 유효성* 두 축이다. PM 은 방산(329180)에서 이걸 \"둘 다 깨져야 정리\"하는 OR 게이트로 바꿨다 — 09:40 reason 원문: \"테마약화 1축/지지견조 1축 OR 게이트 중 지지 미이탈로 부분정리 미발동\". 그런데 방산 테마 유효성 축은 PM 본인 입으로 세 슬롯 내내 무너지는 중이라 적었다: \"클러스터 단일종목 회귀\", \"한화에어로/LIG 시총10위권 미복귀\", \"narrative 약화\", \"약화 day-6\". 즉 두 축 중 *테마 유효성 축은 이미 점등*인데, 가격/지지 축 하나만 안 깨졌다고 풀사이즈 유지했다. 두 축 룰을 가격 한 축으로 접은 거다.\n\n여기에 내부 모순이 박혀 있다. 09:40 에 방산을 \"+10.5% 익절권\"이라 *명명*하고, 같은 줄에서 익절은 0. 익절권이라 부른 포지션을 한 주도 안 줄였다. 약화 테마 + 큰 이익 + blow-off 장세 = 분할 익절의 교과서 셋업인데, PM 은 trailing stop(600000→700000 상향)을 발명해 \"보호하고 있다\"는 서사로 익절 부재를 합리화했다. trailing 상향 자체는 정당하나, 테마가 *가격이 아니라 thesis 차원에서* 침식 중일 때 가격 트리거에만 매도를 위임하면 — 얇아지는 약화주에서 700000 갭하락 관통 시 +11.9% 가 실현 못 되고 증발한다. 룰이 보라는 두 번째 축(테마 유효성)이 이미 신호 줬는데 가격 축으로 미룬 것.\n\n비대칭을 정리하면: **매수는 극도로 엄격(parabolic·breadth·도배·갭 다 거름) — 좋다. 매도/트림은 느슨하고 자꾸 미룬다.** 이건 omission bias + status quo 다. \"행동 안 하는 쪽\"을 디폴트로 두고 trailing·게이트로 정당화. 시스템이 PM 한테 하루 3슬롯을 준 이유는 mandate 에 명시돼 있다 — *분할 진입/익절 타이밍 분산용*. 오늘 PM 은 약화 테마 winner(방산)와 parabolic winner(삼전, semis 52% 집중, strategist 가 \"강세 구간 일부 익절 검토\" 직접 권고)를 손에 쥐고 익절 슬롯 3개를 다 re-confirmation 으로 썼다. scale-out 0회. 익절하라고 만든 구조를 관망 재확인에 쓴 것.\n\n삼전(005930)은 thesis 강화 유지라 풀hold 논거 더 강하다 — 여기 매도 강제는 안 한다. 다만 PM 본인이 distribution 경고 + breadth 붕괴 + semis 52% 도배를 세 번 인정해놓고 행동 0인 점은 방산과 같은 비대칭의 연장이다. 집중 위험을 *말로는* 계속 인정하고 *손으로는* 한 번도 안 줄였다.\n\n삼성생명(032830) omission 처리도 슬롯 간 서사가 미끄러졌다. 09:40 \"유일 분산처 미루는 omission 위험 — 그래서 도달가능 게이트 명시\"(자각 양호) → 12:30 \"현금 유지는 omission 아님\" → 15:20 \"분산 명분으로 최약 신호 추격 회피\". 새 데이터 없이 입장이 \"관리 중인 위험\"에서 \"위험 자체가 없음\"으로 굳어졌다. 결론(약 laggard 안 산다)은 맞지만, 자기확신이 데이터 없이 강해지는 drift 는 경계해라. 게이트 걸어둔 거 자체는 잘했으니 게이트로 판단하면 된다.\n\n**82% 현금 자체는 오늘 합당** — blow-off + breadth 붕괴면 방어 정합. 단 경고: regime tracker 가 계속 추세장강세 부르는데 PM 이 매번 \"오늘 breadth 붕괴\"를 이유로 carry-only·82% 현금에 머물면, 그건 관망의 자기합리화로 굳는다. 오늘 1회는 정합, 패턴이 되면 결함.\n\n## 내일 PM 지침\n\n방산(329180) 다시 보면, 테마 유효성 축이 이미 약화로 점등됐다는 본인 판단을 매도 결정에 반영해라. 손절·정리 룰은 지지선 *그리고* 테마 유효성 두 축이다 — 한 축이 무너지는 winner 에서 \"가격 안 깨졌다\"만으로 풀사이즈 끄는 건 룰을 한 축으로 접는 거다. +이익 난 약화 테마는 분할 익절이 디폴트 검토 대상이지, trailing stop 으로 전량 미루는 게 디폴트가 아니다. 5-28 에 방산이 또 약화 신호(켄코아 부재 지속, 한화에어로/LIG 미복귀, narrative 무회복) 보이면서 가격만 지지 위에 떠 있으면, 전량 강제는 아니어도 1/2 익절을 *능동 검토*해라. reason 에 \"trailing 미발동\"이 아니라 \"테마 유효성 침식했나, 침식했으면 왜 안 줄이나\"를 본질로 써라.\n\n삼전 집중(semis 52%)도 말로만 인정 말고, distribution 경고가 5-28 에 강화되면(전기전자 음전 종가, breadth 추가 악화) 트림 한 번을 실제 검토 대상에 올려라. 3슬롯은 분할 익절 타이밍 분산용이다 — 익절 신호가 있는 날 슬롯을 re-confirmation 으로만 소비하면 시스템 설계를 안 쓰는 거다.\n\n매수 필터의 엄격함을 매도 쪽에도 동일하게 적용해라. 오늘은 \"왜 안 사나\"는 네 번씩 따졌는데 \"왜 안 파나/안 줄이나\"는 trailing 핑계로 끝냈다. 내일은 hold 적을 때마다 매도 측도 같은 강도로 한 줄 따져라 — \"이 포지션 thesis 가 *강화*라 안 줄이는 거냐, 아니면 익절이 귀찮아 trailing 으로 미루는 거냐\". 전자면 hold, 후자면 트림.\n\n삼성생명은 걸어둔 게이트(금융업 종가 KOSPI 상회 양봉 + rotating_in 승격)로만 판단해라. 게이트 미충족이면 안 사는 게 맞고, 그걸 \"omission 아예 아님\"으로 격상해 자기확신 키우지 마라 — 게이트 충족하면 그때 분산 starter 소량 집행, 그게 omission 관리의 본질이다.\n\n이 verdict 의 어느 문장도 내일 reason 첫 줄 인용용 번호표가 아니다. 룰 *의도*(두 축 매도, 익절 슬롯 활용, 매수/매도 대칭 엄격)를 네 말로 풀어써라."
+  "strategist_brief": null,
+  "auditor_verdict": null
 }
