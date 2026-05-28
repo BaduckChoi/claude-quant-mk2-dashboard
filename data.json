@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28 15:21:03",
+  "generated_at": "2026-05-28 15:40:48",
   "date": "20260528",
   "mode": "dry_run",
   "stats": {
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 5475000,
     "cash_remaining_won": 44525000,
-    "total_eval_won": 5504000,
-    "unrealized_pnl_won": 29000
+    "total_eval_won": 5496000,
+    "unrealized_pnl_won": 21000
   },
   "positions": [
     {
@@ -36,11 +36,11 @@
       "qty": 16,
       "avg_price": 300625,
       "cost_won": 4810000,
-      "current_price": 300000,
-      "change_rate": -2.28,
-      "eval_won": 4800000,
-      "pnl_won": -10000,
-      "pnl_pct": -0.2079002079002079,
+      "current_price": 299500,
+      "change_rate": -2.44,
+      "eval_won": 4792000,
+      "pnl_won": -18000,
+      "pnl_pct": -0.37422037422037424,
       "thesis": "AI반도체 active 강화 중반(day-11) + 전기전자 leading day-1 강화 유지 — 2차 분할 트리거 '전기전자 leading 유지 & 삼전 지지 확인' 충족(가용 sector state·live 로 평가 가능). 삼전 +2.65% 후보 5종 중 최저 갭, 평단 301000 부근(300250) 유지 = 추격 아닌 분할 build. 1차 probe 8주와 동량 add → 목표 사이즈 약 50% 도달, 일괄 아님. 약점: regime day-1 conf 보통 + 전반 gap fade 경고 + breadth 협소 — 그래서 probe 동량으로 사이즈 억제, 추가 증액은 보류. 손절구조: 전기전자 rotating_out 재강등 + 삼전 일봉 음봉 종가 동시 시 정리(평단% 앵커 아님)."
     }
   ],
