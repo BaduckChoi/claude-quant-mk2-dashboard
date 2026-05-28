@@ -725,5 +725,84 @@
       }
     ],
     "trades_count": 2
+  },
+  "20260528": {
+    "buy_won": 0,
+    "buys": 0,
+    "date": "2026-05-28",
+    "open_positions": 2,
+    "realized_pnl_won": 174000,
+    "sell_won": 2169000,
+    "sells": 1,
+    "themes": [
+      {
+        "days_active": 13,
+        "entry_status": "후반",
+        "leaders": [
+          {
+            "code": "",
+            "name": "삼성전자"
+          },
+          {
+            "code": "",
+            "name": "SK하이닉스"
+          },
+          {
+            "code": "",
+            "name": "삼성전기"
+          },
+          {
+            "code": "",
+            "name": "SK스퀘어"
+          }
+        ],
+        "name": "AI 반도체/HBM",
+        "strength_trend": "약화"
+      },
+      {
+        "days_active": 7,
+        "entry_status": "초입",
+        "leaders": [
+          {
+            "code": "",
+            "name": "HD현대중공업"
+          }
+        ],
+        "name": "방산/우주항공",
+        "strength_trend": "약화"
+      },
+      {
+        "days_active": 1,
+        "entry_status": "초입",
+        "leaders": [
+          {
+            "code": "",
+            "name": "LG에너지솔루션"
+          },
+          {
+            "code": "",
+            "name": "더블유씨피"
+          }
+        ],
+        "name": "2차전지/배터리 소재",
+        "strength_trend": "강화"
+      }
+    ],
+    "top_movers": [
+      {
+        "code": "329180",
+        "name": "HD현대중공업",
+        "realized_pnl_won": 174000
+      }
+    ],
+    "traded_codes": [
+      {
+        "action": "sell",
+        "code": "329180",
+        "name": "HD현대중공업"
+      }
+    ],
+    "trades_count": 1,
+    "unrealized_pnl_won": 223000
   }
 }
