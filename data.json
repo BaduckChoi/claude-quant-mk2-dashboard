@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29 15:21:11",
+  "generated_at": "2026-05-29 15:40:52",
   "date": "20260529",
   "mode": "dry_run",
   "stats": {
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 6238000,
     "cash_remaining_won": 43762000,
-    "total_eval_won": 6528000,
-    "unrealized_pnl_won": 290000
+    "total_eval_won": 6518000,
+    "unrealized_pnl_won": 280000
   },
   "positions": [
     {
@@ -36,11 +36,11 @@
       "qty": 2,
       "avg_price": 714000,
       "cost_won": 1428000,
-      "current_price": 728000,
-      "change_rate": 7.53,
-      "eval_won": 1456000,
-      "pnl_won": 28000,
-      "pnl_pct": 1.9607843137254901,
+      "current_price": 723000,
+      "change_rate": 6.79,
+      "eval_won": 1446000,
+      "pnl_won": 18000,
+      "pnl_pct": 1.2605042016806722,
       "thesis": "운송장비 leading 신참 day 1 강화(+2.51% 어제 rotating_in→오늘 leading, vol 7154 전섹터 3위), 현대차 714000 +5.47% 2일 연속 양봉 KOSPI 상회, vol_rate 77.6 자금유입 견조. 보유 005930 단일 HBM 노출에 자동 분산축 신설 — 후보 5종 중 HBM 3종(005930/000660/009150)은 같은 테마 도배 가중, 자동 leg(005380/012330) 중 005380 갭이 작다(현대모비스 +8.45% 추격부담). 갭 5.47%는 grading상 1차 seed 축소 영역 = 자본 2.9%(143만, 2주)만 probe. day-1 sector confidence 낮음·jagged cycle 이력 패널티 반영해 풀시드 회피. 2차 add 게이트(가용 sector·live state 평가): 내일 운송장비 leading carry day 2 + 현대차 종가 KOSPI 상회 양봉 또는 보합 + 기아/현대모비스 중 1+ 종가 양봉 동시 충족 → 동량 2주 add. 손절구조: 운송장비 rotating_out 강등 + 현대차 직전 저점 701000 종가 이탈 동시(평단% 앵커 아님). 미충족 시 익일 carry."
     }
   ],
