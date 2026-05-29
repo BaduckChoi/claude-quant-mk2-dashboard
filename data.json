@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-05-29 09:41:59",
+  "generated_at": "2026-05-29 12:31:24",
   "date": "20260529",
   "mode": "dry_run",
   "stats": {
-    "open_positions": 1,
-    "trades_count": 1,
-    "buys": 0,
+    "open_positions": 2,
+    "trades_count": 2,
+    "buys": 1,
     "sells": 1,
-    "buy_won": 0,
+    "buy_won": 1428000,
     "sell_won": 700000,
     "realized_pnl_won": 35000,
     "capital_won": 50000000,
-    "deployed_won": 4810000,
-    "cash_remaining_won": 45190000,
-    "total_eval_won": 4968000,
-    "unrealized_pnl_won": 158000
+    "deployed_won": 6238000,
+    "cash_remaining_won": 43762000,
+    "total_eval_won": 6408000,
+    "unrealized_pnl_won": 170000
   },
   "positions": [
     {
@@ -23,12 +23,25 @@
       "qty": 16,
       "avg_price": 300625,
       "cost_won": 4810000,
-      "current_price": 310500,
-      "change_rate": 3.67,
-      "eval_won": 4968000,
-      "pnl_won": 158000,
-      "pnl_pct": 3.2848232848232852,
+      "current_price": 311250,
+      "change_rate": 3.92,
+      "eval_won": 4980000,
+      "pnl_won": 170000,
+      "pnl_pct": 3.5343035343035343,
       "thesis": "AI반도체 active 강화 중반(day-11) + 전기전자 leading day-1 강화 유지 — 2차 분할 트리거 '전기전자 leading 유지 & 삼전 지지 확인' 충족(가용 sector state·live 로 평가 가능). 삼전 +2.65% 후보 5종 중 최저 갭, 평단 301000 부근(300250) 유지 = 추격 아닌 분할 build. 1차 probe 8주와 동량 add → 목표 사이즈 약 50% 도달, 일괄 아님. 약점: regime day-1 conf 보통 + 전반 gap fade 경고 + breadth 협소 — 그래서 probe 동량으로 사이즈 억제, 추가 증액은 보류. 손절구조: 전기전자 rotating_out 재강등 + 삼전 일봉 음봉 종가 동시 시 정리(평단% 앵커 아님)."
+    },
+    {
+      "code": "005380",
+      "name": "현대차",
+      "qty": 2,
+      "avg_price": 714000,
+      "cost_won": 1428000,
+      "current_price": 714000,
+      "change_rate": 5.47,
+      "eval_won": 1428000,
+      "pnl_won": 0,
+      "pnl_pct": 0.0,
+      "thesis": "운송장비 leading 신참 day 1 강화(+2.51% 어제 rotating_in→오늘 leading, vol 7154 전섹터 3위), 현대차 714000 +5.47% 2일 연속 양봉 KOSPI 상회, vol_rate 77.6 자금유입 견조. 보유 005930 단일 HBM 노출에 자동 분산축 신설 — 후보 5종 중 HBM 3종(005930/000660/009150)은 같은 테마 도배 가중, 자동 leg(005380/012330) 중 005380 갭이 작다(현대모비스 +8.45% 추격부담). 갭 5.47%는 grading상 1차 seed 축소 영역 = 자본 2.9%(143만, 2주)만 probe. day-1 sector confidence 낮음·jagged cycle 이력 패널티 반영해 풀시드 회피. 2차 add 게이트(가용 sector·live state 평가): 내일 운송장비 leading carry day 2 + 현대차 종가 KOSPI 상회 양봉 또는 보합 + 기아/현대모비스 중 1+ 종가 양봉 동시 충족 → 동량 2주 add. 손절구조: 운송장비 rotating_out 강등 + 현대차 직전 저점 701000 종가 이탈 동시(평단% 앵커 아님). 미충족 시 익일 carry."
     }
   ],
   "trades": [
@@ -46,6 +59,20 @@
       "order_no": "",
       "avg_cost": 665000,
       "realized_pnl_won": 35000
+    },
+    {
+      "ts": "2026-05-29T12:31:24",
+      "cycle_id": "20260529-1230",
+      "action": "buy",
+      "code": "005380",
+      "name": "현대차",
+      "qty": 2,
+      "price": 714000,
+      "amount_won": 1428000,
+      "reason": "운송장비 leading 신참 day 1 강화(+2.51% 어제 rotating_in→오늘 leading, vol 7154 전섹터 3위), 현대차 714000 +5.47% 2일 연속 양봉 KOSPI 상회, vol_rate 77.6 자금유입 견조. 보유 005930 단일 HBM 노출에 자동 분산축 신설 — 후보 5종 중 HBM 3종(005930/000660/009150)은 같은 테마 도배 가중, 자동 leg(005380/012330) 중 005380 갭이 작다(현대모비스 +8.45% 추격부담). 갭 5.47%는 grading상 1차 seed 축소 영역 = 자본 2.9%(143만, 2주)만 probe. day-1 sector confidence 낮음·jagged cycle 이력 패널티 반영해 풀시드 회피. 2차 add 게이트(가용 sector·live state 평가): 내일 운송장비 leading carry day 2 + 현대차 종가 KOSPI 상회 양봉 또는 보합 + 기아/현대모비스 중 1+ 종가 양봉 동시 충족 → 동량 2주 add. 손절구조: 운송장비 rotating_out 강등 + 현대차 직전 저점 701000 종가 이탈 동시(평단% 앵커 아님). 미충족 시 익일 carry.",
+      "dry_run": true,
+      "order_no": "",
+      "realized_pnl_won": null
     }
   ],
   "pm_decisions": [
@@ -72,6 +99,46 @@
       "amount_won": null,
       "qty": null,
       "reason": "신규 시드 0종. 후보 5종 갭/테마 부담: 005930 보유 중복, 000660 +3.17% AI반도체 동일 테마 N≥2 도배 위험(005930 추가 증액 보류 결정과 정합), 009150 +8.11% 추격 부적격, 005380 +7.98% 갭 부담, 012330 +12.68% 추격 불가. AI반도체 day-14 후반 누적 + KOSDAQ MA20 -7.5% 3일 연속 하락 + KOSPI breadth 0.27:1 협소 + 전기전자 leading days 4 막바지 = 신규 추격 비용 큼. 운송장비 leading days 1 jagged cycle(5-21/22/26/27/28 잦은 강등) confidence 낮음. 사전 게이트(슬롯2/3·익일 자동 평가): (a) 005380 종가 705k 이하 안착 + 운송장비 leading days 2 carry + 기아/현대모비스 중 1+ 동반 양봉 종가 충족 시 분산축 시드 1차 300만(1주) 발동, OR 평가 가능 슬롯 가용 데이터로 직접 확정, (b) 000660 종가 +0% 보합 이상 + 005930 일봉 종가 308k 유지 시 시드 1차 250만(1주) 검토(단 동일 테마 N=2 보수). 자본 capacity 90% = 무리 진입 회피."
+    },
+    {
+      "slot": "1230",
+      "action": "buy",
+      "code": "005380",
+      "amount_won": 143,
+      "qty": 2,
+      "reason": "운송장비 leading 신참 day 1 강화(+2.51% 어제 rotating_in→오늘 leading, vol 7154 전섹터 3위), 현대차 714000 +5.47% 2일 연속 양봉 KOSPI 상회, vol_rate 77.6 자금유입 견조. 보유 005930 단일 HBM 노출에 자동 분산축 신설 — 후보 5종 중 HBM 3종(005930/000660/009150)은 같은 테마 도배 가중, 자동 leg(005380/012330) 중 005380 갭이 작다(현대모비스 +8.45% 추격부담). 갭 5.47%는 grading상 1차 seed 축소 영역 = 자본 2.9%(143만, 2주)만 probe. day-1 sector confidence 낮음·jagged cycle 이력 패널티 반영해 풀시드 회피. 2차 add 게이트(가용 sector·live state 평가): 내일 운송장비 leading carry day 2 + 현대차 종가 KOSPI 상회 양봉 또는 보합 + 기아/현대모비스 중 1+ 종가 양봉 동시 충족 → 동량 2주 add. 손절구조: 운송장비 rotating_out 강등 + 현대차 직전 저점 701000 종가 이탈 동시(평단% 앵커 아님). 미충족 시 익일 carry."
+    },
+    {
+      "slot": "1230",
+      "action": "hold",
+      "code": "005930",
+      "amount_won": null,
+      "qty": null,
+      "reason": "전기전자 leading days 4 강화 carry, 삼전 311500 +4.01% 정배열 견조, 16주 평단 300625 목표 사이즈 약 50% 도달 상태. 3차 add 트리거(전기전자 leading carry day 5 + KOSPI breadth 0.4+ 회복) 가용 데이터로 평가 시 breadth 0.22:1 미충족 = add 보류. 트림 검토축: 테마 days 14 누적 후반 라벨이나 sector 강화 회귀로 thesis 본질 침식 신호 아직 부재(전기전자 음전·vol 급감·삼전 일봉 음봉 종가 셋 다 미점등). 익일 전기전자 days 5 첫 음전 + vol 급감 또는 삼전 305500(오늘 일중 저점) 종가 이탈 시 1/3 부분정리, 두 조건 + KOSPI 8185 break 동시 시 1/2."
+    },
+    {
+      "slot": "1230",
+      "action": "hold",
+      "code": "000660",
+      "amount_won": null,
+      "qty": null,
+      "reason": "HBM 1군 갭 +1.27% 후보 중 최저이나 005930 보유 위에 같은 테마 추가 진입 = portfolio 분산 역방향. 자동 005380 leg 우선 편입으로 테마 1축→2축 만드는 게 portfolio gate 정합. 익일 게이트: 자동축 leg 안착(005380 carry 양호) + 전기전자 leading carry day 5 유지 + 000660 갭 -1%~+2% 범위 종가 안착 시 분할 1차 seed(2주~143만) 진입. 추격금지."
+    },
+    {
+      "slot": "1230",
+      "action": "hold",
+      "code": "009150",
+      "amount_won": null,
+      "qty": null,
+      "reason": "+13.63% 극단 갭. 어제 +7.08% 위에 추가 폭등 = day-1 추격 부적격. seed 축소·이연·보류 셋 중 보류 선택. 익일 -5%~+1% 되돌림 종가 + 전기전자 leading carry 시 후보 재평가."
+    },
+    {
+      "slot": "1230",
+      "action": "hold",
+      "code": "012330",
+      "amount_won": null,
+      "qty": null,
+      "reason": "+8.45% 갭. 005380 대비 갭 절대값 3%p 크고 vol_rate 62.62 < 005380 77.6 = 자동 leg 내 후순위. 005380 seed 우선 집행, 012330은 동일 클러스터 confirm 용 자리. 익일 -3%~+1% 종가 되돌림 + 운송장비 leading carry 시 분할 seed 검토."
     }
   ],
   "calendar_dates": [
