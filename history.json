@@ -638,7 +638,7 @@
       {
         "action": "buy",
         "code": "329180",
-        "name": "HD현대중공업"
+        "name": ""
       }
     ],
     "trades_count": 1
@@ -790,7 +790,7 @@
     "top_movers": [
       {
         "code": "329180",
-        "name": "HD현대중공업",
+        "name": "",
         "realized_pnl_won": 247000
       }
     ],
@@ -798,7 +798,7 @@
       {
         "action": "sell",
         "code": "329180",
-        "name": "HD현대중공업"
+        "name": ""
       }
     ],
     "trades_count": 3
@@ -807,7 +807,6 @@
     "buy_won": 1428000,
     "buys": 1,
     "date": "2026-05-29",
-    "open_positions": 2,
     "realized_pnl_won": 35000,
     "sell_won": 700000,
     "sells": 1,
@@ -856,7 +855,7 @@
     "top_movers": [
       {
         "code": "329180",
-        "name": "HD현대중공업",
+        "name": "",
         "realized_pnl_won": 35000
       }
     ],
@@ -864,7 +863,7 @@
       {
         "action": "sell",
         "code": "329180",
-        "name": "HD현대중공업"
+        "name": ""
       },
       {
         "action": "buy",
@@ -872,7 +871,6 @@
         "name": "현대차"
       }
     ],
-    "trades_count": 2,
-    "unrealized_pnl_won": 280000
+    "trades_count": 2
   }
 }
