@@ -872,5 +872,93 @@
       }
     ],
     "trades_count": 2
+  },
+  "20260601": {
+    "buy_won": 927000,
+    "buys": 1,
+    "date": "2026-06-01",
+    "open_positions": 3,
+    "realized_pnl_won": 133500,
+    "sell_won": 1336000,
+    "sells": 1,
+    "themes": [
+      {
+        "days_active": 15,
+        "entry_status": "후반",
+        "leaders": [
+          {
+            "code": "",
+            "name": "삼성전자"
+          },
+          {
+            "code": "",
+            "name": "SK하이닉스"
+          },
+          {
+            "code": "",
+            "name": "삼성전자우"
+          },
+          {
+            "code": "",
+            "name": "삼성전기"
+          },
+          {
+            "code": "",
+            "name": "LG디스플레이"
+          }
+        ],
+        "name": "AI 반도체/HBM",
+        "strength_trend": "약화"
+      },
+      {
+        "days_active": 9,
+        "entry_status": "초입",
+        "leaders": [
+          {
+            "code": "",
+            "name": "HD현대중공업"
+          },
+          {
+            "code": "",
+            "name": "해성에어로보틱스"
+          }
+        ],
+        "name": "방산/우주항공",
+        "strength_trend": "약화"
+      },
+      {
+        "days_active": 1,
+        "entry_status": "초입",
+        "leaders": [
+          {
+            "code": "",
+            "name": "현대차"
+          }
+        ],
+        "name": "자동차/전동화·부품",
+        "strength_trend": "강화"
+      }
+    ],
+    "top_movers": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "realized_pnl_won": 133500
+      }
+    ],
+    "traded_codes": [
+      {
+        "action": "sell",
+        "code": "005930",
+        "name": "삼성전자"
+      },
+      {
+        "action": "buy",
+        "code": "017670",
+        "name": "SK텔레콤"
+      }
+    ],
+    "trades_count": 2,
+    "unrealized_pnl_won": 474700
   }
 }
