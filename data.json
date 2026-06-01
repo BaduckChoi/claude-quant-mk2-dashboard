@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-06-01 12:31:45",
+  "generated_at": "2026-06-01 15:21:20",
   "date": "20260601",
   "mode": "dry_run",
   "stats": {
     "open_positions": 3,
-    "trades_count": 4,
+    "trades_count": 5,
     "buys": 2,
-    "sells": 2,
+    "sells": 3,
     "buy_won": 2443000,
-    "sell_won": 2731000,
-    "realized_pnl_won": 326000,
+    "sell_won": 4137000,
+    "realized_pnl_won": 529500,
     "capital_won": 50000000,
-    "deployed_won": 6276000,
-    "cash_remaining_won": 43724000,
-    "total_eval_won": 6786900,
-    "unrealized_pnl_won": 510900
+    "deployed_won": 5073500,
+    "cash_remaining_won": 44926500,
+    "total_eval_won": 5428700,
+    "unrealized_pnl_won": 355200
   },
   "positions": [
     {
       "code": "005930",
       "name": "삼성전자",
-      "qty": 8,
+      "qty": 4,
       "avg_price": 300625,
-      "cost_won": 2405000,
-      "current_price": 349000,
-      "change_rate": 10.09,
-      "eval_won": 2792000,
-      "pnl_won": 387000,
-      "pnl_pct": 16.091476091476093,
+      "cost_won": 1202500,
+      "current_price": 351500,
+      "change_rate": 10.88,
+      "eval_won": 1406000,
+      "pnl_won": 203500,
+      "pnl_pct": 16.923076923076923,
       "thesis": "AI반도체 active 강화 중반(day-11) + 전기전자 leading day-1 강화 유지 — 2차 분할 트리거 '전기전자 leading 유지 & 삼전 지지 확인' 충족(가용 sector state·live 로 평가 가능). 삼전 +2.65% 후보 5종 중 최저 갭, 평단 301000 부근(300250) 유지 = 추격 아닌 분할 build. 1차 probe 8주와 동량 add → 목표 사이즈 약 50% 도달, 일괄 아님. 약점: regime day-1 conf 보통 + 전반 gap fade 경고 + breadth 협소 — 그래서 probe 동량으로 사이즈 억제, 추가 증액은 보류. 손절구조: 전기전자 rotating_out 재강등 + 삼전 일봉 음봉 종가 동시 시 정리(평단% 앵커 아님)."
     },
     {
@@ -36,11 +36,11 @@
       "qty": 4,
       "avg_price": 736000,
       "cost_won": 2944000,
-      "current_price": 760000,
-      "change_rate": 5.12,
-      "eval_won": 3040000,
-      "pnl_won": 96000,
-      "pnl_pct": 3.260869565217391,
+      "current_price": 753000,
+      "change_rate": 4.15,
+      "eval_won": 3012000,
+      "pnl_won": 68000,
+      "pnl_pct": 2.309782608695652,
       "thesis": "운송장비 sector leading day-2 강화 carry(어제 +3.52% vol 7285 KOSPI +1.9%p 압도), 현대차 3일 연속 양봉 + 시총5위. 1차 probe 2주 평단 714000 → 동량 2주 add = 목표 사이즈 약 50% 도달, 일괄 아님. 약점: 기아/모비스 시총10위권 동반 가용 데이터로 확정 불가(가용 sector state 의 sector 가속 정량 신호로 대체 평가) + regime confidence 낮음 + KOSPI MA20 +12.7% 과열 + 운송장비 jagged cycle 이력. 그래서 동량 한정·풀시드 회피. 3차 add 게이트: 운송장비 days 3 carry + 현대차 종가 KOSPI 상회 + 후속(기아/모비스) 시총10위권 데이터 재진입. 손절구조: 운송장비 rotating_out 강등 OR 현대차 직전 저점 701000 종가 이탈 한 축 점등 시 size 절반 정리(평단% 앵커 아님)."
     },
     {
@@ -49,11 +49,11 @@
       "qty": 9,
       "avg_price": 103000,
       "cost_won": 927000,
-      "current_price": 106100,
-      "change_rate": 5.47,
-      "eval_won": 954900,
-      "pnl_won": 27900,
-      "pnl_pct": 3.0097087378640777,
+      "current_price": 112300,
+      "change_rate": 11.63,
+      "eval_won": 1010700,
+      "pnl_won": 83700,
+      "pnl_pct": 9.029126213592233,
       "thesis": "통신업 sector rotating_in 1일차, vol 480→2527 +426% 폭증 = defensive 자금 선제유입 실측 + 보험/증권/금융 cluster 동반 양전(증권 +3.61%·보험 +2.18%·금융 +2.17%) = 금리·defensive rotation 거시 트리거 정합. regime 추세장 강세 conf 낮음 + KOSPI MA20 +12.7% 과열 + 인버스 ETF 거래대금 1·2위(1.19조·1.08조) hedge 자금 진입 = wrap 헷지축 정합. 현대차 leg 단일에서 defensive 1축 추가. SKT 갭 +2.39% 최저 = 1차 시드 분할진입 부담 작음, vol_rate 11.6 자금유입 견조. 자본 2% probe = 9주(약 93만원, 목표 사이즈 약 25%). 약점: day-1 sector 신호 신선도 부족·1일 noise 가능성. 2차 add 게이트: 통신업 days 2 carry + SKT KOSPI 상회 종가 양봉 + KT/LGU+ 1+ 동반 양각 — 가용 sector·live 로 평가 가능. 손절구조: 통신업 rotating_out 강등 OR SKT 통신 sector 양전 시작 이전 가격구조 종가 이탈 — OR 한 축 점등 시 size 절반 정리(평단% 앵커 아님)."
     }
   ],
@@ -115,6 +115,21 @@
       "dry_run": true,
       "order_no": "",
       "realized_pnl_won": null
+    },
+    {
+      "ts": "2026-06-01T15:21:19",
+      "cycle_id": "20260601-1520",
+      "action": "sell",
+      "code": "005930",
+      "name": "삼성전자",
+      "qty": 4,
+      "price": 351500,
+      "amount_won": 1406000,
+      "reason": "AI반도체 day-15 후반·약화 라벨 carry. 클러스터 동조 붕괴 심화 — 후속주 삼전기 -6% 이탈·하이닉스 -1% 분기·삼전 단독 견인 = 약화 winner 본질 점등. 두 축 중 테마 유효성 축 침식 명확, OR 디폴트상 분할 익절 검토 발동. 평단 300625 → 351500 큰 익절권, 신고가 단독 가속은 클러스터 폭 축소의 다른 표현. 8주 → 4주(1/2) 정리, 잔량 4주 carry. 잔량 정리 조건: 전기전자 일봉 음전 종가 + 후속주 추가 -3% 동반 동시 점등 시 1/2 추가 정리(다음 슬롯·익일 새 트리거 평가).",
+      "dry_run": true,
+      "order_no": "",
+      "avg_cost": 300625,
+      "realized_pnl_won": 203500
     }
   ],
   "pm_decisions": [
@@ -213,6 +228,38 @@
       "amount_won": null,
       "qty": null,
       "reason": "디스플레이 driver/소재 후속주 부재 = 단일 종목 강세, 테마 아님 규율. AI반도체 후속주로 흡수 운영 권장, 별도 신규 시드 보류."
+    },
+    {
+      "slot": "1520",
+      "action": "sell",
+      "code": "005930",
+      "amount_won": null,
+      "qty": 4,
+      "reason": "AI반도체 day-15 후반·약화 라벨 carry. 클러스터 동조 붕괴 심화 — 후속주 삼전기 -6% 이탈·하이닉스 -1% 분기·삼전 단독 견인 = 약화 winner 본질 점등. 두 축 중 테마 유효성 축 침식 명확, OR 디폴트상 분할 익절 검토 발동. 평단 300625 → 351500 큰 익절권, 신고가 단독 가속은 클러스터 폭 축소의 다른 표현. 8주 → 4주(1/2) 정리, 잔량 4주 carry. 잔량 정리 조건: 전기전자 일봉 음전 종가 + 후속주 추가 -3% 동반 동시 점등 시 1/2 추가 정리(다음 슬롯·익일 새 트리거 평가)."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": "005380",
+      "amount_won": null,
+      "qty": null,
+      "reason": "운송장비 leading day-2 강화 carry(+3.52% vol 7285), 현대차 평단 736000 → 753000 +2.3% 위치 정상. 3차 add 게이트(운송장비 days 3 carry + 현대차 종가 KOSPI 상회 + 기아/모비스 시총10위 데이터 재진입)는 익일 평가 — 같은 thesis 슬롯 내 분할 add 금지."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": "017670",
+      "amount_won": null,
+      "qty": null,
+      "reason": "통신업 rotating_in day-1 vol +426% 폭증 + 종일 추가 가속 = defensive rotation 가설 실측. 어제 시드 9주 진입 24시간 내 추격 add 자기모순. 2차 add 게이트(통신업 days 2 carry + SKT 종가 양봉 + KT/LGU+ 동반)는 익일 평가."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": null,
+      "amount_won": null,
+      "qty": null,
+      "reason": "신규 0. 후보 잔여 3종(두산·삼성생명·LG디스플레이) 모두 day-1 단독·watching·단일 leader 등급으로 보유 3축(AI반도체·자동차·통신 defensive) 강세 신호 강도 미달. portfolio 3테마 분산 충분, 단일 테마 비중 60% 미만. 슬롯3 시간 막판 day-1 신호 추격은 wrap 호흡 부적합 — 익일 첫 슬롯 day-2 carry 확인 후 재평가."
     }
   ],
   "calendar_dates": [
