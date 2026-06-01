@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01 09:33:22",
+  "generated_at": "2026-06-01 09:35:48",
   "date": "20260601",
   "mode": "dry_run",
   "stats": {
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 6238000,
     "cash_remaining_won": 43762000,
-    "total_eval_won": 6780000,
-    "unrealized_pnl_won": 542000
+    "total_eval_won": 6798000,
+    "unrealized_pnl_won": 560000
   },
   "positions": [
     {
@@ -23,11 +23,11 @@
       "qty": 16,
       "avg_price": 300625,
       "cost_won": 4810000,
-      "current_price": 329500,
-      "change_rate": 3.94,
-      "eval_won": 5272000,
-      "pnl_won": 462000,
-      "pnl_pct": 9.604989604989605,
+      "current_price": 329750,
+      "change_rate": 4.02,
+      "eval_won": 5276000,
+      "pnl_won": 466000,
+      "pnl_pct": 9.68814968814969,
       "thesis": "AI반도체 active 강화 중반(day-11) + 전기전자 leading day-1 강화 유지 — 2차 분할 트리거 '전기전자 leading 유지 & 삼전 지지 확인' 충족(가용 sector state·live 로 평가 가능). 삼전 +2.65% 후보 5종 중 최저 갭, 평단 301000 부근(300250) 유지 = 추격 아닌 분할 build. 1차 probe 8주와 동량 add → 목표 사이즈 약 50% 도달, 일괄 아님. 약점: regime day-1 conf 보통 + 전반 gap fade 경고 + breadth 협소 — 그래서 probe 동량으로 사이즈 억제, 추가 증액은 보류. 손절구조: 전기전자 rotating_out 재강등 + 삼전 일봉 음봉 종가 동시 시 정리(평단% 앵커 아님)."
     },
     {
@@ -36,11 +36,11 @@
       "qty": 2,
       "avg_price": 714000,
       "cost_won": 1428000,
-      "current_price": 754000,
-      "change_rate": 4.29,
-      "eval_won": 1508000,
-      "pnl_won": 80000,
-      "pnl_pct": 5.602240896358544,
+      "current_price": 761000,
+      "change_rate": 5.26,
+      "eval_won": 1522000,
+      "pnl_won": 94000,
+      "pnl_pct": 6.582633053221289,
       "thesis": "운송장비 leading 신참 day 1 강화(+2.51% 어제 rotating_in→오늘 leading, vol 7154 전섹터 3위), 현대차 714000 +5.47% 2일 연속 양봉 KOSPI 상회, vol_rate 77.6 자금유입 견조. 보유 005930 단일 HBM 노출에 자동 분산축 신설 — 후보 5종 중 HBM 3종(005930/000660/009150)은 같은 테마 도배 가중, 자동 leg(005380/012330) 중 005380 갭이 작다(현대모비스 +8.45% 추격부담). 갭 5.47%는 grading상 1차 seed 축소 영역 = 자본 2.9%(143만, 2주)만 probe. day-1 sector confidence 낮음·jagged cycle 이력 패널티 반영해 풀시드 회피. 2차 add 게이트(가용 sector·live state 평가): 내일 운송장비 leading carry day 2 + 현대차 종가 KOSPI 상회 양봉 또는 보합 + 기아/현대모비스 중 1+ 종가 양봉 동시 충족 → 동량 2주 add. 손절구조: 운송장비 rotating_out 강등 + 현대차 직전 저점 701000 종가 이탈 동시(평단% 앵커 아님). 미충족 시 익일 carry."
     }
   ],
@@ -60,6 +60,6 @@
     "20260528",
     "20260529"
   ],
-  "strategist_brief": null,
+  "strategist_brief": "```json\n{\n  \"themes\": [\n    {\n      \"name\": \"자동차/전동화·부품\",\n      \"stance\": \"신규 분할진입 허용\",\n      \"rationale\": \"active 승격 1일차 강화/초입. 운송장비 sector leading days 2 +3.52% vol 7285 KOSPI 압도. 현대차 +4.98% 3일 연속 양봉. 전기전자 약화 빈자리 isolation 2축 부상. gap·추격 금지.\"\n    },\n    {\n      \"name\": \"AI반도체/HBM\",\n      \"stance\": \"극선별·삼성전자 단독 분할만\",\n      \"rationale\": \"active 15일차 약화/후반. 1군 분기 명확 — 삼전 +3.94% 정배열 단독 견인 vs 하이닉스 -0.86%·삼전기 -6.02% 이탈. ended 미충족이나 소진 임박. 신규 추격·gap 절대금지, 하이닉스/삼전기 신규 보류.\"\n    },\n    {\n      \"name\": \"전력/원전/산업재 인프라\",\n      \"stance\": \"watching·분할 시험매수 허용\",\n      \"rationale\": \"기계 sector +5.76% vol 16572 전섹터 1위 rotating_in. 두산에너빌리티 +6.06% 시총10위, SKC +28% 1일 spike(추격금지). 1일 단독이라 승격 보류이나 거시 모멘텀(조선·방산·원전) 정합. SKC 추격 금지.\"\n    },\n    {\n      \"name\": \"defensive 로테이션 (보험/통신)\",\n      \"stance\": \"watching·소량 분할\",\n      \"rationale\": \"보험 +2.18% / 통신업 +2.21% vol +426% 폭증 rotating_in. regime confidence 낮음 + KOSPI MA20 +12.7% 과열 + 인버스 ETF 거래대금 1,2위 = defensive thesis 정합. wrap 적합.\"\n    },\n    {\n      \"name\": \"디스플레이 (OLED)\",\n      \"stance\": \"watching·단일 leader\",\n      \"rationale\": \"LG디스플레이 +3.6% 2일 연속 양봉 거래대금 4위. 단일 종목 강세 — 테마 아님 규율, AI반도체 후속주로 흡수 운영 권장.\"\n    }\n  ],\n  \"candidates\": [\n    {\"code\": \"005380\", \"name\": \"현대차\", \"reason\": \"운송장비 leading days 2 강화 핵심. +4.98% 3일 양봉 시총5위. 분할진입·gap 금지.\"},\n    {\"code\": \"005930\", \"name\": \"삼성전자\", \"reason\": \"AI반도체 1군 단독 견인. +3.94% 시총1위 정배열·신고가. KODEX 삼성전자레버리지 +7.79% ETF 1위 흡수. 분할만, 추격금지.\"},\n    {\"code\": \"034020\", \"name\": \"두산에너빌리티\", \"reason\": \"기계 sector +5.76% 전섹터 1위 vol 폭발. +6.06% 시총10위 vol 1.5M. 1일 spike 우려 — 시험매수 분할.\"},\n    {\"code\": \"017670\", \"name\": \"SK텔레콤\", \"reason\": \"통신업 rotating_in vol 480→2527 +426% defensive 자금 선제유입 실측. regime confidence 낮음 헷지.\"},\n    {\"code\": \"032830\", \"name\": \"삼성생명\", \"reason\": \"보험 rotating_in laggard→승격 3조건 완전충족. 시총8위 +0.13% 미미하나 cluster 동반(증권 +3.61%, 금융 +2.17%). defensive 분산.\"},\n    {\"code\": \"034220\", \"name\": \"LG디스플레이\", \"reason\": \"거래대금 4위 3535억 +3.6% 2일 연속 양봉. 디스플레이 단일 leader, AI반도체 후속주 흡수. 소량.\"}\n  ],\n  \"notes\": \"regime 추세장 강세 confidence 낮음 — 보수 운용. 후보 6개 분산 양호(AI반도체 1·자동차 1·인프라 1·통신 1·보험 1·디스플레이 1). 단일 테마 쏠림 없음. 방산(약화 ended 직전)·AI SI(데이터 부재)·SKC/한온/하이닉스/삼전기 추격 금지. 모든 후보 gap·추격·풀매수 금지, 분할진입 강제. KOSDAQ/중소형 신규 금지(MA20 -7.5% 4일 음봉). regime (C') 트리거(KOSPI 8300 하회·종가 8476 break) 발생 시 신규 중단·기보유 분할익절.\"\n}\n```",
   "auditor_verdict": null
 }
