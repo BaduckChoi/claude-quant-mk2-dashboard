@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02 09:21:24",
+  "generated_at": "2026-06-02 09:26:46",
   "date": "20260602",
   "mode": "dry_run",
   "stats": {
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 5073500,
     "cash_remaining_won": 44926500,
-    "total_eval_won": 5366800,
-    "unrealized_pnl_won": 293300
+    "total_eval_won": 5351700,
+    "unrealized_pnl_won": 278200
   },
   "positions": [
     {
@@ -23,11 +23,11 @@
       "qty": 4,
       "avg_price": 300625,
       "cost_won": 1202500,
-      "current_price": 359500,
-      "change_rate": 3.01,
-      "eval_won": 1438000,
-      "pnl_won": 235500,
-      "pnl_pct": 19.584199584199585,
+      "current_price": 357500,
+      "change_rate": 2.44,
+      "eval_won": 1430000,
+      "pnl_won": 227500,
+      "pnl_pct": 18.91891891891892,
       "thesis": "AI반도체 active 강화 중반(day-11) + 전기전자 leading day-1 강화 유지 — 2차 분할 트리거 '전기전자 leading 유지 & 삼전 지지 확인' 충족(가용 sector state·live 로 평가 가능). 삼전 +2.65% 후보 5종 중 최저 갭, 평단 301000 부근(300250) 유지 = 추격 아닌 분할 build. 1차 probe 8주와 동량 add → 목표 사이즈 약 50% 도달, 일괄 아님. 약점: regime day-1 conf 보통 + 전반 gap fade 경고 + breadth 협소 — 그래서 probe 동량으로 사이즈 억제, 추가 증액은 보류. 손절구조: 전기전자 rotating_out 재강등 + 삼전 일봉 음봉 종가 동시 시 정리(평단% 앵커 아님)."
     },
     {
@@ -36,11 +36,11 @@
       "qty": 4,
       "avg_price": 736000,
       "cost_won": 2944000,
-      "current_price": 714000,
-      "change_rate": -4.8,
-      "eval_won": 2856000,
-      "pnl_won": -88000,
-      "pnl_pct": -2.989130434782609,
+      "current_price": 712000,
+      "change_rate": -5.07,
+      "eval_won": 2848000,
+      "pnl_won": -96000,
+      "pnl_pct": -3.260869565217391,
       "thesis": "운송장비 sector leading day-2 강화 carry(어제 +3.52% vol 7285 KOSPI +1.9%p 압도), 현대차 3일 연속 양봉 + 시총5위. 1차 probe 2주 평단 714000 → 동량 2주 add = 목표 사이즈 약 50% 도달, 일괄 아님. 약점: 기아/모비스 시총10위권 동반 가용 데이터로 확정 불가(가용 sector state 의 sector 가속 정량 신호로 대체 평가) + regime confidence 낮음 + KOSPI MA20 +12.7% 과열 + 운송장비 jagged cycle 이력. 그래서 동량 한정·풀시드 회피. 3차 add 게이트: 운송장비 days 3 carry + 현대차 종가 KOSPI 상회 + 후속(기아/모비스) 시총10위권 데이터 재진입. 손절구조: 운송장비 rotating_out 강등 OR 현대차 직전 저점 701000 종가 이탈 한 축 점등 시 size 절반 정리(평단% 앵커 아님)."
     },
     {
@@ -49,11 +49,11 @@
       "qty": 9,
       "avg_price": 103000,
       "cost_won": 927000,
-      "current_price": 119200,
-      "change_rate": 6.24,
-      "eval_won": 1072800,
-      "pnl_won": 145800,
-      "pnl_pct": 15.728155339805824,
+      "current_price": 119300,
+      "change_rate": 6.33,
+      "eval_won": 1073700,
+      "pnl_won": 146700,
+      "pnl_pct": 15.825242718446603,
       "thesis": "통신업 sector rotating_in 1일차, vol 480→2527 +426% 폭증 = defensive 자금 선제유입 실측 + 보험/증권/금융 cluster 동반 양전(증권 +3.61%·보험 +2.18%·금융 +2.17%) = 금리·defensive rotation 거시 트리거 정합. regime 추세장 강세 conf 낮음 + KOSPI MA20 +12.7% 과열 + 인버스 ETF 거래대금 1·2위(1.19조·1.08조) hedge 자금 진입 = wrap 헷지축 정합. 현대차 leg 단일에서 defensive 1축 추가. SKT 갭 +2.39% 최저 = 1차 시드 분할진입 부담 작음, vol_rate 11.6 자금유입 견조. 자본 2% probe = 9주(약 93만원, 목표 사이즈 약 25%). 약점: day-1 sector 신호 신선도 부족·1일 noise 가능성. 2차 add 게이트: 통신업 days 2 carry + SKT KOSPI 상회 종가 양봉 + KT/LGU+ 1+ 동반 양각 — 가용 sector·live 로 평가 가능. 손절구조: 통신업 rotating_out 강등 OR SKT 통신 sector 양전 시작 이전 가격구조 종가 이탈 — OR 한 축 점등 시 size 절반 정리(평단% 앵커 아님)."
     }
   ],
