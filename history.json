@@ -963,5 +963,82 @@
       }
     ],
     "trades_count": 5
+  },
+  "20260602": {
+    "buy_won": 0,
+    "buys": 0,
+    "date": "2026-06-02",
+    "open_positions": 2,
+    "realized_pnl_won": 76750,
+    "sell_won": 3622000,
+    "sells": 2,
+    "themes": [
+      {
+        "days_active": 16,
+        "entry_status": "후반",
+        "leaders": [
+          {
+            "code": "",
+            "name": "삼성전자"
+          },
+          {
+            "code": "",
+            "name": "삼성전자우"
+          },
+          {
+            "code": "",
+            "name": "LG디스플레이"
+          }
+        ],
+        "name": "AI 반도체/HBM",
+        "strength_trend": "약화"
+      },
+      {
+        "days_active": 1,
+        "entry_status": "초입",
+        "leaders": [
+          {
+            "code": "",
+            "name": "삼성생명"
+          },
+          {
+            "code": "",
+            "name": "SK텔레콤"
+          },
+          {
+            "code": "",
+            "name": "삼성화재"
+          }
+        ],
+        "name": "금융/통신 defensive 로테이션",
+        "strength_trend": "강화"
+      }
+    ],
+    "top_movers": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "realized_pnl_won": 120750
+      },
+      {
+        "code": "005380",
+        "name": "현대차",
+        "realized_pnl_won": -44000
+      }
+    ],
+    "traded_codes": [
+      {
+        "action": "sell",
+        "code": "005380",
+        "name": "현대차"
+      },
+      {
+        "action": "sell",
+        "code": "005930",
+        "name": "삼성전자"
+      }
+    ],
+    "trades_count": 2,
+    "unrealized_pnl_won": 277850
   }
 }
