@@ -1,47 +1,34 @@
 {
-  "generated_at": "2026-06-02 09:35:45",
+  "generated_at": "2026-06-02 09:42:16",
   "date": "20260602",
   "mode": "dry_run",
   "stats": {
-    "open_positions": 3,
-    "trades_count": 0,
+    "open_positions": 2,
+    "trades_count": 2,
     "buys": 0,
-    "sells": 0,
+    "sells": 2,
     "buy_won": 0,
-    "sell_won": 0,
-    "realized_pnl_won": null,
+    "sell_won": 3622000,
+    "realized_pnl_won": 76750,
     "capital_won": 50000000,
-    "deployed_won": 5073500,
-    "cash_remaining_won": 44926500,
-    "total_eval_won": 5478800,
-    "unrealized_pnl_won": 405300
+    "deployed_won": 1528250,
+    "cash_remaining_won": 48471750,
+    "total_eval_won": 1806100,
+    "unrealized_pnl_won": 277850
   },
   "positions": [
     {
       "code": "005930",
       "name": "삼성전자",
-      "qty": 4,
+      "qty": 2,
       "avg_price": 300625,
-      "cost_won": 1202500,
-      "current_price": 364500,
-      "change_rate": 4.44,
-      "eval_won": 1458000,
-      "pnl_won": 255500,
-      "pnl_pct": 21.24740124740125,
+      "cost_won": 601250,
+      "current_price": 359000,
+      "change_rate": 2.87,
+      "eval_won": 718000,
+      "pnl_won": 116750,
+      "pnl_pct": 19.41787941787942,
       "thesis": "AI반도체 active 강화 중반(day-11) + 전기전자 leading day-1 강화 유지 — 2차 분할 트리거 '전기전자 leading 유지 & 삼전 지지 확인' 충족(가용 sector state·live 로 평가 가능). 삼전 +2.65% 후보 5종 중 최저 갭, 평단 301000 부근(300250) 유지 = 추격 아닌 분할 build. 1차 probe 8주와 동량 add → 목표 사이즈 약 50% 도달, 일괄 아님. 약점: regime day-1 conf 보통 + 전반 gap fade 경고 + breadth 협소 — 그래서 probe 동량으로 사이즈 억제, 추가 증액은 보류. 손절구조: 전기전자 rotating_out 재강등 + 삼전 일봉 음봉 종가 동시 시 정리(평단% 앵커 아님)."
-    },
-    {
-      "code": "005380",
-      "name": "현대차",
-      "qty": 4,
-      "avg_price": 736000,
-      "cost_won": 2944000,
-      "current_price": 728000,
-      "change_rate": -2.93,
-      "eval_won": 2912000,
-      "pnl_won": -32000,
-      "pnl_pct": -1.0869565217391304,
-      "thesis": "운송장비 sector leading day-2 강화 carry(어제 +3.52% vol 7285 KOSPI +1.9%p 압도), 현대차 3일 연속 양봉 + 시총5위. 1차 probe 2주 평단 714000 → 동량 2주 add = 목표 사이즈 약 50% 도달, 일괄 아님. 약점: 기아/모비스 시총10위권 동반 가용 데이터로 확정 불가(가용 sector state 의 sector 가속 정량 신호로 대체 평가) + regime confidence 낮음 + KOSPI MA20 +12.7% 과열 + 운송장비 jagged cycle 이력. 그래서 동량 한정·풀시드 회피. 3차 add 게이트: 운송장비 days 3 carry + 현대차 종가 KOSPI 상회 + 후속(기아/모비스) 시총10위권 데이터 재진입. 손절구조: 운송장비 rotating_out 강등 OR 현대차 직전 저점 701000 종가 이탈 한 축 점등 시 size 절반 정리(평단% 앵커 아님)."
     },
     {
       "code": "017670",
@@ -49,16 +36,80 @@
       "qty": 9,
       "avg_price": 103000,
       "cost_won": 927000,
-      "current_price": 123200,
-      "change_rate": 9.8,
-      "eval_won": 1108800,
-      "pnl_won": 181800,
-      "pnl_pct": 19.611650485436893,
+      "current_price": 120900,
+      "change_rate": 7.75,
+      "eval_won": 1088100,
+      "pnl_won": 161100,
+      "pnl_pct": 17.37864077669903,
       "thesis": "통신업 sector rotating_in 1일차, vol 480→2527 +426% 폭증 = defensive 자금 선제유입 실측 + 보험/증권/금융 cluster 동반 양전(증권 +3.61%·보험 +2.18%·금융 +2.17%) = 금리·defensive rotation 거시 트리거 정합. regime 추세장 강세 conf 낮음 + KOSPI MA20 +12.7% 과열 + 인버스 ETF 거래대금 1·2위(1.19조·1.08조) hedge 자금 진입 = wrap 헷지축 정합. 현대차 leg 단일에서 defensive 1축 추가. SKT 갭 +2.39% 최저 = 1차 시드 분할진입 부담 작음, vol_rate 11.6 자금유입 견조. 자본 2% probe = 9주(약 93만원, 목표 사이즈 약 25%). 약점: day-1 sector 신호 신선도 부족·1일 noise 가능성. 2차 add 게이트: 통신업 days 2 carry + SKT KOSPI 상회 종가 양봉 + KT/LGU+ 1+ 동반 양각 — 가용 sector·live 로 평가 가능. 손절구조: 통신업 rotating_out 강등 OR SKT 통신 sector 양전 시작 이전 가격구조 종가 이탈 — OR 한 축 점등 시 size 절반 정리(평단% 앵커 아님)."
     }
   ],
-  "trades": [],
-  "pm_decisions": [],
+  "trades": [
+    {
+      "ts": "2026-06-02T09:42:16",
+      "cycle_id": "20260602-0940",
+      "action": "sell",
+      "code": "005380",
+      "name": "현대차",
+      "qty": 4,
+      "price": 725000,
+      "amount_won": 2900000,
+      "reason": "자동차/전동화 theme ended 강등 + 운송장비 sector leading→rotating_out 즉시 강등(어제 +3.52%→오늘 -4.96% 전섹터 최약권, KOSPI 대비 -3.58%p) + 현대차 -3.33% 약세 = 테마·sector·가격 3중 동시 붕괴. thesis 본질 깨짐 = 1슬롯 전량 정리 디폴트. 4주 소량이나 분할매도 안 함(테마 사망은 전량). 한온/기아/모비스 후속 클러스터 시종 부재 = 폭 제한 테마였고 조정 진입과 동시 소멸.",
+      "dry_run": true,
+      "order_no": "",
+      "avg_cost": 736000,
+      "realized_pnl_won": -44000
+    },
+    {
+      "ts": "2026-06-02T09:42:16",
+      "cycle_id": "20260602-0940",
+      "action": "sell",
+      "code": "005930",
+      "name": "삼성전자",
+      "qty": 2,
+      "price": 361000,
+      "amount_won": 722000,
+      "reason": "HBM active day-16 후반, 삼성전기 -12%·하이닉스 약세로 후속주 전멸 + 삼성전자 단독 isolation = 회전 막판 신호(테마 유효성 침식 점등). 전기전자 leading day-6 약화 동반. 평단 300625→361000 = 큰 익절권 + 조정 regime 반등일이라 절반 실현이 디폴트(테마 유효성 축 점등 → 능동 부분익절). 가격 단조상승이 사유 아님, 테마 종반이 사유. 잔량 2주는 삼성전자 직전 일봉 저점 종가 이탈 OR 전기전자 rotating_out 강등 한 축 점등 시 정리(평단% 앵커 아님). 사이즈 한 번에 결단, 같은 슬롯·다음 슬롯 재손대지 않음.",
+      "dry_run": true,
+      "order_no": "",
+      "avg_cost": 300625,
+      "realized_pnl_won": 120750
+    }
+  ],
+  "pm_decisions": [
+    {
+      "slot": "0940",
+      "action": "sell",
+      "code": "005380",
+      "amount_won": null,
+      "qty": 4,
+      "reason": "자동차/전동화 theme ended 강등 + 운송장비 sector leading→rotating_out 즉시 강등(어제 +3.52%→오늘 -4.96% 전섹터 최약권, KOSPI 대비 -3.58%p) + 현대차 -3.33% 약세 = 테마·sector·가격 3중 동시 붕괴. thesis 본질 깨짐 = 1슬롯 전량 정리 디폴트. 4주 소량이나 분할매도 안 함(테마 사망은 전량). 한온/기아/모비스 후속 클러스터 시종 부재 = 폭 제한 테마였고 조정 진입과 동시 소멸."
+    },
+    {
+      "slot": "0940",
+      "action": "sell",
+      "code": "005930",
+      "amount_won": null,
+      "qty": 2,
+      "reason": "HBM active day-16 후반, 삼성전기 -12%·하이닉스 약세로 후속주 전멸 + 삼성전자 단독 isolation = 회전 막판 신호(테마 유효성 침식 점등). 전기전자 leading day-6 약화 동반. 평단 300625→361000 = 큰 익절권 + 조정 regime 반등일이라 절반 실현이 디폴트(테마 유효성 축 점등 → 능동 부분익절). 가격 단조상승이 사유 아님, 테마 종반이 사유. 잔량 2주는 삼성전자 직전 일봉 저점 종가 이탈 OR 전기전자 rotating_out 강등 한 축 점등 시 정리(평단% 앵커 아님). 사이즈 한 번에 결단, 같은 슬롯·다음 슬롯 재손대지 않음."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "017670",
+      "amount_won": null,
+      "qty": null,
+      "reason": "통신업 sector rotating_in day-2 carry 확정(+4.11% 3일연속 가속 +1.66/+2.21/+4.11, vol 유지, KOSPI -1.38% 대비 +5.49%p) + 금융/통신 defensive theme active 강화 = thesis 강화로 잔 9주 hold(테마 carry 부재였으면 절반 검토였을 자리, carry 점등이라 유지). 2차 add 보류: SKT 당일 +8.47% intraday 135400→112100→121700 광폭 = 갭 추격 영역. add 가능 조건 = 다음 슬롯·익일 비갭 되돌림(115k 부근 종가 안착) + 통신업 days carry 지속 시 분할 2차, 미충족이면 익일 자동 carry. KT/LGU+ 양각은 feed 부재라 sector rotating_in 가속을 cluster 대용 신호로 평가."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": null,
+      "amount_won": null,
+      "qty": null,
+      "reason": "조정 진입 day1 + breadth 전체하락(KOSPI adv/dec 93/806) = 신규 거의 중단. defensive 후보 전부 당일 갭(삼성생명 +6.71%·LG디스플레이 +9.05%·삼성화재 +3.15%) = 분할 1차 가격 부담 큼. 통신 강축(SKT)은 이미 보유 중 + 보험 cluster impure(증권 dead-cat -3.93%·보험 isolation, 금융업 -1.98%). LGD 는 watching 미승격 단일종목 +9.05% 대형갭. 현대차 전량·삼전 절반 매도로 이미 능동 집행 중이라 무행동 아님 — 갭 추격 대신 retest 대기. 삼성생명(보험 leg) 비갭 되돌림 + 보험·통신 cluster 재확인 시 분할 1차 후보 등록(통신>보험: 통신업 vol 폭증 vs 보험 미미한 leader 강도 차)."
+    }
+  ],
   "calendar_dates": [
     "20260511",
     "20260512",
@@ -72,7 +123,8 @@
     "20260526",
     "20260528",
     "20260529",
-    "20260601"
+    "20260601",
+    "20260602"
   ],
   "strategist_brief": "조정 진입 day1 + breadth 전체하락. 신규 공격 최소화. defensive 로테이션만 분할 허용, 나머지 후반/추격금지. candidate 풀 lean + 다축 분산.\n\n```json\n{\n  \"themes\": [\n    {\n      \"name\": \"금융/통신 defensive 로테이션\",\n      \"stance\": \"분할진입 허용 — 조정장 유일 공격축\",\n      \"entry_status\": \"초입\",\n      \"priority\": 1,\n      \"note\": \"통신업 sector rotating_in 1위(+4.11% 3일연속 가속) + 보험 2일연속(+2.83%). 삼성생명 +7.2% 시총8위 leader 양각. gap/추격 금지, 통신 1순위·보험 후순위 배분.\"\n    },\n    {\n      \"name\": \"AI 반도체/HBM\",\n      \"stance\": \"삼성전자 단독·분할만, 후속주 신규 전면금지\",\n      \"entry_status\": \"후반\",\n      \"priority\": 3,\n      \"note\": \"days16 + 조정 진입 이중게이트. 삼성전자 +4.58% 단독 isolation, SK하이닉스 -0.08%/삼성전기 -10.62% 붕괴. 추격·gap 풀매수 절대금지. 소진 임박.\"\n    },\n    {\n      \"name\": \"디스플레이(OLED/대형패널)\",\n      \"stance\": \"watching — LG디스플레이 단일 leader, 분할 소량\",\n      \"entry_status\": \"관찰\",\n      \"priority\": 4,\n      \"note\": \"+4.56% 양봉 carry, 거래대금 2698억. driver/소재 후속주 부재 = 단일종목 = HBM 후속 흡수운영. promote 미충족.\"\n    }\n  ],\n  \"candidates\": [\n    {\n      \"code\": \"032830\",\n      \"name\": \"삼성생명\",\n      \"reason\": \"보험 rotating_in leader +7.2% 시총8위. defensive 로테이션 핵심. 분할진입, +7% 양봉 후 gap상시 분할만·추격금지.\"\n    },\n    {\n      \"code\": \"017670\",\n      \"name\": \"SK텔레콤\",\n      \"reason\": \"통신업 sector rotating_in 1위(+4.11% 3일 가속, KOSPI 대비 +5.49%p). defensive 1순위 배분. 분할, gap 금지. 시세 미신선 — PM 확인.\"\n    },\n    {\n      \"code\": \"000810\",\n      \"name\": \"삼성화재\",\n      \"reason\": \"보험 cluster 보조 leader. 삼성생명 isolation 순도 보완용 분산옵션. 후순위 소량 분할.\"\n    },\n    {\n      \"code\": \"005930\",\n      \"name\": \"삼성전자\",\n      \"reason\": \"HBM 단독 isolation +4.58% 신고가성. 조정+days16 이중게이트 = 신규는 분할·소량만, 추격 절대금지. 대형주 방어 베타.\"\n    },\n    {\n      \"code\": \"034220\",\n      \"name\": \"LG디스플레이\",\n      \"reason\": \"디스플레이 watching, HBM 후속 단일 leader +4.56% 양봉. 분할 소량·관찰성. 단일종목 리스크 인지.\"\n    }\n  ],\n  \"notes\": \"regime 조정 진입 day1·breadth 전체하락(KOSPI adv/dec 111/793, KOSDAQ 201/1490) = 신규 공격성 최소. 후보 5개 중 2개(삼성생명·SK텔레콤) defensive 로테이션 집중 but 압도 아님 — HBM(삼성전자)·디스플레이(LGD) 분산축 동시 제공. portfolio 단일테마 쏠림 위험 낮으나, defensive 2종 동시 풀매수는 PM이 cluster 순도(증권 dead-cat·보험 isolation) 감안해 portfolio-level 배분 게이트 권장. KOSDAQ 6연속 하락·중소형 전면금지. 8476 KOSPI 지지 확인 전 대형 주도주 추가매수 보류. 분할진입·지지선/테마유효성 손절 원칙 유지.\"\n}\n```",
   "auditor_verdict": null
