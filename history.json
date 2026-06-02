@@ -968,10 +968,10 @@
     "buy_won": 0,
     "buys": 0,
     "date": "2026-06-02",
-    "open_positions": 2,
-    "realized_pnl_won": 76750,
-    "sell_won": 3622000,
-    "sells": 2,
+    "open_positions": 1,
+    "realized_pnl_won": 255150,
+    "sell_won": 4710650,
+    "sells": 4,
     "themes": [
       {
         "days_active": 16,
@@ -1018,7 +1018,12 @@
       {
         "code": "005930",
         "name": "삼성전자",
-        "realized_pnl_won": 120750
+        "realized_pnl_won": 216500
+      },
+      {
+        "code": "017670",
+        "name": "SK텔레콤",
+        "realized_pnl_won": 82650
       },
       {
         "code": "005380",
@@ -1036,9 +1041,14 @@
         "action": "sell",
         "code": "005930",
         "name": "삼성전자"
+      },
+      {
+        "action": "sell",
+        "code": "017670",
+        "name": "SK텔레콤"
       }
     ],
-    "trades_count": 2,
-    "unrealized_pnl_won": 277850
+    "trades_count": 4,
+    "unrealized_pnl_won": 184200
   }
 }
