@@ -877,7 +877,6 @@
     "buy_won": 2443000,
     "buys": 2,
     "date": "2026-06-01",
-    "open_positions": 3,
     "realized_pnl_won": 529500,
     "sell_won": 4137000,
     "sells": 3,
@@ -963,7 +962,6 @@
         "name": "현대차"
       }
     ],
-    "trades_count": 5,
-    "unrealized_pnl_won": 332300
+    "trades_count": 5
   }
 }
