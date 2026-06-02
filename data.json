@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-06-02 12:32:28",
+  "generated_at": "2026-06-02 15:21:10",
   "date": "20260602",
   "mode": "dry_run",
   "stats": {
     "open_positions": 1,
-    "trades_count": 4,
+    "trades_count": 5,
     "buys": 0,
-    "sells": 4,
+    "sells": 5,
     "buy_won": 0,
-    "sell_won": 4710650,
-    "realized_pnl_won": 255150,
+    "sell_won": 5088950,
+    "realized_pnl_won": 324450,
     "capital_won": 50000000,
-    "deployed_won": 618000,
-    "cash_remaining_won": 49382000,
-    "total_eval_won": 802200,
-    "unrealized_pnl_won": 184200
+    "deployed_won": 309000,
+    "cash_remaining_won": 49691000,
+    "total_eval_won": 378300,
+    "unrealized_pnl_won": 69300
   },
   "positions": [
     {
       "code": "017670",
       "name": "SK텔레콤",
-      "qty": 6,
+      "qty": 3,
       "avg_price": 103000,
-      "cost_won": 618000,
-      "current_price": 133700,
-      "change_rate": 19.16,
-      "eval_won": 802200,
-      "pnl_won": 184200,
-      "pnl_pct": 29.80582524271845,
+      "cost_won": 309000,
+      "current_price": 126100,
+      "change_rate": 12.39,
+      "eval_won": 378300,
+      "pnl_won": 69300,
+      "pnl_pct": 22.42718446601942,
       "thesis": "통신업 sector rotating_in 1일차, vol 480→2527 +426% 폭증 = defensive 자금 선제유입 실측 + 보험/증권/금융 cluster 동반 양전(증권 +3.61%·보험 +2.18%·금융 +2.17%) = 금리·defensive rotation 거시 트리거 정합. regime 추세장 강세 conf 낮음 + KOSPI MA20 +12.7% 과열 + 인버스 ETF 거래대금 1·2위(1.19조·1.08조) hedge 자금 진입 = wrap 헷지축 정합. 현대차 leg 단일에서 defensive 1축 추가. SKT 갭 +2.39% 최저 = 1차 시드 분할진입 부담 작음, vol_rate 11.6 자금유입 견조. 자본 2% probe = 9주(약 93만원, 목표 사이즈 약 25%). 약점: day-1 sector 신호 신선도 부족·1일 noise 가능성. 2차 add 게이트: 통신업 days 2 carry + SKT KOSPI 상회 종가 양봉 + KT/LGU+ 1+ 동반 양각 — 가용 sector·live 로 평가 가능. 손절구조: 통신업 rotating_out 강등 OR SKT 통신 sector 양전 시작 이전 가격구조 종가 이탈 — OR 한 축 점등 시 size 절반 정리(평단% 앵커 아님)."
     }
   ],
@@ -91,6 +91,21 @@
       "order_no": "",
       "avg_cost": 103000,
       "realized_pnl_won": 82650
+    },
+    {
+      "ts": "2026-06-02T15:21:10",
+      "cycle_id": "20260602-1520",
+      "action": "sell",
+      "code": "017670",
+      "name": "SK텔레콤",
+      "qty": 3,
+      "price": 126100,
+      "amount_won": 378300,
+      "reason": "6주 보유(계획 9주 중 6주 부분체결, avg 103000), 현재 126100 +22%. 오늘 +12.39% vol_rate 220 단일 일봉 급등 = defensive 완만유입 thesis 성격과 괴리된 momentum blow-off froth. 통신업 rotating_in 1위 유효하나 조정 진입 regime+변동성 높음에서 regime rationale '기보유 반등시 분할익절' 정합 = 절반 3주 익절로 gift 일부 실현. 잔여 3주는 통신 sector 유효성 carry. 잔여 stop: 통신업 rotating_out 강등 OR SKT 종가가 통신 양전 시작 이전 가격구조(직전 일봉 저점 ~112k대) 이탈 시 전량. 오늘 1회 결정, 익일 새 신호 전 재정리 없음.",
+      "dry_run": true,
+      "order_no": "",
+      "avg_cost": 103000,
+      "realized_pnl_won": 69300
     }
   ],
   "pm_decisions": [
@@ -149,6 +164,22 @@
       "amount_won": null,
       "qty": null,
       "reason": "조정 진입 day1·breadth 전체하락·KOSPI ATH 반전 첫날 = 신규 사실상 중단 게이트. 허용 축인 금융/통신 defensive 도 leader SKT +16% parabolic = climax 성격 + 보험 cluster 붕괴(증권 dead-cat·삼성생명 isolation)로 순도 저하 = 신규는 chasing 영역. 삼성생명 +2.07% 갭 작으나 macro 게이트가 우선. 이번 슬롯 행동은 익절 2건, 신규 0."
+    },
+    {
+      "slot": "1520",
+      "action": "sell",
+      "code": "017670",
+      "amount_won": 38,
+      "qty": 3,
+      "reason": "6주 보유(계획 9주 중 6주 부분체결, avg 103000), 현재 126100 +22%. 오늘 +12.39% vol_rate 220 단일 일봉 급등 = defensive 완만유입 thesis 성격과 괴리된 momentum blow-off froth. 통신업 rotating_in 1위 유효하나 조정 진입 regime+변동성 높음에서 regime rationale '기보유 반등시 분할익절' 정합 = 절반 3주 익절로 gift 일부 실현. 잔여 3주는 통신 sector 유효성 carry. 잔여 stop: 통신업 rotating_out 강등 OR SKT 종가가 통신 양전 시작 이전 가격구조(직전 일봉 저점 ~112k대) 이탈 시 전량. 오늘 1회 결정, 익일 새 신호 전 재정리 없음."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": null,
+      "amount_won": null,
+      "qty": null,
+      "reason": "신규 0. 조정 진입 day1·breadth 전체하락 + 후보 전종목 갭 폭등(삼성생명 +15.24%·삼성화재 +6.62%·삼전 +3.15%·LGD +5.32%) = 1차 진입 가격 전면 부적격, 갭 상대순위로도 자격 없음. 마지막 슬롯 신규 몰빵 회피. 삼성전자 미보유(positions에 없음) 확인 — HBM 재진입 사안 없음."
     }
   ],
   "calendar_dates": [
