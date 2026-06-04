@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04 12:31:10",
+  "generated_at": "2026-06-04 15:21:23",
   "date": "20260604",
   "mode": "dry_run",
   "stats": {
@@ -82,6 +82,54 @@
       "amount_won": null,
       "qty": null,
       "reason": "삼성전자 357500 -0.83%. HBM active 17일차 소진단계 + 전기전자 sector rotating_out 강등 + 조정 regime 이중게이트 = 신규 금지(theme_tracker). 보유 0이라 매도 대상 무. 신규 진입 사유 부재."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": "036930",
+      "amount_won": null,
+      "qty": null,
+      "reason": "반도체장비 cluster 대장. watching day1 + 종가250500 +27.22% 파라볼릭. 마지막 슬롯 종가 1차 = top 추격, 가격엣지 0. promote gate(6-5 클러스터 2+ 종가양봉 carry + KOSDAQ 강세) 미점등 = day1 spike 위험. 익일 09:40: 클러스터 오늘종가 위 유지 + KOSDAQ 강세 지속 시 눌림 200~215k(오늘 시가197k/저가190k 영역) 시드 자본20~30% 분할 1차. 일제 -5%+ 되돌림이면 watching drop, 미진입. 추격 매수 0."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": "240810",
+      "amount_won": null,
+      "qty": null,
+      "reason": "원익IPS +29.93% 127200. 주성과 동일 cluster, 동일 파라볼릭 갭. day1 watching. 종가 추격 금지, 익일 클러스터 carry 확인 후 대장(주성) 1종으로만 시드 1차, 본종은 cluster breadth 확인용 trace. 단독 진입 안함."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": "095610",
+      "amount_won": null,
+      "qty": null,
+      "reason": "테스 +29.92% 135900. cluster 3번주, 파라볼릭. 동일 사유로 보류, 추격 금지. 진입은 cluster 대장 1종 한정 원칙(단일테마 도배 회피)."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": "004170",
+      "amount_won": null,
+      "qty": null,
+      "reason": "신세계 +15.99% 660000. 유통 sector day1 rotating_in이나 vol7799 게이트 8000 미달 + 갭 +16% + 통신/보험 동반붕괴로 defensive 전체 무효 = 단독 isolation, thesis 순도 낮음. 갭 과대 + 약한 thesis = 보류. 익일 유통 양전 지속 & vol8000+ 충족 시 분산축 후순위 소량 검토."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": "023530",
+      "amount_won": null,
+      "qty": null,
+      "reason": "롯데쇼핑 +11.29% 171500. 신세계와 동일 유통 isolation thesis, 갭 +11%. 후순위, 보류. 분산 필요시 유통은 신세계 1종 우선."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": "005930",
+      "amount_won": null,
+      "qty": null,
+      "reason": "삼성전자 -2.08% 353000. HBM active 17일 소진 단계 + 전기전자 rotating_out 강등 + 조정 regime = 신규 금지(이중게이트). 보유 0이라 정리 대상 없음. 행동 무."
     }
   ],
   "calendar_dates": [
