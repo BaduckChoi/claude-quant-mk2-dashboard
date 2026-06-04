@@ -1048,5 +1048,48 @@
       }
     ],
     "trades_count": 5
+  },
+  "20260604": {
+    "buy_won": 0,
+    "buys": 0,
+    "date": "2026-06-04",
+    "open_positions": 0,
+    "realized_pnl_won": 31800,
+    "sell_won": 340800,
+    "sells": 1,
+    "themes": [
+      {
+        "days_active": 17,
+        "entry_status": "소진",
+        "leaders": [
+          {
+            "code": "",
+            "name": "삼성전자"
+          },
+          {
+            "code": "",
+            "name": "삼성전자우"
+          }
+        ],
+        "name": "AI 반도체/HBM",
+        "strength_trend": "약화"
+      }
+    ],
+    "top_movers": [
+      {
+        "code": "017670",
+        "name": "SK텔레콤",
+        "realized_pnl_won": 31800
+      }
+    ],
+    "traded_codes": [
+      {
+        "action": "sell",
+        "code": "017670",
+        "name": "SK텔레콤"
+      }
+    ],
+    "trades_count": 1,
+    "unrealized_pnl_won": null
   }
 }
