@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04 09:41:01",
+  "generated_at": "2026-06-04 12:31:10",
   "date": "20260604",
   "mode": "dry_run",
   "stats": {
@@ -50,6 +50,38 @@
       "amount_won": null,
       "qty": null,
       "reason": "신규 0. 반도체장비(주성·원익·테스) watching day1·promote 미충족·갭+17~30% = 추격금지(조정 conf낮음). 유통 신세계+11.42%/롯데+8.57% = defensive thesis 는 regime 정합이나 갭 과대 1차 부담, 다음슬롯 신세계 종가 590k 이하 눌림+유통 vol8000+ 회복 시 소량 probe. 삼전 HBM소진+조정 신규금지. 후보 전원 과대갭이라 무진입은 갭 디시플린."
+    },
+    {
+      "slot": "1230",
+      "action": "hold",
+      "code": "036930",
+      "amount_won": null,
+      "qty": null,
+      "reason": "주성엔지 241000 +22.4%, vol_rate148. 반도체장비 테마=watching day1(promote 미충족: 6-5 클러스터 2+ 종가양봉+거래대금 유지 필요). 시장 유일 주도 클러스터지만 현재 intraday high(255k) 근접, 갭 +22% extreme = 지금 1차=추격(strategist 추격금지 명시). grading상 갭 크면 시기 이연. 영구 deferral 회피용 구체 retest 트리거: 익일 시가/open 197100 영역 눌림 종가 안착 + 원익·테스 중 1+ 양봉 carry 동반이면 목표 4% starter 1차. 도달 가능 범위(현재가 -18%)이나 미도달이면 promote 게이트(6-5 확인)로 carry."
+    },
+    {
+      "slot": "1230",
+      "action": "hold",
+      "code": "240810",
+      "amount_won": null,
+      "qty": null,
+      "reason": "원익IPS 127200 +29.93%, 현재가=고가(127200). day1 parabolic 정점 추격 불가. 클러스터 동반강도 가장 세나 진입가 위치 최악(갭 +30%). 주성과 동일 게이트, 클러스터 confirm 도구로만 관찰. 1차 후보는 주성 우선(거래대금 대장)."
+    },
+    {
+      "slot": "1230",
+      "action": "hold",
+      "code": "004170",
+      "amount_won": null,
+      "qty": null,
+      "reason": "신세계 643000 +13.01%, vol_rate62. 유통 rotating_in 승격이나 day1 + sector vol7799 게이트 미달 + 통신·보험 동반붕괴로 단독 isolation = thesis 순도 낮음. 갭 13%(약thesis) → 보류. 이건 리딩 테마 아닌 최약 방어 leg임을 정직히 기록 — '분산'이라 강세로 포장 안 함. 익일 +양봉 유지 + sector vol8000+ 회복 시 소량 분산 starter 재평가, 음전 또는 vol6000 이하면 sector laggard 강등=후보 폐기."
+    },
+    {
+      "slot": "1230",
+      "action": "hold",
+      "code": "005930",
+      "amount_won": null,
+      "qty": null,
+      "reason": "삼성전자 357500 -0.83%. HBM active 17일차 소진단계 + 전기전자 sector rotating_out 강등 + 조정 regime 이중게이트 = 신규 금지(theme_tracker). 보유 0이라 매도 대상 무. 신규 진입 사유 부재."
     }
   ],
   "calendar_dates": [
