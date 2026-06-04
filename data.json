@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04 09:32:39",
+  "generated_at": "2026-06-04 09:35:41",
   "date": "20260604",
   "mode": "dry_run",
   "stats": {
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 309000,
     "cash_remaining_won": 49691000,
-    "total_eval_won": 337800,
-    "unrealized_pnl_won": 28800
+    "total_eval_won": 341700,
+    "unrealized_pnl_won": 32700
   },
   "positions": [
     {
@@ -23,11 +23,11 @@
       "qty": 3,
       "avg_price": 103000,
       "cost_won": 309000,
-      "current_price": 112600,
-      "change_rate": -10.06,
-      "eval_won": 337800,
-      "pnl_won": 28800,
-      "pnl_pct": 9.320388349514563,
+      "current_price": 113900,
+      "change_rate": -9.03,
+      "eval_won": 341700,
+      "pnl_won": 32700,
+      "pnl_pct": 10.58252427184466,
       "thesis": "통신업 sector rotating_in 1일차, vol 480→2527 +426% 폭증 = defensive 자금 선제유입 실측 + 보험/증권/금융 cluster 동반 양전(증권 +3.61%·보험 +2.18%·금융 +2.17%) = 금리·defensive rotation 거시 트리거 정합. regime 추세장 강세 conf 낮음 + KOSPI MA20 +12.7% 과열 + 인버스 ETF 거래대금 1·2위(1.19조·1.08조) hedge 자금 진입 = wrap 헷지축 정합. 현대차 leg 단일에서 defensive 1축 추가. SKT 갭 +2.39% 최저 = 1차 시드 분할진입 부담 작음, vol_rate 11.6 자금유입 견조. 자본 2% probe = 9주(약 93만원, 목표 사이즈 약 25%). 약점: day-1 sector 신호 신선도 부족·1일 noise 가능성. 2차 add 게이트: 통신업 days 2 carry + SKT KOSPI 상회 종가 양봉 + KT/LGU+ 1+ 동반 양각 — 가용 sector·live 로 평가 가능. 손절구조: 통신업 rotating_out 강등 OR SKT 통신 sector 양전 시작 이전 가격구조 종가 이탈 — OR 한 축 점등 시 size 절반 정리(평단% 앵커 아님)."
     }
   ],
@@ -49,6 +49,6 @@
     "20260601",
     "20260602"
   ],
-  "strategist_brief": null,
+  "strategist_brief": "```json\n{\n  \"themes\": [\n    {\n      \"name\": \"반도체 장비/소재 (KOSDAQ)\",\n      \"status\": \"오늘 압도적 주도 — watching day1이나 market 데이터상 cluster 재폭등(2일째). 주성엔지 +20.6% 4754억, 원익IPS +29.9%, 테스 +27.4%, 유진테크 +28.0%, 브이엠 +25.8% = 5+종목 산업적 동반. KOSDAQ +1.11% 자금집중. 대형 HBM(삼전 flat/하이닉스 -1.5%)과 디커플.\",\n      \"caution\": \"이미 +20~30% 파라볼릭. 조정 regime conf낮음 + wrap = gap/추격 절대금지. 진입하면 눌림 분할만, 익절선 짧게. 1일 spike 소멸 위험 잔존.\"\n    },\n    {\n      \"name\": \"유통업 (defensive 잔류)\",\n      \"status\": \"sector rotating_in 승격(4일 양전). 통신·보험 defensive 동반붕괴 속 유일 생존축. KOSPI 약세 자금 순환처. 분산 옵션.\",\n      \"caution\": \"vol7799 게이트 미달 + 단독 isolation. 후순위 소량, 분할만.\"\n    },\n    {\n      \"name\": \"AI 반도체/HBM (대형, 소진)\",\n      \"status\": \"active 17일차 소진 단계. 삼성전자 363500 +0.83% 오늘 양전 잔존(KOSPI 8476 지지). 신규 진입 보류, 기보유 관찰/분할익절 대상.\",\n      \"caution\": \"theme_tracker 소진 + 조정 regime 이중게이트 = 신규 금지.\"\n    }\n  ],\n  \"candidates\": [\n    {\"code\": \"036930\", \"name\": \"주성엔지니어링\", \"reason\": \"반도체 장비 cluster 대장. +20.6% 거래대금 4754억 최대. 추격금지 — 눌림 분할만.\"},\n    {\"code\": \"240810\", \"name\": \"원익IPS\", \"reason\": \"장비 cluster 2번주 +29.9% 1274억. 파라볼릭, 분할·익절선 짧게.\"},\n    {\"code\": \"095610\", \"name\": \"테스\", \"reason\": \"장비 cluster +27.4%. 동반 폭등 확인용. 추격금지.\"},\n    {\"code\": \"004170\", \"name\": \"신세계\", \"reason\": \"유통 rotating_in leader. defensive 생존축 = 반도체 쏠림 분산용. 소량 분할.\"},\n    {\"code\": \"023530\", \"name\": \"롯데쇼핑\", \"reason\": \"유통 rotating_in leader. 분산 옵션, 후순위.\"},\n    {\"code\": \"005930\", \"name\": \"삼성전자\", \"reason\": \"HBM 대형, 오늘 +0.83% 지지 잔존. 신규 아닌 기보유 관찰/분할익절 컨텍스트.\"}\n  ],\n  \"notes\": \"[쏠림 경고] 후보 6개 중 3개(주성/원익/테스)가 동일 테마 '반도체 장비'. 그 테마가 오늘 시장 유일 압도 주도주라 비중 큰 건 정당하나, 전부 이미 +20~30% 파라볼릭 + 조정 진입 regime conf낮음 = portfolio 단일테마 도배 위험 큼. PM 은 portfolio-level 분산 게이트 켜고, 반도체 장비는 max 1~2종목·소량·눌림 분할로만, 유통(신세계/롯데쇼핑) 분산축 같이 깔 것. [거시] KOSPI -0.86% 약세 vs KOSDAQ +1.11% 강세 = 선별상승·디커플. 대형주 신규 보류, 신규 공격성은 KOSDAQ 장비 한정이되 추격 금지가 핵심. 관망 우위 슬롯이면 비워도 정당.\"\n}\n```",
   "auditor_verdict": null
 }
