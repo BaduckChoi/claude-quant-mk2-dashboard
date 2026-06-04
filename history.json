@@ -57,12 +57,12 @@
       {
         "action": "buy",
         "code": "005380",
-        "name": "현대차"
+        "name": ""
       },
       {
         "action": "buy",
         "code": "005930",
-        "name": "삼성전자"
+        "name": ""
       }
     ],
     "trades_count": 2
@@ -154,7 +154,7 @@
       {
         "action": "buy",
         "code": "005380",
-        "name": "현대차"
+        "name": ""
       }
     ],
     "trades_count": 2
@@ -231,12 +231,12 @@
     "top_movers": [
       {
         "code": "005380",
-        "name": "현대차",
+        "name": "",
         "realized_pnl_won": 189500
       },
       {
         "code": "005930",
-        "name": "삼성전자",
+        "name": "",
         "realized_pnl_won": -83000
       },
       {
@@ -249,7 +249,7 @@
       {
         "action": "sell",
         "code": "005930",
-        "name": "삼성전자"
+        "name": ""
       },
       {
         "action": "sell",
@@ -259,7 +259,7 @@
       {
         "action": "sell",
         "code": "005380",
-        "name": "현대차"
+        "name": ""
       }
     ],
     "trades_count": 4
@@ -328,7 +328,7 @@
     "top_movers": [
       {
         "code": "005380",
-        "name": "현대차",
+        "name": "",
         "realized_pnl_won": 217500
       }
     ],
@@ -336,7 +336,7 @@
       {
         "action": "sell",
         "code": "005380",
-        "name": "현대차"
+        "name": ""
       }
     ],
     "trades_count": 3
@@ -405,7 +405,7 @@
     "top_movers": [
       {
         "code": "005930",
-        "name": "삼성전자",
+        "name": "",
         "realized_pnl_won": -38250
       }
     ],
@@ -413,7 +413,7 @@
       {
         "action": "sell",
         "code": "005930",
-        "name": "삼성전자"
+        "name": ""
       }
     ],
     "trades_count": 1
@@ -721,7 +721,7 @@
       {
         "action": "buy",
         "code": "005930",
-        "name": "삼성전자"
+        "name": ""
       }
     ],
     "trades_count": 2
@@ -868,7 +868,7 @@
       {
         "action": "buy",
         "code": "005380",
-        "name": "현대차"
+        "name": ""
       }
     ],
     "trades_count": 2
@@ -941,7 +941,7 @@
     "top_movers": [
       {
         "code": "005930",
-        "name": "삼성전자",
+        "name": "",
         "realized_pnl_won": 529500
       }
     ],
@@ -949,7 +949,7 @@
       {
         "action": "sell",
         "code": "005930",
-        "name": "삼성전자"
+        "name": ""
       },
       {
         "action": "buy",
@@ -959,7 +959,7 @@
       {
         "action": "buy",
         "code": "005380",
-        "name": "현대차"
+        "name": ""
       }
     ],
     "trades_count": 5
@@ -968,7 +968,6 @@
     "buy_won": 0,
     "buys": 0,
     "date": "2026-06-02",
-    "open_positions": 1,
     "realized_pnl_won": 324450,
     "sell_won": 5088950,
     "sells": 5,
@@ -1017,7 +1016,7 @@
     "top_movers": [
       {
         "code": "005930",
-        "name": "삼성전자",
+        "name": "",
         "realized_pnl_won": 216500
       },
       {
@@ -1027,7 +1026,7 @@
       },
       {
         "code": "005380",
-        "name": "현대차",
+        "name": "",
         "realized_pnl_won": -44000
       }
     ],
@@ -1035,12 +1034,12 @@
       {
         "action": "sell",
         "code": "005380",
-        "name": "현대차"
+        "name": ""
       },
       {
         "action": "sell",
         "code": "005930",
-        "name": "삼성전자"
+        "name": ""
       },
       {
         "action": "sell",
@@ -1048,7 +1047,6 @@
         "name": "SK텔레콤"
       }
     ],
-    "trades_count": 5,
-    "unrealized_pnl_won": 66600
+    "trades_count": 5
   }
 }
