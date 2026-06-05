@@ -454,6 +454,87 @@
       letter-spacing: 0.05em;
     }
 
+    .detail-roles {
+      padding: 0 16px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .detail-roles details {
+      background: #1c2230;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 8px 12px;
+    }
+
+    .detail-roles summary {
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 4px 0;
+      user-select: none;
+    }
+
+    .detail-roles details[open] summary {
+      margin-bottom: 8px;
+    }
+
+    .role-pre {
+      margin: 0;
+      padding: 10px 12px;
+      background: #11151c;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      font-size: 12px;
+      line-height: 1.55;
+      color: #d4d9e1;
+      white-space: pre-wrap;
+      word-break: break-word;
+      max-height: 420px;
+      overflow-y: auto;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+
+    .pm-list {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .pm-card {
+      background: #11151c;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 8px 10px;
+      font-size: 12px;
+    }
+
+    .pm-card .head {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 4px;
+      font-weight: 600;
+    }
+
+    .pm-card .head .slot { color: var(--muted); }
+    .pm-card .head .act-buy { color: #4ade80; }
+    .pm-card .head .act-sell { color: #f87171; }
+    .pm-card .head .act-hold { color: var(--muted); }
+    .pm-card .head .code { color: #cbd5e1; font-variant-numeric: tabular-nums; }
+    .pm-card .head .amt { margin-left: auto; color: var(--muted); font-weight: 500; }
+
+    .pm-card .reason {
+      color: #b8c0cf;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
     .theme-card {
       background: #1c2230;
       border: 1px solid var(--border);
@@ -608,21 +689,6 @@
       </div>
     </section>
     <section>
-      <div class="cal-head">
-        <h2 style="margin:0">월간 P&amp;L 달력</h2>
-        <div class="cal-nav">
-          <button id="cal-prev" type="button">‹</button>
-          <span id="cal-label">-</span>
-          <button id="cal-next" type="button">›</button>
-          <button id="cal-today" type="button">오늘</button>
-        </div>
-      </div>
-      <div class="panel" id="calendar">
-        <div class="empty">로딩...</div>
-      </div>
-      <div class="panel" id="cal-detail" style="margin-top:12px; display:none"></div>
-    </section>
-    <section>
       <h2>오늘 PM 결정</h2>
       <div class="panel" id="pm">
         <div class="empty">로딩...</div>
@@ -639,6 +705,21 @@
       <div class="panel" id="auditor">
         <div class="empty">로딩...</div>
       </div>
+    </section>
+    <section>
+      <div class="cal-head">
+        <h2 style="margin:0">월간 P&amp;L 달력</h2>
+        <div class="cal-nav">
+          <button id="cal-prev" type="button">‹</button>
+          <span id="cal-label">-</span>
+          <button id="cal-next" type="button">›</button>
+          <button id="cal-today" type="button">오늘</button>
+        </div>
+      </div>
+      <div class="panel" id="calendar">
+        <div class="empty">로딩...</div>
+      </div>
+      <div class="panel" id="cal-detail" style="margin-top:12px; display:none"></div>
     </section>
   </main>
   <footer>claude_quant2 · static dashboard</footer>
@@ -864,6 +945,54 @@
         ? traded.map(t => `<span class="pill flat" style="margin:2px">${escapeHtml(t.name || t.code)}</span>`).join("")
         : `<div class="muted" style="font-size:12px">매매 종목 없음</div>`;
 
+      const pmList = entry.pm_decisions || [];
+      const pmHtml = pmList.length
+        ? `<div class="pm-list">${pmList.map(d => {
+          const act = (d.action || "").toLowerCase();
+          const actCls = act === "buy" ? "act-buy" : act === "sell" ? "act-sell" : "act-hold";
+          const amt = d.amount_won != null
+            ? `<span class="amt">${fmtSignedMan(d.amount_won)}원</span>`
+            : (d.qty != null ? `<span class="amt">${d.qty}주</span>` : "");
+          const code = d.code ? `<span class="code">${escapeHtml(d.code)}</span>` : "";
+          return `<div class="pm-card">
+            <div class="head">
+              <span class="slot">${escapeHtml(d.slot || "")}</span>
+              <span class="${actCls}">${escapeHtml((d.action || "").toUpperCase())}</span>
+              ${code}
+              ${amt}
+            </div>
+            <div class="reason">${escapeHtml(d.reason || "")}</div>
+          </div>`;
+        }).join("")}</div>`
+        : `<div class="muted" style="font-size:12px">기록 없음</div>`;
+
+      const briefText = entry.strategist_brief;
+      const briefHtml = briefText
+        ? `<pre class="role-pre">${escapeHtml(briefText)}</pre>`
+        : `<div class="muted" style="font-size:12px">기록 없음</div>`;
+
+      const verdictText = entry.auditor_verdict;
+      const verdictHtml = verdictText
+        ? `<pre class="role-pre">${escapeHtml(verdictText)}</pre>`
+        : `<div class="muted" style="font-size:12px">기록 없음</div>`;
+
+      const hasRoleData = pmList.length || briefText || verdictText;
+      const rolesHtml = hasRoleData ? `
+    <div class="detail-roles">
+      <details>
+        <summary>PM 결정${pmList.length ? ` (${pmList.length}건)` : ""}</summary>
+        ${pmHtml}
+      </details>
+      <details>
+        <summary>Strategist 브리프</summary>
+        ${briefHtml}
+      </details>
+      <details>
+        <summary>Auditor 평가</summary>
+        ${verdictHtml}
+      </details>
+    </div>` : "";
+
       box.style.display = "block";
       box.innerHTML = `
     <div class="detail-head">
@@ -883,7 +1012,7 @@
         <h3>매매 종목</h3>
         <div>${tradedHtml}</div>
       </div>
-    </div>`;
+    </div>${rolesHtml}`;
     }
 
     async function load() {
