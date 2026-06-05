@@ -954,7 +954,7 @@
       {
         "action": "buy",
         "code": "017670",
-        "name": "SK텔레콤"
+        "name": ""
       },
       {
         "action": "buy",
@@ -1021,7 +1021,7 @@
       },
       {
         "code": "017670",
-        "name": "SK텔레콤",
+        "name": "",
         "realized_pnl_won": 151950
       },
       {
@@ -1044,7 +1044,7 @@
       {
         "action": "sell",
         "code": "017670",
-        "name": "SK텔레콤"
+        "name": ""
       }
     ],
     "trades_count": 5
@@ -1053,7 +1053,6 @@
     "buy_won": 0,
     "buys": 0,
     "date": "2026-06-04",
-    "open_positions": 0,
     "realized_pnl_won": 31800,
     "sell_won": 340800,
     "sells": 1,
@@ -1078,7 +1077,7 @@
     "top_movers": [
       {
         "code": "017670",
-        "name": "SK텔레콤",
+        "name": "",
         "realized_pnl_won": 31800
       }
     ],
@@ -1086,10 +1085,9 @@
       {
         "action": "sell",
         "code": "017670",
-        "name": "SK텔레콤"
+        "name": ""
       }
     ],
-    "trades_count": 1,
-    "unrealized_pnl_won": null
+    "trades_count": 1
   }
 }
