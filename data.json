@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05 09:35:25",
+  "generated_at": "2026-06-05 09:40:12",
   "date": "20260605",
   "mode": "dry_run",
   "stats": {
@@ -18,7 +18,16 @@
   },
   "positions": [],
   "trades": [],
-  "pm_decisions": [],
+  "pm_decisions": [
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": null,
+      "amount_won": null,
+      "qty": null,
+      "reason": "빈 계좌. regime 조정 진입 conf높음 day3 + KOSPI 8137 -5.81%(8300/8476 동시이탈) + breadth 전체하락(KOSPI adv236/dec645, KOSDAQ adv312/dec1342) = 신규 거시 게이트 OFF. active 테마 0, HBM ended 강등. strategist candidates 비움. watching 로봇/AI자동화는 패닉 역행 1일 spike, promote 게이트 6-8 클러스터 2+ 종가양봉+거래대금유지로 오늘 미숙성. snapshot 자가스캔해도 인버스 거래대금 1~2위 risk-off 본격 = 진입 신호 0. 신규 봉인 정합, 관망. 해제 조건: KOSPI 8300 회복 + breadth net 양전 + KOSDAQ 1041 재안착(현 미충족)."
+    }
+  ],
   "calendar_dates": [
     "20260511",
     "20260512",
