@@ -483,6 +483,17 @@
       margin-bottom: 8px;
     }
 
+    .detail-roles details table {
+      background: #11151c;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .detail-roles details table th {
+      background: #11151c;
+    }
+
     .role-pre {
       margin: 0;
       padding: 10px 12px;
@@ -499,41 +510,6 @@
       font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
     }
 
-    .pm-list {
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-    }
-
-    .pm-card {
-      background: #11151c;
-      border: 1px solid var(--border);
-      border-radius: 4px;
-      padding: 8px 10px;
-      font-size: 12px;
-    }
-
-    .pm-card .head {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-      align-items: center;
-      margin-bottom: 4px;
-      font-weight: 600;
-    }
-
-    .pm-card .head .slot { color: var(--muted); }
-    .pm-card .head .act-buy { color: #4ade80; }
-    .pm-card .head .act-sell { color: #f87171; }
-    .pm-card .head .act-hold { color: var(--muted); }
-    .pm-card .head .code { color: #cbd5e1; font-variant-numeric: tabular-nums; }
-    .pm-card .head .amt { margin-left: auto; color: var(--muted); font-weight: 500; }
-
-    .pm-card .reason {
-      color: #b8c0cf;
-      white-space: pre-wrap;
-      word-break: break-word;
-    }
 
     .theme-card {
       background: #1c2230;
@@ -947,23 +923,17 @@
 
       const pmList = entry.pm_decisions || [];
       const pmHtml = pmList.length
-        ? `<div class="pm-list">${pmList.map(d => {
-          const act = (d.action || "").toLowerCase();
-          const actCls = act === "buy" ? "act-buy" : act === "sell" ? "act-sell" : "act-hold";
-          const amt = d.amount_won != null
-            ? `<span class="amt">${fmtSignedMan(d.amount_won)}원</span>`
-            : (d.qty != null ? `<span class="amt">${d.qty}주</span>` : "");
-          const code = d.code ? `<span class="code">${escapeHtml(d.code)}</span>` : "";
-          return `<div class="pm-card">
-            <div class="head">
-              <span class="slot">${escapeHtml(d.slot || "")}</span>
-              <span class="${actCls}">${escapeHtml((d.action || "").toUpperCase())}</span>
-              ${code}
-              ${amt}
-            </div>
-            <div class="reason">${escapeHtml(d.reason || "")}</div>
-          </div>`;
-        }).join("")}</div>`
+        ? `<table>
+        <thead><tr><th>슬롯</th><th>구분</th><th>코드</th><th class="num">금액(만)</th><th>사유</th></tr></thead>
+        <tbody>${pmList.map(d => `
+          <tr>
+            <td>${escapeHtml(d.slot || "")}</td>
+            <td class="${d.action}">${d.action === "buy" ? "매수" : d.action === "sell" ? "매도" : "관망"}</td>
+            <td>${escapeHtml(d.code || "")}</td>
+            <td class="num">${d.amount_won != null ? fmtNum(d.amount_won) : "-"}</td>
+            <td class="reason">${escapeHtml(d.reason || "")}</td>
+          </tr>`).join("")}</tbody>
+      </table>`
         : `<div class="muted" style="font-size:12px">기록 없음</div>`;
 
       const briefText = entry.strategist_brief;
