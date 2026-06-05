@@ -874,12 +874,144 @@
     "trades_count": 2
   },
   "20260601": {
+    "auditor_verdict": "# Auditor verdict 2026-06-01\n\n## 1. 능동집행 본질 재검증\n\n**삼성전자 분할익절 3회 (4+4+4)** — mandate 정합 외형, 내부 패턴 회색.\n\n각 슬롯 동일 4주, 가격은 334k→348750→351500 단조상승. 같은 사이클 내 새 신호 무. trigger 본질(\"클러스터 동조 붕괴\")은 09:35 snapshot 시점에 이미 전부 박혀있던 정보. 오후 슬롯 두 번은 *같은 thesis 를 같은 강도로* 다시 실행. 산문 톤은 \"1/4 → 1/3 → 1/2\" 로 escalation 했지만 *신호 자체는 carry, 새 트리거 점등 없음*.\n\n이거 두 가지 중 하나:\n- (a) 진짜 thesis-decay 일관집행 — 가격오름 무시하고 룰대로\n- (b) 약화 라벨에 anchored ratcheting — 슬롯 올 때마다 \"어쨌든 약화니까 더 빼자\" 자기강화\n\n(a) 라면 09:42 슬롯에서 8주 한 번에 정리하고 carry 8주 stop 두는 게 본질 정합. 4주씩 세 번은 \"혹시 더 오를까봐\" residual hope 의 산물. 가격 단조상승 받았다고 결과적 정답이지만 *과정상 결정 분산은 신호 분산이 아니라 commitment 분산* — 다음에 단조하락 시 같은 패턴 = 갭다운 까지 매번 4주씩 빼다가 약 winner 잡고 끝남.\n\n내일 잔량 4주: 결정 *지금 미리* 한 번. 단일 leader 가설(samsung 단독 신고가 carry 가능) OR thesis-decay 가설(클러스터 폭=samsung 도 결국 음전) 중 어느 쪽 베팅인지 명시. 슬롯마다 같은 4주씩 또 나누지 마라.\n\n## 2. day-1 적용 불일치\n\nSKT 매수했음 (day-1, vol +426%, defensive cluster 동반). 같은 슬롯 두산에너빌리티·삼성생명·LG디스플레이는 \"day-1 단독 추격금지\" 로 hold. 셋 다 cluster 동반 있었음 — 두산E 는 기계 sector +5.76% vol 전섹터 1위(가장 강한 신호) + SKC/키움 ETN/해성에어로/솔루스 5종 동반. 객관적 cluster 강도로는 인프라 > defensive.\n\nPM rationale 의 차이는 \"wrap 헷지축 정합\" — regime conf 낮음·과열에 *defensive 가 더 맞다*. 이건 thesis 선택이지 신호 강도 선택 아님. **그러면 그 본질 명시해라**: \"두산E 신호가 더 세지만 wrap 호흡상 defensive 우선.\" 현재 reason 은 \"day-1 신선도 부족\"으로 두산E 거절하면서 같은 day-1 SKT 는 cluster 양호로 통과 = **같은 룰 자의적 적용**. cherry-pick alibi 패턴.\n\n내일 두산E 거절 유지하려면 *왜 SKT 와 다른지* 명시. \"신호 차이\"가 아니라 \"regime-defensive 우선\" 같은 본질 사유로.\n\n## 3. 현대차 add 양호, 단 일관성\n\nslot 2 2주 add — 운송장비 day-2 carry, 동량 분할, 풀시드 회피. 본질 정합. *기아/모비스 데이터 부재로 본질 검증 불가* 라고 인지하면서도 \"sector 가속 정량신호로 대체 평가\" 한 건 합리 — 데이터 누락이 thesis 거절 사유가 되면 정상 매매 불가. 단 이 대체 평가를 SKT day-1 거절 사유에는 안 쓰는 자기일관성 문제는 §2.\n\n## 4. 슬롯3 신규 0 적절\n\n\"막판 day-1 추격 wrap 호흡 부적합\" — 정답. 단 carry-over 가설들(전력/원전, 보험/통신 클러스터)에 대해 *내일 slot1 에서 평가할 게이트* 미리 산문으로 박아둔 게 reporter 에 있음. 룰 번호 anchor 아니라 사유 명시 — 좋은 패턴.\n\n## 5. 어제 verdict alibi 검사\n\n오늘 PM reason 첫줄 어느 것도 \"verdict §N\" 인용 시작 아님. thesis 본질로 시작. 합격.\n\n## 6. 누락된 자기검증\n\n- **인버스 ETF 인지/미진입** 은 reporter 가 명시 — PM 슬롯 reason 에는 fully 안 박혀있음. regime conf 낮음+과열+inverse 자금 진입을 인지하면서 hedge 축으로 SKT 만 쓴 트레이드오프, slot reason 에 한 줄 더 넣는 게 정합.\n- **삼전 잔량 4주의 비대칭**: 약화 라벨인데 4주 carry. 이건 portfolio 분산상 sleeve 인지(autonomy) vs 약화 winner 미루기(omission bias) 인지 PM 본인이 헷갈리는 상태. 슬롯3 reason \"다음 슬롯·익일 새 트리거 평가\" = 결정 미룸. 다음번에 또 4주 빼면 §1 패턴 재발.\n\n## 내일 PM 지침\n\n**삼전 005930 잔 4주**: 슬롯1 들어가기 전 본인에게 *명확히* 답해라. (a) \"samsung 단독 leader carry 가설 — 클러스터 무관, 시총1위 정배열 carry\" 면 4주 hold + stop = 직전 일봉 저점 종가이탈, 그 아래 다 정리. (b) \"thesis-decay 완성, 잔량은 미루기\" 면 첫 슬롯에서 4주 다 정리. 어느 쪽이든 잔량 4주를 또 2주+2주 로 쪼개지 마라 — 8주를 4+4+4 로 쪼개던 패턴이 작아져서 반복되는 거. 슬롯마다 같은 약화 trigger 재실행 = commitment 분산.\n\n**SKT 017670**: 통신업 day-2 carry 여부가 1차 본질. carry 점등 + KT 또는 LGU+ 시총10위권 양각 동반 → 2차 add 본질 충족. carry 부재 OR cluster 무 → hold 가 아니라 *defensive thesis 자체 의심*. 9주 시드 그대로 두지 말고 절반 정리 검토. day-1 시드의 약점은 day-2 가 정답을 줌. 내일 reason 에 *왜 SKT 가 두산E·삼성생명과 다른 헷지축인지* 본질 사유 한 줄 넣어라 — 두산E·삼성생명 재거절할 거면 더더욱.\n\n**현대차 005380**: 3차 add 게이트(운송장비 days 3 carry + 현대차 종가 KOSPI 상회 + 후속주 데이터 재진입) 충족 시 *주저 없이* 동량 2주 add. 충족 부재 시 add 0 — \"다음 슬롯에서 또 보자\" 식 carry 금지. 결정 시점은 slot1 또는 slot2.\n\n**두산에너빌리티 034020**: 기계 sector days 2 carry + 두산E 음전 회피(보합 이상) + 후속(SKC/전력기기) 1+ 동반 양각 충족 시 시드 분할 1차. *SKT 시드 9주 = 자본 18% 위치 대비 인프라 1축 추가 분산 정합*. 단 \"wrap defensive 우선\" 명시 사유로 거절할 거면 본질 사유 박아라.\n\n**삼성생명 032830 / LG디스플레이 034220**: SKT 가 defensive 축 차지, samsung 잔량이 AI축 carry — 같은 cluster 2종 진입 금지 본질 유지 가능. 단 *왜 SKT 가 삼성생명 보다 우선인지* — 통신업 vol +426% 폭증 vs 보험 미미한 leader = 신호 강도 차이 — 한 줄 명시.\n\n**메타**: 오늘 5거래 중 3거래가 same-name 분할정리. 같은 슬롯에 새 정보 안 들어왔는데 정리 반복하면 *체크리스트 통과* 가 아니라 *commitment escalation*. 내일은 같은 종목 같은 thesis 로 같은 슬롯에 다시 손대지 마라 — slot N 에서 결정한 사유가 slot N+1 에서도 유효하면 *원래 결정의 사이즈가 작았던 것*. 한 번에 옳은 사이즈로 가라.\n\n**가격 anchoring 주의**: 삼전 sell 가격 단조상승은 결과적 행운. \"어차피 어제보다 비싸게 팔았으니 또 빼도 됨\" 패턴은 disposition 의 반대 함정(reverse disposition = winner 너무 일찍 잘라냄). 가격은 trigger 아님 — sector state 와 cluster breadth 가 trigger. 내일 잔량 4주 도 가격 anchor 로 결정하지 마라.",
     "buy_won": 2443000,
     "buys": 2,
     "date": "2026-06-01",
+    "pm_decisions": [
+      {
+        "action": "sell",
+        "amount_won": null,
+        "code": "005930",
+        "qty": 4,
+        "reason": "테마 day-15 약화/후반 + 1군 분기 점등(삼전 단독 견인 vs 하이닉스 -0.86%·삼전기 -6.02% 이탈, KODEX 삼전레버 vs 하이닉스레버 베타 갈림 = 클러스터 동조 붕괴). 16주 평가익 +11%(334000 vs 평단 300625), 어제 add 8주 직후이나 신호는 강→약 단조 흐름이라 분할 익절 1/4(4주) 본질 정합. 잔량 12주 손절구조: 전기전자 sector rotating_out 강등 OR 삼전 일봉 음봉 종가 — OR 디폴트, 한 축 점등 시 1/3 추가 정리 검토(평단% 앵커 아님).",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "005380",
+        "qty": null,
+        "reason": "thesis 박힌 2차 add 게이트는 '운송장비 leading day-2 carry + 현대차 종가 양봉 + 기아/모비스 1+ 동반' — 슬롯1 09:40 시점 종가 미확정 + 기아/모비스 가용 시세·snapshot 부재로 클러스터 동반 본질 검증 불가. carry. add 결정은 종가 근접 슬롯에서 재평가 또는 익일 데이터 확인 후. 갭 4.56% probe sleeve 보존. 손절구조 유지: 운송장비 rotating_out 강등 OR 현대차 직전 일봉 저점 701000 종가 이탈 — OR 한 축 점등 시 size 절반 정리.",
+        "slot": "0940"
+      },
+      {
+        "action": "buy",
+        "amount_won": null,
+        "code": "017670",
+        "qty": 9,
+        "reason": "통신업 sector rotating_in 1일차, vol 480→2527 +426% 폭증 = defensive 자금 선제유입 실측 + 보험/증권/금융 cluster 동반 양전(증권 +3.61%·보험 +2.18%·금융 +2.17%) = 금리·defensive rotation 거시 트리거 정합. regime 추세장 강세 conf 낮음 + KOSPI MA20 +12.7% 과열 + 인버스 ETF 거래대금 1·2위(1.19조·1.08조) hedge 자금 진입 = wrap 헷지축 정합. 현대차 leg 단일에서 defensive 1축 추가. SKT 갭 +2.39% 최저 = 1차 시드 분할진입 부담 작음, vol_rate 11.6 자금유입 견조. 자본 2% probe = 9주(약 93만원, 목표 사이즈 약 25%). 약점: day-1 sector 신호 신선도 부족·1일 noise 가능성. 2차 add 게이트: 통신업 days 2 carry + SKT KOSPI 상회 종가 양봉 + KT/LGU+ 1+ 동반 양각 — 가용 sector·live 로 평가 가능. 손절구조: 통신업 rotating_out 강등 OR SKT 통신 sector 양전 시작 이전 가격구조 종가 이탈 — OR 한 축 점등 시 size 절반 정리(평단% 앵커 아님).",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "034020",
+        "qty": null,
+        "reason": "기계 sector +5.76% vol 16572 1일 단독 폭발 + SKC +28% / 두산E 본 종목 +5.97% 갭상승 = strategist 도 1일 spike 우려 명시. day-1 + 갭 6% 영역 = 1차 시드 진입 부적합. promote 게이트(기계 days 2 carry + vol 10000+ 유지 + 두산/SKC 음전 회피) 익일 충족 시 시드 분할 1차 재평가.",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "032830",
+        "qty": null,
+        "reason": "보험 sector rotating_in 정합이나 삼성생명 +0.64% 미미 = leader 자체 시그널 약. 통신업 leg(017670)으로 defensive 축 1종 확보 충분, 같은 cluster 2종 동시 진입은 day-1 신호 중복 노출. 익일 보험 days 2 carry + 삼성생명 명확 양봉 시 재평가.",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "034220",
+        "qty": null,
+        "reason": "LG디스플레이 단일 leader 단독 강세 = 디스플레이 driver/소재 후속 부재로 테마 아님 규율 권고 받음. AI반도체 후속주 흡수 운영 권장이나 005930 본진이 약화 단계 진입 중이라 같은 클러스터 신규 추가 노출 부적합.",
+        "slot": "0940"
+      },
+      {
+        "action": "sell",
+        "amount_won": null,
+        "code": "005930",
+        "qty": 4,
+        "reason": "AI반도체/HBM day-15 약화/후반 진입, 어제 1군 분기 명확화(하이닉스 -1.03%·삼전기 -6.02% 이탈, 삼전 단독 견인). 보유 12주 평단 300625 → 평가익 +16% 큰 익절권에서 테마 유효성 침식 진행 중. 익절을 가격 stop 단독에 위임하면 약화 winner 가 갭다운 시 실현 못 한 이익 증발 = 두 축 룰을 가격 한 축으로 접는 패턴. 4주(1/3) 분할 익절, 잔량 8주는 전기전자 leading day-5 carry 유효 동안 보유. 잔량 손절구조: 전기전자 rotating_out 강등 OR 삼전 직전 일봉 저점 311000 종가 이탈 한 축 점등 시 size 절반 추가 정리(평단% 앵커 아님). 약점: 잔량 8주도 후반 라벨 → 익일 sector state·종가 재평가.",
+        "slot": "1230"
+      },
+      {
+        "action": "buy",
+        "amount_won": null,
+        "code": "005380",
+        "qty": 2,
+        "reason": "운송장비 sector leading day-2 강화 carry(어제 +3.52% vol 7285 KOSPI +1.9%p 압도), 현대차 3일 연속 양봉 + 시총5위. 1차 probe 2주 평단 714000 → 동량 2주 add = 목표 사이즈 약 50% 도달, 일괄 아님. 약점: 기아/모비스 시총10위권 동반 가용 데이터로 확정 불가(가용 sector state 의 sector 가속 정량 신호로 대체 평가) + regime confidence 낮음 + KOSPI MA20 +12.7% 과열 + 운송장비 jagged cycle 이력. 그래서 동량 한정·풀시드 회피. 3차 add 게이트: 운송장비 days 3 carry + 현대차 종가 KOSPI 상회 + 후속(기아/모비스) 시총10위권 데이터 재진입. 손절구조: 운송장비 rotating_out 강등 OR 현대차 직전 저점 701000 종가 이탈 한 축 점등 시 size 절반 정리(평단% 앵커 아님).",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "017670",
+        "qty": null,
+        "reason": "통신업 day-2 carry 가능성 + SKT 양봉이나 1차 평단 103000 → 시드 평단 대비 추격 위치 진입. KT/LGU+ 동반 양봉 가용 데이터로 명확화 어려움 = 2차 add 게이트 본질 미확정. defensive 자축 thesis 자체는 살아있어 hold 디폴트, 본진 추가는 익일 통신업 sector days 3 carry + 종가 양봉 확인 후. 손절구조: 통신업 rotating_out OR SKT 100000(통신 sector 양전 시작 이전 가격구조) 종가 이탈 한 축 점등 시 size 절반 정리(평단% 앵커 아님).",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "034020",
+        "qty": null,
+        "reason": "기계 sector rotating_in day-1 신호 단독. promote 게이트(기계 days 2 carry + vol 10000+ + 전력기기 후속주 동반) 익일 종가 평가가 디폴트, 오늘 시드는 day-1 추격. 익일 sector state 갱신 후 분할 1차 검토.",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "032830",
+        "qty": null,
+        "reason": "보험 rotating_in day-1 + 시총8위 leader 본질이나 갭 grading 부담 큼, 1차 시드 시기 익일·차후 분기로 분산.",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "034220",
+        "qty": null,
+        "reason": "디스플레이 driver/소재 후속주 부재 = 단일 종목 강세, 테마 아님 규율. AI반도체 후속주로 흡수 운영 권장, 별도 신규 시드 보류.",
+        "slot": "1230"
+      },
+      {
+        "action": "sell",
+        "amount_won": null,
+        "code": "005930",
+        "qty": 4,
+        "reason": "AI반도체 day-15 후반·약화 라벨 carry. 클러스터 동조 붕괴 심화 — 후속주 삼전기 -6% 이탈·하이닉스 -1% 분기·삼전 단독 견인 = 약화 winner 본질 점등. 두 축 중 테마 유효성 축 침식 명확, OR 디폴트상 분할 익절 검토 발동. 평단 300625 → 351500 큰 익절권, 신고가 단독 가속은 클러스터 폭 축소의 다른 표현. 8주 → 4주(1/2) 정리, 잔량 4주 carry. 잔량 정리 조건: 전기전자 일봉 음전 종가 + 후속주 추가 -3% 동반 동시 점등 시 1/2 추가 정리(다음 슬롯·익일 새 트리거 평가).",
+        "slot": "1520"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "005380",
+        "qty": null,
+        "reason": "운송장비 leading day-2 강화 carry(+3.52% vol 7285), 현대차 평단 736000 → 753000 +2.3% 위치 정상. 3차 add 게이트(운송장비 days 3 carry + 현대차 종가 KOSPI 상회 + 기아/모비스 시총10위 데이터 재진입)는 익일 평가 — 같은 thesis 슬롯 내 분할 add 금지.",
+        "slot": "1520"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "017670",
+        "qty": null,
+        "reason": "통신업 rotating_in day-1 vol +426% 폭증 + 종일 추가 가속 = defensive rotation 가설 실측. 어제 시드 9주 진입 24시간 내 추격 add 자기모순. 2차 add 게이트(통신업 days 2 carry + SKT 종가 양봉 + KT/LGU+ 동반)는 익일 평가.",
+        "slot": "1520"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": null,
+        "qty": null,
+        "reason": "신규 0. 후보 잔여 3종(두산·삼성생명·LG디스플레이) 모두 day-1 단독·watching·단일 leader 등급으로 보유 3축(AI반도체·자동차·통신 defensive) 강세 신호 강도 미달. portfolio 3테마 분산 충분, 단일 테마 비중 60% 미만. 슬롯3 시간 막판 day-1 신호 추격은 wrap 호흡 부적합 — 익일 첫 슬롯 day-2 carry 확인 후 재평가.",
+        "slot": "1520"
+      }
+    ],
     "realized_pnl_won": 529500,
     "sell_won": 4137000,
     "sells": 3,
+    "strategist_brief": "```json\n{\n  \"themes\": [\n    {\n      \"name\": \"자동차/전동화·부품\",\n      \"stance\": \"신규 분할진입 허용\",\n      \"rationale\": \"active 승격 1일차 강화/초입. 운송장비 sector leading days 2 +3.52% vol 7285 KOSPI 압도. 현대차 +4.98% 3일 연속 양봉. 전기전자 약화 빈자리 isolation 2축 부상. gap·추격 금지.\"\n    },\n    {\n      \"name\": \"AI반도체/HBM\",\n      \"stance\": \"극선별·삼성전자 단독 분할만\",\n      \"rationale\": \"active 15일차 약화/후반. 1군 분기 명확 — 삼전 +3.94% 정배열 단독 견인 vs 하이닉스 -0.86%·삼전기 -6.02% 이탈. ended 미충족이나 소진 임박. 신규 추격·gap 절대금지, 하이닉스/삼전기 신규 보류.\"\n    },\n    {\n      \"name\": \"전력/원전/산업재 인프라\",\n      \"stance\": \"watching·분할 시험매수 허용\",\n      \"rationale\": \"기계 sector +5.76% vol 16572 전섹터 1위 rotating_in. 두산에너빌리티 +6.06% 시총10위, SKC +28% 1일 spike(추격금지). 1일 단독이라 승격 보류이나 거시 모멘텀(조선·방산·원전) 정합. SKC 추격 금지.\"\n    },\n    {\n      \"name\": \"defensive 로테이션 (보험/통신)\",\n      \"stance\": \"watching·소량 분할\",\n      \"rationale\": \"보험 +2.18% / 통신업 +2.21% vol +426% 폭증 rotating_in. regime confidence 낮음 + KOSPI MA20 +12.7% 과열 + 인버스 ETF 거래대금 1,2위 = defensive thesis 정합. wrap 적합.\"\n    },\n    {\n      \"name\": \"디스플레이 (OLED)\",\n      \"stance\": \"watching·단일 leader\",\n      \"rationale\": \"LG디스플레이 +3.6% 2일 연속 양봉 거래대금 4위. 단일 종목 강세 — 테마 아님 규율, AI반도체 후속주로 흡수 운영 권장.\"\n    }\n  ],\n  \"candidates\": [\n    {\"code\": \"005380\", \"name\": \"현대차\", \"reason\": \"운송장비 leading days 2 강화 핵심. +4.98% 3일 양봉 시총5위. 분할진입·gap 금지.\"},\n    {\"code\": \"005930\", \"name\": \"삼성전자\", \"reason\": \"AI반도체 1군 단독 견인. +3.94% 시총1위 정배열·신고가. KODEX 삼성전자레버리지 +7.79% ETF 1위 흡수. 분할만, 추격금지.\"},\n    {\"code\": \"034020\", \"name\": \"두산에너빌리티\", \"reason\": \"기계 sector +5.76% 전섹터 1위 vol 폭발. +6.06% 시총10위 vol 1.5M. 1일 spike 우려 — 시험매수 분할.\"},\n    {\"code\": \"017670\", \"name\": \"SK텔레콤\", \"reason\": \"통신업 rotating_in vol 480→2527 +426% defensive 자금 선제유입 실측. regime confidence 낮음 헷지.\"},\n    {\"code\": \"032830\", \"name\": \"삼성생명\", \"reason\": \"보험 rotating_in laggard→승격 3조건 완전충족. 시총8위 +0.13% 미미하나 cluster 동반(증권 +3.61%, 금융 +2.17%). defensive 분산.\"},\n    {\"code\": \"034220\", \"name\": \"LG디스플레이\", \"reason\": \"거래대금 4위 3535억 +3.6% 2일 연속 양봉. 디스플레이 단일 leader, AI반도체 후속주 흡수. 소량.\"}\n  ],\n  \"notes\": \"regime 추세장 강세 confidence 낮음 — 보수 운용. 후보 6개 분산 양호(AI반도체 1·자동차 1·인프라 1·통신 1·보험 1·디스플레이 1). 단일 테마 쏠림 없음. 방산(약화 ended 직전)·AI SI(데이터 부재)·SKC/한온/하이닉스/삼전기 추격 금지. 모든 후보 gap·추격·풀매수 금지, 분할진입 강제. KOSDAQ/중소형 신규 금지(MA20 -7.5% 4일 음봉). regime (C') 트리거(KOSPI 8300 하회·종가 8476 break) 발생 시 신규 중단·기보유 분할익절.\"\n}\n```",
     "themes": [
       {
         "days_active": 15,
@@ -965,12 +1097,88 @@
     "trades_count": 5
   },
   "20260602": {
+    "auditor_verdict": "Audit 완료. 핵심 짚는다.\n\n오늘은 순청산일이라 신규 omission 시비는 없다(조정 진입 regime 이 신규 중단을 정당화, 그 판단은 결 맞음). 문제는 전부 매도 *방식* 에 있다. 셋이 겹친다: 자기룰 깨기, 금지 데이터(장중 진폭) 밀반입, winner 토막내기.\n\n---\n\n오늘 잘한 것부터. 현대차 09:42 전량 청산은 교본이다. 테마 ended + 운송장비 rotating_out + 가격 약세 = 3중 동시 붕괴를 확인하고, \"사망은 전량\"이라 분할 안 하고 한 번에 끊었다. thesis 본질이 깨졌을 때 미적대지 않은 것. 이게 omission bias(죽은 포지션 붙들기) 없이 작동한 모범 사례다. 내일도 테마 사망 신호 3중 점등이면 망설이지 마라.\n\n그 다음부터가 문제다.\n\n**삼전 잔량 — 아침에 박은 룰을 같은 날 점심에 깼다.** 09:42 사유에 명시했다: 잔량 2주는 \"직전 일봉 저점 종가 이탈 OR 전기전자 rotating_out 강등\" 점등 시에만 정리, 그리고 \"같은 슬롯·다음 슬롯 재손대지 않음.\" 그런데 *바로 다음 슬롯* 12:32 에 정리했고, 발화한 두 트리거 중 어느 것도 점등 안 됐다 — PM 스스로 \"ended 미충족\"이라 적었다. 실제 사유는 \"-0.14% 모멘텀 stall + 테마 exhaustion\"으로, 아침에 박은 stop 보다 *약한* 신호다. 즉 자기가 정한 객관 트리거(종가 이탈/sector 강등)를 못 채우자, 더 무른 서술형 사유로 갈아끼워 팔았다. 결론(harvest)이 비합리적이란 게 아니다. 룰을 박아놓고 트리거 미점등 상태에서 다음 슬롯에 손댄 것 — 이건 commitment 위반이자 reverse-disposition(이익 빨리 실현하려는 조급)이다. 룰을 쓸 거면 트리거를 기다리고, 못 기다릴 거면 애초에 \"재손대지 않음\" 같은 약속을 박지 마라. 박은 룰이 alibi 로 쓰이면 룰 자체가 자기기만 도구가 된다.\n\n**SKT — 가장 큰 문제. 유효하다고 선언한 thesis 를 단일 일봉 가격으로 토막냈다.** 세 슬롯 연속 SKT 를 깎았다(hold→3주→3주). 매번 사유에서 \"통신업 rotating_in 1위 유효\", \"sector thesis 자체는 유효\"라고 *직접 인정* 하면서, 동시에 \"blow-off / froth / parabolic\"이라며 팔았다. 테마축·가격축 둘 다 안 깨졌다고 본인이 적어놓고, 하루 등락만으로 2/3 를 실현한 것. 이건 disposition effect 의 정석이다 — winner 의 종이이익을 지키려 conviction 을 버리는 손실회피. 조정장 \"유일 공격 가능 축\"이라며 themes 에 active 강화로 올려놓고, 정작 그 축을 3주 stub 까지 깎아 사실상 무포지션으로 만들었다. thesis 가 진짜 유효하면 왜 stub 까지 깎나? 유효하지 않으면 왜 \"유효\"라 적나? 이 모순이 오늘 매매의 핵심 결함이다.\n\n**그리고 SKT 사유에 금지 데이터가 들어왔다.** \"intraday 135400→112100→121700 광폭\", \"vol_rate 220\" — 이건 장중 진폭이고, 시스템이 구조적으로 금지한 입력이다. wrap·일봉·누적 state 기반이라 분봉 경로/장중 변동성은 보지도 쓰지도 않는 게 불변 규약이다. 일봉 종가 등락률(+12.39%)까지는 허용이지만, 그 하루 경로를 \"froth/blow-off\"로 읽어 매도 트리거로 쓴 순간 단타 결로 넘어갔다. 며칠~수주 보유 전제에서 하루 진폭에 반응해 세 슬롯 연속 깎는 건 정확히 막으려던 행동이다. froth 라는 단어가 나오면 그건 장중 신호를 밀반입했다는 자기 경보로 읽어라.\n\n**regime 문구를 매도 alibi 로 반복 인용했다.** 세 매도 모두 \"regime 조정 진입 = 기보유 대형 winner 분할익절 우선\"을 근거로 댔다. regime rationale 은 *맥락* 이지 개별 종목 매도 트리거가 아니다. 같은 한 줄을 모든 trim 에 갖다 붙이면(same-rule cherry-pick) \"왜 오늘 이 가격에 이만큼\"을 본질 사유로 못 적게 된다. regime 은 신규 공격성 게이트지, winner 를 언제 얼마나 깎으라는 지시가 아니다. 다음엔 매도 사유에서 regime 문구를 빼고 \"이 종목 thesis 의 무엇이 깨졌나\"만 적어봐라 — 만약 아무것도 안 깨졌으면, 그건 팔 이유가 없다는 뜻이다.\n\n부수: SKT 수량 서술 불일치(12:32 \"9주 중 3주\" vs 15:21 \"계획 9주 중 6주 부분체결\"). reporter 도 짚었다. 장부 잔량은 일관되나 서술이 흔들렸다 — 매 슬롯 보유수량을 state 에서 확인하고 적어라. 자기 포지션 수량도 헷갈리면서 froth 판단을 정밀하게 한다는 건 앞뒤가 안 맞는다.\n\n어제 verdict alibi 패턴은 없었다. 세 슬롯 decision 첫 줄이 전부 본인 thesis 판단으로 시작했고(\"현대차 thesis 죽음\", \"조정 진입 day-1 슬롯\", \"SKT 분석\") \"auditor 가 지목한\" 류 외부 인용으로 시작하지 않았다. 좋다. 다만 regime 문구 매달리기가 그 자리를 대신 차지하지 않게 주의.\n\n## 내일 PM 지침\n\n오늘 매도 자체가 틀렸다는 게 아니다 — HBM 소진·통신 froth 둘 다 부분익절은 합리적 방향이었다. 문제는 *방식* 이었고, 내일 고칠 건 세 가지다.\n\n하나, 매도 트리거를 사유에 박았으면 그 트리거가 실제 점등할 때까지 손대지 마라. 삼전처럼 \"종가 이탈 OR sector 강등 시 정리, 다음 슬롯 안 건드림\"이라 써놓고 트리거 미점등 상태로 다음 슬롯에 파는 건 자기룰 위반이다. 못 지킬 약속이면 애초에 적지 말고, 적었으면 지켜라. 박은 룰이 다음 결정의 면죄부가 되는 순간을 스스로 감시해라.\n\n둘, thesis 가 유효하다고 적은 종목은 하루 가격 움직임으로 토막내지 마라. \"sector 유효한데 froth라 절반 판다\"는 모순이다. 둘 중 하나만 참이다. 판다면 \"테마/sector 의 무엇이 깨졌나\"를 적고, 못 적으면 carry 가 디폴트다. winner 의 종이이익 방어 충동(disposition effect)이 conviction 을 이기지 않게 해라. 조정장 유일 공격축을 stub 까지 깎아 무포지션 만드는 건 분할익절이 아니라 손실회피다.\n\n셋, 매도 사유에서 \"froth / blow-off / parabolic / 광폭 / intraday 경로 / vol_rate\"가 튀어나오면 멈춰라. 그건 장중 진폭을 밀반입했다는 신호고, 구조적 금지 데이터다. 일봉 종가 등락률·누적 state·테마 유효성만으로 사유가 서야 한다. 하루 움직임이 사유의 중심이면 단타 결로 넘어간 것.\n\nregime 한 줄을 모든 trim 에 복붙하지 말고, 종목별로 깨진 본질을 풀어써라. 그게 안 써지면 팔 자리가 아니다.",
     "buy_won": 0,
     "buys": 0,
     "date": "2026-06-02",
+    "pm_decisions": [
+      {
+        "action": "sell",
+        "amount_won": null,
+        "code": "005380",
+        "qty": 4,
+        "reason": "자동차/전동화 theme ended 강등 + 운송장비 sector leading→rotating_out 즉시 강등(어제 +3.52%→오늘 -4.96% 전섹터 최약권, KOSPI 대비 -3.58%p) + 현대차 -3.33% 약세 = 테마·sector·가격 3중 동시 붕괴. thesis 본질 깨짐 = 1슬롯 전량 정리 디폴트. 4주 소량이나 분할매도 안 함(테마 사망은 전량). 한온/기아/모비스 후속 클러스터 시종 부재 = 폭 제한 테마였고 조정 진입과 동시 소멸.",
+        "slot": "0940"
+      },
+      {
+        "action": "sell",
+        "amount_won": null,
+        "code": "005930",
+        "qty": 2,
+        "reason": "HBM active day-16 후반, 삼성전기 -12%·하이닉스 약세로 후속주 전멸 + 삼성전자 단독 isolation = 회전 막판 신호(테마 유효성 침식 점등). 전기전자 leading day-6 약화 동반. 평단 300625→361000 = 큰 익절권 + 조정 regime 반등일이라 절반 실현이 디폴트(테마 유효성 축 점등 → 능동 부분익절). 가격 단조상승이 사유 아님, 테마 종반이 사유. 잔량 2주는 삼성전자 직전 일봉 저점 종가 이탈 OR 전기전자 rotating_out 강등 한 축 점등 시 정리(평단% 앵커 아님). 사이즈 한 번에 결단, 같은 슬롯·다음 슬롯 재손대지 않음.",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "017670",
+        "qty": null,
+        "reason": "통신업 sector rotating_in day-2 carry 확정(+4.11% 3일연속 가속 +1.66/+2.21/+4.11, vol 유지, KOSPI -1.38% 대비 +5.49%p) + 금융/통신 defensive theme active 강화 = thesis 강화로 잔 9주 hold(테마 carry 부재였으면 절반 검토였을 자리, carry 점등이라 유지). 2차 add 보류: SKT 당일 +8.47% intraday 135400→112100→121700 광폭 = 갭 추격 영역. add 가능 조건 = 다음 슬롯·익일 비갭 되돌림(115k 부근 종가 안착) + 통신업 days carry 지속 시 분할 2차, 미충족이면 익일 자동 carry. KT/LGU+ 양각은 feed 부재라 sector rotating_in 가속을 cluster 대용 신호로 평가.",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": null,
+        "qty": null,
+        "reason": "조정 진입 day1 + breadth 전체하락(KOSPI adv/dec 93/806) = 신규 거의 중단. defensive 후보 전부 당일 갭(삼성생명 +6.71%·LG디스플레이 +9.05%·삼성화재 +3.15%) = 분할 1차 가격 부담 큼. 통신 강축(SKT)은 이미 보유 중 + 보험 cluster impure(증권 dead-cat -3.93%·보험 isolation, 금융업 -1.98%). LGD 는 watching 미승격 단일종목 +9.05% 대형갭. 현대차 전량·삼전 절반 매도로 이미 능동 집행 중이라 무행동 아님 — 갭 추격 대신 retest 대기. 삼성생명(보험 leg) 비갭 되돌림 + 보험·통신 cluster 재확인 시 분할 1차 후보 등록(통신>보험: 통신업 vol 폭증 vs 보험 미미한 leader 강도 차).",
+        "slot": "0940"
+      },
+      {
+        "action": "sell",
+        "amount_won": 70,
+        "code": "005930",
+        "qty": 2,
+        "reason": "AI반도체 days16 후반·약화·소진임박 = 테마유효성 축 명확 침식. regime 조정 진입 전환(기보유 대형 주도주 분할익절 우선). 삼전 단독 isolation leader지만 오늘 -0.14% 모멘텀 stall, ended 미충족이나 carry 동력 소진. 보유 2주 binary 사안 = 1주씩 쪼개면 단타 결이라 전량 harvest, +16% 실현. 가격 아닌 테마exhaustion+regime+leader stall 복합 trigger.",
+        "slot": "1230"
+      },
+      {
+        "action": "sell",
+        "amount_won": 39,
+        "code": "017670",
+        "qty": 3,
+        "reason": "통신업 rotating_in 가속·보험 cluster 동반으로 sector thesis 자체는 유효. 단 defensive 진입축이 일봉 +16% parabolic = 방어주 성격 이탈 blow-off 신호. regime 조정 진입은 대형 winner 분할익절 우선. 9주 중 3주(1/3) 익절, 6주 carry로 rotation 잔존 노출 유지. 잔량 정리선: SKT 통신 sector 양전 시작 이전 가격구조 종가 이탈 시 추가 정리(평단% 아님).",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": null,
+        "qty": null,
+        "reason": "조정 진입 day1·breadth 전체하락·KOSPI ATH 반전 첫날 = 신규 사실상 중단 게이트. 허용 축인 금융/통신 defensive 도 leader SKT +16% parabolic = climax 성격 + 보험 cluster 붕괴(증권 dead-cat·삼성생명 isolation)로 순도 저하 = 신규는 chasing 영역. 삼성생명 +2.07% 갭 작으나 macro 게이트가 우선. 이번 슬롯 행동은 익절 2건, 신규 0.",
+        "slot": "1230"
+      },
+      {
+        "action": "sell",
+        "amount_won": 38,
+        "code": "017670",
+        "qty": 3,
+        "reason": "6주 보유(계획 9주 중 6주 부분체결, avg 103000), 현재 126100 +22%. 오늘 +12.39% vol_rate 220 단일 일봉 급등 = defensive 완만유입 thesis 성격과 괴리된 momentum blow-off froth. 통신업 rotating_in 1위 유효하나 조정 진입 regime+변동성 높음에서 regime rationale '기보유 반등시 분할익절' 정합 = 절반 3주 익절로 gift 일부 실현. 잔여 3주는 통신 sector 유효성 carry. 잔여 stop: 통신업 rotating_out 강등 OR SKT 종가가 통신 양전 시작 이전 가격구조(직전 일봉 저점 ~112k대) 이탈 시 전량. 오늘 1회 결정, 익일 새 신호 전 재정리 없음.",
+        "slot": "1520"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": null,
+        "qty": null,
+        "reason": "신규 0. 조정 진입 day1·breadth 전체하락 + 후보 전종목 갭 폭등(삼성생명 +15.24%·삼성화재 +6.62%·삼전 +3.15%·LGD +5.32%) = 1차 진입 가격 전면 부적격, 갭 상대순위로도 자격 없음. 마지막 슬롯 신규 몰빵 회피. 삼성전자 미보유(positions에 없음) 확인 — HBM 재진입 사안 없음.",
+        "slot": "1520"
+      }
+    ],
     "realized_pnl_won": 324450,
     "sell_won": 5088950,
     "sells": 5,
+    "strategist_brief": "조정 진입 day1 + breadth 전체하락. 신규 공격 최소화. defensive 로테이션만 분할 허용, 나머지 후반/추격금지. candidate 풀 lean + 다축 분산.\n\n```json\n{\n  \"themes\": [\n    {\n      \"name\": \"금융/통신 defensive 로테이션\",\n      \"stance\": \"분할진입 허용 — 조정장 유일 공격축\",\n      \"entry_status\": \"초입\",\n      \"priority\": 1,\n      \"note\": \"통신업 sector rotating_in 1위(+4.11% 3일연속 가속) + 보험 2일연속(+2.83%). 삼성생명 +7.2% 시총8위 leader 양각. gap/추격 금지, 통신 1순위·보험 후순위 배분.\"\n    },\n    {\n      \"name\": \"AI 반도체/HBM\",\n      \"stance\": \"삼성전자 단독·분할만, 후속주 신규 전면금지\",\n      \"entry_status\": \"후반\",\n      \"priority\": 3,\n      \"note\": \"days16 + 조정 진입 이중게이트. 삼성전자 +4.58% 단독 isolation, SK하이닉스 -0.08%/삼성전기 -10.62% 붕괴. 추격·gap 풀매수 절대금지. 소진 임박.\"\n    },\n    {\n      \"name\": \"디스플레이(OLED/대형패널)\",\n      \"stance\": \"watching — LG디스플레이 단일 leader, 분할 소량\",\n      \"entry_status\": \"관찰\",\n      \"priority\": 4,\n      \"note\": \"+4.56% 양봉 carry, 거래대금 2698억. driver/소재 후속주 부재 = 단일종목 = HBM 후속 흡수운영. promote 미충족.\"\n    }\n  ],\n  \"candidates\": [\n    {\n      \"code\": \"032830\",\n      \"name\": \"삼성생명\",\n      \"reason\": \"보험 rotating_in leader +7.2% 시총8위. defensive 로테이션 핵심. 분할진입, +7% 양봉 후 gap상시 분할만·추격금지.\"\n    },\n    {\n      \"code\": \"017670\",\n      \"name\": \"SK텔레콤\",\n      \"reason\": \"통신업 sector rotating_in 1위(+4.11% 3일 가속, KOSPI 대비 +5.49%p). defensive 1순위 배분. 분할, gap 금지. 시세 미신선 — PM 확인.\"\n    },\n    {\n      \"code\": \"000810\",\n      \"name\": \"삼성화재\",\n      \"reason\": \"보험 cluster 보조 leader. 삼성생명 isolation 순도 보완용 분산옵션. 후순위 소량 분할.\"\n    },\n    {\n      \"code\": \"005930\",\n      \"name\": \"삼성전자\",\n      \"reason\": \"HBM 단독 isolation +4.58% 신고가성. 조정+days16 이중게이트 = 신규는 분할·소량만, 추격 절대금지. 대형주 방어 베타.\"\n    },\n    {\n      \"code\": \"034220\",\n      \"name\": \"LG디스플레이\",\n      \"reason\": \"디스플레이 watching, HBM 후속 단일 leader +4.56% 양봉. 분할 소량·관찰성. 단일종목 리스크 인지.\"\n    }\n  ],\n  \"notes\": \"regime 조정 진입 day1·breadth 전체하락(KOSPI adv/dec 111/793, KOSDAQ 201/1490) = 신규 공격성 최소. 후보 5개 중 2개(삼성생명·SK텔레콤) defensive 로테이션 집중 but 압도 아님 — HBM(삼성전자)·디스플레이(LGD) 분산축 동시 제공. portfolio 단일테마 쏠림 위험 낮으나, defensive 2종 동시 풀매수는 PM이 cluster 순도(증권 dead-cat·보험 isolation) 감안해 portfolio-level 배분 게이트 권장. KOSDAQ 6연속 하락·중소형 전면금지. 8476 KOSPI 지지 확인 전 대형 주도주 추가매수 보류. 분할진입·지지선/테마유효성 손절 원칙 유지.\"\n}\n```",
     "themes": [
       {
         "days_active": 16,
@@ -1050,12 +1258,112 @@
     "trades_count": 5
   },
   "20260604": {
+    "auditor_verdict": "## 어제 무엇이 옳았고 무엇을 주의할지\n\n오늘 집행은 SKT(017670) 3주 전량청산 1건, 신규 0. 빈 계좌로 마감. 핵심만 짚는다.\n\n**SKT 청산 — 깨끗하다.** entry thesis 두 축(금융/통신 defensive 테마 + 통신업 sector rotating_in)이 theme_tracker state 상 실제로 동시 사망했다(삼성생명 -11.46%, 통신 sector -6.67%, 보험 -5.47% = ended 트리거 충족). 평단 103k 대비 113.6k 이익권이었는데 PM 이 \"손익 무관, 테마/sector 사망이 사유\"로 못박은 건 정확. 이익 난 포지션을 thesis 죽었다고 던진 거라 disposition effect(이익은 빨리, 손실은 미루기)의 반대 = 규율대로다. 손익이 매도 변수로 끼어들지 않았다는 점 칭찬할 만하다.\n\n다만 결 하나. theme_tracker 는 ended defensive 에 대해 \"즉시 분할익절\"을 적었는데 PM 은 \"본질 붕괴 = 1슬롯 전량\"을 택했다. 3주 초소량이라 결과는 무의미하지만, *전량* 룰과 *분할* 룰이 둘 다 손에 있을 때 편한 쪽을 골라 쓰는 same-rule cherry-pick 패턴의 씨앗은 있다. 청산은 thesis 기준이 맞고 전량도 타당하나, \"왜 분할 아닌 전량인가\"를 종목 규모·유동성 같은 본질로 풀어쓰는 습관을 유지해라. \"디폴트라서\"는 anchor 화의 입구다.\n\n**하루 종일 신규 0 — 갭 디시플린이냐, 관망 자기합리화냐.** 이게 오늘 진짜 검증 대상이다. 조정 진입 regime conf낮음 + 반도체장비는 watching day1 미promote + 전 종목 +20~30% 파라볼릭. 이 조건에서 watching 단계 테마 종가 추격을 안 한 건 거시원칙(조정 진입 = 신규 거의 중단)과 정합하고, 옳다. SKT 가 바로 2일짜리 defensive dead-cat 에 올라탔다 오늘 강제청산당한 케이스인데, 똑같은 day1 spike 인 반도체장비에 안 들어간 건 그 실패에서 배운 교정행동이다. 연속성 좋다.\n\n문제는 *deferral 의 표적이 슬롯마다 위로 밀렸다*는 점이다. 12:30 엔 \"익일 눌림 197100\", 15:20 엔 \"익일 200~215k\". 가격이 241k→250.5k 로 오르니 retest 선도 따라 올렸다. 도달가능성 유지 차원이라 이해는 가지만, 이건 \"눌림 오면 산다\"가 영원히 충족 안 되는 구조로 굳는 전형이다. PM 스스로 \"강한 cluster 거절 아님, 가격이 나쁨\"이라며 omission 자가검증을 매 슬롯 한 건 정직하다. 그러나 자가검증을 세 번 반복했다는 것 자체가, 같은 결론을 매번 새로 정당화해야 했다는 뜻이기도 하다. 정말 시장 유일 주도축이라 믿으면 진입경로는 *눌림 환상*이 아니라 *promote 게이트(6-5 클러스터 carry 확인)*다. 강세 confirm 에 올라타는 길을 본선으로 잡아라. 눌림은 보조.\n\n**내일 결단 강제.** 반도체장비가 6-5 에 클러스터 양봉 carry + KOSDAQ leg 강세 + 거래대금 유지로 promote 게이트를 점등하면, 그때도 \"갭 부담\"·\"또 눌림 대기\"로 또 미루면 그건 갭 디시플린이 아니라 omission bias 다. 게이트 충족 = 시드 20~30% 대장 1종 분할 starter, 실제 집행해라. 반대로 일제 -5%+ 되돌림이면 watching drop 하고 미련 없이 폐기. 어느 쪽이든 *행동*으로 닫아라. 셋째 옵션(\"한 슬롯 더 보자\")이 디폴트가 되는 순간 capacity 가 잠든다.\n\n**작은 위생 하나.** 12:30 슬롯에서 \"원익IPS 현재가=고가(127200)\"를 추격불가 근거로 쓴 대목 — 장중 고가 대비 현재가 위치는 시스템이 구조적으로 막은 장중 진폭/단타 신호 영역에 발을 걸친다. 결론(추격 안 함)은 옳지만 근거는 일봉·state(파라볼릭 갭 절대값, watching day1, promote 미충족)로 충분했다. \"현재가=고가\" 같은 intraday microstructure 표현은 빼라. 결론 맞아도 잘못된 렌즈로 본 흔적은 다음에 잘못된 결론을 부른다.\n\n**alibi 패턴 — 오늘은 깨끗.** has_yesterday_audit=True 였으나 세 슬롯 decision_raw 어느 것도 \"verdict §N\"·\"auditor 가 지목한\"으로 시작하지 않았다. 사유 전부 theme/sector/regime 본질로 풀어썼다. 외부 인용을 방패로 안 쓴 건 유지할 습관이다. 이 verdict 도 똑같이 다뤄라 — 번호로 인용하지 말고, 본질 사유로 reason 에 풀어써라.\n\n## 내일 PM 지침\n\n빈 계좌 + 조정 진입 regime + 반도체장비 KOSDAQ 디커플 cluster 가 유일 신호인 판이다. 셋만 들고 가라.\n\n첫째, 반도체장비 promote 게이트(6-5 클러스터 2+ 양봉 carry + 거래대금 유지 + KOSDAQ 강세)가 켜지면 *실제 진입*. 시드 20~30% 대장 1종 분할 starter. \"갭 부담·눌림 대기\"로 또 넘기면 omission. 안 켜지고 일제 되돌림이면 drop 확정. 행동으로 닫아라, 4번째 관망 슬롯 만들지 마라.\n\n둘째, retest 가격을 매 슬롯 위로 올려 영구 미충족으로 만들지 마라. 본선 진입경로는 강세 carry confirm, 눌림은 보조.\n\n셋째, 판단 근거는 일봉·누적 state 로. \"현재가=고가\" 류 장중 위치 표현 금지. 청산이든 진입이든 \"전량/분할\", \"진입/관망\"의 이유를 규모·thesis·유동성 본질로 풀어써라 — 룰 이름이나 디폴트로 때우지 마라.\n\n유통(신세계/롯데)은 vol8000 게이트 + 양전 지속 충족 전엔 후순위 그대로. 삼전 HBM 은 소진+조정 이중게이트로 신규 금지 유지, 기보유 없으니 행동 무.",
     "buy_won": 0,
     "buys": 0,
     "date": "2026-06-04",
+    "pm_decisions": [
+      {
+        "action": "sell",
+        "amount_won": null,
+        "code": "017670",
+        "qty": 3,
+        "reason": "entry thesis 두 축 동시 사망: 테마 '금융/통신 defensive 로테이션' ended 강등 + 통신업 sector rotating_in→rotating_out 강등(state 기반, intraday 아님) = thesis 본질 붕괴. 3주 소량이나 본질 깨짐은 1슬롯 전량 디폴트(1주씩 분할 금지). 평단 103k 이익권이나 손익 무관, 테마/sector 사망이 사유.",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": null,
+        "qty": null,
+        "reason": "신규 0. 반도체장비(주성·원익·테스) watching day1·promote 미충족·갭+17~30% = 추격금지(조정 conf낮음). 유통 신세계+11.42%/롯데+8.57% = defensive thesis 는 regime 정합이나 갭 과대 1차 부담, 다음슬롯 신세계 종가 590k 이하 눌림+유통 vol8000+ 회복 시 소량 probe. 삼전 HBM소진+조정 신규금지. 후보 전원 과대갭이라 무진입은 갭 디시플린.",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "036930",
+        "qty": null,
+        "reason": "주성엔지 241000 +22.4%, vol_rate148. 반도체장비 테마=watching day1(promote 미충족: 6-5 클러스터 2+ 종가양봉+거래대금 유지 필요). 시장 유일 주도 클러스터지만 현재 intraday high(255k) 근접, 갭 +22% extreme = 지금 1차=추격(strategist 추격금지 명시). grading상 갭 크면 시기 이연. 영구 deferral 회피용 구체 retest 트리거: 익일 시가/open 197100 영역 눌림 종가 안착 + 원익·테스 중 1+ 양봉 carry 동반이면 목표 4% starter 1차. 도달 가능 범위(현재가 -18%)이나 미도달이면 promote 게이트(6-5 확인)로 carry.",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "240810",
+        "qty": null,
+        "reason": "원익IPS 127200 +29.93%, 현재가=고가(127200). day1 parabolic 정점 추격 불가. 클러스터 동반강도 가장 세나 진입가 위치 최악(갭 +30%). 주성과 동일 게이트, 클러스터 confirm 도구로만 관찰. 1차 후보는 주성 우선(거래대금 대장).",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "004170",
+        "qty": null,
+        "reason": "신세계 643000 +13.01%, vol_rate62. 유통 rotating_in 승격이나 day1 + sector vol7799 게이트 미달 + 통신·보험 동반붕괴로 단독 isolation = thesis 순도 낮음. 갭 13%(약thesis) → 보류. 이건 리딩 테마 아닌 최약 방어 leg임을 정직히 기록 — '분산'이라 강세로 포장 안 함. 익일 +양봉 유지 + sector vol8000+ 회복 시 소량 분산 starter 재평가, 음전 또는 vol6000 이하면 sector laggard 강등=후보 폐기.",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "005930",
+        "qty": null,
+        "reason": "삼성전자 357500 -0.83%. HBM active 17일차 소진단계 + 전기전자 sector rotating_out 강등 + 조정 regime 이중게이트 = 신규 금지(theme_tracker). 보유 0이라 매도 대상 무. 신규 진입 사유 부재.",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "036930",
+        "qty": null,
+        "reason": "반도체장비 cluster 대장. watching day1 + 종가250500 +27.22% 파라볼릭. 마지막 슬롯 종가 1차 = top 추격, 가격엣지 0. promote gate(6-5 클러스터 2+ 종가양봉 carry + KOSDAQ 강세) 미점등 = day1 spike 위험. 익일 09:40: 클러스터 오늘종가 위 유지 + KOSDAQ 강세 지속 시 눌림 200~215k(오늘 시가197k/저가190k 영역) 시드 자본20~30% 분할 1차. 일제 -5%+ 되돌림이면 watching drop, 미진입. 추격 매수 0.",
+        "slot": "1520"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "240810",
+        "qty": null,
+        "reason": "원익IPS +29.93% 127200. 주성과 동일 cluster, 동일 파라볼릭 갭. day1 watching. 종가 추격 금지, 익일 클러스터 carry 확인 후 대장(주성) 1종으로만 시드 1차, 본종은 cluster breadth 확인용 trace. 단독 진입 안함.",
+        "slot": "1520"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "095610",
+        "qty": null,
+        "reason": "테스 +29.92% 135900. cluster 3번주, 파라볼릭. 동일 사유로 보류, 추격 금지. 진입은 cluster 대장 1종 한정 원칙(단일테마 도배 회피).",
+        "slot": "1520"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "004170",
+        "qty": null,
+        "reason": "신세계 +15.99% 660000. 유통 sector day1 rotating_in이나 vol7799 게이트 8000 미달 + 갭 +16% + 통신/보험 동반붕괴로 defensive 전체 무효 = 단독 isolation, thesis 순도 낮음. 갭 과대 + 약한 thesis = 보류. 익일 유통 양전 지속 & vol8000+ 충족 시 분산축 후순위 소량 검토.",
+        "slot": "1520"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "023530",
+        "qty": null,
+        "reason": "롯데쇼핑 +11.29% 171500. 신세계와 동일 유통 isolation thesis, 갭 +11%. 후순위, 보류. 분산 필요시 유통은 신세계 1종 우선.",
+        "slot": "1520"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "005930",
+        "qty": null,
+        "reason": "삼성전자 -2.08% 353000. HBM active 17일 소진 단계 + 전기전자 rotating_out 강등 + 조정 regime = 신규 금지(이중게이트). 보유 0이라 정리 대상 없음. 행동 무.",
+        "slot": "1520"
+      }
+    ],
     "realized_pnl_won": 31800,
     "sell_won": 340800,
     "sells": 1,
+    "strategist_brief": "```json\n{\n  \"themes\": [\n    {\n      \"name\": \"반도체 장비/소재 (KOSDAQ)\",\n      \"status\": \"오늘 압도적 주도 — watching day1이나 market 데이터상 cluster 재폭등(2일째). 주성엔지 +20.6% 4754억, 원익IPS +29.9%, 테스 +27.4%, 유진테크 +28.0%, 브이엠 +25.8% = 5+종목 산업적 동반. KOSDAQ +1.11% 자금집중. 대형 HBM(삼전 flat/하이닉스 -1.5%)과 디커플.\",\n      \"caution\": \"이미 +20~30% 파라볼릭. 조정 regime conf낮음 + wrap = gap/추격 절대금지. 진입하면 눌림 분할만, 익절선 짧게. 1일 spike 소멸 위험 잔존.\"\n    },\n    {\n      \"name\": \"유통업 (defensive 잔류)\",\n      \"status\": \"sector rotating_in 승격(4일 양전). 통신·보험 defensive 동반붕괴 속 유일 생존축. KOSPI 약세 자금 순환처. 분산 옵션.\",\n      \"caution\": \"vol7799 게이트 미달 + 단독 isolation. 후순위 소량, 분할만.\"\n    },\n    {\n      \"name\": \"AI 반도체/HBM (대형, 소진)\",\n      \"status\": \"active 17일차 소진 단계. 삼성전자 363500 +0.83% 오늘 양전 잔존(KOSPI 8476 지지). 신규 진입 보류, 기보유 관찰/분할익절 대상.\",\n      \"caution\": \"theme_tracker 소진 + 조정 regime 이중게이트 = 신규 금지.\"\n    }\n  ],\n  \"candidates\": [\n    {\"code\": \"036930\", \"name\": \"주성엔지니어링\", \"reason\": \"반도체 장비 cluster 대장. +20.6% 거래대금 4754억 최대. 추격금지 — 눌림 분할만.\"},\n    {\"code\": \"240810\", \"name\": \"원익IPS\", \"reason\": \"장비 cluster 2번주 +29.9% 1274억. 파라볼릭, 분할·익절선 짧게.\"},\n    {\"code\": \"095610\", \"name\": \"테스\", \"reason\": \"장비 cluster +27.4%. 동반 폭등 확인용. 추격금지.\"},\n    {\"code\": \"004170\", \"name\": \"신세계\", \"reason\": \"유통 rotating_in leader. defensive 생존축 = 반도체 쏠림 분산용. 소량 분할.\"},\n    {\"code\": \"023530\", \"name\": \"롯데쇼핑\", \"reason\": \"유통 rotating_in leader. 분산 옵션, 후순위.\"},\n    {\"code\": \"005930\", \"name\": \"삼성전자\", \"reason\": \"HBM 대형, 오늘 +0.83% 지지 잔존. 신규 아닌 기보유 관찰/분할익절 컨텍스트.\"}\n  ],\n  \"notes\": \"[쏠림 경고] 후보 6개 중 3개(주성/원익/테스)가 동일 테마 '반도체 장비'. 그 테마가 오늘 시장 유일 압도 주도주라 비중 큰 건 정당하나, 전부 이미 +20~30% 파라볼릭 + 조정 진입 regime conf낮음 = portfolio 단일테마 도배 위험 큼. PM 은 portfolio-level 분산 게이트 켜고, 반도체 장비는 max 1~2종목·소량·눌림 분할로만, 유통(신세계/롯데쇼핑) 분산축 같이 깔 것. [거시] KOSPI -0.86% 약세 vs KOSDAQ +1.11% 강세 = 선별상승·디커플. 대형주 신규 보류, 신규 공격성은 KOSDAQ 장비 한정이되 추격 금지가 핵심. 관망 우위 슬롯이면 비워도 정당.\"\n}\n```",
     "themes": [
       {
         "days_active": 17,
@@ -1089,5 +1397,47 @@
       }
     ],
     "trades_count": 1
+  },
+  "20260605": {
+    "auditor_verdict": "검토 완료. 오늘 PM 3슬롯 전부 hold, 빈 계좌, 패닉장(-5%대). 판정과 교정 아래.\n\n핵심부터: 오늘 관망은 옳다. 조정 진입 regime conf높음 + KOSPI 광폭음봉 + breadth 전체붕괴(adv190/dec703) 한복판, 빈 계좌라 트림·손절 대상도 없고 유일하게 살 수 있던 건 상한 인접한 로봇 소형주 스파이크(아이로보틱스 +29.84%, 마키나락스 +29.87%)뿐. 그걸 risk-off 한복판에서 안 쫓은 건 FOMO 억제로 정당하다. disposition effect·확증편향 같은 게 낄 자리가 없었던 날이고, omission bias 의 자기합리화도 아니다 — 신호강도 대비 신규 0 은 정합. reporter 가 \"regime 맥락 없어 판정 보류, 행동편향 과보정 금물\"이라 깔아준 경계도 잘 지켰다. 그러니 내일 보고서 톤에 눌려 \"어제 너무 가만 있었으니 들어가야\"로 과보정하지 마라. 어제 verdict 를 첫 줄 alibi 로 끌어쓴 흔적도 없었다(reason 들이 substantive 사유로 시작). 좋다.\n\n다만 짚을 패턴 셋.\n\n첫째, 세 슬롯 reason 이 사실상 같은 문장 복제다. 09:40/12:30/15:20 셋 다 \"KOSPI 8137 -5.81%, 8300/8476 동시이탈, breadth adv236/dec645, promote 게이트 미충족\" 동일 수치·동일 구문을 거의 글자 단위로 반복했다. PM 3회 슬롯은 *분할 진입/익절 타이밍 분산*을 위한 건데, 오늘은 같은 판단의 3회 의례적 재선언이 됐다. 빈 계좌 패닉장이라 결과적으론 셋 다 hold 가 맞지만, 12:30·15:20 에 오전과 동일 텍스트를 붙인 건 슬롯마다 시장을 다시 읽었다는 증거가 아니라 09:40 판단을 복붙했다는 증거다. 이건 ritual-justification 패턴 — 결정이 맞아도 *재평가 행위 자체가 없었다*는 게 위험. 내일은 슬롯이 같은 결론이어도 \"지난 슬롯 대비 무엇이 바뀌었나/안 바뀌었나\"를 한 줄로 갱신해라. 안 바뀌었으면 \"오전 대비 변화 없음, 동일 판단 유지\"라고 명시적으로 적어. 복붙 reason 은 멈춘 사고의 신호다.\n\n둘째, 데이터 불일치를 누구도 안 짚었다. strategist snapshot 은 KOSPI 8185.25 -5.26%(adv190/dec703)인데, PM 세 슬롯 reason 은 전부 8137 -5.81%(adv236/dec645)로 적었다. 둘 다 같은 날 같은 장인데 숫자가 다르다. PM 이 자기 live 시세를 쓴 거든 strategist 값을 쓴 거든, 출처가 갈리는데 reconcile 없이 한쪽 숫자를 세 번 박아넣었다. 방향(둘 다 -5%대 패닉)은 같아 오늘 결론엔 영향 없지만, 이런 수치 무신경이 경계선(8300 회복? MA20 7937 하회?) 판정으로 가면 잘못된 트리거를 켜고 끌 수 있다. 내일은 reason 에 거시 수치 인용할 때 출처(strategist snapshot / 자가 live)를 의식하고, 둘이 다르면 다르다고 적어라.\n\n셋째, 그리고 이게 내일 제일 중요한데 — PM 이 정밀한 숫자 사다리를 쌓아놨다. \"8300 종가 회복 + breadth net 양전 + KOSDAQ 1041 재안착 동시충족 시 관망 해제\", \"MA20 7937 종가 하회 시 봉인 지속\". 이 레벨들 자체는 합리적 가늠선이다. 문제는 이게 내일 *기계적 트리거*로 굳을 위험이다. 의도는 \"조정이 후반으로 돌았는지 regime 체질을 확인\"하는 거지, 8300 이라는 숫자가 1포인트 넘었다고 자동으로 관망 푸는 게 아니다. 반대도 마찬가지 — 7937 을 1포인트 깼다고 자동 봉인 연장도 아니다. 내일 이 숫자들을 \"조건 충족/미충족\" 체크박스로 읽지 말고, 그 숫자가 *대표하려던 것*(외국인·기관 자금 방향 전환됐나, dec 우위 풀렸나, 인버스 거래대금 1~2위에서 빠졌나)을 직접 봐라. 숫자는 그 본질의 프록시일 뿐이다. reason 에도 \"8300 회복했으니 해제\"가 아니라 \"자금이 인버스에서 빠지고 net 양전 돌아 조정압력 완화 — 8300 회복이 그 징후\"로 풀어써라.\n\n## 내일 PM 지침\n\n관망 유지가 디폴트다 — regime 조정 진입 conf높음이 안 풀렸고, 패닉 다음날 첫 반등은 데드캣일 확률이 높아 빈 계좌 현금 보존이 체질 정합. 단, 어제 \"가만히 있었다\"는 사실이 오늘 신규 진입의 명분도, 오늘 추가 봉인의 명분도 아니다. 오늘 시장을 새로 읽어라.\n\n세 가지만 실제로 확인하고 그걸 reason 에 본질로 풀어써라. (1) 자금 방향 — 인버스/선물인버스2X 가 여전히 거래대금 상위인가, 빠지기 시작했나. risk-off 가 풀리는 첫 신호는 인버스 자금 이탈이다. (2) breadth — dec 압도(어제 dec700+)가 균형으로 돌았나. net 양전은 숫자 0 넘김이 아니라 투매 종료의 징후로 읽어라. (3) 로봇/AI자동화 watching — 어제 스파이크 2종 이상이 종가 양봉 carry 됐나 거래대금 유지됐나. promote 게이트(6-8 클러스터 carry + regime 완화)는 *둘 다* 필요. regime 안 풀렸으면 클러스터 살아남아도 watch-only 유지 — 소형 투기주를 조정장에서 신규 1순위로 올리지 마라. 단 spike 가 일제 -5%+ 되돌림이면 watching 에서 drop.\n\n슬롯 운용: 오늘도 셋 다 hold 로 끝날 수 있다. 그래도 슬롯마다 \"직전 슬롯 대비 변화\"를 한 줄 갱신해라. 복붙 금지. 변화 없으면 \"변화 없음\" 명시.\n\n진입하게 된다면: regime 이 실제로 조정 후반/완화로 돌고 active 테마가 서야 한다. 그때도 풀포지션 통째 금지 — 분할 1차로만. 종목 차트 모멘텀이 아니라 시장 체질이 게이트라는 순서 지켜라.",
+    "buy_won": 0,
+    "buys": 0,
+    "date": "2026-06-05",
+    "open_positions": 0,
+    "pm_decisions": [
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": null,
+        "qty": null,
+        "reason": "빈 계좌. regime 조정 진입 conf높음 day3 + KOSPI 8137 -5.81%(8300/8476 동시이탈) + breadth 전체하락(KOSPI adv236/dec645, KOSDAQ adv312/dec1342) = 신규 거시 게이트 OFF. active 테마 0, HBM ended 강등. strategist candidates 비움. watching 로봇/AI자동화는 패닉 역행 1일 spike, promote 게이트 6-8 클러스터 2+ 종가양봉+거래대금유지로 오늘 미숙성. snapshot 자가스캔해도 인버스 거래대금 1~2위 risk-off 본격 = 진입 신호 0. 신규 봉인 정합, 관망. 해제 조건: KOSPI 8300 회복 + breadth net 양전 + KOSDAQ 1041 재안착(현 미충족).",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": null,
+        "qty": null,
+        "reason": "조정 진입 conf높음 + breadth 전체하락(KOSPI adv236/dec645=0.37, KOSDAQ adv312/dec1342=0.23) + KOSPI 8137 8300/8476 동시이탈 = 신규 거시게이트 OFF. active 테마 0. 보유 0(positions 비어있음) = 점검/정리 대상 없음. watching 로봇/AI자동화는 패닉 역행 1일 spike 의심, promote 게이트(6-8 클러스터 2종+ 종가 양봉 carry + 거래대금 유지 + regime 완화) 전부 미충족 = 진입대상 아님. snapshot 자가스캔해도 인버스/선물인버스2X 가 거래대금 1~2위 = risk-off 본격, 매수 후보 0. 관망. 해제 트리거: KOSPI 8300 종가 회복 + breadth net 양전 + KOSDAQ 1041 재안착 동시충족 시 관망 해제 검토(현 확률 낮음), MA20 7937 종가 하회+거래량 회복 시 조정 심화로 봉인 지속.",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": null,
+        "qty": null,
+        "reason": "보유 0 + 현금 100%. regime 조정 진입 conf높음(KOSPI 8137 -5.81%, 8300/8476 동시이탈, breadth 전체하락 adv236/dec645) = 신규 거시 게이트 OFF. active 테마 0, strategist candidates 비움. 유일 신호 로봇/AI자동화는 패닉 역행 1일 spike(소형 투기성), watching trace 전용 진입 대상 아님 — promote 게이트(6-8 클러스터 2+ 종가 양봉 + 거래대금 유지 + regime 완화)는 오늘 데이터로 평가 불가, 미발동. 보유 종목 없어 매도/트림 대상 무(positions={}). 관망의 기회비용 인지하나 강한 약세 신호 한복판에서 신규 0 = 신호강도 정합, 충동 진입 아님. 다음 분기: MA20 7937 하회+거래량 회복 시 조정 심화 신규 봉인 지속 / 8300 회복+breadth net 양전+KOSDAQ 1041 재안착 시에만 관망 해제 검토.",
+        "slot": "1520"
+      }
+    ],
+    "realized_pnl_won": null,
+    "sell_won": 0,
+    "sells": 0,
+    "strategist_brief": "조정 진입 conf높음 + breadth 전체하락 + KOSPI -5.26% 패닉 한복판. regime 게이트 = 신규 전면 중단. active 테마 0개. watching 로봇/AI자동화는 패닉 역행 1일 spike, 신뢰 최저. → 관망 디폴트. candidates 비움.\n\n```json\n{\n  \"themes\": [\n    {\n      \"name\": \"관망 (신규 봉인)\",\n      \"status\": \"no_entry\",\n      \"rationale\": \"regime 조정 진입 conf높음 + KOSPI 8185 -5.26%(8300/8476 동시이탈) + breadth 전체하락(adv190/dec703). 신규 진입 거시 게이트 OFF. 인버스/선물인버스2X 거래대금 1~2위 = risk-off 본격. 다음 지지 MA20 7937, 그 아래 7815. MA20 사수 여부가 조정 후반 전환 가늠선. 신규 0, 기보유는 지지선/테마유효성 기준 분할익절·손절선 점검.\"\n    },\n    {\n      \"name\": \"로봇/AI자동화 (watch-only, 진입금지)\",\n      \"status\": \"watching\",\n      \"leaders\": [\"아이로보틱스\", \"코스모로보틱스\", \"마키나락스\"],\n      \"rationale\": \"패닉 역행 spike 클러스터(아이로보틱스 +29.84% 상한인접, 코스모로보틱스 +19.97% 1394억, 마키나락스 +29.87% 581억). 전부 소형 투기성 + 거시 전체하락 한복판 = 1일 spike 확률 높음, 신뢰 최저. regime 조정 conf높음 게이트 하 trace만. promote: 6-8 클러스터 2+ 종가 양봉 carry + 거래대금 유지 + regime 완화. drop: 일제 -5%+ 되돌림.\"\n    }\n  ],\n  \"candidates\": [],\n  \"notes\": \"조정 진입 conf높음 패닉장 — 후보 0개 의도적. regime 신규 봉인 게이트 정합. 단일 테마 쏠림 위험 없음(candidates 비움). 로봇/AI자동화는 themes watching 으로만 노출, PM 진입 대상 아님. PM 은 신규 매수 보류 + 기보유 지지선 점검 모드. MA20 7937 하회+거래량 회복 동반 폭락 시 조정 심화 — 신규 계속 봉인. 8300 회복+breadth net 양전+KOSDAQ 1041 재안착 시에만 관망 해제 검토(현 확률 낮음).\"\n}\n```",
+    "themes": [],
+    "top_movers": [],
+    "traded_codes": [],
+    "trades_count": 0,
+    "unrealized_pnl_won": null
   }
 }
