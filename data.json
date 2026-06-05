@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-04 16:01:27",
-  "date": "20260604",
+  "generated_at": "2026-06-05 09:21:01",
+  "date": "20260605",
   "mode": "dry_run",
   "stats": {
     "open_positions": 0,
-    "trades_count": 1,
+    "trades_count": 0,
     "buys": 0,
-    "sells": 1,
+    "sells": 0,
     "buy_won": 0,
-    "sell_won": 340800,
-    "realized_pnl_won": 31800,
+    "sell_won": 0,
+    "realized_pnl_won": null,
     "capital_won": 50000000,
     "deployed_won": 0,
     "cash_remaining_won": 50000000,
@@ -17,121 +17,8 @@
     "unrealized_pnl_won": null
   },
   "positions": [],
-  "trades": [
-    {
-      "ts": "2026-06-04T09:41:01",
-      "cycle_id": "20260604-0940",
-      "action": "sell",
-      "code": "017670",
-      "name": "SK텔레콤",
-      "qty": 3,
-      "price": 113600,
-      "amount_won": 340800,
-      "reason": "entry thesis 두 축 동시 사망: 테마 '금융/통신 defensive 로테이션' ended 강등 + 통신업 sector rotating_in→rotating_out 강등(state 기반, intraday 아님) = thesis 본질 붕괴. 3주 소량이나 본질 깨짐은 1슬롯 전량 디폴트(1주씩 분할 금지). 평단 103k 이익권이나 손익 무관, 테마/sector 사망이 사유.",
-      "dry_run": true,
-      "order_no": "",
-      "avg_cost": 103000,
-      "realized_pnl_won": 31800
-    }
-  ],
-  "pm_decisions": [
-    {
-      "slot": "0940",
-      "action": "sell",
-      "code": "017670",
-      "amount_won": null,
-      "qty": 3,
-      "reason": "entry thesis 두 축 동시 사망: 테마 '금융/통신 defensive 로테이션' ended 강등 + 통신업 sector rotating_in→rotating_out 강등(state 기반, intraday 아님) = thesis 본질 붕괴. 3주 소량이나 본질 깨짐은 1슬롯 전량 디폴트(1주씩 분할 금지). 평단 103k 이익권이나 손익 무관, 테마/sector 사망이 사유."
-    },
-    {
-      "slot": "0940",
-      "action": "hold",
-      "code": null,
-      "amount_won": null,
-      "qty": null,
-      "reason": "신규 0. 반도체장비(주성·원익·테스) watching day1·promote 미충족·갭+17~30% = 추격금지(조정 conf낮음). 유통 신세계+11.42%/롯데+8.57% = defensive thesis 는 regime 정합이나 갭 과대 1차 부담, 다음슬롯 신세계 종가 590k 이하 눌림+유통 vol8000+ 회복 시 소량 probe. 삼전 HBM소진+조정 신규금지. 후보 전원 과대갭이라 무진입은 갭 디시플린."
-    },
-    {
-      "slot": "1230",
-      "action": "hold",
-      "code": "036930",
-      "amount_won": null,
-      "qty": null,
-      "reason": "주성엔지 241000 +22.4%, vol_rate148. 반도체장비 테마=watching day1(promote 미충족: 6-5 클러스터 2+ 종가양봉+거래대금 유지 필요). 시장 유일 주도 클러스터지만 현재 intraday high(255k) 근접, 갭 +22% extreme = 지금 1차=추격(strategist 추격금지 명시). grading상 갭 크면 시기 이연. 영구 deferral 회피용 구체 retest 트리거: 익일 시가/open 197100 영역 눌림 종가 안착 + 원익·테스 중 1+ 양봉 carry 동반이면 목표 4% starter 1차. 도달 가능 범위(현재가 -18%)이나 미도달이면 promote 게이트(6-5 확인)로 carry."
-    },
-    {
-      "slot": "1230",
-      "action": "hold",
-      "code": "240810",
-      "amount_won": null,
-      "qty": null,
-      "reason": "원익IPS 127200 +29.93%, 현재가=고가(127200). day1 parabolic 정점 추격 불가. 클러스터 동반강도 가장 세나 진입가 위치 최악(갭 +30%). 주성과 동일 게이트, 클러스터 confirm 도구로만 관찰. 1차 후보는 주성 우선(거래대금 대장)."
-    },
-    {
-      "slot": "1230",
-      "action": "hold",
-      "code": "004170",
-      "amount_won": null,
-      "qty": null,
-      "reason": "신세계 643000 +13.01%, vol_rate62. 유통 rotating_in 승격이나 day1 + sector vol7799 게이트 미달 + 통신·보험 동반붕괴로 단독 isolation = thesis 순도 낮음. 갭 13%(약thesis) → 보류. 이건 리딩 테마 아닌 최약 방어 leg임을 정직히 기록 — '분산'이라 강세로 포장 안 함. 익일 +양봉 유지 + sector vol8000+ 회복 시 소량 분산 starter 재평가, 음전 또는 vol6000 이하면 sector laggard 강등=후보 폐기."
-    },
-    {
-      "slot": "1230",
-      "action": "hold",
-      "code": "005930",
-      "amount_won": null,
-      "qty": null,
-      "reason": "삼성전자 357500 -0.83%. HBM active 17일차 소진단계 + 전기전자 sector rotating_out 강등 + 조정 regime 이중게이트 = 신규 금지(theme_tracker). 보유 0이라 매도 대상 무. 신규 진입 사유 부재."
-    },
-    {
-      "slot": "1520",
-      "action": "hold",
-      "code": "036930",
-      "amount_won": null,
-      "qty": null,
-      "reason": "반도체장비 cluster 대장. watching day1 + 종가250500 +27.22% 파라볼릭. 마지막 슬롯 종가 1차 = top 추격, 가격엣지 0. promote gate(6-5 클러스터 2+ 종가양봉 carry + KOSDAQ 강세) 미점등 = day1 spike 위험. 익일 09:40: 클러스터 오늘종가 위 유지 + KOSDAQ 강세 지속 시 눌림 200~215k(오늘 시가197k/저가190k 영역) 시드 자본20~30% 분할 1차. 일제 -5%+ 되돌림이면 watching drop, 미진입. 추격 매수 0."
-    },
-    {
-      "slot": "1520",
-      "action": "hold",
-      "code": "240810",
-      "amount_won": null,
-      "qty": null,
-      "reason": "원익IPS +29.93% 127200. 주성과 동일 cluster, 동일 파라볼릭 갭. day1 watching. 종가 추격 금지, 익일 클러스터 carry 확인 후 대장(주성) 1종으로만 시드 1차, 본종은 cluster breadth 확인용 trace. 단독 진입 안함."
-    },
-    {
-      "slot": "1520",
-      "action": "hold",
-      "code": "095610",
-      "amount_won": null,
-      "qty": null,
-      "reason": "테스 +29.92% 135900. cluster 3번주, 파라볼릭. 동일 사유로 보류, 추격 금지. 진입은 cluster 대장 1종 한정 원칙(단일테마 도배 회피)."
-    },
-    {
-      "slot": "1520",
-      "action": "hold",
-      "code": "004170",
-      "amount_won": null,
-      "qty": null,
-      "reason": "신세계 +15.99% 660000. 유통 sector day1 rotating_in이나 vol7799 게이트 8000 미달 + 갭 +16% + 통신/보험 동반붕괴로 defensive 전체 무효 = 단독 isolation, thesis 순도 낮음. 갭 과대 + 약한 thesis = 보류. 익일 유통 양전 지속 & vol8000+ 충족 시 분산축 후순위 소량 검토."
-    },
-    {
-      "slot": "1520",
-      "action": "hold",
-      "code": "023530",
-      "amount_won": null,
-      "qty": null,
-      "reason": "롯데쇼핑 +11.29% 171500. 신세계와 동일 유통 isolation thesis, 갭 +11%. 후순위, 보류. 분산 필요시 유통은 신세계 1종 우선."
-    },
-    {
-      "slot": "1520",
-      "action": "hold",
-      "code": "005930",
-      "amount_won": null,
-      "qty": null,
-      "reason": "삼성전자 -2.08% 353000. HBM active 17일 소진 단계 + 전기전자 rotating_out 강등 + 조정 regime = 신규 금지(이중게이트). 보유 0이라 정리 대상 없음. 행동 무."
-    }
-  ],
+  "trades": [],
+  "pm_decisions": [],
   "calendar_dates": [
     "20260511",
     "20260512",
@@ -149,6 +36,6 @@
     "20260602",
     "20260604"
   ],
-  "strategist_brief": "```json\n{\n  \"themes\": [\n    {\n      \"name\": \"반도체 장비/소재 (KOSDAQ)\",\n      \"status\": \"오늘 압도적 주도 — watching day1이나 market 데이터상 cluster 재폭등(2일째). 주성엔지 +20.6% 4754억, 원익IPS +29.9%, 테스 +27.4%, 유진테크 +28.0%, 브이엠 +25.8% = 5+종목 산업적 동반. KOSDAQ +1.11% 자금집중. 대형 HBM(삼전 flat/하이닉스 -1.5%)과 디커플.\",\n      \"caution\": \"이미 +20~30% 파라볼릭. 조정 regime conf낮음 + wrap = gap/추격 절대금지. 진입하면 눌림 분할만, 익절선 짧게. 1일 spike 소멸 위험 잔존.\"\n    },\n    {\n      \"name\": \"유통업 (defensive 잔류)\",\n      \"status\": \"sector rotating_in 승격(4일 양전). 통신·보험 defensive 동반붕괴 속 유일 생존축. KOSPI 약세 자금 순환처. 분산 옵션.\",\n      \"caution\": \"vol7799 게이트 미달 + 단독 isolation. 후순위 소량, 분할만.\"\n    },\n    {\n      \"name\": \"AI 반도체/HBM (대형, 소진)\",\n      \"status\": \"active 17일차 소진 단계. 삼성전자 363500 +0.83% 오늘 양전 잔존(KOSPI 8476 지지). 신규 진입 보류, 기보유 관찰/분할익절 대상.\",\n      \"caution\": \"theme_tracker 소진 + 조정 regime 이중게이트 = 신규 금지.\"\n    }\n  ],\n  \"candidates\": [\n    {\"code\": \"036930\", \"name\": \"주성엔지니어링\", \"reason\": \"반도체 장비 cluster 대장. +20.6% 거래대금 4754억 최대. 추격금지 — 눌림 분할만.\"},\n    {\"code\": \"240810\", \"name\": \"원익IPS\", \"reason\": \"장비 cluster 2번주 +29.9% 1274억. 파라볼릭, 분할·익절선 짧게.\"},\n    {\"code\": \"095610\", \"name\": \"테스\", \"reason\": \"장비 cluster +27.4%. 동반 폭등 확인용. 추격금지.\"},\n    {\"code\": \"004170\", \"name\": \"신세계\", \"reason\": \"유통 rotating_in leader. defensive 생존축 = 반도체 쏠림 분산용. 소량 분할.\"},\n    {\"code\": \"023530\", \"name\": \"롯데쇼핑\", \"reason\": \"유통 rotating_in leader. 분산 옵션, 후순위.\"},\n    {\"code\": \"005930\", \"name\": \"삼성전자\", \"reason\": \"HBM 대형, 오늘 +0.83% 지지 잔존. 신규 아닌 기보유 관찰/분할익절 컨텍스트.\"}\n  ],\n  \"notes\": \"[쏠림 경고] 후보 6개 중 3개(주성/원익/테스)가 동일 테마 '반도체 장비'. 그 테마가 오늘 시장 유일 압도 주도주라 비중 큰 건 정당하나, 전부 이미 +20~30% 파라볼릭 + 조정 진입 regime conf낮음 = portfolio 단일테마 도배 위험 큼. PM 은 portfolio-level 분산 게이트 켜고, 반도체 장비는 max 1~2종목·소량·눌림 분할로만, 유통(신세계/롯데쇼핑) 분산축 같이 깔 것. [거시] KOSPI -0.86% 약세 vs KOSDAQ +1.11% 강세 = 선별상승·디커플. 대형주 신규 보류, 신규 공격성은 KOSDAQ 장비 한정이되 추격 금지가 핵심. 관망 우위 슬롯이면 비워도 정당.\"\n}\n```",
-  "auditor_verdict": "## 어제 무엇이 옳았고 무엇을 주의할지\n\n오늘 집행은 SKT(017670) 3주 전량청산 1건, 신규 0. 빈 계좌로 마감. 핵심만 짚는다.\n\n**SKT 청산 — 깨끗하다.** entry thesis 두 축(금융/통신 defensive 테마 + 통신업 sector rotating_in)이 theme_tracker state 상 실제로 동시 사망했다(삼성생명 -11.46%, 통신 sector -6.67%, 보험 -5.47% = ended 트리거 충족). 평단 103k 대비 113.6k 이익권이었는데 PM 이 \"손익 무관, 테마/sector 사망이 사유\"로 못박은 건 정확. 이익 난 포지션을 thesis 죽었다고 던진 거라 disposition effect(이익은 빨리, 손실은 미루기)의 반대 = 규율대로다. 손익이 매도 변수로 끼어들지 않았다는 점 칭찬할 만하다.\n\n다만 결 하나. theme_tracker 는 ended defensive 에 대해 \"즉시 분할익절\"을 적었는데 PM 은 \"본질 붕괴 = 1슬롯 전량\"을 택했다. 3주 초소량이라 결과는 무의미하지만, *전량* 룰과 *분할* 룰이 둘 다 손에 있을 때 편한 쪽을 골라 쓰는 same-rule cherry-pick 패턴의 씨앗은 있다. 청산은 thesis 기준이 맞고 전량도 타당하나, \"왜 분할 아닌 전량인가\"를 종목 규모·유동성 같은 본질로 풀어쓰는 습관을 유지해라. \"디폴트라서\"는 anchor 화의 입구다.\n\n**하루 종일 신규 0 — 갭 디시플린이냐, 관망 자기합리화냐.** 이게 오늘 진짜 검증 대상이다. 조정 진입 regime conf낮음 + 반도체장비는 watching day1 미promote + 전 종목 +20~30% 파라볼릭. 이 조건에서 watching 단계 테마 종가 추격을 안 한 건 거시원칙(조정 진입 = 신규 거의 중단)과 정합하고, 옳다. SKT 가 바로 2일짜리 defensive dead-cat 에 올라탔다 오늘 강제청산당한 케이스인데, 똑같은 day1 spike 인 반도체장비에 안 들어간 건 그 실패에서 배운 교정행동이다. 연속성 좋다.\n\n문제는 *deferral 의 표적이 슬롯마다 위로 밀렸다*는 점이다. 12:30 엔 \"익일 눌림 197100\", 15:20 엔 \"익일 200~215k\". 가격이 241k→250.5k 로 오르니 retest 선도 따라 올렸다. 도달가능성 유지 차원이라 이해는 가지만, 이건 \"눌림 오면 산다\"가 영원히 충족 안 되는 구조로 굳는 전형이다. PM 스스로 \"강한 cluster 거절 아님, 가격이 나쁨\"이라며 omission 자가검증을 매 슬롯 한 건 정직하다. 그러나 자가검증을 세 번 반복했다는 것 자체가, 같은 결론을 매번 새로 정당화해야 했다는 뜻이기도 하다. 정말 시장 유일 주도축이라 믿으면 진입경로는 *눌림 환상*이 아니라 *promote 게이트(6-5 클러스터 carry 확인)*다. 강세 confirm 에 올라타는 길을 본선으로 잡아라. 눌림은 보조.\n\n**내일 결단 강제.** 반도체장비가 6-5 에 클러스터 양봉 carry + KOSDAQ leg 강세 + 거래대금 유지로 promote 게이트를 점등하면, 그때도 \"갭 부담\"·\"또 눌림 대기\"로 또 미루면 그건 갭 디시플린이 아니라 omission bias 다. 게이트 충족 = 시드 20~30% 대장 1종 분할 starter, 실제 집행해라. 반대로 일제 -5%+ 되돌림이면 watching drop 하고 미련 없이 폐기. 어느 쪽이든 *행동*으로 닫아라. 셋째 옵션(\"한 슬롯 더 보자\")이 디폴트가 되는 순간 capacity 가 잠든다.\n\n**작은 위생 하나.** 12:30 슬롯에서 \"원익IPS 현재가=고가(127200)\"를 추격불가 근거로 쓴 대목 — 장중 고가 대비 현재가 위치는 시스템이 구조적으로 막은 장중 진폭/단타 신호 영역에 발을 걸친다. 결론(추격 안 함)은 옳지만 근거는 일봉·state(파라볼릭 갭 절대값, watching day1, promote 미충족)로 충분했다. \"현재가=고가\" 같은 intraday microstructure 표현은 빼라. 결론 맞아도 잘못된 렌즈로 본 흔적은 다음에 잘못된 결론을 부른다.\n\n**alibi 패턴 — 오늘은 깨끗.** has_yesterday_audit=True 였으나 세 슬롯 decision_raw 어느 것도 \"verdict §N\"·\"auditor 가 지목한\"으로 시작하지 않았다. 사유 전부 theme/sector/regime 본질로 풀어썼다. 외부 인용을 방패로 안 쓴 건 유지할 습관이다. 이 verdict 도 똑같이 다뤄라 — 번호로 인용하지 말고, 본질 사유로 reason 에 풀어써라.\n\n## 내일 PM 지침\n\n빈 계좌 + 조정 진입 regime + 반도체장비 KOSDAQ 디커플 cluster 가 유일 신호인 판이다. 셋만 들고 가라.\n\n첫째, 반도체장비 promote 게이트(6-5 클러스터 2+ 양봉 carry + 거래대금 유지 + KOSDAQ 강세)가 켜지면 *실제 진입*. 시드 20~30% 대장 1종 분할 starter. \"갭 부담·눌림 대기\"로 또 넘기면 omission. 안 켜지고 일제 되돌림이면 drop 확정. 행동으로 닫아라, 4번째 관망 슬롯 만들지 마라.\n\n둘째, retest 가격을 매 슬롯 위로 올려 영구 미충족으로 만들지 마라. 본선 진입경로는 강세 carry confirm, 눌림은 보조.\n\n셋째, 판단 근거는 일봉·누적 state 로. \"현재가=고가\" 류 장중 위치 표현 금지. 청산이든 진입이든 \"전량/분할\", \"진입/관망\"의 이유를 규모·thesis·유동성 본질로 풀어써라 — 룰 이름이나 디폴트로 때우지 마라.\n\n유통(신세계/롯데)은 vol8000 게이트 + 양전 지속 충족 전엔 후순위 그대로. 삼전 HBM 은 소진+조정 이중게이트로 신규 금지 유지, 기보유 없으니 행동 무."
+  "strategist_brief": null,
+  "auditor_verdict": null
 }
