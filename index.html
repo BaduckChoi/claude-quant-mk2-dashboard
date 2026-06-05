@@ -1003,12 +1003,15 @@
       await loadHistory();
       const todayKey = data.date || null;
       const ym = todayKey ? todayKey.slice(0, 6) : null;
+      let monthBuys = 0, monthBuyWon = 0;
       let monthSells = 0, monthSellWon = 0, monthRealized = 0;
       let monthHasRealized = false;
       if (ym) {
         for (const [k, v] of Object.entries(calArchive || {})) {
           if (!k.startsWith(ym)) continue;
           if (k === todayKey) continue; // 오늘은 data.json 의 라이브 값 사용
+          monthBuys += (v.buys || 0);
+          monthBuyWon += (v.buy_won || 0);
           monthSells += (v.sells || 0);
           monthSellWon += (v.sell_won || 0);
           if (v.realized_pnl_won != null) {
@@ -1019,6 +1022,8 @@
       }
       // 오늘분 가산
       const sToday = data.stats || {};
+      monthBuys += (sToday.buys || 0);
+      monthBuyWon += (sToday.buy_won || 0);
       monthSells += (sToday.sells || 0);
       monthSellWon += (sToday.sell_won || 0);
       if (sToday.realized_pnl_won != null) {
@@ -1048,6 +1053,7 @@
         ["오늘 매수", `${s.buys ?? 0}건 · ${fmtMan(s.buy_won)}원`, ""],
         ["오늘 매도", `${s.sells ?? 0}건 · ${fmtMan(s.sell_won)}원`, ""],
         ["오늘 실현손익", signedPnl(s.realized_pnl_won), cls(s.realized_pnl_won)],
+        ["이번달 매수", `${monthBuys}건 · ${fmtMan(monthBuyWon)}원`, ""],
         ["이번달 매도", `${monthSells}건 · ${fmtMan(monthSellWon)}원`, ""],
         ["이번달 실현손익", signedPnl(monthRealizedVal), cls(monthRealizedVal)],
       ];
