@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05 12:30:16",
+  "generated_at": "2026-06-05 15:20:16",
   "date": "20260605",
   "mode": "dry_run",
   "stats": {
@@ -34,6 +34,14 @@
       "amount_won": null,
       "qty": null,
       "reason": "조정 진입 conf높음 + breadth 전체하락(KOSPI adv236/dec645=0.37, KOSDAQ adv312/dec1342=0.23) + KOSPI 8137 8300/8476 동시이탈 = 신규 거시게이트 OFF. active 테마 0. 보유 0(positions 비어있음) = 점검/정리 대상 없음. watching 로봇/AI자동화는 패닉 역행 1일 spike 의심, promote 게이트(6-8 클러스터 2종+ 종가 양봉 carry + 거래대금 유지 + regime 완화) 전부 미충족 = 진입대상 아님. snapshot 자가스캔해도 인버스/선물인버스2X 가 거래대금 1~2위 = risk-off 본격, 매수 후보 0. 관망. 해제 트리거: KOSPI 8300 종가 회복 + breadth net 양전 + KOSDAQ 1041 재안착 동시충족 시 관망 해제 검토(현 확률 낮음), MA20 7937 종가 하회+거래량 회복 시 조정 심화로 봉인 지속."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": null,
+      "amount_won": null,
+      "qty": null,
+      "reason": "보유 0 + 현금 100%. regime 조정 진입 conf높음(KOSPI 8137 -5.81%, 8300/8476 동시이탈, breadth 전체하락 adv236/dec645) = 신규 거시 게이트 OFF. active 테마 0, strategist candidates 비움. 유일 신호 로봇/AI자동화는 패닉 역행 1일 spike(소형 투기성), watching trace 전용 진입 대상 아님 — promote 게이트(6-8 클러스터 2+ 종가 양봉 + 거래대금 유지 + regime 완화)는 오늘 데이터로 평가 불가, 미발동. 보유 종목 없어 매도/트림 대상 무(positions={}). 관망의 기회비용 인지하나 강한 약세 신호 한복판에서 신규 0 = 신호강도 정합, 충동 진입 아님. 다음 분기: MA20 7937 하회+거래량 회복 시 조정 심화 신규 봉인 지속 / 8300 회복+breadth net 양전+KOSDAQ 1041 재안착 시에만 관망 해제 검토."
     }
   ],
   "calendar_dates": [
