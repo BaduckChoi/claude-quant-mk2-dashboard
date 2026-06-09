@@ -1403,7 +1403,6 @@
     "buy_won": 0,
     "buys": 0,
     "date": "2026-06-05",
-    "open_positions": 0,
     "pm_decisions": [
       {
         "action": "hold",
@@ -1434,6 +1433,22 @@
     "sell_won": 0,
     "sells": 0,
     "strategist_brief": "조정 진입 conf높음 + breadth 전체하락 + KOSPI -5.26% 패닉 한복판. regime 게이트 = 신규 전면 중단. active 테마 0개. watching 로봇/AI자동화는 패닉 역행 1일 spike, 신뢰 최저. → 관망 디폴트. candidates 비움.\n\n```json\n{\n  \"themes\": [\n    {\n      \"name\": \"관망 (신규 봉인)\",\n      \"status\": \"no_entry\",\n      \"rationale\": \"regime 조정 진입 conf높음 + KOSPI 8185 -5.26%(8300/8476 동시이탈) + breadth 전체하락(adv190/dec703). 신규 진입 거시 게이트 OFF. 인버스/선물인버스2X 거래대금 1~2위 = risk-off 본격. 다음 지지 MA20 7937, 그 아래 7815. MA20 사수 여부가 조정 후반 전환 가늠선. 신규 0, 기보유는 지지선/테마유효성 기준 분할익절·손절선 점검.\"\n    },\n    {\n      \"name\": \"로봇/AI자동화 (watch-only, 진입금지)\",\n      \"status\": \"watching\",\n      \"leaders\": [\"아이로보틱스\", \"코스모로보틱스\", \"마키나락스\"],\n      \"rationale\": \"패닉 역행 spike 클러스터(아이로보틱스 +29.84% 상한인접, 코스모로보틱스 +19.97% 1394억, 마키나락스 +29.87% 581억). 전부 소형 투기성 + 거시 전체하락 한복판 = 1일 spike 확률 높음, 신뢰 최저. regime 조정 conf높음 게이트 하 trace만. promote: 6-8 클러스터 2+ 종가 양봉 carry + 거래대금 유지 + regime 완화. drop: 일제 -5%+ 되돌림.\"\n    }\n  ],\n  \"candidates\": [],\n  \"notes\": \"조정 진입 conf높음 패닉장 — 후보 0개 의도적. regime 신규 봉인 게이트 정합. 단일 테마 쏠림 위험 없음(candidates 비움). 로봇/AI자동화는 themes watching 으로만 노출, PM 진입 대상 아님. PM 은 신규 매수 보류 + 기보유 지지선 점검 모드. MA20 7937 하회+거래량 회복 동반 폭락 시 조정 심화 — 신규 계속 봉인. 8300 회복+breadth net 양전+KOSDAQ 1041 재안착 시에만 관망 해제 검토(현 확률 낮음).\"\n}\n```",
+    "themes": [],
+    "top_movers": [],
+    "traded_codes": [],
+    "trades_count": 0
+  },
+  "20260609": {
+    "auditor_verdict": null,
+    "buy_won": 0,
+    "buys": 0,
+    "date": "2026-06-09",
+    "open_positions": 0,
+    "pm_decisions": [],
+    "realized_pnl_won": null,
+    "sell_won": 0,
+    "sells": 0,
+    "strategist_brief": null,
     "themes": [],
     "top_movers": [],
     "traded_codes": [],
