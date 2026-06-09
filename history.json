@@ -1444,7 +1444,16 @@
     "buys": 0,
     "date": "2026-06-09",
     "open_positions": 0,
-    "pm_decisions": [],
+    "pm_decisions": [
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": null,
+        "qty": null,
+        "reason": "빈 계좌, 슬롯1(09:40). regime 조정진입 conf낮음 = 신규 봉인 게이트. 후보 5종 전부 AI인프라 cluster(HBM 3+광통신 2) day-1 반등 부분봉 — SK하이닉스 +6.28%, 삼성전기 +8.59%, 대한광통신 +14.05%, 이노 +15.33%. 3일급락(ATH-16.7%) 후 1일 반등이라 dead-cat 미배제, 전기전자 vol=6-5 붕괴거래량 동수준. 신규 1차 트리거 미충족: KOSPI MA20 7952 종가회복(현 7785) + breadth 양전 2일 + 1군 거래대금 유지 — 셋 다 종가/익일 확정 사안, 부분봉으로 판정 불가. 소형 광통신(이노 +15% vol_rate 372) 투기색, 조정장 신규 1순위 부적격. 분할진입 greenlight 자체가 regime 게이트서 보류. 오늘 디폴트 관망, 신규 0.",
+        "slot": "0940"
+      }
+    ],
     "realized_pnl_won": null,
     "sell_won": 0,
     "sells": 0,
