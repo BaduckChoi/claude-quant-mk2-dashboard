@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09 12:30:27",
+  "generated_at": "2026-06-09 15:20:18",
   "date": "20260609",
   "mode": "dry_run",
   "stats": {
@@ -34,6 +34,14 @@
       "amount_won": null,
       "qty": null,
       "reason": "빈 계좌. regime 조정진입·conf낮음·신규봉인 게이트 유효. KOSPI 종가 7785<MA20 7952 미회복=조정후반 미확정, 분할진입 greenlight 보류. 후보 5종 전부 watching, promote 게이트(6-10 1군 양봉 carry 2일+거래대금 유지+MA20 7952 종가회복)는 익일 종가로만 판정=오늘 충족 0. live_quotes 강세는 일중 진폭이라 부분봉 추격 구조적 금지. 관리할 포지션 없어 sell 대상 없음. 진입 시 그때도 풀포지션 금지 분할 1차만."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": null,
+      "amount_won": null,
+      "qty": null,
+      "reason": "빈 계좌. regime 조정 진입·confidence 낮음·신규 봉인 게이트 유지(days 4, KOSPI 종가 7785<MA20 7952 미회복). active 테마 0, 전 후보(HBM 3 + 광통신 2) watching only — 진입권 아님. theme_tracker promote 게이트는 6-10 1군 양봉 carry 2일 + 거래대금 유지 + MA20 7952 종가회복 + 조정후반 전환 = 오늘 전부 미충족(반등 1일차, MA20 미회복). 시장 체질이 1순위 게이트인데 조정후반 전환 미확정 = dead-cat 미배제. 신규 0 디폴트 정합. 마지막 슬롯이라 신규 몰빵 유혹 있으나 익일 종가 confirm 전 진입은 부분봉 추격이라 봉인 유지. 보유 0이라 매도 없음. 익일 트리거: KOSPI 7952 종가회복+breadth 양전 2일+1군 거래대금 유지 시 시드급 분할 1차 평가, 7442 재이탈 시 dead-cat 확정 watching drop."
     }
   ],
   "calendar_dates": [
