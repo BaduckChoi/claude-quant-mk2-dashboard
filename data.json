@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10 15:20:51",
+  "generated_at": "2026-06-10 15:40:48",
   "date": "20260610",
   "mode": "dry_run",
   "stats": {
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 3706000,
     "cash_remaining_won": 47525500,
-    "total_eval_won": 3735500,
-    "unrealized_pnl_won": 29500
+    "total_eval_won": 3738000,
+    "unrealized_pnl_won": 32000
   },
   "positions": [
     {
@@ -36,11 +36,11 @@
       "qty": 5,
       "avg_price": 362000,
       "cost_won": 1810000,
-      "current_price": 362500,
-      "change_rate": -0.55,
-      "eval_won": 1812500,
-      "pnl_won": 2500,
-      "pnl_pct": 0.13812154696132595,
+      "current_price": 363000,
+      "change_rate": -0.41,
+      "eval_won": 1815000,
+      "pnl_won": 5000,
+      "pnl_pct": 0.2762430939226519,
       "thesis": "철강 rotating_in 선행축, 양전2일+vol회복 3390->4114. 갭 -0.69% flat=가격분산 양호하나 모멘텀 leader 대비 약함(정직 인정), sector 단위 thesis 가 근거. 1차 probe(~3.6%). add: 익일 섹터 종가확정 양전+vol4000+ 유지. 사멸선 동일."
     }
   ],
