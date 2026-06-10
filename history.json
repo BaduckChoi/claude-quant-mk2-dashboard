@@ -1443,7 +1443,6 @@
     "buy_won": 0,
     "buys": 0,
     "date": "2026-06-09",
-    "open_positions": 0,
     "pm_decisions": [
       {
         "action": "hold",
@@ -1474,6 +1473,22 @@
     "sell_won": 0,
     "sells": 0,
     "strategist_brief": "조정 진입·confidence 낮음·신규 봉인 게이트. Watching-only 추적 모드. 후보 풀 작게, 분할진입 greenlight 보류. 후보 대부분 AI인프라(반도체+광통신) 쏠림 → PM 분산 게이트 신호 명시.\n\n```json\n{\n  \"themes\": [\n    {\n      \"name\": \"AI 반도체/HBM\",\n      \"status\": \"watching\",\n      \"stance\": \"신규 진입 보류 (regime 조정진입 conf낮음). 6-9 1군 일제 반등이나 부분봉 +4% 추격금지, KOSPI MA20 7952 미회복(종가 7785<MA20), 전기전자 vol19071=6-5 붕괴거래량 동수준 dead-cat 미배제. trace만.\",\n      \"promote_trigger\": \"6-10 1군 양봉 carry 2일 + 거래대금 유지 + KOSPI MA20 7952 종가회복 + regime 조정후반 전환\"\n    },\n    {\n      \"name\": \"광통신/AI데이터센터\",\n      \"status\": \"watching\",\n      \"stance\": \"NEW. 대한광통신/이노인스트루먼트/타이거일렉 cluster 동반강세 + 거래대금 진성. 단 소형주 투기색 + 패닉 직후 1일 spike 가능성. 신규봉인 하 watching trace.\",\n      \"promote_trigger\": \"6-10 cluster 2+ 종가 양봉 carry + 거래대금 유지 + AI 광인프라 capex rationale 확인\"\n    },\n    {\n      \"name\": \"로봇/AI자동화\",\n      \"status\": \"drop_imminent\",\n      \"stance\": \"6-5 패닉 역행 spike 1일성 확정 근접. 6-9 반등장에서 로봇만 소외(아이로보틱스 -0.12%). 후보 제외.\",\n      \"promote_trigger\": \"6-10 cluster 2+ 종가 양봉 재점화\"\n    }\n  ],\n  \"candidates\": [\n    {\"code\": \"000660\", \"name\": \"SK하이닉스\", \"reason\": \"HBM 1군 시총2위 +5.7%. dead-cat 미배제, 분할진입 보류·MA20 회복 confirm 전 추격금지. watching anchor.\"},\n    {\"code\": \"005930\", \"name\": \"삼성전자\", \"reason\": \"HBM 1군 시총1위 +3.05%. 동일 게이트. 1군 carry 2일 confirm 시에만 선별 분할.\"},\n    {\"code\": \"009150\", \"name\": \"삼성전기\", \"reason\": \"전기전자 +7.09% 반등주도. dead-cat caveat 동일, 추격금지.\"},\n    {\"code\": \"010170\", \"name\": \"대한광통신\", \"reason\": \"광통신 cluster 대장 +16.89% 거래대금 2010억 진성. 소형 투기색, spike 소멸 여부 6-10 확인 전 신규 보류.\"},\n    {\"code\": \"215790\", \"name\": \"이노인스트루먼트\", \"reason\": \"광통신 cluster 동반 +17.28%. 소형주, cluster carry confirm 대상.\"}\n  ],\n  \"notes\": \"regime 조정진입·confidence낮음·신규봉인 = 오늘 디폴트는 관망. 후보는 진입지시 아닌 watching 추적 anchor. 분할진입 greenlight 트리거: KOSPI MA20 7952 종가회복 + breadth 양전 2일 + 1군 거래대금 유지. drop 트리거: KOSPI 7442(6-8 low) 재이탈 = dead-cat 확정. [분산 경고] 후보 5개 중 5개 전부 AI인프라 cluster (HBM 3 + 광통신 2) — 살아있는 비-AI 테마 부재(sector laggards 기계/철강금속은 종목단 진성신호 미확정으로 후보 제외). portfolio 분산 관점 PM 자율 판단 필요 — 단일 cluster 도배 위험, 신규는 어차피 봉인이라 실질 리스크는 낮으나 게이트 켜라.\"\n}\n```",
+    "themes": [],
+    "top_movers": [],
+    "traded_codes": [],
+    "trades_count": 0
+  },
+  "20260610": {
+    "auditor_verdict": null,
+    "buy_won": 0,
+    "buys": 0,
+    "date": "2026-06-10",
+    "open_positions": 0,
+    "pm_decisions": [],
+    "realized_pnl_won": null,
+    "sell_won": 0,
+    "sells": 0,
+    "strategist_brief": null,
     "themes": [],
     "top_movers": [],
     "traded_codes": [],
