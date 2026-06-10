@@ -1540,6 +1540,30 @@
         "qty": null,
         "reason": "신규 후보 4종 전부 시클리컬 단일테마. 기보유 2종 동일테마 → 3종째 진입 시 portfolio 게이트(N=3) 보수 + strategist 분산경고. 분산옵션 부재는 시장탓(HBM dead-cat, 코스닥AI 영세투기). 012450(+1.38%)/034020(-2.28%) 신규 미진입, 동일테마 add 는 익일 sector 종가확정 트리거에서 집행. 자본 7.4% 가동 유지.",
         "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "329180",
+        "qty": null,
+        "reason": "보유 3주 평단 632k, 현재 639k(+4.41%). 조선/방산 진성 상대강도 유지, 시클리컬 rotating_in(철강금속/기계) 살아있어 thesis 견조, 지지선 무이탈 → 매도 없음. add 트리거(MA20 7972 종가안착)는 KOSPI 7917<7972 로 미점등 → 추가 없음. 트리거 점등 전 선집행 안 함.",
+        "slot": "1520"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "005490",
+        "qty": null,
+        "reason": "보유 5주 평단 362k, 현재 362k(-0.69%) flat. 철강금속 rotating_in 선행축 유효, 지지선 방어 중 → 매도 없음. add 트리거(섹터 종가확정 양전+vol4000 유지)는 vol_rate 70.9 로 진성수급 미확인 → 추가 없음.",
+        "slot": "1520"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": null,
+        "qty": null,
+        "reason": "신규 후보 012450(+1.38%)·034020(-1.41%) 둘 다 시클리컬 단일테마. 기보유 2종 모두 동일테마라 N=3 되면 도배 → portfolio 게이트상 보수. 시클리컬 테마 status=watching(미promote, promote 게이트=6-11 종가확정 carry 로 익일 판정), regime 조정후반 day-1 confidence 보통=공격성 절반. 마지막 슬롯 바스켓 신규진입 회피. 진입 미집행은 omission 아니라 내가 깐 게이트(MA20 안착/섹터 종가확정/promote) 미충족이 사유. 익일 KOSPI MA20 7972 종가안착+섹터 양전 carry 확인 시 기보유 add 또는 신규 1종 분할 1차 평가.",
+        "slot": "1520"
       }
     ],
     "realized_pnl_won": null,
@@ -1561,6 +1585,6 @@
       }
     ],
     "trades_count": 2,
-    "unrealized_pnl_won": 38500
+    "unrealized_pnl_won": 29500
   }
 }
