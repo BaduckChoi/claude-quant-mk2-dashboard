@@ -638,7 +638,7 @@
       {
         "action": "buy",
         "code": "329180",
-        "name": ""
+        "name": "HD현대중공업"
       }
     ],
     "trades_count": 1
@@ -790,7 +790,7 @@
     "top_movers": [
       {
         "code": "329180",
-        "name": "",
+        "name": "HD현대중공업",
         "realized_pnl_won": 247000
       }
     ],
@@ -798,7 +798,7 @@
       {
         "action": "sell",
         "code": "329180",
-        "name": ""
+        "name": "HD현대중공업"
       }
     ],
     "trades_count": 3
@@ -855,7 +855,7 @@
     "top_movers": [
       {
         "code": "329180",
-        "name": "",
+        "name": "HD현대중공업",
         "realized_pnl_won": 35000
       }
     ],
@@ -863,7 +863,7 @@
       {
         "action": "sell",
         "code": "329180",
-        "name": ""
+        "name": "HD현대중공업"
       },
       {
         "action": "buy",
@@ -1480,19 +1480,63 @@
   },
   "20260610": {
     "auditor_verdict": null,
-    "buy_won": 0,
-    "buys": 0,
+    "buy_won": 3706000,
+    "buys": 2,
     "date": "2026-06-10",
-    "open_positions": 0,
-    "pm_decisions": [],
+    "open_positions": 2,
+    "pm_decisions": [
+      {
+        "action": "buy",
+        "amount_won": 190,
+        "code": "329180",
+        "qty": 3,
+        "reason": "시클리컬 primary leader. down-day +3.27% 역행 진성 상대강도, 갭 5%미만. regime 조정후반 선별분할 greenlight, confidence 보통=절반 공격성. 풀사이즈 아닌 1차 probe(~3.8% 자본). add: 익일 조선/철강 종가양전 carry+MA20 7972 안착. 사멸: KOSPI 7442 종가이탈 or 섹터 rotating_out.",
+        "slot": "0940"
+      },
+      {
+        "action": "buy",
+        "amount_won": 181,
+        "code": "005490",
+        "qty": 5,
+        "reason": "철강 rotating_in 선행축, 양전2일+vol회복 3390->4114. 갭 -0.69% flat=가격분산 양호하나 모멘텀 leader 대비 약함(정직 인정), sector 단위 thesis 가 근거. 1차 probe(~3.6%). add: 익일 섹터 종가확정 양전+vol4000+ 유지. 사멸선 동일.",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "012450",
+        "qty": null,
+        "reason": "한화에어로 +1.57% 기계/방산 교집합. thesis 유효하나 portfolio gate 상 2종 압축, carry. 익일 기계 섹터 leading 승격 시 후보 재평가.",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "034020",
+        "qty": null,
+        "reason": "두산 -2.82%, 기계 vol3917<4000 미달+절대 +0.11% 미약, strategist 후순위. 익일 기계 종가확정 양전 확인 후 진입 검토. 현재 진입 보류.",
+        "slot": "0940"
+      }
+    ],
     "realized_pnl_won": null,
     "sell_won": 0,
     "sells": 0,
     "strategist_brief": "단일테마 쏠림 상황. 시클리컬 로테이션이 regime(조정후반 선별분할)과 sector rotating_in(철강/기계) 둘 다 정합 = 유일하게 단단한 축. HBM은 오늘 dead-cat 진행, 코스닥 AI는 영세 투기 = wrap 부적합. 후보 4개 모두 시클리컬이라 PM에 분산 게이트 신호 명시.\n\n```json\n{\n  \"themes\": [\n    {\n      \"name\": \"시클리컬 로테이션(철강/기계/조선·방산)\",\n      \"status\": \"primary\",\n      \"rationale\": \"regime 조정후반 선별 분할 greenlight + sector_tracker rotating_in 철강금속(+1.07%, 역행 +2.95%p, 양전2일+vol회복)·기계(+0.11%, 역행 +1.99%p 2일째) 동반 + HD현대중공업 시총상위 +2.78% 진성 양전. down-day 2+섹터 역행 outperform = cyclical 로테이션 thesis. 단 KOSPI -2.81% 약세장 내 상대강도라 절대모멘텀 약 + 섹터 종가확정 vol 미확인 = 분할 1차분만, 추격 금지.\"\n    },\n    {\n      \"name\": \"AI 반도체/HBM\",\n      \"status\": \"watch_only\",\n      \"rationale\": \"신규 진입 부적합. 6-10 1군 일제 음전(삼성전자 -4.19, 하이닉스 -3.48, SK스퀘어 -5.04), 레버ETF -7~9%, 전기전자 rotating_out -2.59% = dead-cat 진행. watching 잔류하나 오늘 후보 제외. 6-11+ 1군 양봉 carry 2일+MA20(7972) 종가안착 시 재검토.\"\n    },\n    {\n      \"name\": \"AI 소프트웨어/서비스(코스닥)\",\n      \"status\": \"watch_only\",\n      \"rationale\": \"KOSDAQ +0.95% decoupling 강세 + cluster 상한가(크라우드웍스/솔트웨어/버넥트 +30%)이나 거래대금 영세(대다수 16억↓)+상한가 다수 = 1일 테마성 투기색. wrap 계좌 부적합, 후보 제외. promote 시에도 진성 수급 확인 전까지 관망.\"\n    }\n  ],\n  \"candidates\": [\n    {\n      \"code\": \"329180\",\n      \"name\": \"HD현대중공업\",\n      \"reason\": \"조선/방산. 시총상위(66조)에서 down-day -2.81% 역행 +2.78% 양전 = 베타 아닌 진성 상대강도. 시클리컬 로테이션 대장. 분할 1차분 우선순위.\"\n    },\n    {\n      \"code\": \"005490\",\n      \"name\": \"POSCO홀딩스\",\n      \"reason\": \"철강금속 rotating_in leader. 섹터 양전2일+vol회복(3390->4114) 선행축. 원자재/cyclical 회복 thesis. 지지선 기준 분할.\"\n    },\n    {\n      \"code\": \"012450\",\n      \"name\": \"한화에어로스페이스\",\n      \"reason\": \"방산/기계 교집합. 기계섹터 rotating_in(역행 2일째) + 방산 구조적 모멘텀. 조선과 cyclical 동반.\"\n    },\n    {\n      \"code\": \"034020\",\n      \"name\": \"두산에너빌리티\",\n      \"reason\": \"기계 rotating_in leader. 원전/발전설비 capex 사이클. 단 기계 절대 +0.11% 미약·vol 기준미달 = 4종목 중 후순위, 종가확정 양전 확인 후 분할.\"\n    }\n  ],\n  \"notes\": \"분산 경고: 오늘 후보 4개 전부 시클리컬 로테이션 단일테마. HBM(dead-cat)·코스닥AI(영세 투기) 두 watching 테마가 wrap 부적합으로 후보화 못 함 = 분산 옵션 부재가 시장 탓이지 의도 아님. PM은 portfolio-level 게이트 켜고 단일테마 도배 위험 자율 판단 필요 — 4종목 중 2~3개로 압축하거나 사이즈 축소 권고. regime 조정후반 confidence 보통 = 공격성 절반, 분할 1차분만. 절대사수선 KOSPI 7442(6-8 low), 이탈 시 신규 전면 중단.\"\n}\n```",
     "themes": [],
     "top_movers": [],
-    "traded_codes": [],
-    "trades_count": 0,
-    "unrealized_pnl_won": null
+    "traded_codes": [
+      {
+        "action": "buy",
+        "code": "329180",
+        "name": "HD현대중공업"
+      },
+      {
+        "action": "buy",
+        "code": "005490",
+        "name": "POSCO홀딩스"
+      }
+    ],
+    "trades_count": 2,
+    "unrealized_pnl_won": -11500
   }
 }
