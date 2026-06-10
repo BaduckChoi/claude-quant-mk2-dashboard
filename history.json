@@ -1516,6 +1516,30 @@
         "qty": null,
         "reason": "두산 -2.82%, 기계 vol3917<4000 미달+절대 +0.11% 미약, strategist 후순위. 익일 기계 종가확정 양전 확인 후 진입 검토. 현재 진입 보류.",
         "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "329180",
+        "qty": null,
+        "reason": "645k(+5.39% gap) vs avg 632k. 조선/방산·철강 rotating_in 유효, 지지선 미이탈. add 트리거=익일 sector 종가양전+MA20 7972 안착(오늘 미평가). +5.39% 갭자리 추격add 부적격. day-1 winner trim 무근거(테마 유효성 견조). 보유.",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "005490",
+        "qty": null,
+        "reason": "363k(-0.41%) vs avg 362k flat. add 트리거=익일 철강섹터 종가확정 양전+vol4000+(오늘 미평가). 지지선 미이탈, sector rotating_in 유효. 보유.",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": null,
+        "qty": null,
+        "reason": "신규 후보 4종 전부 시클리컬 단일테마. 기보유 2종 동일테마 → 3종째 진입 시 portfolio 게이트(N=3) 보수 + strategist 분산경고. 분산옵션 부재는 시장탓(HBM dead-cat, 코스닥AI 영세투기). 012450(+1.38%)/034020(-2.28%) 신규 미진입, 동일테마 add 는 익일 sector 종가확정 트리거에서 집행. 자본 7.4% 가동 유지.",
+        "slot": "1230"
       }
     ],
     "realized_pnl_won": null,
@@ -1537,6 +1561,6 @@
       }
     ],
     "trades_count": 2,
-    "unrealized_pnl_won": -11500
+    "unrealized_pnl_won": 38500
   }
 }
