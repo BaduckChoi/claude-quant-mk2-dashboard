@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11 09:40:46",
+  "generated_at": "2026-06-11 12:30:19",
   "date": "20260611",
   "mode": "dry_run",
   "stats": {
@@ -73,6 +73,14 @@
       "amount_won": null,
       "qty": null,
       "reason": "신규 전부 reject. regime 조정 진입+breadth 전체하락+변동성 높음=신규 봉인. 후보 4종 모두 watching-tier 저신뢰, 후공정 cluster(코미코 +13% 등)는 전체하락 내 decoupling으로 절대모멘텀 부재+대형 반도체 음전과 섹터정합 약. 갭 큰 1일 순환매 가능성, 진입 부적격. 6-12 carry+대형주 동반회복 확인 전까지 관찰만."
+    },
+    {
+      "slot": "1230",
+      "action": "hold",
+      "code": null,
+      "amount_won": null,
+      "qty": null,
+      "reason": "regime 조정 진입 1일+breadth 전체하락(0.28~0.41)+변동성 높음 = 거시게이트 신규 봉인. 후보 4종 전부 watching-tier(소부장/후공정 cluster). 게다가 정오 시세 추격불가 갭: 코미코 +29.97% 상한가(아침 +11.86 대비 더 확대), 엠케이전자 +21.72%, 티에스이 +11.81% = 1차 진입 가격위치 부적격. 대한광통신 +0.74%(970억서 시세 증발)=단일종목 fade. 조정진입 전체하락 내 단독 decoupling=절대모멘텀 부재, 대형반도체 음전과 디커플=섹터정합 약. promote 미충족. 보유 0=관리대상 없음. 신규 0, 6-12 cluster 종가 carry+대형주 동반회복 확인 시 재평가."
     }
   ],
   "calendar_dates": [
