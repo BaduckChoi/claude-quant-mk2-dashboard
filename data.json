@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-06-10 16:01:13",
-  "date": "20260610",
+  "generated_at": "2026-06-11 09:21:33",
+  "date": "20260611",
   "mode": "dry_run",
   "stats": {
     "open_positions": 2,
-    "trades_count": 2,
-    "buys": 2,
+    "trades_count": 0,
+    "buys": 0,
     "sells": 0,
-    "buy_won": 3706000,
+    "buy_won": 0,
     "sell_won": 0,
     "realized_pnl_won": null,
     "capital_won": 50000000,
     "deployed_won": 3706000,
     "cash_remaining_won": 47525500,
-    "total_eval_won": 3738000,
-    "unrealized_pnl_won": 32000
+    "total_eval_won": 3592500,
+    "unrealized_pnl_won": -113500
   },
   "positions": [
     {
@@ -23,11 +23,11 @@
       "qty": 3,
       "avg_price": 632000,
       "cost_won": 1896000,
-      "current_price": 641000,
-      "change_rate": 4.74,
-      "eval_won": 1923000,
-      "pnl_won": 27000,
-      "pnl_pct": 1.4240506329113924,
+      "current_price": 620000,
+      "change_rate": -3.28,
+      "eval_won": 1860000,
+      "pnl_won": -36000,
+      "pnl_pct": -1.89873417721519,
       "thesis": "시클리컬 primary leader. down-day +3.27% 역행 진성 상대강도, 갭 5%미만. regime 조정후반 선별분할 greenlight, confidence 보통=절반 공격성. 풀사이즈 아닌 1차 probe(~3.8% 자본). add: 익일 조선/철강 종가양전 carry+MA20 7972 안착. 사멸: KOSPI 7442 종가이탈 or 섹터 rotating_out."
     },
     {
@@ -36,126 +36,16 @@
       "qty": 5,
       "avg_price": 362000,
       "cost_won": 1810000,
-      "current_price": 363000,
-      "change_rate": -0.41,
-      "eval_won": 1815000,
-      "pnl_won": 5000,
-      "pnl_pct": 0.2762430939226519,
+      "current_price": 346500,
+      "change_rate": -4.55,
+      "eval_won": 1732500,
+      "pnl_won": -77500,
+      "pnl_pct": -4.281767955801105,
       "thesis": "철강 rotating_in 선행축, 양전2일+vol회복 3390->4114. 갭 -0.69% flat=가격분산 양호하나 모멘텀 leader 대비 약함(정직 인정), sector 단위 thesis 가 근거. 1차 probe(~3.6%). add: 익일 섹터 종가확정 양전+vol4000+ 유지. 사멸선 동일."
     }
   ],
-  "trades": [
-    {
-      "ts": "2026-06-10T09:40:59",
-      "cycle_id": "20260610-0940",
-      "action": "buy",
-      "code": "329180",
-      "name": "HD현대중공업",
-      "qty": 3,
-      "price": 632000,
-      "amount_won": 1896000,
-      "reason": "시클리컬 primary leader. down-day +3.27% 역행 진성 상대강도, 갭 5%미만. regime 조정후반 선별분할 greenlight, confidence 보통=절반 공격성. 풀사이즈 아닌 1차 probe(~3.8% 자본). add: 익일 조선/철강 종가양전 carry+MA20 7972 안착. 사멸: KOSPI 7442 종가이탈 or 섹터 rotating_out.",
-      "dry_run": true,
-      "order_no": "",
-      "realized_pnl_won": null
-    },
-    {
-      "ts": "2026-06-10T09:40:59",
-      "cycle_id": "20260610-0940",
-      "action": "buy",
-      "code": "005490",
-      "name": "POSCO홀딩스",
-      "qty": 5,
-      "price": 362000,
-      "amount_won": 1810000,
-      "reason": "철강 rotating_in 선행축, 양전2일+vol회복 3390->4114. 갭 -0.69% flat=가격분산 양호하나 모멘텀 leader 대비 약함(정직 인정), sector 단위 thesis 가 근거. 1차 probe(~3.6%). add: 익일 섹터 종가확정 양전+vol4000+ 유지. 사멸선 동일.",
-      "dry_run": true,
-      "order_no": "",
-      "realized_pnl_won": null
-    }
-  ],
-  "pm_decisions": [
-    {
-      "slot": "0940",
-      "action": "buy",
-      "code": "329180",
-      "amount_won": 190,
-      "qty": 3,
-      "reason": "시클리컬 primary leader. down-day +3.27% 역행 진성 상대강도, 갭 5%미만. regime 조정후반 선별분할 greenlight, confidence 보통=절반 공격성. 풀사이즈 아닌 1차 probe(~3.8% 자본). add: 익일 조선/철강 종가양전 carry+MA20 7972 안착. 사멸: KOSPI 7442 종가이탈 or 섹터 rotating_out."
-    },
-    {
-      "slot": "0940",
-      "action": "buy",
-      "code": "005490",
-      "amount_won": 181,
-      "qty": 5,
-      "reason": "철강 rotating_in 선행축, 양전2일+vol회복 3390->4114. 갭 -0.69% flat=가격분산 양호하나 모멘텀 leader 대비 약함(정직 인정), sector 단위 thesis 가 근거. 1차 probe(~3.6%). add: 익일 섹터 종가확정 양전+vol4000+ 유지. 사멸선 동일."
-    },
-    {
-      "slot": "0940",
-      "action": "hold",
-      "code": "012450",
-      "amount_won": null,
-      "qty": null,
-      "reason": "한화에어로 +1.57% 기계/방산 교집합. thesis 유효하나 portfolio gate 상 2종 압축, carry. 익일 기계 섹터 leading 승격 시 후보 재평가."
-    },
-    {
-      "slot": "0940",
-      "action": "hold",
-      "code": "034020",
-      "amount_won": null,
-      "qty": null,
-      "reason": "두산 -2.82%, 기계 vol3917<4000 미달+절대 +0.11% 미약, strategist 후순위. 익일 기계 종가확정 양전 확인 후 진입 검토. 현재 진입 보류."
-    },
-    {
-      "slot": "1230",
-      "action": "hold",
-      "code": "329180",
-      "amount_won": null,
-      "qty": null,
-      "reason": "645k(+5.39% gap) vs avg 632k. 조선/방산·철강 rotating_in 유효, 지지선 미이탈. add 트리거=익일 sector 종가양전+MA20 7972 안착(오늘 미평가). +5.39% 갭자리 추격add 부적격. day-1 winner trim 무근거(테마 유효성 견조). 보유."
-    },
-    {
-      "slot": "1230",
-      "action": "hold",
-      "code": "005490",
-      "amount_won": null,
-      "qty": null,
-      "reason": "363k(-0.41%) vs avg 362k flat. add 트리거=익일 철강섹터 종가확정 양전+vol4000+(오늘 미평가). 지지선 미이탈, sector rotating_in 유효. 보유."
-    },
-    {
-      "slot": "1230",
-      "action": "hold",
-      "code": null,
-      "amount_won": null,
-      "qty": null,
-      "reason": "신규 후보 4종 전부 시클리컬 단일테마. 기보유 2종 동일테마 → 3종째 진입 시 portfolio 게이트(N=3) 보수 + strategist 분산경고. 분산옵션 부재는 시장탓(HBM dead-cat, 코스닥AI 영세투기). 012450(+1.38%)/034020(-2.28%) 신규 미진입, 동일테마 add 는 익일 sector 종가확정 트리거에서 집행. 자본 7.4% 가동 유지."
-    },
-    {
-      "slot": "1520",
-      "action": "hold",
-      "code": "329180",
-      "amount_won": null,
-      "qty": null,
-      "reason": "보유 3주 평단 632k, 현재 639k(+4.41%). 조선/방산 진성 상대강도 유지, 시클리컬 rotating_in(철강금속/기계) 살아있어 thesis 견조, 지지선 무이탈 → 매도 없음. add 트리거(MA20 7972 종가안착)는 KOSPI 7917<7972 로 미점등 → 추가 없음. 트리거 점등 전 선집행 안 함."
-    },
-    {
-      "slot": "1520",
-      "action": "hold",
-      "code": "005490",
-      "amount_won": null,
-      "qty": null,
-      "reason": "보유 5주 평단 362k, 현재 362k(-0.69%) flat. 철강금속 rotating_in 선행축 유효, 지지선 방어 중 → 매도 없음. add 트리거(섹터 종가확정 양전+vol4000 유지)는 vol_rate 70.9 로 진성수급 미확인 → 추가 없음."
-    },
-    {
-      "slot": "1520",
-      "action": "hold",
-      "code": null,
-      "amount_won": null,
-      "qty": null,
-      "reason": "신규 후보 012450(+1.38%)·034020(-1.41%) 둘 다 시클리컬 단일테마. 기보유 2종 모두 동일테마라 N=3 되면 도배 → portfolio 게이트상 보수. 시클리컬 테마 status=watching(미promote, promote 게이트=6-11 종가확정 carry 로 익일 판정), regime 조정후반 day-1 confidence 보통=공격성 절반. 마지막 슬롯 바스켓 신규진입 회피. 진입 미집행은 omission 아니라 내가 깐 게이트(MA20 안착/섹터 종가확정/promote) 미충족이 사유. 익일 KOSPI MA20 7972 종가안착+섹터 양전 carry 확인 시 기보유 add 또는 신규 1종 분할 1차 평가."
-    }
-  ],
+  "trades": [],
+  "pm_decisions": [],
   "calendar_dates": [
     "20260511",
     "20260512",
@@ -174,8 +64,9 @@
     "20260604",
     "20260605",
     "20260609",
-    "20260610"
+    "20260610",
+    "20260611"
   ],
-  "strategist_brief": "단일테마 쏠림 상황. 시클리컬 로테이션이 regime(조정후반 선별분할)과 sector rotating_in(철강/기계) 둘 다 정합 = 유일하게 단단한 축. HBM은 오늘 dead-cat 진행, 코스닥 AI는 영세 투기 = wrap 부적합. 후보 4개 모두 시클리컬이라 PM에 분산 게이트 신호 명시.\n\n```json\n{\n  \"themes\": [\n    {\n      \"name\": \"시클리컬 로테이션(철강/기계/조선·방산)\",\n      \"status\": \"primary\",\n      \"rationale\": \"regime 조정후반 선별 분할 greenlight + sector_tracker rotating_in 철강금속(+1.07%, 역행 +2.95%p, 양전2일+vol회복)·기계(+0.11%, 역행 +1.99%p 2일째) 동반 + HD현대중공업 시총상위 +2.78% 진성 양전. down-day 2+섹터 역행 outperform = cyclical 로테이션 thesis. 단 KOSPI -2.81% 약세장 내 상대강도라 절대모멘텀 약 + 섹터 종가확정 vol 미확인 = 분할 1차분만, 추격 금지.\"\n    },\n    {\n      \"name\": \"AI 반도체/HBM\",\n      \"status\": \"watch_only\",\n      \"rationale\": \"신규 진입 부적합. 6-10 1군 일제 음전(삼성전자 -4.19, 하이닉스 -3.48, SK스퀘어 -5.04), 레버ETF -7~9%, 전기전자 rotating_out -2.59% = dead-cat 진행. watching 잔류하나 오늘 후보 제외. 6-11+ 1군 양봉 carry 2일+MA20(7972) 종가안착 시 재검토.\"\n    },\n    {\n      \"name\": \"AI 소프트웨어/서비스(코스닥)\",\n      \"status\": \"watch_only\",\n      \"rationale\": \"KOSDAQ +0.95% decoupling 강세 + cluster 상한가(크라우드웍스/솔트웨어/버넥트 +30%)이나 거래대금 영세(대다수 16억↓)+상한가 다수 = 1일 테마성 투기색. wrap 계좌 부적합, 후보 제외. promote 시에도 진성 수급 확인 전까지 관망.\"\n    }\n  ],\n  \"candidates\": [\n    {\n      \"code\": \"329180\",\n      \"name\": \"HD현대중공업\",\n      \"reason\": \"조선/방산. 시총상위(66조)에서 down-day -2.81% 역행 +2.78% 양전 = 베타 아닌 진성 상대강도. 시클리컬 로테이션 대장. 분할 1차분 우선순위.\"\n    },\n    {\n      \"code\": \"005490\",\n      \"name\": \"POSCO홀딩스\",\n      \"reason\": \"철강금속 rotating_in leader. 섹터 양전2일+vol회복(3390->4114) 선행축. 원자재/cyclical 회복 thesis. 지지선 기준 분할.\"\n    },\n    {\n      \"code\": \"012450\",\n      \"name\": \"한화에어로스페이스\",\n      \"reason\": \"방산/기계 교집합. 기계섹터 rotating_in(역행 2일째) + 방산 구조적 모멘텀. 조선과 cyclical 동반.\"\n    },\n    {\n      \"code\": \"034020\",\n      \"name\": \"두산에너빌리티\",\n      \"reason\": \"기계 rotating_in leader. 원전/발전설비 capex 사이클. 단 기계 절대 +0.11% 미약·vol 기준미달 = 4종목 중 후순위, 종가확정 양전 확인 후 분할.\"\n    }\n  ],\n  \"notes\": \"분산 경고: 오늘 후보 4개 전부 시클리컬 로테이션 단일테마. HBM(dead-cat)·코스닥AI(영세 투기) 두 watching 테마가 wrap 부적합으로 후보화 못 함 = 분산 옵션 부재가 시장 탓이지 의도 아님. PM은 portfolio-level 게이트 켜고 단일테마 도배 위험 자율 판단 필요 — 4종목 중 2~3개로 압축하거나 사이즈 축소 권고. regime 조정후반 confidence 보통 = 공격성 절반, 분할 1차분만. 절대사수선 KOSPI 7442(6-8 low), 이탈 시 신규 전면 중단.\"\n}\n```",
-  "auditor_verdict": "재검증 완료. 오늘은 깨끗한 날에 가깝다. 큰 룰 위반 없음. 다만 한 군데 구조적 긴장과, PM 이 audit 을 미리 변론하는 글쓰기 습관 두 개를 짚는다.\n\n**오늘 한 일 요약.** 09:40 에 329180 HD현대중공업 3주(190만), 005490 POSCO 5주(181만) 진입. 총 370만, 자본 7.4%. 12:30·15:20 은 전량 hold, 추가·익절·신규 zero. regime 조정후반·confidence 보통 하에서 절반 공격성 1차 probe. 사이징·기록 다 정합하고, 사멸선(KOSPI 7442 종가이탈, 섹터 rotating_out)도 09:40 에 선등록됨.\n\n**잘한 것부터.** 12:30 에 329180 +5.39% 갭자리에서 추격 add 안 한 것 — anti-FOMO 규율 정확. winner 를 froth 만으로 trim 하지 않은 것도 단타금지 체질과 정합. add 트리거가 전부 *익일 종가확정* 조건이라 장중 슬롯에서 충족 불가능하다는 판단도 맞다. 두 슬롯 hold 는 게으름이 아니라 설계상 평가 불가가 맞다. disposition/escalation/reverse-disposition 패턴 전부 음성. 어제 verdict 를 첫 줄 alibi 로 끌어다 쓴 흔적도 없음 — reason 들이 외부 인용이 아니라 본질 사유로 채워져 있다. 이 부분 유지해라.\n\n**짚을 것 하나 — 진입 게이트의 비대칭.** 시클리컬 테마는 오늘 first_seen 인 *NEW watching* 상태다. promote 안 됐다. 즉 테마 자신의 부활/승격 트리거가 아직 안 켜졌는데 PM 은 그 트리거(익일 섹터 종가확정 양전+vol)를 *add* 의 조건으로 깔아놓고, 정작 *초기 진입*은 그 확인 없이 day-1 에 집행했다. add 에는 엄격한 종가확정 게이트, 최초 probe 에는 단 하루치 역행 outperform 신호 — 같은 thesis 에 게이트 강도가 다르다. probe 가 소액(7.4%)이라 감내 가능한 건 맞지만, 이게 \"선별 분할\"이라기보다 \"확인 전 베팅을 규율 언어로 포장\"한 측면이 있음을 PM 본인이 인지해야 한다. 특히 strategist·PM 둘 다 적어놓은 위험 — \"지수 반등장 전환 시 역행 outperform 이 베타 추종으로 변질\" — 이 현실화되면 진입 근거 자체가 사후적으로 증발한다. down-day 하루 상대강도는 방어적 로테이션일 수도, 그냥 저베타일 수도 있다. 둘을 가르는 건 carry 2일+거래대금 진성이고, 그게 아직 안 나왔다. 내일 그 확인이 안 오면 add 보류로 끝낼 게 아니라 *최초 probe 의 명분도 약해진 것*으로 재평가해라. 트리거 미점등은 \"기다림\"만 의미하는 게 아니라 \"들어간 근거가 검증 실패 중\"일 수도 있다.\n\n**짚을 것 둘 — POSCO 진입의 thesis 미스매치.** 329180 은 실제 +2.78% 역행이라 상대강도 thesis 가 종목 차원에서 성립한다. POSCO 는 -0.69% flat 이다. 역행 outperform 의 핵심 신호가 종목엔 없다. PM 은 이걸 \"sector rotating_in 단위 thesis 가 근거, 모멘텀 약함은 정직 인정\"으로 처리했다 — 정직한 disclosure 는 인정한다. 하지만 정직하게 라벨 붙였다고 약한 진입이 강해지진 않는다. flat 종목을 섹터 뷰 표현 수단으로 산 것이고, 이건 회색지대다. 소액이라 OK 지만, 같은 자본을 329180 에 더 실어 thesis 가 종목 차원에서 성립하는 한 곳에 집중하는 선택지도 있었다. 분산처럼 보이지만 reporter 가 정확히 잡았듯 둘 다 시클리컬 한 클러스터 — 진입점 2개로 쪼갠 단일 거시 베팅이다. \"조선 vs 철강 sub-leg 분산\"은 테마 내 분산이지 portfolio 분산이 아니다. PM 이 09:40 에 \"단일테마 2/5 슬롯\"이라고 자인한 건 좋다. 그 자인을 유지하되, 두 번째 진입점이 첫 번째보다 thesis 가 약하다면 그건 분산이 아니라 희석이라는 걸 구분해라.\n\n**짚을 것 셋 — audit 선변론 습관.** 15:20 reason 에 \"진입 미집행은 omission 아니라 내가 깐 게이트 미충족이 사유\"라고 썼다. 이번엔 게이트가 09:40 에 실제로 선등록됐으니 정당한 pre-commitment 이고 self-serving 아니다 — 그 점은 통과. 다만 reason 안에서 auditor 를 향해 미리 변론하는 문장이 늘면, 결정 사유가 아니라 audit 방어용 글쓰기로 변질된다. reason 은 PM 자신의 판단 기록이지 나한테 보내는 변론서가 아니다. \"이건 omission 아니다\"라고 선언하는 대신, 왜 그 게이트가 본질적으로 타당한지만 적으면 충분하다. 방어 문장은 빼라.\n\n## 내일 PM 지침\n\n시클리컬 probe 두 개는 살아있되, 내일의 핵심은 *최초 진입 근거가 검증되느냐*다. 단순히 add 할지 말지가 아니다. 철강+기계 섹터 종가확정 양전 carry 와 329180 의 조선/방산 강도가 거래대금 동반해 2일째 유지되면, 그제서야 day-1 역행이 진성 로테이션이었다고 확인되는 거고 add 명분이 생긴다. 반대로 내일 KOSPI 가 반등하는데 두 종목의 상대강도가 사라지면 — 즉 역행이 베타 추종으로 변질되면 — add 보류로 그치지 말고 최초 probe 자체를 \"thesis 검증 실패\"로 보고 보유 명분을 재점검해라. 트리거 미점등을 자동으로 \"그냥 기다림\"으로 읽지 마라.\n\nPOSCO 는 종목 모멘텀이 끝까지 안 붙고 섹터만으로 버티는 자리다. 섹터 종가확정 양전+vol 진성수급이 안 나오면, flat 진입을 키우지 않는 걸 넘어 가장 먼저 줄일 후보로 둬라. 약함을 정직하게 인정한 자리는 정직하게 먼저 정리되는 자리이기도 하다.\n\n사멸선(KOSPI 7442 종가이탈 / 섹터 rotating_out 강등)은 그대로 사수. 이탈 시 두 종목 동시 정리 검토 — 단일 클러스터라 둘이 같이 죽는다는 걸 잊지 마라.\n\n신규 슬롯은 여전히 시클리컬 외 분산 옵션이 시장에 없으면 무리하지 마라. HBM·코스닥AI watching 이 promote 게이트 통과하면 그때 비로소 진짜 분산이 생긴다. 지금 7.4% 저노출 유지는 조정후반 체질 정합 — 채우려고 단일테마 N=3 도배하지 마라.\n\nreason 작성은 본질 사유로. 게이트가 왜 타당한지만 적고, auditor 를 향한 선변론 문장은 넣지 마라."
+  "strategist_brief": null,
+  "auditor_verdict": null
 }
