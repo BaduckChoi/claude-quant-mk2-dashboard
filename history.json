@@ -1590,16 +1590,63 @@
     "buy_won": 0,
     "buys": 0,
     "date": "2026-06-11",
-    "open_positions": 2,
-    "pm_decisions": [],
-    "realized_pnl_won": null,
-    "sell_won": 0,
-    "sells": 0,
+    "open_positions": 0,
+    "pm_decisions": [
+      {
+        "action": "sell",
+        "amount_won": null,
+        "code": "329180",
+        "qty": 3,
+        "reason": "진입 thesis 사멸선(섹터 rotating_out 강등) 점등. 시클리컬 테마 ended 강등 + 철강금속·기계 동반 rotating_out 확정 + 종목 -4.37%로 KOSPI 약세 동반·초과 약세 = day-1 역행 outperform 가 베타추종으로 변질, 상대강도 소멸. theme/sector/가격 3축 동시 붕괴 = thesis 본질 깨짐, 전량 정리(1/2 아님). 단일 클러스터라 005490 동시 정리.",
+        "slot": "0940"
+      },
+      {
+        "action": "sell",
+        "amount_won": null,
+        "code": "005490",
+        "qty": 5,
+        "reason": "sector 단위 thesis(철강 rotating_in 선행축)가 근거였는데 철강금속 rotating_out 강등으로 그 근거 자체 무효. -5.1% 동반붕괴, 모멘텀 leader 대비 약한 자리(진입 시 정직 인정)가 먼저 정리되는 자리. thesis 사멸 트리거 점등 = 전량.",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": null,
+        "qty": null,
+        "reason": "신규 전부 reject. regime 조정 진입+breadth 전체하락+변동성 높음=신규 봉인. 후보 4종 모두 watching-tier 저신뢰, 후공정 cluster(코미코 +13% 등)는 전체하락 내 decoupling으로 절대모멘텀 부재+대형 반도체 음전과 섹터정합 약. 갭 큰 1일 순환매 가능성, 진입 부적격. 6-12 carry+대형주 동반회복 확인 전까지 관찰만.",
+        "slot": "0940"
+      }
+    ],
+    "realized_pnl_won": -144500,
+    "sell_won": 3561500,
+    "sells": 2,
     "strategist_brief": "조정 진입 + 전체하락(breadth 0.41) + 변동성 높음 = 거시 게이트 신규 봉인 국면. 후보 최소화, 관망 디폴트.\n\n오늘 유일한 살아있는 시세 = 반도체 소부장/후공정 cluster 역행. 단 전체하락 내 decoupling = 절대모멘텀 부재, 대형 반도체(삼성/하이닉스) 음전과 디커플 = 섹터 정합 약. 신규 진입 근거 아님, 관찰용.\n\n```json\n{\n  \"themes\": [\n    {\n      \"name\": \"반도체 소부장/후공정\",\n      \"status\": \"watching\",\n      \"conviction\": \"low\",\n      \"note\": \"코미코+11.86(197억)/티에스이/엠케이전자+11.99 cluster 역행+진성거래대금. 단 조정진입 전체하락 내 단독 decoupling=절대모멘텀 부재, 전공정 대형주 음전과 디커플=섹터정합 약. 1일 순환매 가능성. promote 조건 미충족, 신규진입 부적격. 6-12 carry+대형주 동반회복 확인 전까지 관찰만.\"\n    },\n    {\n      \"name\": \"광통신/AI데이터센터\",\n      \"status\": \"watching\",\n      \"conviction\": \"low\",\n      \"note\": \"대한광통신 단독 +4.6% 970억 재등장. cluster 후속주(이노인스트루먼트/타이거일렉) 동반 부재=테마 진성 미확인. 단일종목 강세. 분산옵션으로만 제시.\"\n    }\n  ],\n  \"candidates\": [\n    {\n      \"code\": \"183300\",\n      \"name\": \"코미코\",\n      \"reason\": \"후공정 세정 대장. +11.86% 197억 진성거래대금, cluster 선두. 관찰용 1순위 — 진입은 6-12 carry+대형반도체 동반회복 확인 후 분할 1차분만. 현 regime 조정진입에선 신규 봉인.\"\n    },\n    {\n      \"code\": \"131970\",\n      \"name\": \"티에스이\",\n      \"reason\": \"후공정 테스트, +10.36% 87억. cluster 동반강세 확인 종목. 코미코와 동일 테마축, 진입조건 동일(carry 확인 후).\"\n    },\n    {\n      \"code\": \"033160\",\n      \"name\": \"엠케이전자\",\n      \"reason\": \"본딩와이어 소재, +11.99% 98억. cluster 3번째 동반=테마 진성 보강 신호. 관찰풀 유지.\"\n    },\n    {\n      \"code\": \"104540\",\n      \"name\": \"대한광통신\",\n      \"reason\": \"광통신축 분산옵션. +4.6% 970억 down-day 역행 진성거래대금. 단 후속주 무반응=단일종목 리스크. 후공정 쏠림 방지용 1종목.\"\n    }\n  ],\n  \"notes\": \"regime 조정진입(전환 1일)+breadth 0.41 전체하락+변동성 높음 = 거시 게이트상 신규 사실상 봉인. 오늘 candidates 4개 중 3개(코미코/티에스이/엠케이전자)가 동일 테마(반도체 후공정 소부장) — portfolio 분산 관점에서 PM 자율 판단 필요. 광통신(대한광통신) 1종목으로 분산옵션 제공했으나 이마저 진성 테마 미확인. 결론: 오늘은 전 후보 watching-tier, 신규 진입 부적격. PM 은 기보유 지지선 점검(MA20 7958/6-5 8160 재이탈 종목 분할익절)+7442 절대사수선 종가이탈 경계에 집중. 후보풀은 6-12 carry 확인 시 재평가용 관찰리스트로만 활용. 추격/풀사이즈 절대금지.\"\n}\n```\n\n주의: 티에스이 코드 확인 필요 — 229000원대 후공정 테스트면 131970 맞으나 가격 불일치 가능. PM 진입 전 시세 재확인.",
     "themes": [],
-    "top_movers": [],
-    "traded_codes": [],
-    "trades_count": 0,
-    "unrealized_pnl_won": -130500
+    "top_movers": [
+      {
+        "code": "329180",
+        "name": "HD현대중공업",
+        "realized_pnl_won": -57000
+      },
+      {
+        "code": "005490",
+        "name": "POSCO홀딩스",
+        "realized_pnl_won": -87500
+      }
+    ],
+    "traded_codes": [
+      {
+        "action": "sell",
+        "code": "329180",
+        "name": "HD현대중공업"
+      },
+      {
+        "action": "sell",
+        "code": "005490",
+        "name": "POSCO홀딩스"
+      }
+    ],
+    "trades_count": 2,
+    "unrealized_pnl_won": null
   }
 }
