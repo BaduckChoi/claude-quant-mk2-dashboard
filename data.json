@@ -1,51 +1,80 @@
 {
-  "generated_at": "2026-06-11 09:35:36",
+  "generated_at": "2026-06-11 09:40:46",
   "date": "20260611",
   "mode": "dry_run",
   "stats": {
-    "open_positions": 2,
-    "trades_count": 0,
+    "open_positions": 0,
+    "trades_count": 2,
     "buys": 0,
-    "sells": 0,
+    "sells": 2,
     "buy_won": 0,
-    "sell_won": 0,
-    "realized_pnl_won": null,
+    "sell_won": 3561500,
+    "realized_pnl_won": -144500,
     "capital_won": 50000000,
-    "deployed_won": 3706000,
-    "cash_remaining_won": 47525500,
-    "total_eval_won": 3575500,
-    "unrealized_pnl_won": -130500
+    "deployed_won": 0,
+    "cash_remaining_won": 51087000,
+    "total_eval_won": null,
+    "unrealized_pnl_won": null
   },
-  "positions": [
+  "positions": [],
+  "trades": [
     {
+      "ts": "2026-06-11T09:40:45",
+      "cycle_id": "20260611-0940",
+      "action": "sell",
       "code": "329180",
       "name": "HD현대중공업",
       "qty": 3,
-      "avg_price": 632000,
-      "cost_won": 1896000,
-      "current_price": 616000,
-      "change_rate": -3.9,
-      "eval_won": 1848000,
-      "pnl_won": -48000,
-      "pnl_pct": -2.5316455696202533,
-      "thesis": "시클리컬 primary leader. down-day +3.27% 역행 진성 상대강도, 갭 5%미만. regime 조정후반 선별분할 greenlight, confidence 보통=절반 공격성. 풀사이즈 아닌 1차 probe(~3.8% 자본). add: 익일 조선/철강 종가양전 carry+MA20 7972 안착. 사멸: KOSPI 7442 종가이탈 or 섹터 rotating_out."
+      "price": 613000,
+      "amount_won": 1839000,
+      "reason": "진입 thesis 사멸선(섹터 rotating_out 강등) 점등. 시클리컬 테마 ended 강등 + 철강금속·기계 동반 rotating_out 확정 + 종목 -4.37%로 KOSPI 약세 동반·초과 약세 = day-1 역행 outperform 가 베타추종으로 변질, 상대강도 소멸. theme/sector/가격 3축 동시 붕괴 = thesis 본질 깨짐, 전량 정리(1/2 아님). 단일 클러스터라 005490 동시 정리.",
+      "dry_run": true,
+      "order_no": "",
+      "avg_cost": 632000,
+      "realized_pnl_won": -57000
     },
     {
+      "ts": "2026-06-11T09:40:45",
+      "cycle_id": "20260611-0940",
+      "action": "sell",
       "code": "005490",
       "name": "POSCO홀딩스",
       "qty": 5,
-      "avg_price": 362000,
-      "cost_won": 1810000,
-      "current_price": 345500,
-      "change_rate": -4.82,
-      "eval_won": 1727500,
-      "pnl_won": -82500,
-      "pnl_pct": -4.558011049723757,
-      "thesis": "철강 rotating_in 선행축, 양전2일+vol회복 3390->4114. 갭 -0.69% flat=가격분산 양호하나 모멘텀 leader 대비 약함(정직 인정), sector 단위 thesis 가 근거. 1차 probe(~3.6%). add: 익일 섹터 종가확정 양전+vol4000+ 유지. 사멸선 동일."
+      "price": 344500,
+      "amount_won": 1722500,
+      "reason": "sector 단위 thesis(철강 rotating_in 선행축)가 근거였는데 철강금속 rotating_out 강등으로 그 근거 자체 무효. -5.1% 동반붕괴, 모멘텀 leader 대비 약한 자리(진입 시 정직 인정)가 먼저 정리되는 자리. thesis 사멸 트리거 점등 = 전량.",
+      "dry_run": true,
+      "order_no": "",
+      "avg_cost": 362000,
+      "realized_pnl_won": -87500
     }
   ],
-  "trades": [],
-  "pm_decisions": [],
+  "pm_decisions": [
+    {
+      "slot": "0940",
+      "action": "sell",
+      "code": "329180",
+      "amount_won": null,
+      "qty": 3,
+      "reason": "진입 thesis 사멸선(섹터 rotating_out 강등) 점등. 시클리컬 테마 ended 강등 + 철강금속·기계 동반 rotating_out 확정 + 종목 -4.37%로 KOSPI 약세 동반·초과 약세 = day-1 역행 outperform 가 베타추종으로 변질, 상대강도 소멸. theme/sector/가격 3축 동시 붕괴 = thesis 본질 깨짐, 전량 정리(1/2 아님). 단일 클러스터라 005490 동시 정리."
+    },
+    {
+      "slot": "0940",
+      "action": "sell",
+      "code": "005490",
+      "amount_won": null,
+      "qty": 5,
+      "reason": "sector 단위 thesis(철강 rotating_in 선행축)가 근거였는데 철강금속 rotating_out 강등으로 그 근거 자체 무효. -5.1% 동반붕괴, 모멘텀 leader 대비 약한 자리(진입 시 정직 인정)가 먼저 정리되는 자리. thesis 사멸 트리거 점등 = 전량."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": null,
+      "amount_won": null,
+      "qty": null,
+      "reason": "신규 전부 reject. regime 조정 진입+breadth 전체하락+변동성 높음=신규 봉인. 후보 4종 모두 watching-tier 저신뢰, 후공정 cluster(코미코 +13% 등)는 전체하락 내 decoupling으로 절대모멘텀 부재+대형 반도체 음전과 섹터정합 약. 갭 큰 1일 순환매 가능성, 진입 부적격. 6-12 carry+대형주 동반회복 확인 전까지 관찰만."
+    }
+  ],
   "calendar_dates": [
     "20260511",
     "20260512",
