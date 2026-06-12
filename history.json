@@ -1685,6 +1685,22 @@
         "qty": null,
         "reason": "삼성전자 +12.88% = cluster 최extended, 09:40 partial bar 추격 부담 최대. 회피 아닌 가격분산 대기: KOSPI MA20(8000) 종가안착 확정 시 익일 285k 아래 retest/눌림에서 1차 분할 진입 재평가. 삼성전기(+8.75)/LG엔솔(+5.92, 테마 진성미확인 분산옵션)도 동일 종가확정 대기 — 한 슬롯 신규 1종(하이닉스 probe)로 슬롯 분산. day1·partial bar·confidence 보통·whipsaw 이력(6-10/6-11)으로 풀사이즈/다종 동시진입 회피.",
         "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "000660",
+        "qty": null,
+        "reason": "SK하이닉스 1주 probe(평단 228.5만, 현 227만 +8.04%). HBM cluster 진성 live 확인: 삼전+11.79/하이닉스+8.04 동반강세 = 진입 thesis 강화. 매도축 점검 — 지지선: 갭상승, break 없음. 테마 유효성: 전기전자 rotating_in 유일 outperform 정합, ended/약화 신호 없음 = thesis 견고, trim 사유 0. 증액(분할 2차)축: 내 add 트리거 = KOSPI 종가 8000(MA20) 안착 확정 + 익일 breadth 유지인데, 현 8347은 부분봉이라 종가 미확정 = 미충족, intraday 격상 금지. 따라서 add 보류, 전량 carry.",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": null,
+        "qty": null,
+        "reason": "신규 HBM 확대 보류. (a)후보 갭위치: 삼전+11.79·하이닉스+8.04 모두 큰 갭 = 즉시 1차 추격 부담, 가격 분산 미충족. (b)테마 상태: HBM 아직 watching, promote 게이트(1군 양봉 carry 2일+거래대금 회복+KOSPI MA20 종가안착)는 2일 carry·종가 조건이라 day1 부분봉인 오늘 미충족. (c)이미 SK하이닉스 probe 로 HBM 분할 1차 placed = 미확정일에 같은 테마 2종으로 넓히는 건 분산 아닌 집중. 삼성전기 +0.5%(전기전자 cluster 최약 today) = 갭 작다는 이유로 최약 leg 줍는 cherry-pick 회피. LG엔솔 +4.68%은 2차전지 진성 미확인 = 분산 명목 약thesis 매수 회피. 평가가능 트리거: 오늘 15:20 슬롯에서 KOSPI 종가 8000(MA20) 안착 확정 마감 시 삼성전자 또는 SK하이닉스 자본 4~5% 시드 분할 1차 집행. 미확정 마감 시 익일 carry. portfolio: 현 반도체 1종(자본4.6%)·max_positions 5 여유, 단 같은 테마 도배 방지로 다음 신규는 종가확인 게이트 통과 후 1종만.",
+        "slot": "1230"
       }
     ],
     "realized_pnl_won": null,
@@ -1701,6 +1717,6 @@
       }
     ],
     "trades_count": 1,
-    "unrealized_pnl_won": 3000
+    "unrealized_pnl_won": -12000
   }
 }
