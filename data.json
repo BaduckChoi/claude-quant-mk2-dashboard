@@ -1,24 +1,70 @@
 {
-  "generated_at": "2026-06-12 09:35:52",
+  "generated_at": "2026-06-12 09:41:12",
   "date": "20260612",
   "mode": "dry_run",
   "stats": {
-    "open_positions": 0,
-    "trades_count": 0,
-    "buys": 0,
+    "open_positions": 1,
+    "trades_count": 1,
+    "buys": 1,
     "sells": 0,
-    "buy_won": 0,
+    "buy_won": 2285000,
     "sell_won": 0,
     "realized_pnl_won": null,
     "capital_won": 50000000,
-    "deployed_won": 0,
-    "cash_remaining_won": 51087000,
-    "total_eval_won": null,
-    "unrealized_pnl_won": null
+    "deployed_won": 2285000,
+    "cash_remaining_won": 48802000,
+    "total_eval_won": 2288000,
+    "unrealized_pnl_won": 3000
   },
-  "positions": [],
-  "trades": [],
-  "pm_decisions": [],
+  "positions": [
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "qty": 1,
+      "avg_price": 2285000,
+      "cost_won": 2285000,
+      "current_price": 2288000,
+      "change_rate": 8.9,
+      "eval_won": 2288000,
+      "pnl_won": 3000,
+      "pnl_pct": 0.13129102844638948,
+      "thesis": "HBM cluster 진성 확인: 1군 4종 동반강세(삼전+12.88/하이닉스+8.76/삼성전기+8.75/SK스퀘어), 전기전자 sector 유일 outperform(+9.63%, 진성 vol19813). regime 조정후반 day1 = 어제 신규봉인->선별 분할진입 재개 green-light. SK하이닉스=HBM 핵심 core, 어제 dead-cat 국면 1군 중 유일 상대방어(-0.2%) 후 오늘 +8.76% = cluster 내 least-extended major leader(약화 leg 회피 아님, core 선택). 1주 probe=229만원(자본4.6%, full target 1000만원의 ~23%) = 분할진입 1차 확인도구. 갭 +8.76% 크므로 thesis강함×최소size×day1타이밍 grade로 size 최소화. 구조 손절: HBM 1군(삼전/하이닉스) 일봉 동반 종가 음전 OR KOSPI 종가 7763(6-11) 하회 = regime K 숏커버 회귀 thesis무효 -> 전량. 증액 2차: KOSPI 종가 8000(MA20) 안착 확정 + 익일 breadth 유지 follow 확인 후."
+    }
+  ],
+  "trades": [
+    {
+      "ts": "2026-06-12T09:41:12",
+      "cycle_id": "20260612-0940",
+      "action": "buy",
+      "code": "000660",
+      "name": "SK하이닉스",
+      "qty": 1,
+      "price": 2285000,
+      "amount_won": 2285000,
+      "reason": "HBM cluster 진성 확인: 1군 4종 동반강세(삼전+12.88/하이닉스+8.76/삼성전기+8.75/SK스퀘어), 전기전자 sector 유일 outperform(+9.63%, 진성 vol19813). regime 조정후반 day1 = 어제 신규봉인->선별 분할진입 재개 green-light. SK하이닉스=HBM 핵심 core, 어제 dead-cat 국면 1군 중 유일 상대방어(-0.2%) 후 오늘 +8.76% = cluster 내 least-extended major leader(약화 leg 회피 아님, core 선택). 1주 probe=229만원(자본4.6%, full target 1000만원의 ~23%) = 분할진입 1차 확인도구. 갭 +8.76% 크므로 thesis강함×최소size×day1타이밍 grade로 size 최소화. 구조 손절: HBM 1군(삼전/하이닉스) 일봉 동반 종가 음전 OR KOSPI 종가 7763(6-11) 하회 = regime K 숏커버 회귀 thesis무효 -> 전량. 증액 2차: KOSPI 종가 8000(MA20) 안착 확정 + 익일 breadth 유지 follow 확인 후.",
+      "dry_run": true,
+      "order_no": "",
+      "realized_pnl_won": null
+    }
+  ],
+  "pm_decisions": [
+    {
+      "slot": "0940",
+      "action": "buy",
+      "code": "000660",
+      "amount_won": 229,
+      "qty": 1,
+      "reason": "HBM cluster 진성 확인: 1군 4종 동반강세(삼전+12.88/하이닉스+8.76/삼성전기+8.75/SK스퀘어), 전기전자 sector 유일 outperform(+9.63%, 진성 vol19813). regime 조정후반 day1 = 어제 신규봉인->선별 분할진입 재개 green-light. SK하이닉스=HBM 핵심 core, 어제 dead-cat 국면 1군 중 유일 상대방어(-0.2%) 후 오늘 +8.76% = cluster 내 least-extended major leader(약화 leg 회피 아님, core 선택). 1주 probe=229만원(자본4.6%, full target 1000만원의 ~23%) = 분할진입 1차 확인도구. 갭 +8.76% 크므로 thesis강함×최소size×day1타이밍 grade로 size 최소화. 구조 손절: HBM 1군(삼전/하이닉스) 일봉 동반 종가 음전 OR KOSPI 종가 7763(6-11) 하회 = regime K 숏커버 회귀 thesis무효 -> 전량. 증액 2차: KOSPI 종가 8000(MA20) 안착 확정 + 익일 breadth 유지 follow 확인 후."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "005930",
+      "amount_won": null,
+      "qty": null,
+      "reason": "삼성전자 +12.88% = cluster 최extended, 09:40 partial bar 추격 부담 최대. 회피 아닌 가격분산 대기: KOSPI MA20(8000) 종가안착 확정 시 익일 285k 아래 retest/눌림에서 1차 분할 진입 재평가. 삼성전기(+8.75)/LG엔솔(+5.92, 테마 진성미확인 분산옵션)도 동일 종가확정 대기 — 한 슬롯 신규 1종(하이닉스 probe)로 슬롯 분산. day1·partial bar·confidence 보통·whipsaw 이력(6-10/6-11)으로 풀사이즈/다종 동시진입 회피."
+    }
+  ],
   "calendar_dates": [
     "20260511",
     "20260512",
