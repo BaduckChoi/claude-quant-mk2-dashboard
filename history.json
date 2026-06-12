@@ -638,7 +638,7 @@
       {
         "action": "buy",
         "code": "329180",
-        "name": "HD현대중공업"
+        "name": ""
       }
     ],
     "trades_count": 1
@@ -790,7 +790,7 @@
     "top_movers": [
       {
         "code": "329180",
-        "name": "HD현대중공업",
+        "name": "",
         "realized_pnl_won": 247000
       }
     ],
@@ -798,7 +798,7 @@
       {
         "action": "sell",
         "code": "329180",
-        "name": "HD현대중공업"
+        "name": ""
       }
     ],
     "trades_count": 3
@@ -855,7 +855,7 @@
     "top_movers": [
       {
         "code": "329180",
-        "name": "HD현대중공업",
+        "name": "",
         "realized_pnl_won": 35000
       }
     ],
@@ -863,7 +863,7 @@
       {
         "action": "sell",
         "code": "329180",
-        "name": "HD현대중공업"
+        "name": ""
       },
       {
         "action": "buy",
@@ -1575,12 +1575,12 @@
       {
         "action": "buy",
         "code": "329180",
-        "name": "HD현대중공업"
+        "name": ""
       },
       {
         "action": "buy",
         "code": "005490",
-        "name": "POSCO홀딩스"
+        "name": ""
       }
     ],
     "trades_count": 2
@@ -1590,7 +1590,6 @@
     "buy_won": 0,
     "buys": 0,
     "date": "2026-06-11",
-    "open_positions": 0,
     "pm_decisions": [
       {
         "action": "sell",
@@ -1641,12 +1640,12 @@
     "top_movers": [
       {
         "code": "329180",
-        "name": "HD현대중공업",
+        "name": "",
         "realized_pnl_won": -57000
       },
       {
         "code": "005490",
-        "name": "POSCO홀딩스",
+        "name": "",
         "realized_pnl_won": -87500
       }
     ],
@@ -1654,15 +1653,31 @@
       {
         "action": "sell",
         "code": "329180",
-        "name": "HD현대중공업"
+        "name": ""
       },
       {
         "action": "sell",
         "code": "005490",
-        "name": "POSCO홀딩스"
+        "name": ""
       }
     ],
-    "trades_count": 2,
+    "trades_count": 2
+  },
+  "20260612": {
+    "auditor_verdict": null,
+    "buy_won": 0,
+    "buys": 0,
+    "date": "2026-06-12",
+    "open_positions": 0,
+    "pm_decisions": [],
+    "realized_pnl_won": null,
+    "sell_won": 0,
+    "sells": 0,
+    "strategist_brief": null,
+    "themes": [],
+    "top_movers": [],
+    "traded_codes": [],
+    "trades_count": 0,
     "unrealized_pnl_won": null
   }
 }
