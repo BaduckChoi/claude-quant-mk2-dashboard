@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15 12:31:38",
+  "generated_at": "2026-06-15 15:20:55",
   "date": "20260615",
   "mode": "dry_run",
   "stats": {
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 4313000,
     "cash_remaining_won": 46774000,
-    "total_eval_won": 4332000,
-    "unrealized_pnl_won": 19000
+    "total_eval_won": 4304000,
+    "unrealized_pnl_won": -9000
   },
   "positions": [
     {
@@ -23,11 +23,11 @@
       "qty": 1,
       "avg_price": 2285000,
       "cost_won": 2285000,
-      "current_price": 2298000,
-      "change_rate": 6.88,
-      "eval_won": 2298000,
-      "pnl_won": 13000,
-      "pnl_pct": 0.5689277899343544,
+      "current_price": 2285000,
+      "change_rate": 6.28,
+      "eval_won": 2285000,
+      "pnl_won": 0,
+      "pnl_pct": 0.0,
       "thesis": "HBM cluster 진성 확인: 1군 4종 동반강세(삼전+12.88/하이닉스+8.76/삼성전기+8.75/SK스퀘어), 전기전자 sector 유일 outperform(+9.63%, 진성 vol19813). regime 조정후반 day1 = 어제 신규봉인->선별 분할진입 재개 green-light. SK하이닉스=HBM 핵심 core, 어제 dead-cat 국면 1군 중 유일 상대방어(-0.2%) 후 오늘 +8.76% = cluster 내 least-extended major leader(약화 leg 회피 아님, core 선택). 1주 probe=229만원(자본4.6%, full target 1000만원의 ~23%) = 분할진입 1차 확인도구. 갭 +8.76% 크므로 thesis강함×최소size×day1타이밍 grade로 size 최소화. 구조 손절: HBM 1군(삼전/하이닉스) 일봉 동반 종가 음전 OR KOSPI 종가 7763(6-11) 하회 = regime K 숏커버 회귀 thesis무효 -> 전량. 증액 2차: KOSPI 종가 8000(MA20) 안착 확정 + 익일 breadth 유지 follow 확인 후."
     },
     {
@@ -36,11 +36,11 @@
       "qty": 6,
       "avg_price": 338000,
       "cost_won": 2028000,
-      "current_price": 339000,
-      "change_rate": 5.12,
-      "eval_won": 2034000,
-      "pnl_won": 6000,
-      "pnl_pct": 0.2958579881656805,
+      "current_price": 336500,
+      "change_rate": 4.34,
+      "eval_won": 2019000,
+      "pnl_won": -9000,
+      "pnl_pct": -0.4437869822485207,
       "thesis": "분할진입 1차 probe. 삼성전자 종가 +4.81%, HBM 1군 중 최저변동 대형 코어. 전기전자 sector는 6-12 rotating_in→6-15 leading 2일 연속 outperform이라 순수 day1 아님, regime 추세장 강세(6-12 확정 8000 MA20 위 마감)와 동조 = green-light 분할 재개. thesis 강함 × 최소 size(203만, 자본4.1%) × day1 타이밍 grade. 갭 +4.81%는 후속 leg(삼성전기 +13.77/한켐 +17) 대비 최소이나, 동시에 강세신호 가장 약한 leg를 고른 방어 선택임을 인지 → 그래서 사이즈 최소화, 코어 anchor 목적. HBM 보유 N=2(SK하이닉스+삼전), 단일테마 비중 약8.6%로 cap 여유. 2차 증액: KOSPI 종가 8000 MA20 안착 확정 + 익일 breadth 유지 시 분할 추가. 구조 손절: HBM 1군 일봉 종가 동반 음전 OR KOSPI 종가 7763 하회 시 thesis 무효 정리."
     }
   ],
@@ -100,6 +100,30 @@
       "amount_won": null,
       "qty": null,
       "reason": "신규 진입 0. active 테마는 HBM·소부장 둘뿐인데 한켐 +13.88%·삼성전기 +12.95% = day-1 active + 대형 갭 추격가, 1차 진입 부적격. 자동차(현대차/HL만도)·조선기계(HD현대중공업)는 themes watching day-1, promote 게이트 미충족 = 진입 후보 아님. capital 사용 8.7%로 낮으나, 추세장 day1+confidence 보통+변동성 높음에서 12:30 일제 spike 자리 신규는 가격엣지 음(-). HBM N=2 보유, 동슬롯 신규로 단일테마 쏠림 키우는 것도 회피. 다음 add는 갭 채움 눌림 종가 또는 익일 breadth 유지 확인 후 분할."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": "000660",
+      "amount_won": null,
+      "qty": null,
+      "reason": "SK하이닉스 1주 @228.5만, 현재 +6.28% 익절권. HBM 전기전자 sector leading 2일 연속 outperform, 1군 동반강세=테마 유효성 강화(침식 아님). 구조 손절선(HBM 1군 일봉 종가 동반 음전 OR KOSPI 종가 7763 하회) 무근접, KOSPI ~8553. 2차 증액 트리거=KOSPI 종가 8000 MA20 안착확정+익일 breadth follow=익일 조건이라 오늘 미발동. 오늘 슬롯에서 같은 thesis 추가는 새 트리거 없는 분할집행이므로 보류, 익일 종가확정 시 증액."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": "005930",
+      "amount_won": null,
+      "qty": null,
+      "reason": "삼성전자 6주 @33.8만, 현재 +4.34%(평단 대비 약 -0.4% 미미). 테마 유효성 강화, 지지선·손절 구조선 무근접. 2차 증액 트리거(KOSPI 종가 8000 MA20 안착+익일 breadth)=익일 조건, 오늘 미발동. 평단 회복 여부는 매도 변수 아님, thesis 유지로 hold."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": null,
+      "amount_won": null,
+      "qty": null,
+      "reason": "신규 0. 자본가동 8.6%(431만/5000만)로 여유 크나 오늘 final 슬롯 eligible 후보 없음. active 테마 중 HBM은 이미 N=2 보유+단일테마 도배 경보, 소부장 한켐 +12.98% 갭+반도체 한덩어리라 3번째 진입=과집중. 분산 후보 자동차(HL만도+8.31%·현대차+5.93%)·기계(HD현대중공업+9.08%)는 전부 watching 단계로 promote 게이트(6-16+ cluster carry)=익일 조건 미충족, 오늘 진입 부적격. 마지막 슬롯 몰빵 회피=carry. 익일 09:40: KOSPI 종가 8000 안착확정 시 기보유 2종 2차 증액, watching 테마 promote 충족분 신규 시드 평가."
     }
   ],
   "calendar_dates": [
