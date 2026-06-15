@@ -1668,7 +1668,6 @@
     "buy_won": 2285000,
     "buys": 1,
     "date": "2026-06-12",
-    "open_positions": 1,
     "pm_decisions": [
       {
         "action": "buy",
@@ -1732,7 +1731,23 @@
         "name": "SK하이닉스"
       }
     ],
-    "trades_count": 1,
-    "unrealized_pnl_won": -135000
+    "trades_count": 1
+  },
+  "20260615": {
+    "auditor_verdict": null,
+    "buy_won": 0,
+    "buys": 0,
+    "date": "2026-06-15",
+    "open_positions": 1,
+    "pm_decisions": [],
+    "realized_pnl_won": null,
+    "sell_won": 0,
+    "sells": 0,
+    "strategist_brief": null,
+    "themes": [],
+    "top_movers": [],
+    "traded_codes": [],
+    "trades_count": 0,
+    "unrealized_pnl_won": 13000
   }
 }
