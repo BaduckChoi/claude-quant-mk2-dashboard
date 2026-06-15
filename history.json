@@ -62,7 +62,7 @@
       {
         "action": "buy",
         "code": "005930",
-        "name": ""
+        "name": "삼성전자"
       }
     ],
     "trades_count": 2
@@ -236,7 +236,7 @@
       },
       {
         "code": "005930",
-        "name": "",
+        "name": "삼성전자",
         "realized_pnl_won": -83000
       },
       {
@@ -249,7 +249,7 @@
       {
         "action": "sell",
         "code": "005930",
-        "name": ""
+        "name": "삼성전자"
       },
       {
         "action": "sell",
@@ -405,7 +405,7 @@
     "top_movers": [
       {
         "code": "005930",
-        "name": "",
+        "name": "삼성전자",
         "realized_pnl_won": -38250
       }
     ],
@@ -413,7 +413,7 @@
       {
         "action": "sell",
         "code": "005930",
-        "name": ""
+        "name": "삼성전자"
       }
     ],
     "trades_count": 1
@@ -721,7 +721,7 @@
       {
         "action": "buy",
         "code": "005930",
-        "name": ""
+        "name": "삼성전자"
       }
     ],
     "trades_count": 2
@@ -1073,7 +1073,7 @@
     "top_movers": [
       {
         "code": "005930",
-        "name": "",
+        "name": "삼성전자",
         "realized_pnl_won": 529500
       }
     ],
@@ -1081,7 +1081,7 @@
       {
         "action": "sell",
         "code": "005930",
-        "name": ""
+        "name": "삼성전자"
       },
       {
         "action": "buy",
@@ -1224,7 +1224,7 @@
     "top_movers": [
       {
         "code": "005930",
-        "name": "",
+        "name": "삼성전자",
         "realized_pnl_won": 216500
       },
       {
@@ -1247,7 +1247,7 @@
       {
         "action": "sell",
         "code": "005930",
-        "name": ""
+        "name": "삼성전자"
       },
       {
         "action": "sell",
@@ -1735,11 +1735,28 @@
   },
   "20260615": {
     "auditor_verdict": null,
-    "buy_won": 0,
-    "buys": 0,
+    "buy_won": 2028000,
+    "buys": 1,
     "date": "2026-06-15",
-    "open_positions": 1,
-    "pm_decisions": [],
+    "open_positions": 2,
+    "pm_decisions": [
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "000660",
+        "qty": null,
+        "reason": "SK하이닉스 종가 +7.53%, 평가익 소폭. thesis 견조 — 전기전자 sector leading(+6.4% 2일 연속 outperform), HBM 1군 동반강세 유지. 2차 증액 트리거(KOSPI 종가 8000 MA20 안착 확정 + 익일 breadth follow)는 오늘 부분봉 단계라 미충족 → 증액 보류. 구조 손절선(HBM 1군 삼전/하이닉스 일봉 종가 동반 음전 OR KOSPI 종가 7763 하회) 무근접. 1주 probe 잔여 capacity는 2차 트리거 점등 익일 평가.",
+        "slot": "0940"
+      },
+      {
+        "action": "buy",
+        "amount_won": 203,
+        "code": "005930",
+        "qty": 6,
+        "reason": "분할진입 1차 probe. 삼성전자 종가 +4.81%, HBM 1군 중 최저변동 대형 코어. 전기전자 sector는 6-12 rotating_in→6-15 leading 2일 연속 outperform이라 순수 day1 아님, regime 추세장 강세(6-12 확정 8000 MA20 위 마감)와 동조 = green-light 분할 재개. thesis 강함 × 최소 size(203만, 자본4.1%) × day1 타이밍 grade. 갭 +4.81%는 후속 leg(삼성전기 +13.77/한켐 +17) 대비 최소이나, 동시에 강세신호 가장 약한 leg를 고른 방어 선택임을 인지 → 그래서 사이즈 최소화, 코어 anchor 목적. HBM 보유 N=2(SK하이닉스+삼전), 단일테마 비중 약8.6%로 cap 여유. 2차 증액: KOSPI 종가 8000 MA20 안착 확정 + 익일 breadth 유지 시 분할 추가. 구조 손절: HBM 1군 일봉 종가 동반 음전 OR KOSPI 종가 7763 하회 시 thesis 무효 정리.",
+        "slot": "0940"
+      }
+    ],
     "realized_pnl_won": null,
     "sell_won": 0,
     "sells": 0,
@@ -1795,8 +1812,14 @@
       }
     ],
     "top_movers": [],
-    "traded_codes": [],
-    "trades_count": 0,
-    "unrealized_pnl_won": 33000
+    "traded_codes": [
+      {
+        "action": "buy",
+        "code": "005930",
+        "name": "삼성전자"
+      }
+    ],
+    "trades_count": 1,
+    "unrealized_pnl_won": 26500
   }
 }
