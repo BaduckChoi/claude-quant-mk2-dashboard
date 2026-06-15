@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-06-15 09:35:43",
+  "generated_at": "2026-06-15 09:40:55",
   "date": "20260615",
   "mode": "dry_run",
   "stats": {
-    "open_positions": 1,
-    "trades_count": 0,
-    "buys": 0,
+    "open_positions": 2,
+    "trades_count": 1,
+    "buys": 1,
     "sells": 0,
-    "buy_won": 0,
+    "buy_won": 2028000,
     "sell_won": 0,
     "realized_pnl_won": null,
     "capital_won": 50000000,
-    "deployed_won": 2285000,
-    "cash_remaining_won": 48802000,
-    "total_eval_won": 2318000,
-    "unrealized_pnl_won": 33000
+    "deployed_won": 4313000,
+    "cash_remaining_won": 46774000,
+    "total_eval_won": 4339500,
+    "unrealized_pnl_won": 26500
   },
   "positions": [
     {
@@ -23,16 +23,61 @@
       "qty": 1,
       "avg_price": 2285000,
       "cost_won": 2285000,
-      "current_price": 2318000,
-      "change_rate": 7.81,
-      "eval_won": 2318000,
-      "pnl_won": 33000,
-      "pnl_pct": 1.4442013129102844,
+      "current_price": 2310000,
+      "change_rate": 7.44,
+      "eval_won": 2310000,
+      "pnl_won": 25000,
+      "pnl_pct": 1.0940919037199124,
       "thesis": "HBM cluster 진성 확인: 1군 4종 동반강세(삼전+12.88/하이닉스+8.76/삼성전기+8.75/SK스퀘어), 전기전자 sector 유일 outperform(+9.63%, 진성 vol19813). regime 조정후반 day1 = 어제 신규봉인->선별 분할진입 재개 green-light. SK하이닉스=HBM 핵심 core, 어제 dead-cat 국면 1군 중 유일 상대방어(-0.2%) 후 오늘 +8.76% = cluster 내 least-extended major leader(약화 leg 회피 아님, core 선택). 1주 probe=229만원(자본4.6%, full target 1000만원의 ~23%) = 분할진입 1차 확인도구. 갭 +8.76% 크므로 thesis강함×최소size×day1타이밍 grade로 size 최소화. 구조 손절: HBM 1군(삼전/하이닉스) 일봉 동반 종가 음전 OR KOSPI 종가 7763(6-11) 하회 = regime K 숏커버 회귀 thesis무효 -> 전량. 증액 2차: KOSPI 종가 8000(MA20) 안착 확정 + 익일 breadth 유지 follow 확인 후."
+    },
+    {
+      "code": "005930",
+      "name": "삼성전자",
+      "qty": 6,
+      "avg_price": 338000,
+      "cost_won": 2028000,
+      "current_price": 338250,
+      "change_rate": 4.88,
+      "eval_won": 2029500,
+      "pnl_won": 1500,
+      "pnl_pct": 0.07396449704142012,
+      "thesis": "분할진입 1차 probe. 삼성전자 종가 +4.81%, HBM 1군 중 최저변동 대형 코어. 전기전자 sector는 6-12 rotating_in→6-15 leading 2일 연속 outperform이라 순수 day1 아님, regime 추세장 강세(6-12 확정 8000 MA20 위 마감)와 동조 = green-light 분할 재개. thesis 강함 × 최소 size(203만, 자본4.1%) × day1 타이밍 grade. 갭 +4.81%는 후속 leg(삼성전기 +13.77/한켐 +17) 대비 최소이나, 동시에 강세신호 가장 약한 leg를 고른 방어 선택임을 인지 → 그래서 사이즈 최소화, 코어 anchor 목적. HBM 보유 N=2(SK하이닉스+삼전), 단일테마 비중 약8.6%로 cap 여유. 2차 증액: KOSPI 종가 8000 MA20 안착 확정 + 익일 breadth 유지 시 분할 추가. 구조 손절: HBM 1군 일봉 종가 동반 음전 OR KOSPI 종가 7763 하회 시 thesis 무효 정리."
     }
   ],
-  "trades": [],
-  "pm_decisions": [],
+  "trades": [
+    {
+      "ts": "2026-06-15T09:40:54",
+      "cycle_id": "20260615-0940",
+      "action": "buy",
+      "code": "005930",
+      "name": "삼성전자",
+      "qty": 6,
+      "price": 338000,
+      "amount_won": 2028000,
+      "reason": "분할진입 1차 probe. 삼성전자 종가 +4.81%, HBM 1군 중 최저변동 대형 코어. 전기전자 sector는 6-12 rotating_in→6-15 leading 2일 연속 outperform이라 순수 day1 아님, regime 추세장 강세(6-12 확정 8000 MA20 위 마감)와 동조 = green-light 분할 재개. thesis 강함 × 최소 size(203만, 자본4.1%) × day1 타이밍 grade. 갭 +4.81%는 후속 leg(삼성전기 +13.77/한켐 +17) 대비 최소이나, 동시에 강세신호 가장 약한 leg를 고른 방어 선택임을 인지 → 그래서 사이즈 최소화, 코어 anchor 목적. HBM 보유 N=2(SK하이닉스+삼전), 단일테마 비중 약8.6%로 cap 여유. 2차 증액: KOSPI 종가 8000 MA20 안착 확정 + 익일 breadth 유지 시 분할 추가. 구조 손절: HBM 1군 일봉 종가 동반 음전 OR KOSPI 종가 7763 하회 시 thesis 무효 정리.",
+      "dry_run": true,
+      "order_no": "",
+      "realized_pnl_won": null
+    }
+  ],
+  "pm_decisions": [
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "000660",
+      "amount_won": null,
+      "qty": null,
+      "reason": "SK하이닉스 종가 +7.53%, 평가익 소폭. thesis 견조 — 전기전자 sector leading(+6.4% 2일 연속 outperform), HBM 1군 동반강세 유지. 2차 증액 트리거(KOSPI 종가 8000 MA20 안착 확정 + 익일 breadth follow)는 오늘 부분봉 단계라 미충족 → 증액 보류. 구조 손절선(HBM 1군 삼전/하이닉스 일봉 종가 동반 음전 OR KOSPI 종가 7763 하회) 무근접. 1주 probe 잔여 capacity는 2차 트리거 점등 익일 평가."
+    },
+    {
+      "slot": "0940",
+      "action": "buy",
+      "code": "005930",
+      "amount_won": 203,
+      "qty": 6,
+      "reason": "분할진입 1차 probe. 삼성전자 종가 +4.81%, HBM 1군 중 최저변동 대형 코어. 전기전자 sector는 6-12 rotating_in→6-15 leading 2일 연속 outperform이라 순수 day1 아님, regime 추세장 강세(6-12 확정 8000 MA20 위 마감)와 동조 = green-light 분할 재개. thesis 강함 × 최소 size(203만, 자본4.1%) × day1 타이밍 grade. 갭 +4.81%는 후속 leg(삼성전기 +13.77/한켐 +17) 대비 최소이나, 동시에 강세신호 가장 약한 leg를 고른 방어 선택임을 인지 → 그래서 사이즈 최소화, 코어 anchor 목적. HBM 보유 N=2(SK하이닉스+삼전), 단일테마 비중 약8.6%로 cap 여유. 2차 증액: KOSPI 종가 8000 MA20 안착 확정 + 익일 breadth 유지 시 분할 추가. 구조 손절: HBM 1군 일봉 종가 동반 음전 OR KOSPI 종가 7763 하회 시 thesis 무효 정리."
+    }
+  ],
   "calendar_dates": [
     "20260511",
     "20260512",
