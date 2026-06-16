@@ -1930,6 +1930,46 @@
         "qty": null,
         "reason": "두산에너빌리티 기계/원전 capex, 기계 sector rotating_in 2일 carry(거래대금 3위급 잔류). +4.91% 중간 갭이라 1차 probe 소액 200만(자본4%)으로 size 최소화·시기 분산. 본질: HBM 78% 집중을 NEW 테마로 ~58%까지 희석하는 분산 진입(철강·건설 대형 leg는 적색/1봉 noise라 제외, 방산은 기보유 동일테마라 분산 아님). 구조 손절: 기계 sector laggard 강등 OR 두산 직전 일봉 지지 종가 이탈 OR 원전/capex 테마 무효화 시 정리. 2차 증액: 기계 sector 등락률 outperform 전환 leading 승격 + 거래대금 carry 확인 시. 현대로템(방산)은 다음 슬롯 방산 sector 2일 confirm 시 분산 후보로 carry.",
         "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "000660",
+        "qty": null,
+        "reason": "SK하이닉스 +3.85%, 전기전자 sector leading+거래대금 1위 carry로 HBM thesis 유지. 손절(HBM 1군 종가 동반음전 OR KOSPI 종가 7763 하회) 무근접. 1주 probe carry. 2차 증액(KOSPI 종가 MA20 8011 안착 확정+breadth 유지)은 익일 종가로 판정될 사안, 오늘 미발동. 홀드.",
+        "slot": "1520"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "005930",
+        "qty": null,
+        "reason": "삼성전자 6주 +1.48% 저베타 코어 anchor. 트리거 무근접, thesis 안정. 홀드.",
+        "slot": "1520"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "012450",
+        "qty": null,
+        "reason": "한화에어로 +9.41% 갭 carry, 평단 근접 보합. 2차 증액 트리거(110~115만 종가 지지 retest+방산 sector 2일 outperform) 미도달=추격 안 함. 손절(방산 1군 종가 동반음전+방산 레버ETF 거래대금 급감) 무근접. 홀드.",
+        "slot": "1520"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "034020",
+        "qty": null,
+        "reason": "두산에너빌 19주, 기계 sector rotating_in 거래대금 carry 유지. 일중 평단 소폭 하회나 직전 일봉 지지 종가이탈 아님(평단은 매도변수 아님). 기계 sector laggard 강등(매도)도 leading 승격(증액)도 미발생=양 트리거 무근접. 홀드.",
+        "slot": "1520"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": null,
+        "qty": null,
+        "reason": "신규 0. 오늘 HBM2/방산1/기계1 4종 probe 구축 완료(자본 15%, max_positions 5 중 4). 마지막 슬롯에 5번째 신규를 바스켓째 담지 않음. 후보 점검: 철강(POSCO -1.27/현대제철 -2.46) 일중 음전 day1=진입 약함, 건설(현대건설 +2.07) sector 1봉 급반전 cluster 미검증, 삼성전기(+2.15)는 HBM N=3 집중 가중, 현대로템(+7.04)은 방산 N=2 day1 +7% 추격. 어느 것도 독립적 게이트로 마지막 슬롯 신규를 정당화 못함. capacity 추가는 익일 thesis 확인(기계 leading 승격/방산 2일 outperform/건설 2일 alpha)에 분할로 집행.",
+        "slot": "1520"
       }
     ],
     "realized_pnl_won": null,
@@ -2024,6 +2064,6 @@
       }
     ],
     "trades_count": 2,
-    "unrealized_pnl_won": 94200
+    "unrealized_pnl_won": 97000
   }
 }
