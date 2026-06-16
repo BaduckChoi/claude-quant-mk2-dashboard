@@ -1870,10 +1870,10 @@
   },
   "20260616": {
     "auditor_verdict": null,
-    "buy_won": 1185000,
-    "buys": 1,
+    "buy_won": 3174300,
+    "buys": 2,
     "date": "2026-06-16",
-    "open_positions": 3,
+    "open_positions": 4,
     "pm_decisions": [
       {
         "action": "buy",
@@ -1898,6 +1898,38 @@
         "qty": null,
         "reason": "삼성전자 종가권 flat(+0.15%), 평단 근접. 전기전자 leading 정합, 손절선 무근접 = 코어 보유. 증액 gate 충족했으나 동일 HBM축이라 집중 해소 슬롯에서 추가 보류, 비-HBM 분산 우선.",
         "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "000660",
+        "qty": null,
+        "reason": "HBM 코어 +3.45%, 전기전자 leading 거래대금 1위 사수. 1군 동반 양봉 유지 + KOSPI 7763 종가 상회 = 구조 손절 무근접. 증액 안 함: 보유 HBM 78% 집중, gate상 다음 신규는 비-HBM 우선. 2차 증액 트리거(KOSPI 종가 MA20 안착)는 6-15 확정 충족됐으나 집중도 우선으로 보류. 홀드.",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "005930",
+        "qty": null,
+        "reason": "HBM 저베타 코어 +1.26%, 6주 carry. 전기전자 sector leading 동조, 손절 구조 무근접. HBM 집중도 78%라 추가 없이 anchor 홀드.",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "012450",
+        "qty": null,
+        "reason": "방산 +8.76% today, 방산 cluster 점화 유지 + 기계 sector rotating_in carry = thesis 견조. 트림 트리거(방산 1군 종가 동반 음전 + 레버ETF 거래대금 급감) 미점등. 2차 증액 트리거 110~115만 retest 미도달(현 117.9만)이라 add도 보류. 홀드.",
+        "slot": "1230"
+      },
+      {
+        "action": "buy",
+        "amount_won": 200,
+        "code": "034020",
+        "qty": null,
+        "reason": "두산에너빌리티 기계/원전 capex, 기계 sector rotating_in 2일 carry(거래대금 3위급 잔류). +4.91% 중간 갭이라 1차 probe 소액 200만(자본4%)으로 size 최소화·시기 분산. 본질: HBM 78% 집중을 NEW 테마로 ~58%까지 희석하는 분산 진입(철강·건설 대형 leg는 적색/1봉 noise라 제외, 방산은 기보유 동일테마라 분산 아님). 구조 손절: 기계 sector laggard 강등 OR 두산 직전 일봉 지지 종가 이탈 OR 원전/capex 테마 무효화 시 정리. 2차 증액: 기계 sector 등락률 outperform 전환 leading 승격 + 거래대금 carry 확인 시. 현대로템(방산)은 다음 슬롯 방산 sector 2일 confirm 시 분산 후보로 carry.",
+        "slot": "1230"
       }
     ],
     "realized_pnl_won": null,
@@ -1984,9 +2016,14 @@
         "action": "buy",
         "code": "012450",
         "name": "한화에어로스페이스"
+      },
+      {
+        "action": "buy",
+        "code": "034020",
+        "name": "두산에너빌리티"
       }
     ],
-    "trades_count": 1,
-    "unrealized_pnl_won": 83000
+    "trades_count": 2,
+    "unrealized_pnl_won": 94200
   }
 }
