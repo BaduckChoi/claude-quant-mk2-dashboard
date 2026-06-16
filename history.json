@@ -1738,7 +1738,6 @@
     "buy_won": 2028000,
     "buys": 1,
     "date": "2026-06-15",
-    "open_positions": 2,
     "pm_decisions": [
       {
         "action": "hold",
@@ -1867,7 +1866,72 @@
         "name": "삼성전자"
       }
     ],
-    "trades_count": 1,
-    "unrealized_pnl_won": -3000
+    "trades_count": 1
+  },
+  "20260616": {
+    "auditor_verdict": null,
+    "buy_won": 0,
+    "buys": 0,
+    "date": "2026-06-16",
+    "open_positions": 2,
+    "pm_decisions": [],
+    "realized_pnl_won": null,
+    "sell_won": 0,
+    "sells": 0,
+    "strategist_brief": null,
+    "themes": [
+      {
+        "days_active": 1,
+        "entry_status": "초입",
+        "leaders": [
+          {
+            "code": "",
+            "name": "SK하이닉스"
+          },
+          {
+            "code": "",
+            "name": "삼성전자"
+          },
+          {
+            "code": "",
+            "name": "삼성전기"
+          },
+          {
+            "code": "",
+            "name": "SK스퀘어"
+          }
+        ],
+        "name": "AI 반도체/HBM",
+        "strength_trend": "강화"
+      },
+      {
+        "days_active": 1,
+        "entry_status": "초입",
+        "leaders": [
+          {
+            "code": "",
+            "name": "세미티에스"
+          },
+          {
+            "code": "",
+            "name": "코미코"
+          },
+          {
+            "code": "",
+            "name": "티에스이"
+          },
+          {
+            "code": "",
+            "name": "한켐"
+          }
+        ],
+        "name": "반도체 소부장/후공정",
+        "strength_trend": "강화"
+      }
+    ],
+    "top_movers": [],
+    "traded_codes": [],
+    "trades_count": 0,
+    "unrealized_pnl_won": 83000
   }
 }
