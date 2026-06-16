@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-06-15 16:02:08",
-  "date": "20260615",
+  "generated_at": "2026-06-16 09:21:03",
+  "date": "20260616",
   "mode": "dry_run",
   "stats": {
     "open_positions": 2,
-    "trades_count": 1,
-    "buys": 1,
+    "trades_count": 0,
+    "buys": 0,
     "sells": 0,
-    "buy_won": 2028000,
+    "buy_won": 0,
     "sell_won": 0,
     "realized_pnl_won": null,
     "capital_won": 50000000,
     "deployed_won": 4313000,
     "cash_remaining_won": 46774000,
-    "total_eval_won": 4310000,
-    "unrealized_pnl_won": -3000
+    "total_eval_won": 4396000,
+    "unrealized_pnl_won": 83000
   },
   "positions": [
     {
@@ -23,11 +23,11 @@
       "qty": 1,
       "avg_price": 2285000,
       "cost_won": 2285000,
-      "current_price": 2288000,
-      "change_rate": 6.42,
-      "eval_won": 2288000,
-      "pnl_won": 3000,
-      "pnl_pct": 0.13129102844638948,
+      "current_price": 2359000,
+      "change_rate": 3.1,
+      "eval_won": 2359000,
+      "pnl_won": 74000,
+      "pnl_pct": 3.238512035010941,
       "thesis": "HBM cluster 진성 확인: 1군 4종 동반강세(삼전+12.88/하이닉스+8.76/삼성전기+8.75/SK스퀘어), 전기전자 sector 유일 outperform(+9.63%, 진성 vol19813). regime 조정후반 day1 = 어제 신규봉인->선별 분할진입 재개 green-light. SK하이닉스=HBM 핵심 core, 어제 dead-cat 국면 1군 중 유일 상대방어(-0.2%) 후 오늘 +8.76% = cluster 내 least-extended major leader(약화 leg 회피 아님, core 선택). 1주 probe=229만원(자본4.6%, full target 1000만원의 ~23%) = 분할진입 1차 확인도구. 갭 +8.76% 크므로 thesis강함×최소size×day1타이밍 grade로 size 최소화. 구조 손절: HBM 1군(삼전/하이닉스) 일봉 동반 종가 음전 OR KOSPI 종가 7763(6-11) 하회 = regime K 숏커버 회귀 thesis무효 -> 전량. 증액 2차: KOSPI 종가 8000(MA20) 안착 확정 + 익일 breadth 유지 follow 확인 후."
     },
     {
@@ -36,96 +36,16 @@
       "qty": 6,
       "avg_price": 338000,
       "cost_won": 2028000,
-      "current_price": 337000,
-      "change_rate": 4.5,
-      "eval_won": 2022000,
-      "pnl_won": -6000,
-      "pnl_pct": -0.2958579881656805,
+      "current_price": 339500,
+      "change_rate": 0.74,
+      "eval_won": 2037000,
+      "pnl_won": 9000,
+      "pnl_pct": 0.4437869822485207,
       "thesis": "분할진입 1차 probe. 삼성전자 종가 +4.81%, HBM 1군 중 최저변동 대형 코어. 전기전자 sector는 6-12 rotating_in→6-15 leading 2일 연속 outperform이라 순수 day1 아님, regime 추세장 강세(6-12 확정 8000 MA20 위 마감)와 동조 = green-light 분할 재개. thesis 강함 × 최소 size(203만, 자본4.1%) × day1 타이밍 grade. 갭 +4.81%는 후속 leg(삼성전기 +13.77/한켐 +17) 대비 최소이나, 동시에 강세신호 가장 약한 leg를 고른 방어 선택임을 인지 → 그래서 사이즈 최소화, 코어 anchor 목적. HBM 보유 N=2(SK하이닉스+삼전), 단일테마 비중 약8.6%로 cap 여유. 2차 증액: KOSPI 종가 8000 MA20 안착 확정 + 익일 breadth 유지 시 분할 추가. 구조 손절: HBM 1군 일봉 종가 동반 음전 OR KOSPI 종가 7763 하회 시 thesis 무효 정리."
     }
   ],
-  "trades": [
-    {
-      "ts": "2026-06-15T09:40:54",
-      "cycle_id": "20260615-0940",
-      "action": "buy",
-      "code": "005930",
-      "name": "삼성전자",
-      "qty": 6,
-      "price": 338000,
-      "amount_won": 2028000,
-      "reason": "분할진입 1차 probe. 삼성전자 종가 +4.81%, HBM 1군 중 최저변동 대형 코어. 전기전자 sector는 6-12 rotating_in→6-15 leading 2일 연속 outperform이라 순수 day1 아님, regime 추세장 강세(6-12 확정 8000 MA20 위 마감)와 동조 = green-light 분할 재개. thesis 강함 × 최소 size(203만, 자본4.1%) × day1 타이밍 grade. 갭 +4.81%는 후속 leg(삼성전기 +13.77/한켐 +17) 대비 최소이나, 동시에 강세신호 가장 약한 leg를 고른 방어 선택임을 인지 → 그래서 사이즈 최소화, 코어 anchor 목적. HBM 보유 N=2(SK하이닉스+삼전), 단일테마 비중 약8.6%로 cap 여유. 2차 증액: KOSPI 종가 8000 MA20 안착 확정 + 익일 breadth 유지 시 분할 추가. 구조 손절: HBM 1군 일봉 종가 동반 음전 OR KOSPI 종가 7763 하회 시 thesis 무효 정리.",
-      "dry_run": true,
-      "order_no": "",
-      "realized_pnl_won": null
-    }
-  ],
-  "pm_decisions": [
-    {
-      "slot": "0940",
-      "action": "hold",
-      "code": "000660",
-      "amount_won": null,
-      "qty": null,
-      "reason": "SK하이닉스 종가 +7.53%, 평가익 소폭. thesis 견조 — 전기전자 sector leading(+6.4% 2일 연속 outperform), HBM 1군 동반강세 유지. 2차 증액 트리거(KOSPI 종가 8000 MA20 안착 확정 + 익일 breadth follow)는 오늘 부분봉 단계라 미충족 → 증액 보류. 구조 손절선(HBM 1군 삼전/하이닉스 일봉 종가 동반 음전 OR KOSPI 종가 7763 하회) 무근접. 1주 probe 잔여 capacity는 2차 트리거 점등 익일 평가."
-    },
-    {
-      "slot": "0940",
-      "action": "buy",
-      "code": "005930",
-      "amount_won": 203,
-      "qty": 6,
-      "reason": "분할진입 1차 probe. 삼성전자 종가 +4.81%, HBM 1군 중 최저변동 대형 코어. 전기전자 sector는 6-12 rotating_in→6-15 leading 2일 연속 outperform이라 순수 day1 아님, regime 추세장 강세(6-12 확정 8000 MA20 위 마감)와 동조 = green-light 분할 재개. thesis 강함 × 최소 size(203만, 자본4.1%) × day1 타이밍 grade. 갭 +4.81%는 후속 leg(삼성전기 +13.77/한켐 +17) 대비 최소이나, 동시에 강세신호 가장 약한 leg를 고른 방어 선택임을 인지 → 그래서 사이즈 최소화, 코어 anchor 목적. HBM 보유 N=2(SK하이닉스+삼전), 단일테마 비중 약8.6%로 cap 여유. 2차 증액: KOSPI 종가 8000 MA20 안착 확정 + 익일 breadth 유지 시 분할 추가. 구조 손절: HBM 1군 일봉 종가 동반 음전 OR KOSPI 종가 7763 하회 시 thesis 무효 정리."
-    },
-    {
-      "slot": "1230",
-      "action": "hold",
-      "code": "000660",
-      "amount_won": null,
-      "qty": null,
-      "reason": "SK하이닉스 1주 1차 probe 유지. HBM core leader, 전기전자 sector leading +6.4% 2일 연속 outperform, KOSPI MA20(8012) 대비 +6.8% 안착으로 구조 손절선(1군 종가 동반음전 OR KOSPI 종가 7763 하회) 무근접. thesis 유효, trim 트리거 미점등. 2차 증액 gate(KOSPI MA20 종가안착)는 regime상 충족됐으나 체결가가 오늘 +6.98% 갭 = 추격가 → 익일 분할로 시기 이연이 가격분산 정합. 추가는 직전 일봉 저점/회전시작 이전 가격구조 종가 이탈 없이 눌림 지지 확인 시."
-    },
-    {
-      "slot": "1230",
-      "action": "hold",
-      "code": "005930",
-      "amount_won": null,
-      "qty": null,
-      "reason": "삼성전자 6주 1차 probe 유지. 저변동 대형 코어, 전기전자 leading 동조, 손절 구조선(1군 종가 동반음전 OR KOSPI 종가 7763 하회) 무근접 = 유지. winner 조기절단(reverse disposition) 회피. 2차 add 트리거: 종가 기준 양이평 위 유지 + 330~335k 눌림 지지 종가 안착 시 +3주(목표대비 소량), 익일까지 평가 가능 범위. 오늘 +5.43% 갭에 동슬롯 추격 add 안 함 — 갭 작은 종목 고른 게 강세신호 최약 leg 방어 선택임을 인지, 추격 부적격."
-    },
-    {
-      "slot": "1230",
-      "action": "hold",
-      "code": null,
-      "amount_won": null,
-      "qty": null,
-      "reason": "신규 진입 0. active 테마는 HBM·소부장 둘뿐인데 한켐 +13.88%·삼성전기 +12.95% = day-1 active + 대형 갭 추격가, 1차 진입 부적격. 자동차(현대차/HL만도)·조선기계(HD현대중공업)는 themes watching day-1, promote 게이트 미충족 = 진입 후보 아님. capital 사용 8.7%로 낮으나, 추세장 day1+confidence 보통+변동성 높음에서 12:30 일제 spike 자리 신규는 가격엣지 음(-). HBM N=2 보유, 동슬롯 신규로 단일테마 쏠림 키우는 것도 회피. 다음 add는 갭 채움 눌림 종가 또는 익일 breadth 유지 확인 후 분할."
-    },
-    {
-      "slot": "1520",
-      "action": "hold",
-      "code": "000660",
-      "amount_won": null,
-      "qty": null,
-      "reason": "SK하이닉스 1주 @228.5만, 현재 +6.28% 익절권. HBM 전기전자 sector leading 2일 연속 outperform, 1군 동반강세=테마 유효성 강화(침식 아님). 구조 손절선(HBM 1군 일봉 종가 동반 음전 OR KOSPI 종가 7763 하회) 무근접, KOSPI ~8553. 2차 증액 트리거=KOSPI 종가 8000 MA20 안착확정+익일 breadth follow=익일 조건이라 오늘 미발동. 오늘 슬롯에서 같은 thesis 추가는 새 트리거 없는 분할집행이므로 보류, 익일 종가확정 시 증액."
-    },
-    {
-      "slot": "1520",
-      "action": "hold",
-      "code": "005930",
-      "amount_won": null,
-      "qty": null,
-      "reason": "삼성전자 6주 @33.8만, 현재 +4.34%(평단 대비 약 -0.4% 미미). 테마 유효성 강화, 지지선·손절 구조선 무근접. 2차 증액 트리거(KOSPI 종가 8000 MA20 안착+익일 breadth)=익일 조건, 오늘 미발동. 평단 회복 여부는 매도 변수 아님, thesis 유지로 hold."
-    },
-    {
-      "slot": "1520",
-      "action": "hold",
-      "code": null,
-      "amount_won": null,
-      "qty": null,
-      "reason": "신규 0. 자본가동 8.6%(431만/5000만)로 여유 크나 오늘 final 슬롯 eligible 후보 없음. active 테마 중 HBM은 이미 N=2 보유+단일테마 도배 경보, 소부장 한켐 +12.98% 갭+반도체 한덩어리라 3번째 진입=과집중. 분산 후보 자동차(HL만도+8.31%·현대차+5.93%)·기계(HD현대중공업+9.08%)는 전부 watching 단계로 promote 게이트(6-16+ cluster carry)=익일 조건 미충족, 오늘 진입 부적격. 마지막 슬롯 몰빵 회피=carry. 익일 09:40: KOSPI 종가 8000 안착확정 시 기보유 2종 2차 증액, watching 테마 promote 충족분 신규 시드 평가."
-    }
-  ],
+  "trades": [],
+  "pm_decisions": [],
   "calendar_dates": [
     "20260511",
     "20260512",
@@ -147,8 +67,9 @@
     "20260610",
     "20260611",
     "20260612",
-    "20260615"
+    "20260615",
+    "20260616"
   ],
-  "strategist_brief": "```json\n{\n  \"themes\": [\n    {\n      \"name\": \"AI 반도체/HBM\",\n      \"stance\": \"본격 분할진입 (추격금지)\",\n      \"rationale\": \"전기전자 sector leading +6.4% 2일연속 outperform, 1군 일제 대양봉 부활(삼성전자 +4.96, SK하이닉스 +7.67, 삼성전기 +12.43). regime 추세장 강세 전환과 동조. 진성 주도. 단 day1+confidence 보통+변동성 높음 = 풀사이즈 금지, 대형주 분할.\",\n      \"priority\": 1\n    },\n    {\n      \"name\": \"반도체 소부장/후공정\",\n      \"stance\": \"선별 분할 (소형 추격금지)\",\n      \"rationale\": \"세미티에스 +27.24(거래대금 472억)/한켐 +17.11/유진테크 상한. 전공정 대형주 동반회복으로 섹터 정합 회복. HBM과 동조-동반 구조 = 사실상 반도체 한 덩어리. 소형주 변동 큼, 한켐 정도 견인축만.\",\n      \"priority\": 2\n    },\n    {\n      \"name\": \"자동차/부품\",\n      \"stance\": \"확인 후 분할 (watching→소액)\",\n      \"rationale\": \"한온시스템 +21.7 거래대금 1524억(전체 3위) 압도, HL만도 +5.69(1043억), 현대차 +7.33. 경기민감 catch-up. 단 한온 단독 편중 = cluster 결속 미확정. HL만도/완성차 동반 confirm 용 소액.\",\n      \"priority\": 3\n    },\n    {\n      \"name\": \"조선/기계/방산 capex\",\n      \"stance\": \"관망성 소액 (분산 옵션)\",\n      \"rationale\": \"기계 sector 거래대금 전섹터 1위(vol26130), HD현대중공업 +8.15 시총10위. 단 등락률 KOSPI 소폭 underperform=절대강도 미확정+6-11 반납 이력. 반도체 쏠림 분산용 1종목.\",\n      \"priority\": 4\n    }\n  ],\n  \"candidates\": [\n    {\"code\": \"005930\", \"name\": \"삼성전자\", \"reason\": \"HBM 1군 대형 견인축 +4.96 452만주. 양 이평 위. 분할진입 핵심. 변동성 낮은 대형 = 추세장 안전 코어.\"},\n    {\"code\": \"000660\", \"name\": \"SK하이닉스\", \"reason\": \"HBM 시총2위 +7.67. 전기전자 leading 주도. 고가주라 분할 비중조절. 추격말고 눌림 분할.\"},\n    {\"code\": \"009150\", \"name\": \"삼성전기\", \"reason\": \"HBM 후속 +12.43. 시총비중. 등락 큼=가장 후순위 분할, 추격금지.\"},\n    {\"code\": \"457370\", \"name\": \"한켐\", \"reason\": \"소부장 소재 견인축 +17.11(169억). 전공정 동반회복으로 정합. 세미티에스보다 추격위험 낮음. 소액.\"},\n    {\"code\": \"204320\", \"name\": \"HL만도\", \"reason\": \"자동차/부품 cluster confirm 키. +5.69(1043억). 한온 단독편중 보완용 동반 종목. 소액 분할.\"},\n    {\"code\": \"005380\", \"name\": \"현대차\", \"reason\": \"완성차 대형 +7.33 시총6위. 자동차 테마 코어+반도체 분산. 경기민감 catch-up.\"},\n    {\"code\": \"329180\", \"name\": \"HD현대중공업\", \"reason\": \"기계 sector 거래대금 1위 +8.15 시총10위. capex 분산 옵션 1종목. 절대강도 미확정=관망성 소액.\"}\n  ],\n  \"notes\": \"쏠림 경보: candidates 7개 중 4개(삼성전자/SK하이닉스/삼성전기/한켐)가 반도체 한 덩어리(HBM+소부장 동조-동반). 반도체가 오늘 압도적 진성 주도 맞지만 portfolio 단일테마 도배 위험 = PM portfolio-level 게이트 켜라. 분산 옵션으로 자동차(HL만도/현대차)·기계(HD현대중공업) 깔아둠. regime 추세장 강세 day1+confidence 보통+변동성 높음 = 본격 분할진입 재개하되 풀사이즈 1회 금지, 추격 자제, 대형 코어 우선. LCC(제주항공/티웨이 등)는 잡주+상한가 추격위험 커 후보 제외(watching 유지). 손절은 지지선/테마유효성 기준 — 반도체는 KOSPI MA20(8012) 종가 하회+1군 음전, 자동차는 한온 단독 회귀, 기계는 거래대금 급감 시 무효.\"\n}\n```",
-  "auditor_verdict": "PM 오늘 매매 재검증 완료. dry_run, 자본 5000만, 시작 SK하이닉스 1주 carry. 끝 상태: 삼성전자 6주 신규 + SK하이닉스, 북 전체 HBM 단일테마 N=2, 자본 8.6% 가동. PM 3슬롯 중 집행 1건(09:40 삼성전자 203만).\n\n먼저 깨끗한 것부터. 어제 verdict 가 오늘 결정의 alibi 로 안 쓰였다. 세 슬롯 decision_raw 첫 줄 전부 자기 thesis 로 시작(\"HBM 보유 1종... Slot1 결정\"), \"auditor 가 지목한\"/\"verdict §N\" 류 외부 인용 없음. 좋다. disposition 도 깨끗하다 — SK하이닉스 +6.28% 익절권인데 안 털고 hold, 삼성전자 평단 -0.4% 인데 본전심리로 안 흔들림. winner 조기절단 안 했고 loser 물타기 안 했다. 보유 판단은 지지선·테마유효성 기준으로 일관됐고 손절 구조선(HBM 1군 일봉 종가 동반음전 OR KOSPI 종가 7763)도 누적 state 기반이라 mandate 정합. 삼성전자 probe 자체도 건전 — 분할 1차, 최소 size, 추격 안 함.\n\n이제 짚을 것.\n\n**12:30 의 분봉 언어가 mandate 위반이다.** PM 이 신규/2차 보류 사유로 \"후보 전부 장중 spike(vol_rate 37~440, 고점 이탈 진행 — 한켐 14920→13780, HL만도 75700→73700) = 분봉 추격 자리\"를 댔다. 이건 일봉이 아니라 장중 고점→현재가 되돌림 경로와 vol_rate 를 신호로 쓴 거다. 시스템이 구조적으로 금지한 장중 진폭·분봉 채널. 결론(추격 안 함)은 맞을 수 있지만 *근거를 길어 올린 우물이 금지된 우물*이다. 똑같은 \"오늘 갭 과대, 종가확정 안 됨\" 결론을 일봉/종가 언어로 쓸 수 있었는데 분봉 path 로 합리화했다. 내일은 \"고점 이탈\" 같은 장중 경로 서술 금지. 갭 판단은 전일 종가 대비 일봉 위치로만.\n\n**체제-행동 갭이 가장 큰 그림이다.** regime 이 추세장 강세 green-light — mandate 가 \"추세장 강세 → 자신 있게\" 라고 명시한 체제다. KOSPI +5.78%, adv 794 vs dec 110, breadth 압도적. 그런데 하루 종일 신규로 들어간 건 자본 4%, 그것도 1군 중 갭 최소(=강세신호 최약) leg 삼성전자에 최소 size. 세 슬롯 중 두 슬롯이 zero 집행. reporter 가 이미 이 갭을 기록했고, 과보정해서 내일 몰빵하지 말라고 경고했다 — 그 경고 맞다, 나도 \"내일 공격적으로 사라\"고 안 한다. 핵심은 방향이 아니라 *self-justification 의 반복*이다. PM 이 세 번에 걸쳐 \"강세신호 가장 약한 leg 를 고른 방어 선택임을 인지\"라고 똑같은 변명을 새겼다. thesis 는 \"진성 주도, 강함\"이라 쓰면서 집행은 약-leg·최소·관망. thesis 확신과 집행 소심이 어긋난다. 확신이 진짜면 표현(leg 선택·size)이 underexpress 고, 확신이 약하면 probe 라도 왜 넣었나. 둘 중 하나. \"방어 인지\"를 3회 박는 건 under-commit 을 미리 정당화하는 omission bias 의 냄새다. 추격하란 말 아니다 — 약-leg 를 고른 *이유*를 \"방어니까\"로 닫지 말고, 강세 체제에서 왜 강한 leg(SK하이닉스/삼성전기)를 비웠는지를 정면으로 reason 에 풀어라. 비운 게 옳으면 그 근거가 서야 한다.\n\n**2차 트리거를 구조적으로 영구 보류되게 설계했다.** 2차 증액 게이트 = \"KOSPI 종가 8000 MA20 안착 확정 + 익일 breadth follow\". 진입일에는 종가 미확정이라 절대 못 켜진다 — 09:40 에 만든 이 게이트를 12:30·15:20 에서 같은 문구로 인용해 add 를 막았다. 일봉/종가 기반 판단이라는 점은 mandate 정합이다(그래서 오늘 2차 add 보류 자체는 안 깐다). 문제는 \"종가확정 + *익일* breadth\"가 이중 익일 조건이라 내일 09:40 에도 못 켜진다는 거다. KOSPI 종일 ~8553, MA20 8012 대비 +6.8% 로 이미 한참 위인데도 \"안착 확정\"이 계속 미래로 밀린다. 이건 trigger 가 아니라 무한 연기 장치다. commitment escalation 의 반대 방향 — 계속 \"아직\"으로 미루며 inaction 을 누적. 내일은 이 게이트를 falsifiable 하게 다시 적어라: 무엇이 충족되면 *내일 어느 슬롯에* 얼마를 넣는지. \"안착 확정\"이 정확히 어제 종가 어디 위면 되는지 숫자 기준 하나로 박고, 그게 이미 충족이면 충족이라 인정하고 집행하든가, 못 켜는 이유가 breadth 면 breadth 의 무엇을 보는지를 reason 에 써라. 막연한 \"익일 조건\"으로 또 밀면 그건 룰이 아니라 회피다.\n\n**전략가의 쏠림 경보를 집행이 무시했다.** strategist 가 명시적으로 \"candidates 7개 중 4개가 반도체 한 덩어리 = 단일테마 도배 위험, portfolio 게이트 켜라\"라고 했고 분산 옵션(자동차 현대차/HL만도, 기계 HD현대중공업)을 깔아줬다. PM 은 이걸 전부 \"watching promote 게이트 미충족 = 익일 조건\"으로 보류, 북은 100% HBM 으로 끝났다. 누적 state 우선·watching 은 다일 confirm 전 진입 보류 — 이 논리 자체는 mandate 정합이라 인정한다. 하지만 *효과*를 보라: strategist 가 \"지금 HBM 과집중이다\"라고 경고한 바로 그 테마에 100% 머무는 걸, theme_tracker 의 \"watching\" 라벨 뒤에 숨어 정당화했다. strategist 는 그 종목들을 actionable candidate(priority 3·4)로 올렸는데 PM 은 theme state 의 watching 으로 끌어내렸다. 같은 종목을 두 롤이 다르게 분류할 때 PM 이 더 보수적인 쪽을 골라 집중을 유지한 거다 — 확증/집중 합리화로 읽힐 수 있다. 분산을 강제로 사란 말 아니다. watching 을 진입 보류 근거로 쓰는 건 좋되, 그렇다면 \"단일테마 100%\"라는 portfolio 리스크를 reason 어딘가에서 정면으로 받아라. 지금은 집중 리스크를 회피하면서 회피했다는 사실 자체를 안 적었다.\n\n종합. 룰 위반급 매매는 없다. 보유·손절 판단은 건전하고 disposition·alibi 깨끗하다. 진짜 문제는 (1) 12:30 분봉 채널 근거, (2) 강세 체제에서 관망의 반복적 자기합리화, (3) 영구 보류되게 설계된 이중-익일 트리거, (4) 전략가 쏠림 경보를 watching 라벨로 덮은 단일테마 100%. 넷 다 \"행동을 안 한 것\"을 정교한 언어로 정당화한 패턴이라는 공통점이 있다. 관망이 틀렸다는 게 아니라, 관망의 *근거가 falsifiable 하지 않고 self-sealing* 이라는 게 문제다.\n\n## 내일 PM 지침\n\n갭·과열 판단은 일봉/종가/누적 state 로만 하라. \"고점 이탈\", vol_rate, 장중 spike 경로 같은 분봉 서술을 reason 에 쓰지 마라 — 결론이 같아도 금지된 채널이다.\n\n2차 증액 게이트를 falsifiable 하게 다시 적어라. \"KOSPI 종가 8000 안착 확정 + 익일 breadth\"가 진입일·익일 모두 구조적으로 못 켜지는 이중 미래조건이 아닌지 점검하고, 충족 여부를 어제 종가 숫자 하나로 판정 가능하게 만들어라. 이미 충족이면 충족이라 인정하고 집행하거나, 못 켜는 핵심 사유(breadth 의 무엇)를 본질로 풀어 써라. 또 \"익일 조건\"으로 막연히 밀면 그건 룰이 아니라 회피로 본다.\n\n강세 체제에서 약-leg·최소 size·관망을 고를 때, \"방어 선택임을 인지\" 같은 닫힌 변명으로 끝내지 말고 강한 leg(주도주)를 *왜 비웠는지*를 정면으로 적어라. thesis 가 \"진성 주도·강함\"이면 집행이 그걸 underexpress 하는 모순을 reason 안에서 해소하라.\n\n북이 단일테마 100%(HBM N=2)라는 portfolio 리스크를 매 슬롯 reason 에서 직접 받아라. 분산 옵션을 watching 라벨로 보류하는 건 가능하나, 그 결과 집중이 유지된다는 사실과 그 리스크 수용 근거를 같이 적어라. strategist 가 actionable 로 올린 종목을 theme state 의 watching 으로 끌어내려 회피했다는 사실을 숨기지 마라.\n\n이 지침을 \"auditor §N 가 시켰다\"로 인용하지 마라. 위 네 가지는 전부 *근거의 falsifiability* 문제다 — 본질 사유를 네 말로 풀어 reason 에 쓰면 충족이고, 헤딩 번호를 매달면 또 다른 anchor 회피가 된다."
+  "strategist_brief": null,
+  "auditor_verdict": null
 }
