@@ -1878,7 +1878,7 @@
     "realized_pnl_won": null,
     "sell_won": 0,
     "sells": 0,
-    "strategist_brief": null,
+    "strategist_brief": "```json\n{\n  \"themes\": [\n    {\n      \"name\": \"AI 반도체/HBM\",\n      \"stance\": \"코어 보유/추가매수\",\n      \"note\": \"전기전자 sector leading + 거래대금 1위 사수. 진성 주도. 단 등락폭 평준화=추격 자제, 분할 유지. 시총 1·2위 대형주 = 안정 코어.\"\n    },\n    {\n      \"name\": \"방산 capex\",\n      \"stance\": \"분할 소액 신규\",\n      \"note\": \"방산 cluster 일제 점화(강화). 단 조선/기계축 미점화=방산 편중. 퍼스텍/RF시스템즈 등 상한 잡주 배제, 대형 한화에어로/현대로템만.\"\n    },\n    {\n      \"name\": \"철강금속 cyclical\",\n      \"stance\": \"분할 소액 신규\",\n      \"note\": \"sector rotating_in, +5.81% alpha 점화. 원자재 cyclical catch-up. 1봉이라 소액, 익일 거래대금 confirm 필요.\"\n    },\n    {\n      \"name\": \"건설/부동산정책\",\n      \"stance\": \"관찰/최소 진입\",\n      \"note\": \"sector 등락률 1위(+6.56%)지만 어제 최약 음전→1봉 급반전 noise. cluster 미검증, 대우건설 단독. 대형 현대건설로 노이즈 회피, 최소만.\"\n    },\n    {\n      \"name\": \"기계/원전 capex\",\n      \"stance\": \"분할 유지\",\n      \"note\": \"거래대금 carry, 등락률 소폭 underperform. 두산에너빌리티 원전 축. 방산과 인접 capex 테마.\"\n    }\n  ],\n  \"candidates\": [\n    {\"code\": \"000660\", \"name\": \"SK하이닉스\", \"reason\": \"HBM 1군 견인축, 시총2위 +3.45%, 전기전자 leading. 코어 분할 추가.\"},\n    {\"code\": \"005930\", \"name\": \"삼성전자\", \"reason\": \"HBM 대형 코어, 시총1위 +0.74% 안정. 변동성 헤지용 저베타 코어.\"},\n    {\"code\": \"009150\", \"name\": \"삼성전기\", \"reason\": \"HBM 주변 1군 +0.9%, 기판 수혜. 대형 분산.\"},\n    {\"code\": \"012450\", \"name\": \"한화에어로스페이스\", \"reason\": \"방산 대표 + 기계 sector leaders 중복. cluster 점화 진성 견인, 잡주 회피한 안전축.\"},\n    {\"code\": \"064350\", \"name\": \"현대로템\", \"reason\": \"방산/철도 capex, 기계 sector leader. 방산 분산 2번째.\"},\n    {\"code\": \"005490\", \"name\": \"POSCO홀딩스\", \"reason\": \"철강금속 rotating_in 대표, cyclical 재로테이션 대형 안정축.\"},\n    {\"code\": \"004020\", \"name\": \"현대제철\", \"reason\": \"철강 alpha 점화 동조, 대형. 철강 분산.\"},\n    {\"code\": \"000720\", \"name\": \"현대건설\", \"reason\": \"건설 sector 1위 점화. 대우건설 noise 회피한 대형 건설. 최소 진입 옵션.\"},\n    {\"code\": \"034020\", \"name\": \"두산에너빌리티\", \"reason\": \"기계/원전 capex carry, 거래대금 잔류. capex 전방위 확산 헤지.\"}\n  ],\n  \"notes\": \"regime 추세장 강세 confidence 높음 → 분할진입 본격. 후보 9개, 5개 테마 분산(HBM 3 / 방산 2 / 철강 2 / 건설 1 / 기계 1). HBM 최강 주도지만 단일 쏠림 아님 — PM portfolio 자율 분산 가능. 잡주(퍼스텍·RF시스템즈·티웨이·대우건설 단독 상한급)·레버ETF 전량 배제, 대형 위주. 철강/건설/방산은 1봉 신호=소액 분할, HBM은 코어 추가매수. 항공/LCC(티웨이 단독 약화)는 후보 제외.\"\n}\n```",
     "themes": [
       {
         "days_active": 2,
@@ -1956,6 +1956,6 @@
     "top_movers": [],
     "traded_codes": [],
     "trades_count": 0,
-    "unrealized_pnl_won": 92000
+    "unrealized_pnl_won": 88500
   }
 }
