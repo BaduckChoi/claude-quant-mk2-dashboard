@@ -1881,8 +1881,8 @@
     "strategist_brief": null,
     "themes": [
       {
-        "days_active": 1,
-        "entry_status": "초입",
+        "days_active": 2,
+        "entry_status": "중반",
         "leaders": [
           {
             "code": "",
@@ -1902,11 +1902,11 @@
           }
         ],
         "name": "AI 반도체/HBM",
-        "strength_trend": "강화"
+        "strength_trend": "유지"
       },
       {
-        "days_active": 1,
-        "entry_status": "초입",
+        "days_active": 2,
+        "entry_status": "중반",
         "leaders": [
           {
             "code": "",
@@ -1926,12 +1926,36 @@
           }
         ],
         "name": "반도체 소부장/후공정",
+        "strength_trend": "유지"
+      },
+      {
+        "days_active": 1,
+        "entry_status": "초입",
+        "leaders": [
+          {
+            "code": "",
+            "name": "한화에어로스페이스"
+          },
+          {
+            "code": "",
+            "name": "현대로템"
+          },
+          {
+            "code": "",
+            "name": "퍼스텍"
+          },
+          {
+            "code": "",
+            "name": "HD현대중공업"
+          }
+        ],
+        "name": "방산/조선 capex",
         "strength_trend": "강화"
       }
     ],
     "top_movers": [],
     "traded_codes": [],
     "trades_count": 0,
-    "unrealized_pnl_won": 88000
+    "unrealized_pnl_won": 92000
   }
 }
