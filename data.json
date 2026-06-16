@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16 09:32:34",
+  "generated_at": "2026-06-16 09:35:41",
   "date": "20260616",
   "mode": "dry_run",
   "stats": {
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 4313000,
     "cash_remaining_won": 46774000,
-    "total_eval_won": 4405000,
-    "unrealized_pnl_won": 92000
+    "total_eval_won": 4401500,
+    "unrealized_pnl_won": 88500
   },
   "positions": [
     {
@@ -23,11 +23,11 @@
       "qty": 1,
       "avg_price": 2285000,
       "cost_won": 2285000,
-      "current_price": 2368000,
-      "change_rate": 3.5,
-      "eval_won": 2368000,
-      "pnl_won": 83000,
-      "pnl_pct": 3.6323851203501096,
+      "current_price": 2366000,
+      "change_rate": 3.41,
+      "eval_won": 2366000,
+      "pnl_won": 81000,
+      "pnl_pct": 3.5448577680525166,
       "thesis": "HBM cluster 진성 확인: 1군 4종 동반강세(삼전+12.88/하이닉스+8.76/삼성전기+8.75/SK스퀘어), 전기전자 sector 유일 outperform(+9.63%, 진성 vol19813). regime 조정후반 day1 = 어제 신규봉인->선별 분할진입 재개 green-light. SK하이닉스=HBM 핵심 core, 어제 dead-cat 국면 1군 중 유일 상대방어(-0.2%) 후 오늘 +8.76% = cluster 내 least-extended major leader(약화 leg 회피 아님, core 선택). 1주 probe=229만원(자본4.6%, full target 1000만원의 ~23%) = 분할진입 1차 확인도구. 갭 +8.76% 크므로 thesis강함×최소size×day1타이밍 grade로 size 최소화. 구조 손절: HBM 1군(삼전/하이닉스) 일봉 동반 종가 음전 OR KOSPI 종가 7763(6-11) 하회 = regime K 숏커버 회귀 thesis무효 -> 전량. 증액 2차: KOSPI 종가 8000(MA20) 안착 확정 + 익일 breadth 유지 follow 확인 후."
     },
     {
@@ -36,11 +36,11 @@
       "qty": 6,
       "avg_price": 338000,
       "cost_won": 2028000,
-      "current_price": 339500,
-      "change_rate": 0.74,
-      "eval_won": 2037000,
-      "pnl_won": 9000,
-      "pnl_pct": 0.4437869822485207,
+      "current_price": 339250,
+      "change_rate": 0.67,
+      "eval_won": 2035500,
+      "pnl_won": 7500,
+      "pnl_pct": 0.3698224852071006,
       "thesis": "분할진입 1차 probe. 삼성전자 종가 +4.81%, HBM 1군 중 최저변동 대형 코어. 전기전자 sector는 6-12 rotating_in→6-15 leading 2일 연속 outperform이라 순수 day1 아님, regime 추세장 강세(6-12 확정 8000 MA20 위 마감)와 동조 = green-light 분할 재개. thesis 강함 × 최소 size(203만, 자본4.1%) × day1 타이밍 grade. 갭 +4.81%는 후속 leg(삼성전기 +13.77/한켐 +17) 대비 최소이나, 동시에 강세신호 가장 약한 leg를 고른 방어 선택임을 인지 → 그래서 사이즈 최소화, 코어 anchor 목적. HBM 보유 N=2(SK하이닉스+삼전), 단일테마 비중 약8.6%로 cap 여유. 2차 증액: KOSPI 종가 8000 MA20 안착 확정 + 익일 breadth 유지 시 분할 추가. 구조 손절: HBM 1군 일봉 종가 동반 음전 OR KOSPI 종가 7763 하회 시 thesis 무효 정리."
     }
   ],
@@ -70,6 +70,6 @@
     "20260615",
     "20260616"
   ],
-  "strategist_brief": null,
+  "strategist_brief": "```json\n{\n  \"themes\": [\n    {\n      \"name\": \"AI 반도체/HBM\",\n      \"stance\": \"코어 보유/추가매수\",\n      \"note\": \"전기전자 sector leading + 거래대금 1위 사수. 진성 주도. 단 등락폭 평준화=추격 자제, 분할 유지. 시총 1·2위 대형주 = 안정 코어.\"\n    },\n    {\n      \"name\": \"방산 capex\",\n      \"stance\": \"분할 소액 신규\",\n      \"note\": \"방산 cluster 일제 점화(강화). 단 조선/기계축 미점화=방산 편중. 퍼스텍/RF시스템즈 등 상한 잡주 배제, 대형 한화에어로/현대로템만.\"\n    },\n    {\n      \"name\": \"철강금속 cyclical\",\n      \"stance\": \"분할 소액 신규\",\n      \"note\": \"sector rotating_in, +5.81% alpha 점화. 원자재 cyclical catch-up. 1봉이라 소액, 익일 거래대금 confirm 필요.\"\n    },\n    {\n      \"name\": \"건설/부동산정책\",\n      \"stance\": \"관찰/최소 진입\",\n      \"note\": \"sector 등락률 1위(+6.56%)지만 어제 최약 음전→1봉 급반전 noise. cluster 미검증, 대우건설 단독. 대형 현대건설로 노이즈 회피, 최소만.\"\n    },\n    {\n      \"name\": \"기계/원전 capex\",\n      \"stance\": \"분할 유지\",\n      \"note\": \"거래대금 carry, 등락률 소폭 underperform. 두산에너빌리티 원전 축. 방산과 인접 capex 테마.\"\n    }\n  ],\n  \"candidates\": [\n    {\"code\": \"000660\", \"name\": \"SK하이닉스\", \"reason\": \"HBM 1군 견인축, 시총2위 +3.45%, 전기전자 leading. 코어 분할 추가.\"},\n    {\"code\": \"005930\", \"name\": \"삼성전자\", \"reason\": \"HBM 대형 코어, 시총1위 +0.74% 안정. 변동성 헤지용 저베타 코어.\"},\n    {\"code\": \"009150\", \"name\": \"삼성전기\", \"reason\": \"HBM 주변 1군 +0.9%, 기판 수혜. 대형 분산.\"},\n    {\"code\": \"012450\", \"name\": \"한화에어로스페이스\", \"reason\": \"방산 대표 + 기계 sector leaders 중복. cluster 점화 진성 견인, 잡주 회피한 안전축.\"},\n    {\"code\": \"064350\", \"name\": \"현대로템\", \"reason\": \"방산/철도 capex, 기계 sector leader. 방산 분산 2번째.\"},\n    {\"code\": \"005490\", \"name\": \"POSCO홀딩스\", \"reason\": \"철강금속 rotating_in 대표, cyclical 재로테이션 대형 안정축.\"},\n    {\"code\": \"004020\", \"name\": \"현대제철\", \"reason\": \"철강 alpha 점화 동조, 대형. 철강 분산.\"},\n    {\"code\": \"000720\", \"name\": \"현대건설\", \"reason\": \"건설 sector 1위 점화. 대우건설 noise 회피한 대형 건설. 최소 진입 옵션.\"},\n    {\"code\": \"034020\", \"name\": \"두산에너빌리티\", \"reason\": \"기계/원전 capex carry, 거래대금 잔류. capex 전방위 확산 헤지.\"}\n  ],\n  \"notes\": \"regime 추세장 강세 confidence 높음 → 분할진입 본격. 후보 9개, 5개 테마 분산(HBM 3 / 방산 2 / 철강 2 / 건설 1 / 기계 1). HBM 최강 주도지만 단일 쏠림 아님 — PM portfolio 자율 분산 가능. 잡주(퍼스텍·RF시스템즈·티웨이·대우건설 단독 상한급)·레버ETF 전량 배제, 대형 위주. 철강/건설/방산은 1봉 신호=소액 분할, HBM은 코어 추가매수. 항공/LCC(티웨이 단독 약화)는 후보 제외.\"\n}\n```",
   "auditor_verdict": null
 }
