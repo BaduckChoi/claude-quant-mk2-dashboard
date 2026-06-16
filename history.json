@@ -1870,11 +1870,36 @@
   },
   "20260616": {
     "auditor_verdict": null,
-    "buy_won": 0,
-    "buys": 0,
+    "buy_won": 1185000,
+    "buys": 1,
     "date": "2026-06-16",
-    "open_positions": 2,
-    "pm_decisions": [],
+    "open_positions": 3,
+    "pm_decisions": [
+      {
+        "action": "buy",
+        "amount_won": 119,
+        "code": "012450",
+        "qty": 1,
+        "reason": "방산/조선capex 테마 6-16 active 승격(방산 2+ 양봉 + 레버ETF 거래대금 동반 충족), 기계 sector rotating_in 정합. regime 추세장 강세 confidence 높음 = 신규 분할 green-light. HBM 단일테마 100% 집중 해소 위해 비-HBM 축 1차 진입. 한화에어로=방산 대표+기계 sector leader 중복 안전축. 단 +9.32% 큰 갭 day1 active = 추격 부담 -> 최소 size 1주 probe(자본 2.4%)로 분할 1차 확인. 구조 손절: 방산 1군 종가 동반 음전 + 방산 레버ETF 거래대금 급감(점화 근거 소멸) OR 기계 sector laggard 강등 시 전량. 2차 증액: 갭 되메움 후 110~115만 종가 지지 retest + 방산 sector 2일 outperform confirm 시.",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "000660",
+        "qty": null,
+        "reason": "SK하이닉스 +2.97%(전일대비), 전기전자 sector leading·거래대금 1위 사수, HBM active day2 유지. 구조 손절선(HBM 1군 삼전/하이닉스 종가 동반 음전 OR KOSPI 종가 7763 하회) 무근접 = 보유. 2차 증액 gate(KOSPI 종가 8000 MA20 안착)는 6-15 종가 8545 확정으로 충족됐으나, 단일테마 집중 해소가 이 슬롯 우선 -> HBM 추가는 슬롯 분산상 보류하고 방산 신규 먼저 집행.",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "005930",
+        "qty": null,
+        "reason": "삼성전자 종가권 flat(+0.15%), 평단 근접. 전기전자 leading 정합, 손절선 무근접 = 코어 보유. 증액 gate 충족했으나 동일 HBM축이라 집중 해소 슬롯에서 추가 보류, 비-HBM 분산 우선.",
+        "slot": "0940"
+      }
+    ],
     "realized_pnl_won": null,
     "sell_won": 0,
     "sells": 0,
@@ -1954,8 +1979,14 @@
       }
     ],
     "top_movers": [],
-    "traded_codes": [],
-    "trades_count": 0,
-    "unrealized_pnl_won": 88500
+    "traded_codes": [
+      {
+        "action": "buy",
+        "code": "012450",
+        "name": "한화에어로스페이스"
+      }
+    ],
+    "trades_count": 1,
+    "unrealized_pnl_won": 83000
   }
 }
