@@ -209,6 +209,14 @@
       color: var(--flat);
     }
 
+    /* 오늘 매매 손익 셀, 달력 디테일 내부의 pill: 아웃라인/배경 제거하여 plain text 화 */
+    #trades td .pill,
+    #cal-detail .pill {
+      background: transparent;
+      border-color: transparent;
+      padding: 0;
+    }
+
     .price-stack {
       display: flex;
       flex-direction: column;
