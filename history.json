@@ -1873,7 +1873,6 @@
     "buy_won": 3174300,
     "buys": 2,
     "date": "2026-06-16",
-    "open_positions": 4,
     "pm_decisions": [
       {
         "action": "buy",
@@ -2063,7 +2062,96 @@
         "name": "두산에너빌리티"
       }
     ],
-    "trades_count": 2,
-    "unrealized_pnl_won": 98400
+    "trades_count": 2
+  },
+  "20260617": {
+    "auditor_verdict": null,
+    "buy_won": 0,
+    "buys": 0,
+    "date": "2026-06-17",
+    "open_positions": 4,
+    "pm_decisions": [],
+    "realized_pnl_won": null,
+    "sell_won": 0,
+    "sells": 0,
+    "strategist_brief": null,
+    "themes": [
+      {
+        "days_active": 2,
+        "entry_status": "중반",
+        "leaders": [
+          {
+            "code": "",
+            "name": "SK하이닉스"
+          },
+          {
+            "code": "",
+            "name": "삼성전자"
+          },
+          {
+            "code": "",
+            "name": "삼성전기"
+          },
+          {
+            "code": "",
+            "name": "SK스퀘어"
+          }
+        ],
+        "name": "AI 반도체/HBM",
+        "strength_trend": "유지"
+      },
+      {
+        "days_active": 2,
+        "entry_status": "중반",
+        "leaders": [
+          {
+            "code": "",
+            "name": "세미티에스"
+          },
+          {
+            "code": "",
+            "name": "코미코"
+          },
+          {
+            "code": "",
+            "name": "티에스이"
+          },
+          {
+            "code": "",
+            "name": "한켐"
+          }
+        ],
+        "name": "반도체 소부장/후공정",
+        "strength_trend": "유지"
+      },
+      {
+        "days_active": 1,
+        "entry_status": "초입",
+        "leaders": [
+          {
+            "code": "",
+            "name": "한화에어로스페이스"
+          },
+          {
+            "code": "",
+            "name": "현대로템"
+          },
+          {
+            "code": "",
+            "name": "퍼스텍"
+          },
+          {
+            "code": "",
+            "name": "HD현대중공업"
+          }
+        ],
+        "name": "방산/조선 capex",
+        "strength_trend": "강화"
+      }
+    ],
+    "top_movers": [],
+    "traded_codes": [],
+    "trades_count": 0,
+    "unrealized_pnl_won": 108300
   }
 }
