@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-06-17 09:42:58",
+  "generated_at": "2026-06-17 12:33:01",
   "date": "20260617",
   "mode": "dry_run",
   "stats": {
     "open_positions": 4,
-    "trades_count": 1,
+    "trades_count": 2,
     "buys": 0,
-    "sells": 1,
+    "sells": 2,
     "buy_won": 0,
-    "sell_won": 1033000,
-    "realized_pnl_won": -14000,
+    "sell_won": 1553500,
+    "realized_pnl_won": -17000,
     "capital_won": 50000000,
-    "deployed_won": 6440300,
-    "cash_remaining_won": 44632700,
-    "total_eval_won": 6540500,
-    "unrealized_pnl_won": 100200
+    "deployed_won": 5916800,
+    "cash_remaining_won": 45153200,
+    "total_eval_won": 6094900,
+    "unrealized_pnl_won": 178100
   },
   "positions": [
     {
@@ -23,11 +23,11 @@
       "qty": 1,
       "avg_price": 2285000,
       "cost_won": 2285000,
-      "current_price": 2393000,
-      "change_rate": 0.46,
-      "eval_won": 2393000,
-      "pnl_won": 108000,
-      "pnl_pct": 4.7264770240700225,
+      "current_price": 2407000,
+      "change_rate": 1.05,
+      "eval_won": 2407000,
+      "pnl_won": 122000,
+      "pnl_pct": 5.339168490153172,
       "thesis": "HBM cluster 진성 확인: 1군 4종 동반강세(삼전+12.88/하이닉스+8.76/삼성전기+8.75/SK스퀘어), 전기전자 sector 유일 outperform(+9.63%, 진성 vol19813). regime 조정후반 day1 = 어제 신규봉인->선별 분할진입 재개 green-light. SK하이닉스=HBM 핵심 core, 어제 dead-cat 국면 1군 중 유일 상대방어(-0.2%) 후 오늘 +8.76% = cluster 내 least-extended major leader(약화 leg 회피 아님, core 선택). 1주 probe=229만원(자본4.6%, full target 1000만원의 ~23%) = 분할진입 1차 확인도구. 갭 +8.76% 크므로 thesis강함×최소size×day1타이밍 grade로 size 최소화. 구조 손절: HBM 1군(삼전/하이닉스) 일봉 동반 종가 음전 OR KOSPI 종가 7763(6-11) 하회 = regime K 숏커버 회귀 thesis무효 -> 전량. 증액 2차: KOSPI 종가 8000(MA20) 안착 확정 + 익일 breadth 유지 follow 확인 후."
     },
     {
@@ -36,11 +36,11 @@
       "qty": 6,
       "avg_price": 338000,
       "cost_won": 2028000,
-      "current_price": 333500,
-      "change_rate": -2.77,
-      "eval_won": 2001000,
-      "pnl_won": -27000,
-      "pnl_pct": -1.3313609467455623,
+      "current_price": 335750,
+      "change_rate": -2.11,
+      "eval_won": 2014500,
+      "pnl_won": -13500,
+      "pnl_pct": -0.6656804733727811,
       "thesis": "분할진입 1차 probe. 삼성전자 종가 +4.81%, HBM 1군 중 최저변동 대형 코어. 전기전자 sector는 6-12 rotating_in→6-15 leading 2일 연속 outperform이라 순수 day1 아님, regime 추세장 강세(6-12 확정 8000 MA20 위 마감)와 동조 = green-light 분할 재개. thesis 강함 × 최소 size(203만, 자본4.1%) × day1 타이밍 grade. 갭 +4.81%는 후속 leg(삼성전기 +13.77/한켐 +17) 대비 최소이나, 동시에 강세신호 가장 약한 leg를 고른 방어 선택임을 인지 → 그래서 사이즈 최소화, 코어 anchor 목적. HBM 보유 N=2(SK하이닉스+삼전), 단일테마 비중 약8.6%로 cap 여유. 2차 증액: KOSPI 종가 8000 MA20 안착 확정 + 익일 breadth 유지 시 분할 추가. 구조 손절: HBM 1군 일봉 종가 동반 음전 OR KOSPI 종가 7763 하회 시 thesis 무효 정리."
     },
     {
@@ -49,24 +49,24 @@
       "qty": 1,
       "avg_price": 1185000,
       "cost_won": 1185000,
-      "current_price": 1215000,
-      "change_rate": 2.7,
-      "eval_won": 1215000,
-      "pnl_won": 30000,
-      "pnl_pct": 2.5316455696202533,
+      "current_price": 1257000,
+      "change_rate": 6.26,
+      "eval_won": 1257000,
+      "pnl_won": 72000,
+      "pnl_pct": 6.075949367088607,
       "thesis": "방산/조선capex 테마 6-16 active 승격(방산 2+ 양봉 + 레버ETF 거래대금 동반 충족), 기계 sector rotating_in 정합. regime 추세장 강세 confidence 높음 = 신규 분할 green-light. HBM 단일테마 100% 집중 해소 위해 비-HBM 축 1차 진입. 한화에어로=방산 대표+기계 sector leader 중복 안전축. 단 +9.32% 큰 갭 day1 active = 추격 부담 -> 최소 size 1주 probe(자본 2.4%)로 분할 1차 확인. 구조 손절: 방산 1군 종가 동반 음전 + 방산 레버ETF 거래대금 급감(점화 근거 소멸) OR 기계 sector laggard 강등 시 전량. 2차 증액: 갭 되메움 후 110~115만 종가 지지 retest + 방산 sector 2일 outperform confirm 시."
     },
     {
       "code": "034020",
       "name": "두산에너빌리티",
-      "qty": 9,
+      "qty": 4,
       "avg_price": 104700,
-      "cost_won": 942300,
-      "current_price": 103500,
-      "change_rate": 0.19,
-      "eval_won": 931500,
-      "pnl_won": -10800,
-      "pnl_pct": -1.146131805157593,
+      "cost_won": 418800,
+      "current_price": 104100,
+      "change_rate": 0.77,
+      "eval_won": 416400,
+      "pnl_won": -2400,
+      "pnl_pct": -0.5730659025787965,
       "thesis": "두산에너빌리티 기계/원전 capex, 기계 sector rotating_in 2일 carry(거래대금 3위급 잔류). +4.91% 중간 갭이라 1차 probe 소액 200만(자본4%)으로 size 최소화·시기 분산. 본질: HBM 78% 집중을 NEW 테마로 ~58%까지 희석하는 분산 진입(철강·건설 대형 leg는 적색/1봉 noise라 제외, 방산은 기보유 동일테마라 분산 아님). 구조 손절: 기계 sector laggard 강등 OR 두산 직전 일봉 지지 종가 이탈 OR 원전/capex 테마 무효화 시 정리. 2차 증액: 기계 sector 등락률 outperform 전환 leading 승격 + 거래대금 carry 확인 시. 현대로템(방산)은 다음 슬롯 방산 sector 2일 confirm 시 분산 후보로 carry."
     }
   ],
@@ -85,6 +85,21 @@
       "order_no": "",
       "avg_cost": 104700,
       "realized_pnl_won": -14000
+    },
+    {
+      "ts": "2026-06-17T12:33:01",
+      "cycle_id": "20260617-1230",
+      "action": "sell",
+      "code": "034020",
+      "name": "두산에너빌리티",
+      "qty": 5,
+      "price": 104100,
+      "amount_won": 520500,
+      "reason": "두산 진입 핵심 게이트=기계 sector rotating_in. 6-17 기계 laggard 강등(섹터 -0.89%, vol 12769→5444 반감=자본 이탈). 자기설정 OR 손절 3조건('기계 laggard 강등 OR 종가 지지 이탈 OR 원전/capex 무효') 중 1조건 점등 → 정리 발동. 단 두산 가격 +0.77% 종가지지 유지·원전/capex 테마 미무효=동시붕괴 아님 → 1/2 정리 디폴트. 9주 중 5주 매도, 4주 잔존. 잔량 게이트: 원전/capex 무효화 OR 종가 직전저점 이탈 시 전량, 기계 sector outperform 재전환 종가확정 시에만 재증액.",
+      "dry_run": true,
+      "order_no": "",
+      "avg_cost": 104700,
+      "realized_pnl_won": -3000
     }
   ],
   "pm_decisions": [
@@ -127,6 +142,46 @@
       "amount_won": null,
       "qty": null,
       "reason": "신규 보류. SK스퀘어=기보유 HBM 동일 게이트(N=2 단일테마) 같은베팅 분할이라 제외. HD현대중공업=한화와 동일 방산/조선 capex 테마(약화/초입)라 분산 아님 제외. 한국전력=전기가스 sector day-1 NEW rotating_in(+5.09% alpha)+전력 watching day-1, promote 게이트(전력 2+ 종가 양봉 + sector alpha 2일 지속) 미충족 = day-1 추격 회피. 익일 sector alpha 2일 carry + 전력 종가 양봉 확인 시 방어 분산용 소액 probe(자본 2~3%) 후보로 carry. breadth 0.39 미회복으로 신규 절제."
+    },
+    {
+      "slot": "1230",
+      "action": "sell",
+      "code": "034020",
+      "amount_won": 52,
+      "qty": 5,
+      "reason": "두산 진입 핵심 게이트=기계 sector rotating_in. 6-17 기계 laggard 강등(섹터 -0.89%, vol 12769→5444 반감=자본 이탈). 자기설정 OR 손절 3조건('기계 laggard 강등 OR 종가 지지 이탈 OR 원전/capex 무효') 중 1조건 점등 → 정리 발동. 단 두산 가격 +0.77% 종가지지 유지·원전/capex 테마 미무효=동시붕괴 아님 → 1/2 정리 디폴트. 9주 중 5주 매도, 4주 잔존. 잔량 게이트: 원전/capex 무효화 OR 종가 직전저점 이탈 시 전량, 기계 sector outperform 재전환 종가확정 시에만 재증액."
+    },
+    {
+      "slot": "1230",
+      "action": "hold",
+      "code": "012450",
+      "amount_won": null,
+      "qty": null,
+      "reason": "기계 laggard 강등으로 손절 OR 한 조건 점등하나 한화 핵심 thesis=방산축이며 오늘 +6.0%(1254k, avg 1185k 대비 +5.8%) 방산축 strength·방산/조선capex theme active 유지=primary thesis 강화. 기계 게이트는 두산엔 핵심·한화엔 부차라 룰 의도(방산 thesis 보호)상 hold — 두산 trim/한화 hold 차이는 게이트-thesis 중심성 구분. 증액 없음(+6% 갭 추격금지, theme strength 약화). 잔량 손절: 방산 1군 종가 동반 음전+레버ETF 거래대금 급감 시 전량."
+    },
+    {
+      "slot": "1230",
+      "action": "hold",
+      "code": "000660",
+      "amount_won": null,
+      "qty": null,
+      "reason": "증액 2차 복합 게이트=KOSPI 8000 MA20 안착(충족, 6-16 종가 8726>MA20 8073)+익일 breadth 유지(미충족, 오늘 breadth 0.39 악화). 한 축 미충족 → 증액 보류(게이트 객관 미충족, 가격 핑계 아님). 하이닉스축 +0.97%(2405k)·HBM theme active day3, 손절(1군 종가 동반 음전 OR KOSPI 종가 7763 하회) 무근접. Hold."
+    },
+    {
+      "slot": "1230",
+      "action": "hold",
+      "code": "005930",
+      "amount_won": null,
+      "qty": null,
+      "reason": "삼성 sub-cluster 약화 2일(삼성전자 -1.97%, 삼성전기/우 음전) 테마 유효성 axis 점등 → 부분정리 검토 발동. 단 HBM theme active·하이닉스축(하이닉스 +0.97/SK스퀘어 +4.2) 견인 양전 → 1군 동반 종가 음전 손절 미점등, 삼성 지지선 종가 미확정(현 336250, 일중저가 331500)·거래대금 정상(vol_rate 51)=다조건 intraday break 아님 → 종가 게이트로 carry. 트림 게이트: 삼성전자 종가 332k 이탈 OR 하이닉스 동반 종가 음전 시 weak leg 1/2 정리(다음 슬롯/익일 평가)."
+    },
+    {
+      "slot": "1230",
+      "action": "hold",
+      "code": null,
+      "amount_won": null,
+      "qty": null,
+      "reason": "신규 4후보 전부 보류. 402340 SK스퀘어(+4.2)=HBM 동일 게이트, N=3 집중+추격. 329180 HD현대(+3.87)=방산/조선capex 동일 theme(한화 기보유) 같은 게이트+추격. 015760 한국전력(+3.52, vol_rate 117 일중 스파이크)=전기가스 sector day-1 rotating_in·테마 watching 미숙성, 진입은 일봉/종가 정착 신호 필요 → carry 관찰, promote 게이트: 6-18+ 전력 2+ 종가 양봉+sector alpha 2일+거래대금 증가. regime 보통+breadth 0.39 악화=추격금지·선별 분할 정합."
     }
   ],
   "calendar_dates": [
