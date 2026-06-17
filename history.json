@@ -2069,7 +2069,7 @@
     "buy_won": 0,
     "buys": 0,
     "date": "2026-06-17",
-    "open_positions": 4,
+    "open_positions": 2,
     "pm_decisions": [
       {
         "action": "sell",
@@ -2150,11 +2150,43 @@
         "qty": null,
         "reason": "신규 4후보 전부 보류. 402340 SK스퀘어(+4.2)=HBM 동일 게이트, N=3 집중+추격. 329180 HD현대(+3.87)=방산/조선capex 동일 theme(한화 기보유) 같은 게이트+추격. 015760 한국전력(+3.52, vol_rate 117 일중 스파이크)=전기가스 sector day-1 rotating_in·테마 watching 미숙성, 진입은 일봉/종가 정착 신호 필요 → carry 관찰, promote 게이트: 6-18+ 전력 2+ 종가 양봉+sector alpha 2일+거래대금 증가. regime 보통+breadth 0.39 악화=추격금지·선별 분할 정합.",
         "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "000660",
+        "qty": null,
+        "reason": "하이닉스 +5.88%, 하이닉스축 진성주도 유지(하이닉스레버ETF 거래대금 전종목 1위). 손절 트리거(HBM 1군 종가 동반 음전 OR KOSPI 종가 7763 하회) 미발동. 증액 2차 gate=KOSPI MA20 안착+익일 breadth>1.0 유지 follow인데 오늘 breadth 0.39 미충족 → add 보류. 전기전자 rotating_out은 vol 2위권 자본 잔류 차익실현이라 thesis 무효 아님. 1주 carry.",
+        "slot": "1520"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "005930",
+        "qty": null,
+        "reason": "삼성 종가 +0.73% 양전, 손절 트리거 미발동. HBM 약한 leg이나 저변동 anchor 역할, alpha는 하이닉스축이 carry. 평단 대비 +2.2% 소익이라 정리=손실확정 논리 아님. 삼성 일봉 종가 음전 확정+하이닉스축 동반 약화 시 정리. 6주 hold.",
+        "slot": "1520"
+      },
+      {
+        "action": "sell",
+        "amount_won": null,
+        "code": "012450",
+        "qty": 1,
+        "reason": "진입 시 박은 손절 트리거 '기계 sector laggard 강등' 점등(6-17 기계 -0.89% vol 12769->5444 반감=자본 이탈). 방산/조선 capex theme 약화+방산 견인축 상위 이탈. 종가 +3.8% 강세는 상대강도이나 죽은 기계/capex 게이트 되살리지 못함. 1주 전량, 강세 자리 청산.",
+        "slot": "1520"
+      },
+      {
+        "action": "sell",
+        "amount_won": null,
+        "code": "034020",
+        "qty": 4,
+        "reason": "유일 carry 게이트인 기계 sector rotating_in이 laggard 강등(vol 반감 자본 이탈)=thesis 본질 깨짐. 종목도 평단 104.7만 하회(현 102.9만) 약세. thesis 본질 깨짐은 1슬롯 전량 디폴트. 4주 전량.",
+        "slot": "1520"
       }
     ],
-    "realized_pnl_won": -17000,
-    "sell_won": 1553500,
-    "sells": 2,
+    "realized_pnl_won": 18800,
+    "sell_won": 3193100,
+    "sells": 4,
     "strategist_brief": "테마/후보 풀 구성. regime confidence 보통+breadth 0.39 악화 → 선별 분할, 추격 금지. 단일테마 쏠림 회피 위해 3축 분산.\n\n```json\n{\n  \"themes\": [\n    {\n      \"name\": \"AI 반도체/HBM (하이닉스축)\",\n      \"status\": \"active-약화\",\n      \"stance\": \"선별홀드/소액분할\",\n      \"note\": \"하이닉스축(SK하이닉스/SK스퀘어/하이닉스레버ETF 거래대금 1위) 진성주도 유지. 삼성축(삼성전자 -2.48) 음전으로 결속 약화=차별화 국면. 하이닉스 라인만 선별, 삼성 추격 금지. regime 보통+breadth 악화로 추가매수 보수적.\"\n    },\n    {\n      \"name\": \"방산/조선 capex (조선축)\",\n      \"status\": \"active-약화/초입\",\n      \"stance\": \"신규 소액만\",\n      \"note\": \"견인축 방산->조선 이동. HD현대중공업 +1.29 대형 양전=하락장(-0.89) 상대강도. 방산 cluster 오늘 상위 이탈로 결속 불안정, 추격 금지 신규 소액. 방산레버ETF/한화에어로 재등장 시 확산 재평가.\"\n    },\n    {\n      \"name\": \"전력/유틸 방어\",\n      \"status\": \"watching\",\n      \"stance\": \"분산옵션/관찰\",\n      \"note\": \"전기가스 sector +5.09%=KOSPI 대비 +5.97%p 압도적 alpha, risk-off 환경 자본 선회. 단 한국전력 등 종목 cluster 2+ 미검증(sector alpha만). 하락장 분산용 소액 옵션, 시장 반등 시 베타 회귀로 상대강도 소멸 경계.\"\n    }\n  ],\n  \"candidates\": [\n    {\n      \"code\": \"000660\",\n      \"name\": \"SK하이닉스\",\n      \"reason\": \"HBM 견인축, 시총2위 +0.42 양전. 하이닉스레버ETF 거래대금 전종목 1위=자본 잔류 진성주도. 양 이평 위 regime 정합. 분할 코어.\"\n    },\n    {\n      \"code\": \"402340\",\n      \"name\": \"SK스퀘어\",\n      \"reason\": \"HBM 견인 +4.8% 시장약세 속 강세. 하이닉스축 동조 알파. 변동 크니 소액 분할.\"\n    },\n    {\n      \"code\": \"329180\",\n      \"name\": \"HD현대중공업\",\n      \"reason\": \"조선 capex 대형 +1.29, 하락장(-0.89) 상대강도. 방산 이탈 와중 capex 명맥 유지축. 신규 소액, 추격 금지.\"\n    },\n    {\n      \"code\": \"015760\",\n      \"name\": \"한국전력\",\n      \"reason\": \"전기가스 sector +5.09% 압도적 alpha 리더. risk-off 방어 분산용. 단 종목레벨 cluster 미검증=관찰성 소액, 시장 반등 시 상대강도 소멸 경계.\"\n    }\n  ],\n  \"notes\": \"regime 추세장 강세이나 confidence 보통+첫음봉+breadth 0.39 악화=선별 분할·추격 금지·추가매수 보수. 후보 4개 중 HBM 2개(하이닉스축) 비중 최대이나 단일쏠림 아님 — 조선 capex 1, 전력방어 1로 3테마 분산 제공. 철강/강관 cyclical은 micro-cap 상한 다수+sector underperform+산업 rationale 미확인=잡주 순환 의심으로 후보 제외(promote 미달). PM은 breadth 회복 확인 전까지 portfolio 신규 비중 절제, HBM 한 테마 도배 경계 권고.\"\n}\n```",
     "themes": [
       {
@@ -2220,9 +2252,14 @@
     ],
     "top_movers": [
       {
+        "code": "012450",
+        "name": "한화에어로스페이스",
+        "realized_pnl_won": 43000
+      },
+      {
         "code": "034020",
         "name": "두산에너빌리티",
-        "realized_pnl_won": -17000
+        "realized_pnl_won": -24200
       }
     ],
     "traded_codes": [
@@ -2230,9 +2267,14 @@
         "action": "sell",
         "code": "034020",
         "name": "두산에너빌리티"
+      },
+      {
+        "action": "sell",
+        "code": "012450",
+        "name": "한화에어로스페이스"
       }
     ],
-    "trades_count": 2,
-    "unrealized_pnl_won": 178100
+    "trades_count": 4,
+    "unrealized_pnl_won": 285000
   }
 }
