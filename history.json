@@ -57,7 +57,7 @@
       {
         "action": "buy",
         "code": "005380",
-        "name": ""
+        "name": "현대차"
       },
       {
         "action": "buy",
@@ -154,7 +154,7 @@
       {
         "action": "buy",
         "code": "005380",
-        "name": ""
+        "name": "현대차"
       }
     ],
     "trades_count": 2
@@ -231,7 +231,7 @@
     "top_movers": [
       {
         "code": "005380",
-        "name": "",
+        "name": "현대차",
         "realized_pnl_won": 189500
       },
       {
@@ -259,7 +259,7 @@
       {
         "action": "sell",
         "code": "005380",
-        "name": ""
+        "name": "현대차"
       }
     ],
     "trades_count": 4
@@ -328,7 +328,7 @@
     "top_movers": [
       {
         "code": "005380",
-        "name": "",
+        "name": "현대차",
         "realized_pnl_won": 217500
       }
     ],
@@ -336,7 +336,7 @@
       {
         "action": "sell",
         "code": "005380",
-        "name": ""
+        "name": "현대차"
       }
     ],
     "trades_count": 3
@@ -522,7 +522,7 @@
       {
         "action": "buy",
         "code": "000810",
-        "name": ""
+        "name": "삼성화재"
       }
     ],
     "trades_count": 1
@@ -579,7 +579,7 @@
     "top_movers": [
       {
         "code": "000810",
-        "name": "",
+        "name": "삼성화재",
         "realized_pnl_won": -84000
       }
     ],
@@ -587,7 +587,7 @@
       {
         "action": "sell",
         "code": "000810",
-        "name": ""
+        "name": "삼성화재"
       }
     ],
     "trades_count": 1
@@ -638,7 +638,7 @@
       {
         "action": "buy",
         "code": "329180",
-        "name": ""
+        "name": "HD현대중공업"
       }
     ],
     "trades_count": 1
@@ -790,7 +790,7 @@
     "top_movers": [
       {
         "code": "329180",
-        "name": "",
+        "name": "HD현대중공업",
         "realized_pnl_won": 247000
       }
     ],
@@ -798,7 +798,7 @@
       {
         "action": "sell",
         "code": "329180",
-        "name": ""
+        "name": "HD현대중공업"
       }
     ],
     "trades_count": 3
@@ -855,7 +855,7 @@
     "top_movers": [
       {
         "code": "329180",
-        "name": "",
+        "name": "HD현대중공업",
         "realized_pnl_won": 35000
       }
     ],
@@ -863,12 +863,12 @@
       {
         "action": "sell",
         "code": "329180",
-        "name": ""
+        "name": "HD현대중공업"
       },
       {
         "action": "buy",
         "code": "005380",
-        "name": ""
+        "name": "현대차"
       }
     ],
     "trades_count": 2
@@ -1086,12 +1086,12 @@
       {
         "action": "buy",
         "code": "017670",
-        "name": ""
+        "name": "SK텔레콤"
       },
       {
         "action": "buy",
         "code": "005380",
-        "name": ""
+        "name": "현대차"
       }
     ],
     "trades_count": 5
@@ -1229,12 +1229,12 @@
       },
       {
         "code": "017670",
-        "name": "",
+        "name": "SK텔레콤",
         "realized_pnl_won": 151950
       },
       {
         "code": "005380",
-        "name": "",
+        "name": "현대차",
         "realized_pnl_won": -44000
       }
     ],
@@ -1242,7 +1242,7 @@
       {
         "action": "sell",
         "code": "005380",
-        "name": ""
+        "name": "현대차"
       },
       {
         "action": "sell",
@@ -1252,7 +1252,7 @@
       {
         "action": "sell",
         "code": "017670",
-        "name": ""
+        "name": "SK텔레콤"
       }
     ],
     "trades_count": 5
@@ -1385,7 +1385,7 @@
     "top_movers": [
       {
         "code": "017670",
-        "name": "",
+        "name": "SK텔레콤",
         "realized_pnl_won": 31800
       }
     ],
@@ -1393,7 +1393,7 @@
       {
         "action": "sell",
         "code": "017670",
-        "name": ""
+        "name": "SK텔레콤"
       }
     ],
     "trades_count": 1
@@ -1575,12 +1575,12 @@
       {
         "action": "buy",
         "code": "329180",
-        "name": ""
+        "name": "HD현대중공업"
       },
       {
         "action": "buy",
         "code": "005490",
-        "name": ""
+        "name": "POSCO홀딩스"
       }
     ],
     "trades_count": 2
@@ -1640,12 +1640,12 @@
     "top_movers": [
       {
         "code": "329180",
-        "name": "",
+        "name": "HD현대중공업",
         "realized_pnl_won": -57000
       },
       {
         "code": "005490",
-        "name": "",
+        "name": "POSCO홀딩스",
         "realized_pnl_won": -87500
       }
     ],
@@ -1653,12 +1653,12 @@
       {
         "action": "sell",
         "code": "329180",
-        "name": ""
+        "name": "HD현대중공업"
       },
       {
         "action": "sell",
         "code": "005490",
-        "name": ""
+        "name": "POSCO홀딩스"
       }
     ],
     "trades_count": 2
