@@ -2069,7 +2069,6 @@
     "buy_won": 0,
     "buys": 0,
     "date": "2026-06-17",
-    "open_positions": 2,
     "pm_decisions": [
       {
         "action": "sell",
@@ -2274,7 +2273,84 @@
         "name": "한화에어로스페이스"
       }
     ],
-    "trades_count": 4,
-    "unrealized_pnl_won": 287000
+    "trades_count": 4
+  },
+  "20260618": {
+    "auditor_verdict": null,
+    "buy_won": 0,
+    "buys": 0,
+    "date": "2026-06-18",
+    "open_positions": 2,
+    "pm_decisions": [],
+    "realized_pnl_won": null,
+    "sell_won": 0,
+    "sells": 0,
+    "strategist_brief": null,
+    "themes": [
+      {
+        "days_active": 3,
+        "entry_status": "중반",
+        "leaders": [
+          {
+            "code": "",
+            "name": "SK하이닉스"
+          },
+          {
+            "code": "",
+            "name": "SK스퀘어"
+          },
+          {
+            "code": "",
+            "name": "삼성전자"
+          },
+          {
+            "code": "",
+            "name": "삼성전기"
+          }
+        ],
+        "name": "AI 반도체/HBM",
+        "strength_trend": "약화"
+      },
+      {
+        "days_active": 3,
+        "entry_status": "중반",
+        "leaders": [
+          {
+            "code": "",
+            "name": "세미티에스"
+          }
+        ],
+        "name": "반도체 소부장/후공정",
+        "strength_trend": "유지"
+      },
+      {
+        "days_active": 2,
+        "entry_status": "초입",
+        "leaders": [
+          {
+            "code": "",
+            "name": "HD현대중공업"
+          },
+          {
+            "code": "",
+            "name": "한화에어로스페이스"
+          },
+          {
+            "code": "",
+            "name": "현대로템"
+          },
+          {
+            "code": "",
+            "name": "퍼스텍"
+          }
+        ],
+        "name": "방산/조선 capex",
+        "strength_trend": "약화"
+      }
+    ],
+    "top_movers": [],
+    "traded_codes": [],
+    "trades_count": 0,
+    "unrealized_pnl_won": 374000
   }
 }
