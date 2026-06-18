@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18 09:32:47",
+  "generated_at": "2026-06-18 09:35:36",
   "date": "20260618",
   "mode": "dry_run",
   "stats": {
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 4313000,
     "cash_remaining_won": 46792800,
-    "total_eval_won": 4718000,
-    "unrealized_pnl_won": 405000
+    "total_eval_won": 4708000,
+    "unrealized_pnl_won": 395000
   },
   "positions": [
     {
@@ -23,11 +23,11 @@
       "qty": 1,
       "avg_price": 2285000,
       "cost_won": 2285000,
-      "current_price": 2627000,
-      "change_rate": 4.2,
-      "eval_won": 2627000,
-      "pnl_won": 342000,
-      "pnl_pct": 14.967177242888402,
+      "current_price": 2620000,
+      "change_rate": 3.93,
+      "eval_won": 2620000,
+      "pnl_won": 335000,
+      "pnl_pct": 14.660831509846828,
       "thesis": "HBM cluster 진성 확인: 1군 4종 동반강세(삼전+12.88/하이닉스+8.76/삼성전기+8.75/SK스퀘어), 전기전자 sector 유일 outperform(+9.63%, 진성 vol19813). regime 조정후반 day1 = 어제 신규봉인->선별 분할진입 재개 green-light. SK하이닉스=HBM 핵심 core, 어제 dead-cat 국면 1군 중 유일 상대방어(-0.2%) 후 오늘 +8.76% = cluster 내 least-extended major leader(약화 leg 회피 아님, core 선택). 1주 probe=229만원(자본4.6%, full target 1000만원의 ~23%) = 분할진입 1차 확인도구. 갭 +8.76% 크므로 thesis강함×최소size×day1타이밍 grade로 size 최소화. 구조 손절: HBM 1군(삼전/하이닉스) 일봉 동반 종가 음전 OR KOSPI 종가 7763(6-11) 하회 = regime K 숏커버 회귀 thesis무효 -> 전량. 증액 2차: KOSPI 종가 8000(MA20) 안착 확정 + 익일 breadth 유지 follow 확인 후."
     },
     {
@@ -36,11 +36,11 @@
       "qty": 6,
       "avg_price": 338000,
       "cost_won": 2028000,
-      "current_price": 348500,
-      "change_rate": 0.58,
-      "eval_won": 2091000,
-      "pnl_won": 63000,
-      "pnl_pct": 3.106508875739645,
+      "current_price": 348000,
+      "change_rate": 0.43,
+      "eval_won": 2088000,
+      "pnl_won": 60000,
+      "pnl_pct": 2.9585798816568047,
       "thesis": "분할진입 1차 probe. 삼성전자 종가 +4.81%, HBM 1군 중 최저변동 대형 코어. 전기전자 sector는 6-12 rotating_in→6-15 leading 2일 연속 outperform이라 순수 day1 아님, regime 추세장 강세(6-12 확정 8000 MA20 위 마감)와 동조 = green-light 분할 재개. thesis 강함 × 최소 size(203만, 자본4.1%) × day1 타이밍 grade. 갭 +4.81%는 후속 leg(삼성전기 +13.77/한켐 +17) 대비 최소이나, 동시에 강세신호 가장 약한 leg를 고른 방어 선택임을 인지 → 그래서 사이즈 최소화, 코어 anchor 목적. HBM 보유 N=2(SK하이닉스+삼전), 단일테마 비중 약8.6%로 cap 여유. 2차 증액: KOSPI 종가 8000 MA20 안착 확정 + 익일 breadth 유지 시 분할 추가. 구조 손절: HBM 1군 일봉 종가 동반 음전 OR KOSPI 종가 7763 하회 시 thesis 무효 정리."
     }
   ],
@@ -72,6 +72,6 @@
     "20260617",
     "20260618"
   ],
-  "strategist_brief": null,
+  "strategist_brief": "```json\n{\n  \"themes\": [\n    {\n      \"name\": \"AI 반도체/HBM\",\n      \"stance\": \"주력 분할 홀드\",\n      \"note\": \"regime 추세장 강세+전기전자 sector leading 재승격(vol 1위)+양축(하이닉스/삼성) 동반 양전. 단 breadth 협소(adv158/dec727)·confidence 보통 -> 추격 금지, 주도 대형주 한정 소량 분할만. 레버ETF 거래대금 1·2위 사수=진성주도.\"\n    },\n    {\n      \"name\": \"방산/조선 capex\",\n      \"stance\": \"분산옵션, 신규 보류\",\n      \"note\": \"약화 추세. 방산축 2일 이탈, 조선 HD현대 단독 양전으로 가까스로 명맥. 분산 목적 1종목만 후보. 신규 공격 금지.\"\n    },\n    {\n      \"name\": \"보험(value 로테이션)\",\n      \"stance\": \"분산옵션, 소액 관찰\",\n      \"note\": \"sector rotating_in 초기 신호(+0.56%p alpha, 1봉). breadth 협소장 value 로테이션 헷지용. noise 경계 소액만.\"\n    }\n  ],\n  \"candidates\": [\n    {\"code\": \"000660\", \"name\": \"SK하이닉스\", \"reason\": \"AI반도체/HBM 핵심축, +4.17% 시총2위, 레버ETF 거래대금 1위. leading sector 선도주 0순위. 분할 홀드/소량 추가.\"},\n    {\"code\": \"005930\", \"name\": \"삼성전자\", \"reason\": \"AI반도체 대형 양전 회복(6-17 음전->+0.72%). 시총1위 안정축, breadth 협소장 대형주 주도 수혜. 분할 진입 적합.\"},\n    {\"code\": \"009150\", \"name\": \"삼성전기\", \"reason\": \"AI반도체+MLCC 교집합. +7.23% 시총5위 대형이 콘덴서 cluster 견인. 두 테마 동시 노출 핵심 종목.\"},\n    {\"code\": \"402340\", \"name\": \"SK스퀘어\", \"reason\": \"AI반도체 하이닉스축 보조, +4.2%. 결속 회복 동반주. 소량 분할.\"},\n    {\"code\": \"329180\", \"name\": \"HD현대중공업\", \"reason\": \"방산/조선 capex 분산옵션. +0.71% 2일 양전 잔류, 시총10위. 테마 약화라 신규 소량/관찰. AI반도체 쏠림 헷지.\"},\n    {\"code\": \"032830\", \"name\": \"삼성생명\", \"reason\": \"보험 sector rotating_in 선도, +2.13% outperform. value 로테이션 초기 분산옵션. 1봉 noise 경계 소액.\"}\n  ],\n  \"notes\": \"쏠림 경고: 후보 6개 중 4개(SK하이닉스/삼성전자/삼성전기/SK스퀘어)가 AI반도체/HBM 단일 테마 -> portfolio 단일테마 도배 위험. PM은 portfolio-level 분산 게이트 켤 것. 분산옵션으로 방산(HD현대중공업)·보험(삼성생명) 각 1종목 제공했으나 둘 다 약신호(방산 약화/보험 1봉)이니 자율 판단. MLCC watching(삼화전자/삼화전기/삼화콘덴서)은 1봉 상한 다수+micro-cap=wrap 부적합으로 후보 제외, 대형 삼성전기로만 노출. regime confidence 보통+breadth 협소(adv/dec 0.22)+미장 risk-off -> 전반 선별 분할, 추격 금지, 갭하락 대비 분할속도 조절.\"\n}\n```",
   "auditor_verdict": null
 }
