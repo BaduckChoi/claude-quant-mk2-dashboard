@@ -2446,8 +2446,8 @@
   },
   "20260619": {
     "auditor_verdict": null,
-    "buy_won": 1850000,
-    "buys": 1,
+    "buy_won": 3650000,
+    "buys": 2,
     "date": "2026-06-19",
     "open_positions": 2,
     "pm_decisions": [
@@ -2474,6 +2474,30 @@
         "qty": null,
         "reason": "금융/보험 value 미진입. 보험 sector rotating_in→leading 승격이나 day-1 1봉 점화, vol 2556 보통권(자본 유입 미확인), 증권/은행 미동조=보험 편중. 삼성생명 +9.06/삼성물산 +11.84 갭 큼. themes.json promote 게이트(6-20+ 대형 2+ 양봉 carry + 거래대금 2일 confirm) 미충족 = watching 단계. HBM 증액과 등급 다름(active 강화 기존코어 증액 vs day-1 미확정 watching 신규). carry confirm 후 정찰 비중 재평가.",
         "slot": "0940"
+      },
+      {
+        "action": "buy",
+        "amount_won": 180,
+        "code": "005930",
+        "qty": 5,
+        "reason": "삼전 anchor 코어 분할 축적. HBM active 강화 day5 + 전기전자 sector leading day2(신규 트리거, alpha +0.70p·vol 전섹터 1위) + 레버ETF 거래대금 1·2위 유효 = add 의존축 충족(breadth 아닌 작동축 게이트). 11주->16주, 자본 약11.5%로 목표 미달분 채움. 오늘 HBM 1군 동반강세(하이닉스 +3.99/스퀘어 +4.12/전기 +2.27) 속 삼전만 약보합 = 최저확장 anchor 자리, 평단 352545 위 지지 유효한 약세 분할매수(mandate 정합). 약점: 삼전 단독 약보합은 회전둔화 가능성 잔존 + 종가 음전 미확정이라 소량 add 한정. 직전 add(6주->11주)와 별개 새 트리거=sector day2 확정. 손절: 전기전자 sector rotating_out 강등 OR HBM 1군(삼전·하이닉스) 일봉 종가 동반 음전 OR 레버ETF 거래대금 1·2위 동반 이탈(종가 OR 결합).",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "000660",
+        "qty": null,
+        "reason": "하이닉스 +3.99%(279만) 추격 부담, 1주 probe 유지. 증액 2차는 직전 일봉 저점권 retest 분할 OR KOSPI 종가 MA20(8230) 안착 확정 후 — 현재가는 그 자리에서 멀어 carry. 평단 228만 대비 +22% 익절권이나 테마 강화·sector leading 유효로 trim 사유 없음(지지선·테마 둘 다 미훼손).",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "032830",
+        "qty": null,
+        "reason": "금융/보험 value 분산 후보(삼성생명 +5.44/물산 +5.05)이나 watching day-1, promote gate(6-20+ 보험/금융 대형 2+ 양봉 carry + sector alpha 양전 + 거래대금 증가 2일 confirm) 미충족. 보험 vol 2556 보통권=자본 미확인, 1봉 점화 축적 미완. 승격 당일 신호 추격 회피, carry confirm 전 진입 보류. 익일 carry 점등 시 시드 정찰 재평가.",
+        "slot": "1230"
       }
     ],
     "realized_pnl_won": null,
@@ -2514,7 +2538,7 @@
         "name": "삼성전자"
       }
     ],
-    "trades_count": 1,
-    "unrealized_pnl_won": 740005
+    "trades_count": 2,
+    "unrealized_pnl_won": 565016
   }
 }
