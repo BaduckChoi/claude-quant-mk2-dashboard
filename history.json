@@ -2457,7 +2457,7 @@
     "strategist_brief": null,
     "themes": [
       {
-        "days_active": 4,
+        "days_active": 5,
         "entry_status": "중반",
         "leaders": [
           {
@@ -2479,35 +2479,11 @@
         ],
         "name": "AI 반도체/HBM",
         "strength_trend": "강화"
-      },
-      {
-        "days_active": 3,
-        "entry_status": "초입",
-        "leaders": [
-          {
-            "code": "",
-            "name": "HD현대중공업"
-          },
-          {
-            "code": "",
-            "name": "한화에어로스페이스"
-          },
-          {
-            "code": "",
-            "name": "현대로템"
-          },
-          {
-            "code": "",
-            "name": "퍼스텍"
-          }
-        ],
-        "name": "방산/조선 capex",
-        "strength_trend": "약화"
       }
     ],
     "top_movers": [],
     "traded_codes": [],
     "trades_count": 0,
-    "unrealized_pnl_won": 721000
+    "unrealized_pnl_won": 728000
   }
 }
