@@ -2498,6 +2498,30 @@
         "qty": null,
         "reason": "금융/보험 value 분산 후보(삼성생명 +5.44/물산 +5.05)이나 watching day-1, promote gate(6-20+ 보험/금융 대형 2+ 양봉 carry + sector alpha 양전 + 거래대금 증가 2일 confirm) 미충족. 보험 vol 2556 보통권=자본 미확인, 1봉 점화 축적 미완. 승격 당일 신호 추격 회피, carry confirm 전 진입 보류. 익일 carry 점등 시 시드 정찰 재평가.",
         "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "000660",
+        "qty": null,
+        "reason": "SK하이닉스 1주, 평가익 큼(229만->277만). HBM active 강화 day5, 전기전자 sector leading 유지(+3.25 alpha+0.70p, vol 전섹터1위), 하이닉스 오늘도 +3.31 종가권 양전. 손절 트리거(HBM 1군 일봉 종가 동반 음전 OR KOSPI 종가 MA20 8230 하회) 무근접. 테마 유효성·구조 양축 모두 견조해 winner trim 사유 없음. 1주 dead-size지만 최강테마 코어라 청산 아님. 다만 +21% extended 자리라 신규 추가는 추격이라 보류. carry.",
+        "slot": "1520"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "005930",
+        "qty": null,
+        "reason": "삼전 16주 anchor, 357500 평단 354874 위. 전기전자 sector leading day2 유지로 thesis 살아있음. 다만 오늘 삼전 -1.38% 단독 약세(하이닉스/스퀘어/전기 동반 양전 속 laggard) = add 의존축(sector day2)은 충족이나 종목 자체엔 fresh add 트리거 부재. 단독 약세 종목에 마지막 슬롯 같은 thesis 로 사이즈 더 얹는 건 새 트리거 없는 commitment 분산이라 보류. 손절축(sector rotating_out OR HBM 1군 종가 동반 음전 OR 레버ETF 거래대금 1·2위 이탈) 미점등, 테마 유효성도 유지(레버ETF 거래대금 1·2위 사수)라 trim 사유도 없음. 증액·정리 양쪽 다 무트리거 -> hold.",
+        "slot": "1520"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": null,
+        "qty": null,
+        "reason": "신규 0. HBM 신규 2종(402340/009150)은 기보유 660·5930 포함 N=3 도배가 되고 둘 다 갭상승 종가권이라 분산효과 없는 추격. 금융/보험 value(032830/028260/000810/138040)는 themes.json watching, promote 게이트가 '보험/금융 대형 2+ 양봉 carry+sector alpha 양전+거래대금 2일 confirm'으로 명시 2일 조건인데 오늘 day-1 단봉 점화(보험 vol 2556 자본 미확인, 증권/은행 미동조 = 보험 편중). theme_tracker·strategist 모두 '축적 미완, 정찰' 명시 = 본진 진입 게이트 미충족. 마지막 슬롯에 day-1 watching 바스켓 신규 진입은 게이트 선점+슬롯 몰빵이라 회피. value 게이트는 6-20 보험/금융 대형 2+ 종가 follow + sector alpha 양전 carry + 거래대금 증가 충족 시 그날 state 로 재유도해 시드 1차 평가(선약속 아님, 미충족 시 carry). 현재 가용 신호상 깨끗한 진입 없음 -> 현금 유지가 정합.",
+        "slot": "1520"
       }
     ],
     "realized_pnl_won": null,
@@ -2539,6 +2563,6 @@
       }
     ],
     "trades_count": 2,
-    "unrealized_pnl_won": 565016
+    "unrealized_pnl_won": 532016
   }
 }
