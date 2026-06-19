@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19 09:32:15",
+  "generated_at": "2026-06-19 09:35:37",
   "date": "20260619",
   "mode": "dry_run",
   "stats": {
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 4313000,
     "cash_remaining_won": 46792800,
-    "total_eval_won": 5041000,
-    "unrealized_pnl_won": 728000
+    "total_eval_won": 5037000,
+    "unrealized_pnl_won": 724000
   },
   "positions": [
     {
@@ -23,11 +23,11 @@
       "qty": 1,
       "avg_price": 2285000,
       "cost_won": 2285000,
-      "current_price": 2818000,
-      "change_rate": 4.95,
-      "eval_won": 2818000,
-      "pnl_won": 533000,
-      "pnl_pct": 23.326039387308533,
+      "current_price": 2820000,
+      "change_rate": 5.03,
+      "eval_won": 2820000,
+      "pnl_won": 535000,
+      "pnl_pct": 23.413566739606125,
       "thesis": "HBM cluster 진성 확인: 1군 4종 동반강세(삼전+12.88/하이닉스+8.76/삼성전기+8.75/SK스퀘어), 전기전자 sector 유일 outperform(+9.63%, 진성 vol19813). regime 조정후반 day1 = 어제 신규봉인->선별 분할진입 재개 green-light. SK하이닉스=HBM 핵심 core, 어제 dead-cat 국면 1군 중 유일 상대방어(-0.2%) 후 오늘 +8.76% = cluster 내 least-extended major leader(약화 leg 회피 아님, core 선택). 1주 probe=229만원(자본4.6%, full target 1000만원의 ~23%) = 분할진입 1차 확인도구. 갭 +8.76% 크므로 thesis강함×최소size×day1타이밍 grade로 size 최소화. 구조 손절: HBM 1군(삼전/하이닉스) 일봉 동반 종가 음전 OR KOSPI 종가 7763(6-11) 하회 = regime K 숏커버 회귀 thesis무효 -> 전량. 증액 2차: KOSPI 종가 8000(MA20) 안착 확정 + 익일 breadth 유지 follow 확인 후."
     },
     {
@@ -36,11 +36,11 @@
       "qty": 6,
       "avg_price": 338000,
       "cost_won": 2028000,
-      "current_price": 370500,
-      "change_rate": 2.21,
-      "eval_won": 2223000,
-      "pnl_won": 195000,
-      "pnl_pct": 9.615384615384617,
+      "current_price": 369500,
+      "change_rate": 1.93,
+      "eval_won": 2217000,
+      "pnl_won": 189000,
+      "pnl_pct": 9.319526627218936,
       "thesis": "분할진입 1차 probe. 삼성전자 종가 +4.81%, HBM 1군 중 최저변동 대형 코어. 전기전자 sector는 6-12 rotating_in→6-15 leading 2일 연속 outperform이라 순수 day1 아님, regime 추세장 강세(6-12 확정 8000 MA20 위 마감)와 동조 = green-light 분할 재개. thesis 강함 × 최소 size(203만, 자본4.1%) × day1 타이밍 grade. 갭 +4.81%는 후속 leg(삼성전기 +13.77/한켐 +17) 대비 최소이나, 동시에 강세신호 가장 약한 leg를 고른 방어 선택임을 인지 → 그래서 사이즈 최소화, 코어 anchor 목적. HBM 보유 N=2(SK하이닉스+삼전), 단일테마 비중 약8.6%로 cap 여유. 2차 증액: KOSPI 종가 8000 MA20 안착 확정 + 익일 breadth 유지 시 분할 추가. 구조 손절: HBM 1군 일봉 종가 동반 음전 OR KOSPI 종가 7763 하회 시 thesis 무효 정리."
     }
   ],
@@ -73,6 +73,6 @@
     "20260618",
     "20260619"
   ],
-  "strategist_brief": null,
+  "strategist_brief": "```json\n{\n  \"themes\": [\n    {\n      \"name\": \"AI 반도체/HBM\",\n      \"status\": \"active 강화\",\n      \"stance\": \"주도주 한정 소량 분할만, 후발 추격 금지\",\n      \"note\": \"regime 추세장 강세+confidence 높음 엔진. 전기전자 sector leading(vol 1위, KOSPI 3.3배). 양축(하이닉스/삼성전자) 동반 양전+레버ETF 거래대금 1·2위=진성주도. 이미 강세 굳음=신규는 주도주 소량.\"\n    },\n    {\n      \"name\": \"금융/보험 value 로테이션\",\n      \"status\": \"watching 점화 (분산 1순위 옵션)\",\n      \"stance\": \"주도 대형 한정 소액 분할, 익일 carry confirm 전 정찰\",\n      \"note\": \"보험 sector +5.80%(전섹터 최강 alpha rotating_in->leading 승격)+금융업 +3.27%(vol 2위). 삼성생명+8.74/삼성물산+11.84 대형 동반=잡주 아닌 정합. 단 보험 vol 보통권(자본 미확인)+증권/은행 미동조=보험 편중. 1봉 점화 축적 미완 — 정찰 비중.\"\n    },\n    {\n      \"name\": \"유통/내수 value\",\n      \"status\": \"rotating_in 약등급 (관찰)\",\n      \"stance\": \"추격 금지, 1봉 스파이크 follow 확인 전 보류\",\n      \"note\": \"유통업 +6.99% 전섹터 1위 alpha이나 1봉 단독+vol 보통=차익 가능성 대칭. 6-16 철강 1봉->차익 전례. follow 없으면 무효. 후보 미포함, 관찰만.\"\n    }\n  ],\n  \"candidates\": [\n    {\"code\": \"000660\", \"name\": \"SK하이닉스\", \"reason\": \"AI반도체/HBM 양축. +5.03% 시총2위, 레버ETF 거래대금 시장 1위. 주도 핵심. 추격 말고 분할 홀드/소량.\"},\n    {\"code\": \"005930\", \"name\": \"삼성전자\", \"reason\": \"AI반도체/HBM 양축. +2.14% 시총1위 지수 견인. 변동성 낮은 대형 분할 진입 코어.\"},\n    {\"code\": \"402340\", \"name\": \"SK스퀘어\", \"reason\": \"AI반도체/HBM. +9.65% 하이닉스 베타. 강도 큼=추격 위험, 소량 한정.\"},\n    {\"code\": \"009150\", \"name\": \"삼성전기\", \"reason\": \"AI반도체/HBM+MLCC 중복 견인. +6.14% 시총5위. 전장/AI서버 기판 수급. MLCC cluster 폭은 축소(삼화전자 단독).\"},\n    {\"code\": \"032830\", \"name\": \"삼성생명\", \"reason\": \"금융/보험 value 견인. +8.74% 시총7위. 금리/저PBR 로테이션 선봉. 분산 1순위 옵션.\"},\n    {\"code\": \"028260\", \"name\": \"삼성물산\", \"reason\": \"금융/보험 value 대형 동반. +11.84% 시총9위. value 로테이션 정합 신호.\"},\n    {\"code\": \"000810\", \"name\": \"삼성화재\", \"reason\": \"보험 sector leading 견인주. value 로테이션 분산. 삼성생명 동조 확인용.\"},\n    {\"code\": \"138040\", \"name\": \"메리츠금융\", \"reason\": \"금융업+보험 동조 leader. value 로테이션 폭 확산 체크. 소액 정찰.\"}\n  ],\n  \"notes\": \"오늘 후보 8개 중 4개(SK하이닉스/삼성전자/SK스퀘어/삼성전기)가 동일 AI반도체/HBM 테마 — portfolio 분산 관점에서 PM 자율 게이트 필요. breadth 협소(adv191/dec694, dec 3.6배)=대형 주도주 한정 장세라 후보 자체가 대형 편중 불가피. 분산용으로 금융/보험 value 4종(삼성생명/물산/화재/메리츠) 동반 제시 — 단 보험은 1봉 점화+vol 보통권이라 carry confirm 전 정찰 비중. AI반도체는 active 강화지만 이미 강세 굳음=신규는 주도주 소량 분할만. 유통(+6.99%)은 1봉 단독+follow 미확인이라 후보 제외, 관찰만. 코스닥 -1.27%(adv222/dec1444)=소형주 광범위 약세, 코스닥/소형 추격 금지.\"\n}\n```",
   "auditor_verdict": null
 }
