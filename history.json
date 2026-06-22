@@ -2565,11 +2565,28 @@
   },
   "20260622": {
     "auditor_verdict": null,
-    "buy_won": 0,
-    "buys": 0,
+    "buy_won": 2918000,
+    "buys": 1,
     "date": "2026-06-22",
     "open_positions": 2,
-    "pm_decisions": [],
+    "pm_decisions": [
+      {
+        "action": "buy",
+        "amount_won": 292,
+        "code": "000660",
+        "qty": 1,
+        "reason": "HBM active day5 강화 + 전기전자 sector leading day2(alpha+0.70p, vol 전섹터1위). SK하이닉스 오늘 +5.57% 최강 leg인데 보유 1주뿐 = 최강 leg 코어 미달. 강한 leader 소량 코어 1조각 추가(분할진입, 채우는 대상=최강 leg). 갭 +5.57% 종가권이라 1주(292만, 자본5.8%) 최소 size로 grade. 보유 2주 ~5.8M, full target 1000만 대비 여전 미달. 약점: +5.57% 갭이라 평단 상향, intraday extended. 완화: 최소 size·leader·구조 stop 유효. 구조 손절: HBM 1군(삼전·하이닉스) 일봉 종가 동반 음전 OR 전기전자 sector rotating_out 강등 OR KOSPI 종가 8000(MA20) 하회 = thesis 무효 전량. 증액 2차: KOSPI 종가 8000 안착 + 전기전자 leading 유지 익일 follow.",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "005930",
+        "qty": null,
+        "reason": "16주 ~11.5% 자본 목표권 근접, +1.13% 약강세, 손절 트리거(전기전자 rotating_out OR HBM 1군 종가 동반 음전 OR 레버ETF 거래대금 1·2위 동반 이탈) 무근접. HBM 코어는 최강 leg(하이닉스)로 채우고 삼전은 충분 비중이라 추가 안 함. 보유.",
+        "slot": "1230"
+      }
+    ],
     "realized_pnl_won": null,
     "sell_won": 0,
     "sells": 0,
@@ -2601,8 +2618,14 @@
       }
     ],
     "top_movers": [],
-    "traded_codes": [],
-    "trades_count": 0,
-    "unrealized_pnl_won": 466016
+    "traded_codes": [
+      {
+        "action": "buy",
+        "code": "000660",
+        "name": "SK하이닉스"
+      }
+    ],
+    "trades_count": 1,
+    "unrealized_pnl_won": 705016
   }
 }
