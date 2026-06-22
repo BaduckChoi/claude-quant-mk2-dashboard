@@ -2573,7 +2573,7 @@
     "realized_pnl_won": null,
     "sell_won": 0,
     "sells": 0,
-    "strategist_brief": null,
+    "strategist_brief": "[ERROR] claude rc=1: ",
     "themes": [
       {
         "days_active": 5,
@@ -2603,6 +2603,6 @@
     "top_movers": [],
     "traded_codes": [],
     "trades_count": 0,
-    "unrealized_pnl_won": 415016
+    "unrealized_pnl_won": 487016
   }
 }
