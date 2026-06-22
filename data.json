@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22 09:31:05",
+  "generated_at": "2026-06-22 09:35:05",
   "date": "20260622",
   "mode": "dry_run",
   "stats": {
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 7962984,
     "cash_remaining_won": 43142816,
-    "total_eval_won": 8378000,
-    "unrealized_pnl_won": 415016
+    "total_eval_won": 8450000,
+    "unrealized_pnl_won": 487016
   },
   "positions": [
     {
@@ -23,11 +23,11 @@
       "qty": 1,
       "avg_price": 2285000,
       "cost_won": 2285000,
-      "current_price": 2810000,
-      "change_rate": 1.66,
-      "eval_won": 2810000,
-      "pnl_won": 525000,
-      "pnl_pct": 22.975929978118163,
+      "current_price": 2842000,
+      "change_rate": 2.82,
+      "eval_won": 2842000,
+      "pnl_won": 557000,
+      "pnl_pct": 24.376367614879648,
       "thesis": "HBM cluster 진성 확인: 1군 4종 동반강세(삼전+12.88/하이닉스+8.76/삼성전기+8.75/SK스퀘어), 전기전자 sector 유일 outperform(+9.63%, 진성 vol19813). regime 조정후반 day1 = 어제 신규봉인->선별 분할진입 재개 green-light. SK하이닉스=HBM 핵심 core, 어제 dead-cat 국면 1군 중 유일 상대방어(-0.2%) 후 오늘 +8.76% = cluster 내 least-extended major leader(약화 leg 회피 아님, core 선택). 1주 probe=229만원(자본4.6%, full target 1000만원의 ~23%) = 분할진입 1차 확인도구. 갭 +8.76% 크므로 thesis강함×최소size×day1타이밍 grade로 size 최소화. 구조 손절: HBM 1군(삼전/하이닉스) 일봉 동반 종가 음전 OR KOSPI 종가 7763(6-11) 하회 = regime K 숏커버 회귀 thesis무효 -> 전량. 증액 2차: KOSPI 종가 8000(MA20) 안착 확정 + 익일 breadth 유지 follow 확인 후."
     },
     {
@@ -36,11 +36,11 @@
       "qty": 16,
       "avg_price": 354874,
       "cost_won": 5677984,
-      "current_price": 348000,
-      "change_rate": -1.69,
-      "eval_won": 5568000,
-      "pnl_won": -109984,
-      "pnl_pct": -1.9370255358239825,
+      "current_price": 350500,
+      "change_rate": -0.99,
+      "eval_won": 5608000,
+      "pnl_won": -69984,
+      "pnl_pct": -1.2325501445583504,
       "thesis": "삼전 anchor 코어 분할 축적. HBM active 강화 day5 + 전기전자 sector leading day2(신규 트리거, alpha +0.70p·vol 전섹터 1위) + 레버ETF 거래대금 1·2위 유효 = add 의존축 충족(breadth 아닌 작동축 게이트). 11주->16주, 자본 약11.5%로 목표 미달분 채움. 오늘 HBM 1군 동반강세(하이닉스 +3.99/스퀘어 +4.12/전기 +2.27) 속 삼전만 약보합 = 최저확장 anchor 자리, 평단 352545 위 지지 유효한 약세 분할매수(mandate 정합). 약점: 삼전 단독 약보합은 회전둔화 가능성 잔존 + 종가 음전 미확정이라 소량 add 한정. 직전 add(6주->11주)와 별개 새 트리거=sector day2 확정. 손절: 전기전자 sector rotating_out 강등 OR HBM 1군(삼전·하이닉스) 일봉 종가 동반 음전 OR 레버ETF 거래대금 1·2위 동반 이탈(종가 OR 결합)."
     }
   ],
@@ -74,6 +74,6 @@
     "20260619",
     "20260622"
   ],
-  "strategist_brief": null,
+  "strategist_brief": "[ERROR] claude rc=1: ",
   "auditor_verdict": null
 }
