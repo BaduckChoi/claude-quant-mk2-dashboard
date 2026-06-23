@@ -2704,11 +2704,27 @@
         "qty": null,
         "reason": "KB금융 -0.41% 보합, risk-off 음봉장 단독 방어 = 금융업 sector leading·value 로테이션 축 견조, thesis 유효. 2차 add 트리거는 '금융업 leading 유지+보험·금융 alpha 양전 익일 종가 confirm'이라 일중 미점등 → 홀드, add 0. 신규 value 진입도 breadth 붕괴·후보 일중 분화로 보류, 익일 종가 confirm 후 재평가.",
         "slot": "1230"
+      },
+      {
+        "action": "sell",
+        "amount_won": 62,
+        "code": "105560",
+        "qty": 4,
+        "reason": "KB 1차 probe 1/2 정리(9->5주). 진입축 'value 로테이션=음봉장 유일 강세축'이 종가에서 무효화: value 바스켓 전면 음전(삼성물산 -10.96%, 신세계 -7.08%, 삼성화재 -5.99%, 삼성생명 -4.77%) = 피난처 역할 실패. 은행지주 leg(KB -2.04%, 신한 -0.41%)는 상대 방어라 본질 깨짐 아닌 약화 -> 전량 아닌 1/2. 잔량 5주 구조 stop: 직전 일봉 저점권 종가 이탈 OR 금융업 sector rotating_out 강등 시 정리, 트리거 미점등 전엔 carry. breadth 붕괴+thesis 약화로 추가매수 없음.",
+        "slot": "1520"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": null,
+        "qty": null,
+        "reason": "신규 value 후보(삼성생명/화재/신한/메리츠/물산/신세계/이마트) 전부 보류. strategist 아침 스냅샷은 value +4~7% 강세이나 live 종가는 동일 종목 -1~11% 전면 음전 = 진입 근거(sector leading/value 피난처)가 종가에서 반증됨. 깨지는 축 위로 신규 진입 부적합. 익일 sector tracker 갱신으로 금융/보험 leading 유지 여부 재확인 후 판단.",
+        "slot": "1520"
       }
     ],
-    "realized_pnl_won": -159000,
-    "sell_won": 10722000,
-    "sells": 2,
+    "realized_pnl_won": -189400,
+    "sell_won": 11337200,
+    "sells": 3,
     "strategist_brief": "```json\n{\n  \"themes\": [\n    {\n      \"name\": \"금융/보험 value 로테이션\",\n      \"stance\": \"주력 (오늘 유일 강세 축)\",\n      \"entry\": \"선별·소량 분할만, 추격 금지\",\n      \"note\": \"risk-off 음봉장(KOSPI -1.33%, breadth adv149/dec735) 자금 피난처. 보험 sector +4.53% alpha+6.71p, 금융업 +2.60% vol 전섹터 2위 = 가격 alpha+자본유입 동시 확인. 단 삼성생명 +7.33% 가속 후 과열성, 추격 금지·분할만.\"\n    },\n    {\n      \"name\": \"유통/내수 value (분산 옵션)\",\n      \"stance\": \"보조 (value 동일 축, 분산용)\",\n      \"entry\": \"소액 분할, promote 미확정 watching급\",\n      \"note\": \"유통업 rotating_in 2일 alpha 양전 follow. 단 절대등락 +0.89% 소폭, vol 보통권. 금융 쏠림 분산 목적으로 1~2 후보만 제공.\"\n    },\n    {\n      \"name\": \"AI반도체/HBM\",\n      \"stance\": \"신규 금지 (후보 제외)\",\n      \"entry\": \"신규 진입 안 함\",\n      \"note\": \"약화·entry 후반. 대형 동반 음전(삼성전기 -6.24%, 삼성전자 -2.69%). value 로테이션 자금 이탈처. SK스퀘어 +7.16% 역행은 지주 NAV 별개 이슈 — 테마 강세로 오독 금지. 후보에서 뺌.\"\n    }\n  ],\n  \"candidates\": [\n    {\"code\": \"032830\", \"name\": \"삼성생명\", \"reason\": \"보험 leading 견인주 +7.33%. value 로테이션 핵심이나 단일봉 과열 — 신규는 분할 소량, 추격 금지. 되돌림 시 분할 진입 우선순위.\"},\n    {\"code\": \"000810\", \"name\": \"삼성화재\", \"reason\": \"보험 sector leading(days2, alpha+6.71p) 동반주. 삼성생명 과열 대비 상대적 추격부담 낮음. 분할 진입 후보.\"},\n    {\"code\": \"105560\", \"name\": \"KB금융\", \"reason\": \"금융업 leading 승격 주도주. vol 전섹터 2위=자본유입 확인된 유일 축. 은행지주 value 코어, 분할.\"},\n    {\"code\": \"055550\", \"name\": \"신한지주\", \"reason\": \"금융업 leading 동반. KB와 함께 은행지주 로테이션 폭 확인용. 분할 소량.\"},\n    {\"code\": \"138040\", \"name\": \"메리츠금융\", \"reason\": \"보험+금융 양쪽 leaders 중첩. value 로테이션 강도 확인 보조.\"},\n    {\"code\": \"028260\", \"name\": \"삼성물산\", \"reason\": \"+3.08% 대형 견인, value/내수 방어 축. 금융 외 분산 옵션.\"},\n    {\"code\": \"004170\", \"name\": \"신세계\", \"reason\": \"유통업 rotating_in 주도주. 금융 쏠림 분산용 내수 value 옵션. 소액·promote 확인 전 소량.\"},\n    {\"code\": \"139480\", \"name\": \"이마트\", \"reason\": \"유통/내수 value follow-through. 분산 옵션. 절대강도 약함 — watching급 소량만.\"}\n  ],\n  \"notes\": \"쏠림 경고: 후보 8개 중 6개(삼성생명·삼성화재·KB금융·신한지주·메리츠금융·삼성물산)가 동일 금융/보험 value 축. 오늘 risk-off 음봉장에서 value 로테이션이 시장 유일 강세 축이라 의도적 집중이나, PM은 portfolio-level 분산 게이트 켜고 단일 테마 도배 경계할 것. 유통(신세계·이마트) 2개는 동일 value 축 내 industry 분산 옵션으로 추가. 거시: regime 추세장 강세지만 confidence 보통 강등+breadth 붕괴(adv/dec 0.20)+미장 risk-off = 신규 보수, 선별·소량 분할만. 추격매수 금지, 삼성생명류 +7% 가속주는 되돌림 대기 우선. 제약바이오 소형주(JW신약·조아제약 등) 급등은 저가 단타성·wrap 부적합으로 후보 제외(theme_tracker watching 유지). max_positions 5라 8후보 중 PM이 분산·과열 기준 선별.\"\n}\n```\n\nCaveman summary: Value 로테이션 유일 강세 축. 후보 8 = 금융/보험 6 + 유통 2. 쏠림 명시함 — PM 분산 게이트 켜라. 반도체 신규 금지(약화·후반), 후보서 뺌. 제약 소형주 단타성, 제외. 전부 분할·소량·추격금지. 삼성생명 +7% 과열, 되돌림 대기.",
     "themes": [
       {
@@ -2775,6 +2791,11 @@
         "realized_pnl_won": 211000
       },
       {
+        "code": "105560",
+        "name": "KB금융",
+        "realized_pnl_won": -30400
+      },
+      {
         "code": "005930",
         "name": "삼성전자",
         "realized_pnl_won": -370000
@@ -2797,7 +2818,7 @@
         "name": "SK하이닉스"
       }
     ],
-    "trades_count": 3,
-    "unrealized_pnl_won": -47700
+    "trades_count": 4,
+    "unrealized_pnl_won": -38000
   }
 }
