@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23 09:26:16",
+  "generated_at": "2026-06-23 09:32:57",
   "date": "20260623",
   "mode": "dry_run",
   "stats": {
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 10880984,
     "cash_remaining_won": 40224816,
-    "total_eval_won": 11168000,
-    "unrealized_pnl_won": 287016
+    "total_eval_won": 11251000,
+    "unrealized_pnl_won": 370016
   },
   "positions": [
     {
@@ -23,11 +23,11 @@
       "qty": 2,
       "avg_price": 2601500,
       "cost_won": 5203000,
-      "current_price": 2860000,
-      "change_rate": -2.02,
-      "eval_won": 5720000,
-      "pnl_won": 517000,
-      "pnl_pct": 9.936575052854122,
+      "current_price": 2873500,
+      "change_rate": -1.56,
+      "eval_won": 5747000,
+      "pnl_won": 544000,
+      "pnl_pct": 10.455506438593119,
       "thesis": "HBM active day5 강화 + 전기전자 sector leading day2(alpha+0.70p, vol 전섹터1위). SK하이닉스 오늘 +5.57% 최강 leg인데 보유 1주뿐 = 최강 leg 코어 미달. 강한 leader 소량 코어 1조각 추가(분할진입, 채우는 대상=최강 leg). 갭 +5.57% 종가권이라 1주(292만, 자본5.8%) 최소 size로 grade. 보유 2주 ~5.8M, full target 1000만 대비 여전 미달. 약점: +5.57% 갭이라 평단 상향, intraday extended. 완화: 최소 size·leader·구조 stop 유효. 구조 손절: HBM 1군(삼전·하이닉스) 일봉 종가 동반 음전 OR 전기전자 sector rotating_out 강등 OR KOSPI 종가 8000(MA20) 하회 = thesis 무효 전량. 증액 2차: KOSPI 종가 8000 안착 + 전기전자 leading 유지 익일 follow."
     },
     {
@@ -36,11 +36,11 @@
       "qty": 16,
       "avg_price": 354874,
       "cost_won": 5677984,
-      "current_price": 340500,
-      "change_rate": -3.68,
-      "eval_won": 5448000,
-      "pnl_won": -229984,
-      "pnl_pct": -4.050451709620879,
+      "current_price": 344000,
+      "change_rate": -2.69,
+      "eval_won": 5504000,
+      "pnl_won": -173984,
+      "pnl_pct": -3.064186161848994,
       "thesis": "삼전 anchor 코어 분할 축적. HBM active 강화 day5 + 전기전자 sector leading day2(신규 트리거, alpha +0.70p·vol 전섹터 1위) + 레버ETF 거래대금 1·2위 유효 = add 의존축 충족(breadth 아닌 작동축 게이트). 11주->16주, 자본 약11.5%로 목표 미달분 채움. 오늘 HBM 1군 동반강세(하이닉스 +3.99/스퀘어 +4.12/전기 +2.27) 속 삼전만 약보합 = 최저확장 anchor 자리, 평단 352545 위 지지 유효한 약세 분할매수(mandate 정합). 약점: 삼전 단독 약보합은 회전둔화 가능성 잔존 + 종가 음전 미확정이라 소량 add 한정. 직전 add(6주->11주)와 별개 새 트리거=sector day2 확정. 손절: 전기전자 sector rotating_out 강등 OR HBM 1군(삼전·하이닉스) 일봉 종가 동반 음전 OR 레버ETF 거래대금 1·2위 동반 이탈(종가 OR 결합)."
     }
   ],
