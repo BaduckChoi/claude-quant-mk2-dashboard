@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-06-23 09:35:41",
+  "generated_at": "2026-06-23 09:42:34",
   "date": "20260623",
   "mode": "dry_run",
   "stats": {
-    "open_positions": 2,
-    "trades_count": 0,
-    "buys": 0,
+    "open_positions": 3,
+    "trades_count": 1,
+    "buys": 1,
     "sells": 0,
-    "buy_won": 0,
+    "buy_won": 1452600,
     "sell_won": 0,
     "realized_pnl_won": null,
     "capital_won": 50000000,
-    "deployed_won": 10880984,
-    "cash_remaining_won": 40224816,
-    "total_eval_won": 11200000,
-    "unrealized_pnl_won": 319016
+    "deployed_won": 12333584,
+    "cash_remaining_won": 38772216,
+    "total_eval_won": 12725100,
+    "unrealized_pnl_won": 391516
   },
   "positions": [
     {
@@ -23,11 +23,11 @@
       "qty": 2,
       "avg_price": 2601500,
       "cost_won": 5203000,
-      "current_price": 2856000,
-      "change_rate": -2.16,
-      "eval_won": 5712000,
-      "pnl_won": 509000,
-      "pnl_pct": 9.782817605227754,
+      "current_price": 2878000,
+      "change_rate": -1.4,
+      "eval_won": 5756000,
+      "pnl_won": 553000,
+      "pnl_pct": 10.628483567172784,
       "thesis": "HBM active day5 강화 + 전기전자 sector leading day2(alpha+0.70p, vol 전섹터1위). SK하이닉스 오늘 +5.57% 최강 leg인데 보유 1주뿐 = 최강 leg 코어 미달. 강한 leader 소량 코어 1조각 추가(분할진입, 채우는 대상=최강 leg). 갭 +5.57% 종가권이라 1주(292만, 자본5.8%) 최소 size로 grade. 보유 2주 ~5.8M, full target 1000만 대비 여전 미달. 약점: +5.57% 갭이라 평단 상향, intraday extended. 완화: 최소 size·leader·구조 stop 유효. 구조 손절: HBM 1군(삼전·하이닉스) 일봉 종가 동반 음전 OR 전기전자 sector rotating_out 강등 OR KOSPI 종가 8000(MA20) 하회 = thesis 무효 전량. 증액 2차: KOSPI 종가 8000 안착 + 전기전자 leading 유지 익일 follow."
     },
     {
@@ -36,16 +36,69 @@
       "qty": 16,
       "avg_price": 354874,
       "cost_won": 5677984,
-      "current_price": 343000,
-      "change_rate": -2.97,
-      "eval_won": 5488000,
-      "pnl_won": -189984,
-      "pnl_pct": -3.3459763183552473,
+      "current_price": 344500,
+      "change_rate": -2.55,
+      "eval_won": 5512000,
+      "pnl_won": -165984,
+      "pnl_pct": -2.923291083595868,
       "thesis": "삼전 anchor 코어 분할 축적. HBM active 강화 day5 + 전기전자 sector leading day2(신규 트리거, alpha +0.70p·vol 전섹터 1위) + 레버ETF 거래대금 1·2위 유효 = add 의존축 충족(breadth 아닌 작동축 게이트). 11주->16주, 자본 약11.5%로 목표 미달분 채움. 오늘 HBM 1군 동반강세(하이닉스 +3.99/스퀘어 +4.12/전기 +2.27) 속 삼전만 약보합 = 최저확장 anchor 자리, 평단 352545 위 지지 유효한 약세 분할매수(mandate 정합). 약점: 삼전 단독 약보합은 회전둔화 가능성 잔존 + 종가 음전 미확정이라 소량 add 한정. 직전 add(6주->11주)와 별개 새 트리거=sector day2 확정. 손절: 전기전자 sector rotating_out 강등 OR HBM 1군(삼전·하이닉스) 일봉 종가 동반 음전 OR 레버ETF 거래대금 1·2위 동반 이탈(종가 OR 결합)."
+    },
+    {
+      "code": "105560",
+      "name": "KB금융",
+      "qty": 9,
+      "avg_price": 161400,
+      "cost_won": 1452600,
+      "current_price": 161900,
+      "change_rate": 3.12,
+      "eval_won": 1457100,
+      "pnl_won": 4500,
+      "pnl_pct": 0.30978934324659235,
+      "thesis": "KB금융 1차 probe(자본 2.9%, 161400×9). value 로테이션=risk-off 음봉장 유일 강세축, 금융업 sector leading day1 + vol 전섹터 2위(가격 alpha+4.78p AND 자본유입 동시확인 유일 sector). 보험은 alpha 강하나 vol 약(자본 미확인)이라 KB가 의존축 더 강함 — 최저갭 선택 아님. 후보 6종 동일 금융/보험 게이트라 1 leg 만 집행(같은 베팅 분할 회피). gap +2.8% modest, 삼성생명 +6.55% 가속주 추격 제외. risk-off+confidence 보통이라 소량 1차. 잔여시드: 금융업 leading 유지+보험·금융 alpha 양전 익일 종가 confirm 시 2차, alpha 2일 음전 시 폐기. 약점: breadth 붕괴 국면 신규라 사이즈 최소화로 한정."
     }
   ],
-  "trades": [],
-  "pm_decisions": [],
+  "trades": [
+    {
+      "ts": "2026-06-23T09:42:34",
+      "cycle_id": "20260623-0940",
+      "action": "buy",
+      "code": "105560",
+      "name": "KB금융",
+      "qty": 9,
+      "price": 161400,
+      "amount_won": 1452600,
+      "reason": "KB금융 1차 probe(자본 2.9%, 161400×9). value 로테이션=risk-off 음봉장 유일 강세축, 금융업 sector leading day1 + vol 전섹터 2위(가격 alpha+4.78p AND 자본유입 동시확인 유일 sector). 보험은 alpha 강하나 vol 약(자본 미확인)이라 KB가 의존축 더 강함 — 최저갭 선택 아님. 후보 6종 동일 금융/보험 게이트라 1 leg 만 집행(같은 베팅 분할 회피). gap +2.8% modest, 삼성생명 +6.55% 가속주 추격 제외. risk-off+confidence 보통이라 소량 1차. 잔여시드: 금융업 leading 유지+보험·금융 alpha 양전 익일 종가 confirm 시 2차, alpha 2일 음전 시 폐기. 약점: breadth 붕괴 국면 신규라 사이즈 최소화로 한정.",
+      "dry_run": true,
+      "order_no": "",
+      "realized_pnl_won": null
+    }
+  ],
+  "pm_decisions": [
+    {
+      "slot": "0940",
+      "action": "buy",
+      "code": "105560",
+      "amount_won": 145,
+      "qty": 9,
+      "reason": "KB금융 1차 probe(자본 2.9%, 161400×9). value 로테이션=risk-off 음봉장 유일 강세축, 금융업 sector leading day1 + vol 전섹터 2위(가격 alpha+4.78p AND 자본유입 동시확인 유일 sector). 보험은 alpha 강하나 vol 약(자본 미확인)이라 KB가 의존축 더 강함 — 최저갭 선택 아님. 후보 6종 동일 금융/보험 게이트라 1 leg 만 집행(같은 베팅 분할 회피). gap +2.8% modest, 삼성생명 +6.55% 가속주 추격 제외. risk-off+confidence 보통이라 소량 1차. 잔여시드: 금융업 leading 유지+보험·금융 alpha 양전 익일 종가 confirm 시 2차, alpha 2일 음전 시 폐기. 약점: breadth 붕괴 국면 신규라 사이즈 최소화로 한정."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "000660",
+      "amount_won": null,
+      "qty": null,
+      "reason": "HBM 테마 strength 약화 강등+entry 후반=유효성 축 점등으로 부분정리 검토 발동. 검토결과 hold: 전기전자 sector leading 유지(alpha 음전 1일=noise, vol 전섹터 1위 자본 위축 미발생, sector_tracker 강등보류)+레버ETF 거래대금 1위 사수=의존축 유효, regime 추세장 day6. 약화이나 본질 미붕괴. 평단(평가익) 매도 변수 아님. 정리 trigger: HBM 1군(삼전·하이닉스) 일봉 종가 2일 연속 동반 음전 OR 전기전자 rotating_out 강등 OR 레버ETF 거래대금 1위 상실(종가/state 기준, OR) → 전량 검토. add 없음(regime 추가매수 일시중단)."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "005930",
+      "amount_won": null,
+      "qty": null,
+      "reason": "삼성전자 anchor 16주. 하이닉스와 동일 HBM 테마·동일 의존축(전기전자 leading+레버 거래대금 1위)이라 동일 thesis→동일 action. 평가손이라 다르게 처리하면 disposition이므로 하이닉스와 같은 근거로 hold. 유효성 축 점등 검토했으나 sector leading 유지+레버 1위 사수로 의존축 유효. add 보류=regime breadth 붕괴 추가매수 일시중단(thesis 의존축은 살아있으나 시장 게이트가 신규자금 차단). 정리 trigger: 1군 종가 2일 동반 음전 OR 전기전자 rotating_out OR 레버 거래대금 1위 이탈."
+    }
+  ],
   "calendar_dates": [
     "20260511",
     "20260512",
