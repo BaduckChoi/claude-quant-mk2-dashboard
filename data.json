@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-06-23 12:31:18",
+  "generated_at": "2026-06-23 15:21:34",
   "date": "20260623",
   "mode": "dry_run",
   "stats": {
     "open_positions": 1,
-    "trades_count": 3,
+    "trades_count": 4,
     "buys": 1,
-    "sells": 2,
+    "sells": 3,
     "buy_won": 1452600,
-    "sell_won": 10722000,
-    "realized_pnl_won": -159000,
+    "sell_won": 11337200,
+    "realized_pnl_won": -189400,
     "capital_won": 50000000,
-    "deployed_won": 1452600,
-    "cash_remaining_won": 49494200,
-    "total_eval_won": 1404900,
-    "unrealized_pnl_won": -47700
+    "deployed_won": 807000,
+    "cash_remaining_won": 50109400,
+    "total_eval_won": 769000,
+    "unrealized_pnl_won": -38000
   },
   "positions": [
     {
       "code": "105560",
       "name": "KB금융",
-      "qty": 9,
+      "qty": 5,
       "avg_price": 161400,
-      "cost_won": 1452600,
-      "current_price": 156100,
-      "change_rate": -0.57,
-      "eval_won": 1404900,
-      "pnl_won": -47700,
-      "pnl_pct": -3.2837670384138784,
+      "cost_won": 807000,
+      "current_price": 153800,
+      "change_rate": -2.04,
+      "eval_won": 769000,
+      "pnl_won": -38000,
+      "pnl_pct": -4.708798017348203,
       "thesis": "KB금융 1차 probe(자본 2.9%, 161400×9). value 로테이션=risk-off 음봉장 유일 강세축, 금융업 sector leading day1 + vol 전섹터 2위(가격 alpha+4.78p AND 자본유입 동시확인 유일 sector). 보험은 alpha 강하나 vol 약(자본 미확인)이라 KB가 의존축 더 강함 — 최저갭 선택 아님. 후보 6종 동일 금융/보험 게이트라 1 leg 만 집행(같은 베팅 분할 회피). gap +2.8% modest, 삼성생명 +6.55% 가속주 추격 제외. risk-off+confidence 보통이라 소량 1차. 잔여시드: 금융업 leading 유지+보험·금융 alpha 양전 익일 종가 confirm 시 2차, alpha 2일 음전 시 폐기. 약점: breadth 붕괴 국면 신규라 사이즈 최소화로 한정."
     }
   ],
@@ -75,6 +75,21 @@
       "order_no": "",
       "avg_cost": 2601500,
       "realized_pnl_won": 211000
+    },
+    {
+      "ts": "2026-06-23T15:21:34",
+      "cycle_id": "20260623-1520",
+      "action": "sell",
+      "code": "105560",
+      "name": "KB금융",
+      "qty": 4,
+      "price": 153800,
+      "amount_won": 615200,
+      "reason": "KB 1차 probe 1/2 정리(9->5주). 진입축 'value 로테이션=음봉장 유일 강세축'이 종가에서 무효화: value 바스켓 전면 음전(삼성물산 -10.96%, 신세계 -7.08%, 삼성화재 -5.99%, 삼성생명 -4.77%) = 피난처 역할 실패. 은행지주 leg(KB -2.04%, 신한 -0.41%)는 상대 방어라 본질 깨짐 아닌 약화 -> 전량 아닌 1/2. 잔량 5주 구조 stop: 직전 일봉 저점권 종가 이탈 OR 금융업 sector rotating_out 강등 시 정리, 트리거 미점등 전엔 carry. breadth 붕괴+thesis 약화로 추가매수 없음.",
+      "dry_run": true,
+      "order_no": "",
+      "avg_cost": 161400,
+      "realized_pnl_won": -30400
     }
   ],
   "pm_decisions": [
@@ -125,6 +140,22 @@
       "amount_won": null,
       "qty": null,
       "reason": "KB금융 -0.41% 보합, risk-off 음봉장 단독 방어 = 금융업 sector leading·value 로테이션 축 견조, thesis 유효. 2차 add 트리거는 '금융업 leading 유지+보험·금융 alpha 양전 익일 종가 confirm'이라 일중 미점등 → 홀드, add 0. 신규 value 진입도 breadth 붕괴·후보 일중 분화로 보류, 익일 종가 confirm 후 재평가."
+    },
+    {
+      "slot": "1520",
+      "action": "sell",
+      "code": "105560",
+      "amount_won": 62,
+      "qty": 4,
+      "reason": "KB 1차 probe 1/2 정리(9->5주). 진입축 'value 로테이션=음봉장 유일 강세축'이 종가에서 무효화: value 바스켓 전면 음전(삼성물산 -10.96%, 신세계 -7.08%, 삼성화재 -5.99%, 삼성생명 -4.77%) = 피난처 역할 실패. 은행지주 leg(KB -2.04%, 신한 -0.41%)는 상대 방어라 본질 깨짐 아닌 약화 -> 전량 아닌 1/2. 잔량 5주 구조 stop: 직전 일봉 저점권 종가 이탈 OR 금융업 sector rotating_out 강등 시 정리, 트리거 미점등 전엔 carry. breadth 붕괴+thesis 약화로 추가매수 없음."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": null,
+      "amount_won": null,
+      "qty": null,
+      "reason": "신규 value 후보(삼성생명/화재/신한/메리츠/물산/신세계/이마트) 전부 보류. strategist 아침 스냅샷은 value +4~7% 강세이나 live 종가는 동일 종목 -1~11% 전면 음전 = 진입 근거(sector leading/value 피난처)가 종가에서 반증됨. 깨지는 축 위로 신규 진입 부적합. 익일 sector tracker 갱신으로 금융/보험 leading 유지 여부 재확인 후 판단."
     }
   ],
   "calendar_dates": [
