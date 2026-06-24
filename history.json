@@ -2824,7 +2824,7 @@
     "buy_won": 0,
     "buys": 0,
     "date": "2026-06-24",
-    "open_positions": 1,
+    "open_positions": 0,
     "pm_decisions": [
       {
         "action": "hold",
@@ -2857,11 +2857,43 @@
         "qty": null,
         "reason": "유통 신규 보류. 후보 cluster 오늘 동반양봉 아님: 신세계 +0.3%/이마트 -1.97%/롯데 -3.14%=결속 미확인, 단독 강세는 테마 아님. regime 조정 day1 신규 중단, breadth 선별하락. 승격 게이트(유통 대형 2+ 양봉+vol 4천+) 미충족. 추격 금지.",
         "slot": "1230"
+      },
+      {
+        "action": "sell",
+        "amount_won": null,
+        "code": "105560",
+        "qty": 5,
+        "reason": "진입 전제(value=risk-off 유일 강세축) 반증. 오늘 risk-on 복귀로 금융업 sector -2.23%(alpha-4.14p)+보험 alpha-1.94p 동반 underperform=value haven 자금 이탈, theme_tracker value로테이션 약화. sector leading 라벨은 carry-over 대칭잔존일뿐 trend 약화. 피난처 thesis falsify=테마 유효성 축 break, 평단 무관 정리. 전량 5주 152800 청산.",
+        "slot": "1520"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "004170",
+        "qty": null,
+        "reason": "유통 cluster 동반 양봉 미확인: 신세계 +2.38% 단독, 이마트 -0.49%/롯데쇼핑 -1.37% 음전. 단독강세=테마아님. 유통 watching 미승격(vol3108<게이트4천). regime 조정 day1 신규중단. 진입 보류.",
+        "slot": "1520"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "139480",
+        "qty": null,
+        "reason": "이마트 -0.49% 음전, cluster 미동반. 보류.",
+        "slot": "1520"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "023530",
+        "qty": null,
+        "reason": "롯데쇼핑 -1.37% 음전, cluster 미동반. 보류.",
+        "slot": "1520"
       }
     ],
-    "realized_pnl_won": null,
-    "sell_won": 0,
-    "sells": 0,
+    "realized_pnl_won": -43000,
+    "sell_won": 764000,
+    "sells": 1,
     "strategist_brief": "```json\n{\n  \"themes\": [\n    {\n      \"name\": \"유통/내수 value\",\n      \"stance\": \"관찰 후 소액 분할\",\n      \"leaders\": [\"신세계\", \"이마트\", \"롯데쇼핑\"],\n      \"note\": \"오늘 후보 풀 핵심축. risk-on 반등장에서 보험/금융 value 음전했는데 유통업 단독 +4.35%(alpha+2.44p) 3일 연속 = value 동조 아닌 독립 내수 모멘텀. 추격 tech 반등과 디커플링이라 조정 day1 국면에서 그나마 깨끗한 신호. 단 vol 3108 보통권=대규모 자본 미확인, 승격 전. 소액 분할만, 추격 금지.\"\n    },\n    {\n      \"name\": \"AI 반도체/HBM\",\n      \"stance\": \"기보유 홀드, 신규 금지\",\n      \"leaders\": [\"삼성전자\", \"SK하이닉스\"],\n      \"note\": \"삼성전자 +9.52% 단일봉 과열. regime 조정 day1 반등이 숏커버/데드캣 미확정 + 인버스2X 거래대금 동반 상위(양방향 베팅)=일방 강세 아님. 추격 절대 금지. 후보 풀에 신규 진입용으로 안 넣음 — 기보유만 홀드.\"\n    }\n  ],\n  \"candidates\": [\n    {\n      \"code\": \"004170\",\n      \"name\": \"신세계\",\n      \"reason\": \"유통업 rotating_in 대표주. value 디커플링 독립 내수 강세 3일. 조정 day1라 풀포지션 금지, 1/3 이하 분할 시작 후보. 지지선 이탈 시 즉시 중단.\"\n    },\n    {\n      \"code\": \"139480\",\n      \"name\": \"이마트\",\n      \"reason\": \"유통 leaders. 신세계와 동일 내수축, 분산용. 추격 아닌 눌림 분할만.\"\n    },\n    {\n      \"code\": \"023530\",\n      \"name\": \"롯데쇼핑\",\n      \"reason\": \"유통 cluster 3번째. 테마 결속 확인용 보조 후보. 단독 강세는 테마 아님 — cluster 동반 양봉 확인 후.\"\n    }\n  ],\n  \"notes\": \"regime 조정 진입 day1, confidence 보통, 신규 사실상 중단 국면. 오늘 brief 기조 = 관망 우위. tech 반등은 데드캣 미확정이라 후보 풀에서 의도적 제외(기보유 홀드만). 신규 진입 후보는 유통/내수 value 단일 테마 3종목으로 한정 — 다른 살아있는 독립 테마가 사실상 없어 분산 옵션 부족. PM 은 (a)portfolio 단일테마 쏠림 경계, (b)전체 신규를 1~2종목 소액 분할로 제한, (c)8200 KOSPI 확정봉 저점 사수 실패 시 신규 전면 보류를 디폴트로. 6-24 확정봉이 데드캣인지 진짜 저점인지가 내일 분기 핵심.\"\n}\n```",
     "themes": [
       {
@@ -2921,9 +2953,21 @@
         "strength_trend": "약화"
       }
     ],
-    "top_movers": [],
-    "traded_codes": [],
-    "trades_count": 0,
-    "unrealized_pnl_won": -47500
+    "top_movers": [
+      {
+        "code": "105560",
+        "name": "KB금융",
+        "realized_pnl_won": -43000
+      }
+    ],
+    "traded_codes": [
+      {
+        "action": "sell",
+        "code": "105560",
+        "name": "KB금융"
+      }
+    ],
+    "trades_count": 1,
+    "unrealized_pnl_won": null
   }
 }
