@@ -2832,20 +2832,20 @@
     "strategist_brief": null,
     "themes": [
       {
-        "days_active": 6,
+        "days_active": 7,
         "entry_status": "후반",
         "leaders": [
+          {
+            "code": "",
+            "name": "삼성전자"
+          },
           {
             "code": "",
             "name": "SK하이닉스"
           },
           {
             "code": "",
-            "name": "SK스퀘어"
-          },
-          {
-            "code": "",
-            "name": "삼성전자"
+            "name": "삼성전자우"
           },
           {
             "code": "",
@@ -2853,10 +2853,10 @@
           }
         ],
         "name": "AI 반도체/HBM",
-        "strength_trend": "약화"
+        "strength_trend": "강화"
       },
       {
-        "days_active": 1,
+        "days_active": 2,
         "entry_status": "중반",
         "leaders": [
           {
@@ -2877,20 +2877,20 @@
           },
           {
             "code": "",
-            "name": "메리츠금융"
+            "name": "삼성물산"
           },
           {
             "code": "",
-            "name": "삼성물산"
+            "name": "메리츠금융"
           }
         ],
         "name": "금융/보험 value 로테이션",
-        "strength_trend": "강화"
+        "strength_trend": "약화"
       }
     ],
     "top_movers": [],
     "traded_codes": [],
     "trades_count": 0,
-    "unrealized_pnl_won": -53000
+    "unrealized_pnl_won": -52000
   }
 }
