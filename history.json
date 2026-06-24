@@ -2841,6 +2841,22 @@
         "qty": null,
         "reason": "유통 신규 보류. strategist snapshot 유통 +4.35% 강세였으나 live: 신세계 -0.45/이마트 -2.33/롯데 -4.17 cluster 전부 음전 → 독립 내수강세 디커플 전제 live 미확인, 동반 양봉 게이트 불충족. regime 조정 day1 신규 중단+breadth 선별하락. 어제 강세 stale 수치로 음전 tape 덮어 진입 금지. 3종 모두 0 buy, 유통 양봉 cluster 재확장 확정봉 시 재평가.",
         "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "105560",
+        "qty": null,
+        "reason": "KB금융 5주(avg 161400, 현 151700 -1.3%). 진입전제 value=risk-off haven, 오늘 risk-on 반등에 약화: 금융업 sector -2.23%(alpha -4.14p) KB 단독 반등장 underperform=테마 침식. 그러나 폐기 트리거 'alpha 2일 음전' 오늘 1일째 미점등, sectors.json 금융업·보험 여전 leading carry=정리조건 미충족. 다조건 장중컷(종가 -2%이탈 AND 거래대금폭증 AND 1군동반약세) 미충족. 5주=자본1.5% 구조stop 잔존, 어제 1차 24h라 동일슬롯 전량청산은 wrap 자기모순. 트리거: 익일 금융/보험 alpha 음전 2일 확정(rotating_out) 시 잔량 정리.",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "004170",
+        "qty": null,
+        "reason": "유통 신규 보류. 후보 cluster 오늘 동반양봉 아님: 신세계 +0.3%/이마트 -1.97%/롯데 -3.14%=결속 미확인, 단독 강세는 테마 아님. regime 조정 day1 신규 중단, breadth 선별하락. 승격 게이트(유통 대형 2+ 양봉+vol 4천+) 미충족. 추격 금지.",
+        "slot": "1230"
       }
     ],
     "realized_pnl_won": null,
@@ -2908,6 +2924,6 @@
     "top_movers": [],
     "traded_codes": [],
     "trades_count": 0,
-    "unrealized_pnl_won": -53500
+    "unrealized_pnl_won": -47500
   }
 }
