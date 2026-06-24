@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-06-23 16:06:08",
-  "date": "20260623",
+  "generated_at": "2026-06-24 09:21:24",
+  "date": "20260624",
   "mode": "dry_run",
   "stats": {
     "open_positions": 1,
-    "trades_count": 4,
-    "buys": 1,
-    "sells": 3,
-    "buy_won": 1452600,
-    "sell_won": 11337200,
-    "realized_pnl_won": -189400,
+    "trades_count": 0,
+    "buys": 0,
+    "sells": 0,
+    "buy_won": 0,
+    "sell_won": 0,
+    "realized_pnl_won": null,
     "capital_won": 50000000,
     "deployed_won": 807000,
     "cash_remaining_won": 50109400,
-    "total_eval_won": 768500,
-    "unrealized_pnl_won": -38500
+    "total_eval_won": 753500,
+    "unrealized_pnl_won": -53500
   },
   "positions": [
     {
@@ -23,141 +23,16 @@
       "qty": 5,
       "avg_price": 161400,
       "cost_won": 807000,
-      "current_price": 153700,
-      "change_rate": -2.1,
-      "eval_won": 768500,
-      "pnl_won": -38500,
-      "pnl_pct": -4.770755885997522,
+      "current_price": 150700,
+      "change_rate": -1.95,
+      "eval_won": 753500,
+      "pnl_won": -53500,
+      "pnl_pct": -6.629491945477076,
       "thesis": "KB금융 1차 probe(자본 2.9%, 161400×9). value 로테이션=risk-off 음봉장 유일 강세축, 금융업 sector leading day1 + vol 전섹터 2위(가격 alpha+4.78p AND 자본유입 동시확인 유일 sector). 보험은 alpha 강하나 vol 약(자본 미확인)이라 KB가 의존축 더 강함 — 최저갭 선택 아님. 후보 6종 동일 금융/보험 게이트라 1 leg 만 집행(같은 베팅 분할 회피). gap +2.8% modest, 삼성생명 +6.55% 가속주 추격 제외. risk-off+confidence 보통이라 소량 1차. 잔여시드: 금융업 leading 유지+보험·금융 alpha 양전 익일 종가 confirm 시 2차, alpha 2일 음전 시 폐기. 약점: breadth 붕괴 국면 신규라 사이즈 최소화로 한정."
     }
   ],
-  "trades": [
-    {
-      "ts": "2026-06-23T09:42:34",
-      "cycle_id": "20260623-0940",
-      "action": "buy",
-      "code": "105560",
-      "name": "KB금융",
-      "qty": 9,
-      "price": 161400,
-      "amount_won": 1452600,
-      "reason": "KB금융 1차 probe(자본 2.9%, 161400×9). value 로테이션=risk-off 음봉장 유일 강세축, 금융업 sector leading day1 + vol 전섹터 2위(가격 alpha+4.78p AND 자본유입 동시확인 유일 sector). 보험은 alpha 강하나 vol 약(자본 미확인)이라 KB가 의존축 더 강함 — 최저갭 선택 아님. 후보 6종 동일 금융/보험 게이트라 1 leg 만 집행(같은 베팅 분할 회피). gap +2.8% modest, 삼성생명 +6.55% 가속주 추격 제외. risk-off+confidence 보통이라 소량 1차. 잔여시드: 금융업 leading 유지+보험·금융 alpha 양전 익일 종가 confirm 시 2차, alpha 2일 음전 시 폐기. 약점: breadth 붕괴 국면 신규라 사이즈 최소화로 한정.",
-      "dry_run": true,
-      "order_no": "",
-      "realized_pnl_won": null
-    },
-    {
-      "ts": "2026-06-23T12:31:18",
-      "cycle_id": "20260623-1230",
-      "action": "sell",
-      "code": "005930",
-      "name": "삼성전자",
-      "qty": 16,
-      "price": 331750,
-      "amount_won": 5308000,
-      "reason": "HBM active 약화·후반, 내 손절 트리거 'HBM 1군(삼전·하이닉스) 동반 음전' 점등. 삼전 -6.15% 일중 저가권, 레버ETF 전종목 음전, 거래대금 vol 20.8M(vol_rate 85.6, 종가 환산 폭증). 일중 3조건(지지 -2%↑ 이탈+거래대금 폭증+1군 동반약세) 동시 충족이라 종가 미대기 전량. 테마+가격+거래대금 동시붕괴=thesis 본질 깨짐, 평단 -6.5% 위치 무관(disposition 회피). value 로테이션이 HBM 자금 이탈처.",
-      "dry_run": true,
-      "order_no": "",
-      "avg_cost": 354875,
-      "realized_pnl_won": -370000
-    },
-    {
-      "ts": "2026-06-23T12:31:18",
-      "cycle_id": "20260623-1230",
-      "action": "sell",
-      "code": "000660",
-      "name": "SK하이닉스",
-      "qty": 2,
-      "price": 2707000,
-      "amount_won": 5414000,
-      "reason": "동일 HBM 1군 동반 음전 트리거. 하이닉스 -7.26% 일중 저가 2706k 부근, vol 3.9M 폭증. 평단 +4% 익절권이나 평단은 결정변수 아님 — thesis 무효 동일 적용, 전량. 일중 3조건 충족으로 종가 미대기.",
-      "dry_run": true,
-      "order_no": "",
-      "avg_cost": 2601500,
-      "realized_pnl_won": 211000
-    },
-    {
-      "ts": "2026-06-23T15:21:34",
-      "cycle_id": "20260623-1520",
-      "action": "sell",
-      "code": "105560",
-      "name": "KB금융",
-      "qty": 4,
-      "price": 153800,
-      "amount_won": 615200,
-      "reason": "KB 1차 probe 1/2 정리(9->5주). 진입축 'value 로테이션=음봉장 유일 강세축'이 종가에서 무효화: value 바스켓 전면 음전(삼성물산 -10.96%, 신세계 -7.08%, 삼성화재 -5.99%, 삼성생명 -4.77%) = 피난처 역할 실패. 은행지주 leg(KB -2.04%, 신한 -0.41%)는 상대 방어라 본질 깨짐 아닌 약화 -> 전량 아닌 1/2. 잔량 5주 구조 stop: 직전 일봉 저점권 종가 이탈 OR 금융업 sector rotating_out 강등 시 정리, 트리거 미점등 전엔 carry. breadth 붕괴+thesis 약화로 추가매수 없음.",
-      "dry_run": true,
-      "order_no": "",
-      "avg_cost": 161400,
-      "realized_pnl_won": -30400
-    }
-  ],
-  "pm_decisions": [
-    {
-      "slot": "0940",
-      "action": "buy",
-      "code": "105560",
-      "amount_won": 145,
-      "qty": 9,
-      "reason": "KB금융 1차 probe(자본 2.9%, 161400×9). value 로테이션=risk-off 음봉장 유일 강세축, 금융업 sector leading day1 + vol 전섹터 2위(가격 alpha+4.78p AND 자본유입 동시확인 유일 sector). 보험은 alpha 강하나 vol 약(자본 미확인)이라 KB가 의존축 더 강함 — 최저갭 선택 아님. 후보 6종 동일 금융/보험 게이트라 1 leg 만 집행(같은 베팅 분할 회피). gap +2.8% modest, 삼성생명 +6.55% 가속주 추격 제외. risk-off+confidence 보통이라 소량 1차. 잔여시드: 금융업 leading 유지+보험·금융 alpha 양전 익일 종가 confirm 시 2차, alpha 2일 음전 시 폐기. 약점: breadth 붕괴 국면 신규라 사이즈 최소화로 한정."
-    },
-    {
-      "slot": "0940",
-      "action": "hold",
-      "code": "000660",
-      "amount_won": null,
-      "qty": null,
-      "reason": "HBM 테마 strength 약화 강등+entry 후반=유효성 축 점등으로 부분정리 검토 발동. 검토결과 hold: 전기전자 sector leading 유지(alpha 음전 1일=noise, vol 전섹터 1위 자본 위축 미발생, sector_tracker 강등보류)+레버ETF 거래대금 1위 사수=의존축 유효, regime 추세장 day6. 약화이나 본질 미붕괴. 평단(평가익) 매도 변수 아님. 정리 trigger: HBM 1군(삼전·하이닉스) 일봉 종가 2일 연속 동반 음전 OR 전기전자 rotating_out 강등 OR 레버ETF 거래대금 1위 상실(종가/state 기준, OR) → 전량 검토. add 없음(regime 추가매수 일시중단)."
-    },
-    {
-      "slot": "0940",
-      "action": "hold",
-      "code": "005930",
-      "amount_won": null,
-      "qty": null,
-      "reason": "삼성전자 anchor 16주. 하이닉스와 동일 HBM 테마·동일 의존축(전기전자 leading+레버 거래대금 1위)이라 동일 thesis→동일 action. 평가손이라 다르게 처리하면 disposition이므로 하이닉스와 같은 근거로 hold. 유효성 축 점등 검토했으나 sector leading 유지+레버 1위 사수로 의존축 유효. add 보류=regime breadth 붕괴 추가매수 일시중단(thesis 의존축은 살아있으나 시장 게이트가 신규자금 차단). 정리 trigger: 1군 종가 2일 동반 음전 OR 전기전자 rotating_out OR 레버 거래대금 1위 이탈."
-    },
-    {
-      "slot": "1230",
-      "action": "sell",
-      "code": "005930",
-      "amount_won": 531,
-      "qty": 16,
-      "reason": "HBM active 약화·후반, 내 손절 트리거 'HBM 1군(삼전·하이닉스) 동반 음전' 점등. 삼전 -6.15% 일중 저가권, 레버ETF 전종목 음전, 거래대금 vol 20.8M(vol_rate 85.6, 종가 환산 폭증). 일중 3조건(지지 -2%↑ 이탈+거래대금 폭증+1군 동반약세) 동시 충족이라 종가 미대기 전량. 테마+가격+거래대금 동시붕괴=thesis 본질 깨짐, 평단 -6.5% 위치 무관(disposition 회피). value 로테이션이 HBM 자금 이탈처."
-    },
-    {
-      "slot": "1230",
-      "action": "sell",
-      "code": "000660",
-      "amount_won": 541,
-      "qty": 2,
-      "reason": "동일 HBM 1군 동반 음전 트리거. 하이닉스 -7.26% 일중 저가 2706k 부근, vol 3.9M 폭증. 평단 +4% 익절권이나 평단은 결정변수 아님 — thesis 무효 동일 적용, 전량. 일중 3조건 충족으로 종가 미대기."
-    },
-    {
-      "slot": "1230",
-      "action": "hold",
-      "code": "105560",
-      "amount_won": null,
-      "qty": null,
-      "reason": "KB금융 -0.41% 보합, risk-off 음봉장 단독 방어 = 금융업 sector leading·value 로테이션 축 견조, thesis 유효. 2차 add 트리거는 '금융업 leading 유지+보험·금융 alpha 양전 익일 종가 confirm'이라 일중 미점등 → 홀드, add 0. 신규 value 진입도 breadth 붕괴·후보 일중 분화로 보류, 익일 종가 confirm 후 재평가."
-    },
-    {
-      "slot": "1520",
-      "action": "sell",
-      "code": "105560",
-      "amount_won": 62,
-      "qty": 4,
-      "reason": "KB 1차 probe 1/2 정리(9->5주). 진입축 'value 로테이션=음봉장 유일 강세축'이 종가에서 무효화: value 바스켓 전면 음전(삼성물산 -10.96%, 신세계 -7.08%, 삼성화재 -5.99%, 삼성생명 -4.77%) = 피난처 역할 실패. 은행지주 leg(KB -2.04%, 신한 -0.41%)는 상대 방어라 본질 깨짐 아닌 약화 -> 전량 아닌 1/2. 잔량 5주 구조 stop: 직전 일봉 저점권 종가 이탈 OR 금융업 sector rotating_out 강등 시 정리, 트리거 미점등 전엔 carry. breadth 붕괴+thesis 약화로 추가매수 없음."
-    },
-    {
-      "slot": "1520",
-      "action": "hold",
-      "code": null,
-      "amount_won": null,
-      "qty": null,
-      "reason": "신규 value 후보(삼성생명/화재/신한/메리츠/물산/신세계/이마트) 전부 보류. strategist 아침 스냅샷은 value +4~7% 강세이나 live 종가는 동일 종목 -1~11% 전면 음전 = 진입 근거(sector leading/value 피난처)가 종가에서 반증됨. 깨지는 축 위로 신규 진입 부적합. 익일 sector tracker 갱신으로 금융/보험 leading 유지 여부 재확인 후 판단."
-    }
-  ],
+  "trades": [],
+  "pm_decisions": [],
   "calendar_dates": [
     "20260511",
     "20260512",
@@ -185,8 +60,9 @@
     "20260618",
     "20260619",
     "20260622",
-    "20260623"
+    "20260623",
+    "20260624"
   ],
-  "strategist_brief": "```json\n{\n  \"themes\": [\n    {\n      \"name\": \"금융/보험 value 로테이션\",\n      \"stance\": \"주력 (오늘 유일 강세 축)\",\n      \"entry\": \"선별·소량 분할만, 추격 금지\",\n      \"note\": \"risk-off 음봉장(KOSPI -1.33%, breadth adv149/dec735) 자금 피난처. 보험 sector +4.53% alpha+6.71p, 금융업 +2.60% vol 전섹터 2위 = 가격 alpha+자본유입 동시 확인. 단 삼성생명 +7.33% 가속 후 과열성, 추격 금지·분할만.\"\n    },\n    {\n      \"name\": \"유통/내수 value (분산 옵션)\",\n      \"stance\": \"보조 (value 동일 축, 분산용)\",\n      \"entry\": \"소액 분할, promote 미확정 watching급\",\n      \"note\": \"유통업 rotating_in 2일 alpha 양전 follow. 단 절대등락 +0.89% 소폭, vol 보통권. 금융 쏠림 분산 목적으로 1~2 후보만 제공.\"\n    },\n    {\n      \"name\": \"AI반도체/HBM\",\n      \"stance\": \"신규 금지 (후보 제외)\",\n      \"entry\": \"신규 진입 안 함\",\n      \"note\": \"약화·entry 후반. 대형 동반 음전(삼성전기 -6.24%, 삼성전자 -2.69%). value 로테이션 자금 이탈처. SK스퀘어 +7.16% 역행은 지주 NAV 별개 이슈 — 테마 강세로 오독 금지. 후보에서 뺌.\"\n    }\n  ],\n  \"candidates\": [\n    {\"code\": \"032830\", \"name\": \"삼성생명\", \"reason\": \"보험 leading 견인주 +7.33%. value 로테이션 핵심이나 단일봉 과열 — 신규는 분할 소량, 추격 금지. 되돌림 시 분할 진입 우선순위.\"},\n    {\"code\": \"000810\", \"name\": \"삼성화재\", \"reason\": \"보험 sector leading(days2, alpha+6.71p) 동반주. 삼성생명 과열 대비 상대적 추격부담 낮음. 분할 진입 후보.\"},\n    {\"code\": \"105560\", \"name\": \"KB금융\", \"reason\": \"금융업 leading 승격 주도주. vol 전섹터 2위=자본유입 확인된 유일 축. 은행지주 value 코어, 분할.\"},\n    {\"code\": \"055550\", \"name\": \"신한지주\", \"reason\": \"금융업 leading 동반. KB와 함께 은행지주 로테이션 폭 확인용. 분할 소량.\"},\n    {\"code\": \"138040\", \"name\": \"메리츠금융\", \"reason\": \"보험+금융 양쪽 leaders 중첩. value 로테이션 강도 확인 보조.\"},\n    {\"code\": \"028260\", \"name\": \"삼성물산\", \"reason\": \"+3.08% 대형 견인, value/내수 방어 축. 금융 외 분산 옵션.\"},\n    {\"code\": \"004170\", \"name\": \"신세계\", \"reason\": \"유통업 rotating_in 주도주. 금융 쏠림 분산용 내수 value 옵션. 소액·promote 확인 전 소량.\"},\n    {\"code\": \"139480\", \"name\": \"이마트\", \"reason\": \"유통/내수 value follow-through. 분산 옵션. 절대강도 약함 — watching급 소량만.\"}\n  ],\n  \"notes\": \"쏠림 경고: 후보 8개 중 6개(삼성생명·삼성화재·KB금융·신한지주·메리츠금융·삼성물산)가 동일 금융/보험 value 축. 오늘 risk-off 음봉장에서 value 로테이션이 시장 유일 강세 축이라 의도적 집중이나, PM은 portfolio-level 분산 게이트 켜고 단일 테마 도배 경계할 것. 유통(신세계·이마트) 2개는 동일 value 축 내 industry 분산 옵션으로 추가. 거시: regime 추세장 강세지만 confidence 보통 강등+breadth 붕괴(adv/dec 0.20)+미장 risk-off = 신규 보수, 선별·소량 분할만. 추격매수 금지, 삼성생명류 +7% 가속주는 되돌림 대기 우선. 제약바이오 소형주(JW신약·조아제약 등) 급등은 저가 단타성·wrap 부적합으로 후보 제외(theme_tracker watching 유지). max_positions 5라 8후보 중 PM이 분산·과열 기준 선별.\"\n}\n```\n\nCaveman summary: Value 로테이션 유일 강세 축. 후보 8 = 금융/보험 6 + 유통 2. 쏠림 명시함 — PM 분산 게이트 켜라. 반도체 신규 금지(약화·후반), 후보서 뺌. 제약 소형주 단타성, 제외. 전부 분할·소량·추격금지. 삼성생명 +7% 과열, 되돌림 대기.",
-  "auditor_verdict": "어제 verdict 인용으로 시작한 decision 없음(has_yesterday_audit=True지만 alibi 안 씀). 그건 깨끗. 그러나 오늘 PM 은 자기 자신이 3시간 전에 박은 trigger 를 alibi 로 갈아끼웠다. 그게 더 큰 문제.\n\n**핵심: HBM 전량 청산이 일봉/state 규율을 우회했다.**\n\n09:40 에 PM 이 직접 박은 정리 trigger: \"HBM 1군(삼전·하이닉스) **일봉 종가 2일 연속** 동반 음전 → 전량 검토.\" 명시적으로 종가 기준, 2일 누적. 그런데 12:30 에 같은 포지션을 **일중 1세션** 가격으로 전량 매도했다. 종가 안 기다렸고 2일도 아니다. 자기가 오전에 세운 룰을 점심에 더 빠른 버전으로 갈아끼운 것 — commitment 일관성 붕괴. 그리고 갈아끼운 근거가 \"vol_rate 85.6\", \"일중 저가권\", \"일중 저가 2706k 부근\" = 전부 장중 진폭/분봉성 신호. 시스템 불변이 금지한 입력이다. PM 이 \"일중 3조건 동시 충족 → 종가 안 기다림\"이라는 자작 게이트를 만들어 close-based 규율을 스스로 우회했다. 3조건이 동시였든 아니든, mechanism 자체가 invariant 위반이다.\n\ntheme_tracker state 도 PM 보다 보수적이었다. themes.json 은 HBM 을 \"ended 미충족(강등 조건 1군 -8%+거래대금-30% 불충족), 기보유 **홀드 디폴트**, 약한 종목 **분할 익절** 검토 개시 가능\"으로 적었다. 즉 다일 state 는 hold-or-분할을 말했는데 PM 은 전량 청산했다. 일봉/누적 state 가 hold 라는데 PM 이 장중 -6~7% 한 방으로 100% 비운 것. 1일 노이즈로 상태 전환 금지 원칙의 정면 위반이고, state 대비 overtrading 이다.\n\n여기서 PM 이 반복해 꺼낸 \"disposition 회피\"는 방패로 오용됐다. 두 종목(하이닉스 +4% 익절 / 삼전 -6.5% 손실) 똑같이 처분한 것 자체는 옳다 — 평단 비대칭 매도 안 한 건 칭찬할 부분. 하지만 disposition 원칙은 \"P&L 이 결정을 끌지 말라\"는 거지, \"종가 타이밍 규율을 버려도 된다\"는 면허가 아니다. PM 은 둘을 섞어, 장중 급매의 정당화에 disposition 라벨을 붙였다. 매도의 *긴급성*은 disposition 논리에서 나온 게 아니라 분봉 진폭에서 나왔다.\n\n**KB: 같은 세션 진입-반토막 = action bias 자기모순.**\n\n09:40 에 \"value=음봉장 유일 강세축\"으로 KB 신규. 그런데 strategist 가 이미 \"breadth 붕괴(0.20), 신규 보수, 추격금지\"를 경고했고 regime confidence 보통 강등이었다. 그 tape 에 신규를 얹었다. 결정적으로 — 같은 PM 이 12:30 로그에서 \"붕괴 tape 에 신규 얹는 건 action bias\"라고 직접 썼다. 오전 자기 행동을 점심 자기 논리가 반박한다. 2.9% probe 라 손상은 작지만, 판단 패턴은 회색이다.\n\n15:20 KB 1/2 trim 의 서술도 봐야 한다. 진입축은 \"value 로테이션 = 피난처\"였는데 종가에 value 바스켓 전면 음전(삼성물산 -10.96%, 신세계 -7.08%, 삼성화재 -5.99%) = 피난처가 **반증**됐다. 약화가 아니라 진입 전제의 falsification 이다. PM 은 이걸 \"은행지주 leg 상대 방어\"로 범위를 좁혀 \"본질 깨짐 아닌 약화\"로 다운그레이드하고 절반만 정리했다. 진입은 value 로테이션 전체에 걸어놓고, 빠질 때는 bank sub-leg 으로 골대를 좁혀 잔량을 지킨 것 — narrative narrowing. probe 가 손실(-4.7%)이라 전량 인정하기 싫은 loss aversion 의 흔적일 수 있다. 사이즈가 1.6%라 실해는 미미하나 reasoning 패턴은 기록해 둔다.\n\n**비대칭 적용이 tell 이다.** 빠질 때(HBM)는 장중 신호로 즉시, 더할 때(KB 2차)는 \"익일 종가 confirm\" 엄격, 지킬 때(KB 잔량)는 close-based 구조 stop. 같은 timing 룰을 방향따라 골라 썼다. 내리는 carry 에서 나올 땐 분봉으로 빨리, 새 베팅엔 종가로 천천히 — 편한 방향의 same-rule cherry-pick. 매도가 매수보다 빠른 건 그 자체로 나쁘진 않지만, HBM 쪽만 invariant 위반 입력을 썼고 KB 는 제대로 종가 처리를 받은 비대칭은 의도가 비친다.\n\n## 내일 PM 지침\n\nHBM 은 이미 청산됐으니 되돌릴 건 없다. 하지만 내일 다시 carry 정리/신규 판단을 할 때 오늘 깨진 두 규율을 복원해라.\n\n첫째, 청산·정리 trigger 는 *네가 박은 그 기준 그대로* 발화시켜라. 종가 2일 누적이라 써놨으면 장중 급락으로 갈아끼우지 마라. 다일 보유 계좌에서 장중 -6~7% 한 방은 결정 입력이 아니다. 일봉 종가가 확정되고 state(theme_tracker)가 ended/rotating_out 으로 움직였을 때 행동해라. state 가 \"홀드 디폴트, 분할\"을 말하는데 네가 전량을 누르고 싶으면, 그 욕구가 어디서 왔는지 reason 에 적어라 — 십중팔구 장중 진폭이고, 그건 쓰면 안 되는 신호다. 급하면 분할(state 가 허용한 만큼), 전량은 종가·state confirm 후로.\n\n둘째, breadth 0.20 붕괴 tape 에서 신규는 디폴트가 zero 다. 오늘 너 스스로 \"붕괴 tape 에 신규=action bias\"라 적었다. 그 문장을 내일 09:40 의 게이트로 써라. 강세축이라 부르는 게 아침 스냅샷 한 컷이면, 종가까지 그 축이 살아남는지 본 다음 진입해라. 오늘 value 는 아침 +4~7% 였다가 종가 -1~11% 로 뒤집혔다. 같은 함정 반복 금지.\n\n셋째, 진입 전제가 반증되면 \"본질 vs 약화\"로 범위 좁혀 잔량 방어하기 전에, *원래 걸었던 전제*가 falsified 됐는지 먼저 물어라. value=피난처로 들어갔는데 피난처가 실패했으면 그건 약화가 아니라 반증이다. 잔량을 지키고 싶은 이유가 thesis 인지 손실 인정 회피인지 reason 에서 분리해라.\n\nKB 잔량 5주(1.6%)는 구조 stop 걸린 채니 carry 자체는 무방하다. 다만 내일 sector tracker 가 금융/보험 leading 을 유지 못 하면, \"은행 leg 상대 방어\"라는 좁힌 논리로 더 붙잡지 말고 정리해라. 좁힌 골대가 계속 좁아지면 commitment escalation 이다."
+  "strategist_brief": null,
+  "auditor_verdict": null
 }
