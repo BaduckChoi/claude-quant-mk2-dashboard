@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24 09:26:50",
+  "generated_at": "2026-06-24 09:32:24",
   "date": "20260624",
   "mode": "dry_run",
   "stats": {
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 807000,
     "cash_remaining_won": 50109400,
-    "total_eval_won": 754000,
-    "unrealized_pnl_won": -53000
+    "total_eval_won": 755000,
+    "unrealized_pnl_won": -52000
   },
   "positions": [
     {
@@ -23,11 +23,11 @@
       "qty": 5,
       "avg_price": 161400,
       "cost_won": 807000,
-      "current_price": 150800,
-      "change_rate": -1.89,
-      "eval_won": 754000,
-      "pnl_won": -53000,
-      "pnl_pct": -6.567534076827757,
+      "current_price": 151000,
+      "change_rate": -1.76,
+      "eval_won": 755000,
+      "pnl_won": -52000,
+      "pnl_pct": -6.443618339529119,
       "thesis": "KB금융 1차 probe(자본 2.9%, 161400×9). value 로테이션=risk-off 음봉장 유일 강세축, 금융업 sector leading day1 + vol 전섹터 2위(가격 alpha+4.78p AND 자본유입 동시확인 유일 sector). 보험은 alpha 강하나 vol 약(자본 미확인)이라 KB가 의존축 더 강함 — 최저갭 선택 아님. 후보 6종 동일 금융/보험 게이트라 1 leg 만 집행(같은 베팅 분할 회피). gap +2.8% modest, 삼성생명 +6.55% 가속주 추격 제외. risk-off+confidence 보통이라 소량 1차. 잔여시드: 금융업 leading 유지+보험·금융 alpha 양전 익일 종가 confirm 시 2차, alpha 2일 음전 시 폐기. 약점: breadth 붕괴 국면 신규라 사이즈 최소화로 한정."
     }
   ],
