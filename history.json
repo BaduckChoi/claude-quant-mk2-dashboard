@@ -2825,7 +2825,24 @@
     "buys": 0,
     "date": "2026-06-24",
     "open_positions": 1,
-    "pm_decisions": [],
+    "pm_decisions": [
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "105560",
+        "qty": null,
+        "reason": "KB금융 5주(1.6%) carry. 폐기 trigger=금융업 sector alpha 2일 음전인데 오늘 -2.23%(alpha-4.14p) 1일째 → 미점등, 당겨 팔면 reverse disposition. 가격 150900(-1.82%) modest, 지지선-2%break+vol폭증+leader동반약세 3조건 동시 불충족(단일 약세). 금융업 sector label 아직 leading carry, 보험 leading 약화 1일. 평단 161400 평가손 무관. 익일 확정종가 alpha 음전 2일 시 폐기, 1일 noise 로 flip 안 함.",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "004170",
+        "qty": null,
+        "reason": "유통 신규 보류. strategist snapshot 유통 +4.35% 강세였으나 live: 신세계 -0.45/이마트 -2.33/롯데 -4.17 cluster 전부 음전 → 독립 내수강세 디커플 전제 live 미확인, 동반 양봉 게이트 불충족. regime 조정 day1 신규 중단+breadth 선별하락. 어제 강세 stale 수치로 음전 tape 덮어 진입 금지. 3종 모두 0 buy, 유통 양봉 cluster 재확장 확정봉 시 재평가.",
+        "slot": "0940"
+      }
+    ],
     "realized_pnl_won": null,
     "sell_won": 0,
     "sells": 0,
@@ -2891,6 +2908,6 @@
     "top_movers": [],
     "traded_codes": [],
     "trades_count": 0,
-    "unrealized_pnl_won": -55500
+    "unrealized_pnl_won": -53500
   }
 }
