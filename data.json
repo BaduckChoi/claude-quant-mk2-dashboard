@@ -1,24 +1,102 @@
 {
-  "generated_at": "2026-06-25 09:35:41",
+  "generated_at": "2026-06-25 09:41:13",
   "date": "20260625",
   "mode": "dry_run",
   "stats": {
-    "open_positions": 0,
-    "trades_count": 0,
-    "buys": 0,
+    "open_positions": 1,
+    "trades_count": 1,
+    "buys": 1,
     "sells": 0,
-    "buy_won": 0,
+    "buy_won": 1480000,
     "sell_won": 0,
     "realized_pnl_won": null,
     "capital_won": 50000000,
-    "deployed_won": 0,
-    "cash_remaining_won": 50873400,
-    "total_eval_won": null,
-    "unrealized_pnl_won": null
+    "deployed_won": 1480000,
+    "cash_remaining_won": 49393400,
+    "total_eval_won": 1486000,
+    "unrealized_pnl_won": 6000
   },
-  "positions": [],
-  "trades": [],
-  "pm_decisions": [],
+  "positions": [
+    {
+      "code": "004170",
+      "name": "신세계",
+      "qty": 2,
+      "avg_price": 740000,
+      "cost_won": 1480000,
+      "current_price": 743000,
+      "change_rate": 8.47,
+      "eval_won": 1486000,
+      "pnl_won": 6000,
+      "pnl_pct": 0.40540540540540543,
+      "thesis": "유통/내수 value day-1 active 승격 + 유통업 sector rotating_in->leading 승격, 4일 연속 alpha 양전(6-19 +4.44p ~ 6-25 +4.34p, vol 5450 4천+ 확인) = 단일 부분봉 아닌 일봉 누적 구조. strategist 최선호 비-반도체 분산축으로 분할 소량 green-light. 신세계가 견인 leader(+8.03%) — 이마트 +1.12% laggard 대신 leader 선택(anti-momentum 회피). 단 +8% 갭은 높음 -> seed 축소: 목표 유통 ~10%(500만)의 ~30% probe 1차(2주, 자본 2.96%)로만 진입, 추격 아닌 starter. 손절 구조선: 유통업 sector rotating_out 강등 OR 신세계 회전시작 이전 가격구조(직전 일봉 저점권 ~680k 종가 이탈) 시 thesis 무효. 약점: 조정 후반 day1 + KOSPI 부분봉 미확정 자리라 진성 회복 미정 — 그래서 풀 아닌 소량 probe. 다음 슬롯/익일 KOSPI 8700 사수 종가 확정 + 유통 alpha 양전 지속 시 분할 2차."
+    }
+  ],
+  "trades": [
+    {
+      "ts": "2026-06-25T09:41:12",
+      "cycle_id": "20260625-0940",
+      "action": "buy",
+      "code": "004170",
+      "name": "신세계",
+      "qty": 2,
+      "price": 740000,
+      "amount_won": 1480000,
+      "reason": "유통/내수 value day-1 active 승격 + 유통업 sector rotating_in->leading 승격, 4일 연속 alpha 양전(6-19 +4.44p ~ 6-25 +4.34p, vol 5450 4천+ 확인) = 단일 부분봉 아닌 일봉 누적 구조. strategist 최선호 비-반도체 분산축으로 분할 소량 green-light. 신세계가 견인 leader(+8.03%) — 이마트 +1.12% laggard 대신 leader 선택(anti-momentum 회피). 단 +8% 갭은 높음 -> seed 축소: 목표 유통 ~10%(500만)의 ~30% probe 1차(2주, 자본 2.96%)로만 진입, 추격 아닌 starter. 손절 구조선: 유통업 sector rotating_out 강등 OR 신세계 회전시작 이전 가격구조(직전 일봉 저점권 ~680k 종가 이탈) 시 thesis 무효. 약점: 조정 후반 day1 + KOSPI 부분봉 미확정 자리라 진성 회복 미정 — 그래서 풀 아닌 소량 probe. 다음 슬롯/익일 KOSPI 8700 사수 종가 확정 + 유통 alpha 양전 지속 시 분할 2차.",
+      "dry_run": true,
+      "order_no": "",
+      "realized_pnl_won": null
+    }
+  ],
+  "pm_decisions": [
+    {
+      "slot": "0940",
+      "action": "buy",
+      "code": "004170",
+      "amount_won": 148,
+      "qty": 2,
+      "reason": "유통/내수 value day-1 active 승격 + 유통업 sector rotating_in->leading 승격, 4일 연속 alpha 양전(6-19 +4.44p ~ 6-25 +4.34p, vol 5450 4천+ 확인) = 단일 부분봉 아닌 일봉 누적 구조. strategist 최선호 비-반도체 분산축으로 분할 소량 green-light. 신세계가 견인 leader(+8.03%) — 이마트 +1.12% laggard 대신 leader 선택(anti-momentum 회피). 단 +8% 갭은 높음 -> seed 축소: 목표 유통 ~10%(500만)의 ~30% probe 1차(2주, 자본 2.96%)로만 진입, 추격 아닌 starter. 손절 구조선: 유통업 sector rotating_out 강등 OR 신세계 회전시작 이전 가격구조(직전 일봉 저점권 ~680k 종가 이탈) 시 thesis 무효. 약점: 조정 후반 day1 + KOSPI 부분봉 미확정 자리라 진성 회복 미정 — 그래서 풀 아닌 소량 probe. 다음 슬롯/익일 KOSPI 8700 사수 종가 확정 + 유통 alpha 양전 지속 시 분할 2차."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "000660",
+      "amount_won": null,
+      "qty": null,
+      "reason": "HBM days8 후반 성숙 + SK하이닉스 +9.46% 단일봉 과열 + KOSPI 부분봉 미확정. 강화 테마 최강축이나 신규 추격 절대 금지 구간 — 빈 계좌라도 days8 후반 갭상승 1차 진입 부적격. retest 없이 트리거에서 멀어지는 자리, 추격 안 함."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "005930",
+      "amount_won": null,
+      "qty": null,
+      "reason": "HBM 저베타축 +5.14% 갭. days8 후반 + 부분봉 미확정으로 신규 진입 시기 부적격. 익일 종가 확정 + 9000 안착 시 HBM 코어 starter 재평가."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "139480",
+      "amount_won": null,
+      "qty": null,
+      "reason": "이마트 +1.12% = 유통 테마 최약 leg. 갭 작다고 anchor 삼으면 anti-momentum 누적 — leader 신세계로 진입했으므로 laggard 추가 안 함."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "006800",
+      "amount_won": null,
+      "qty": null,
+      "reason": "증권 sector rotating_in day-1 최소신뢰, alpha +0.84p marginal = 광폭장 베타와 구분 약함. 1일 noise 가능, 조기포착 watch만. 익일 alpha>+1p + vol 증가 확인 전 진입 보류."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "032830",
+      "amount_won": null,
+      "qty": null,
+      "reason": "보험 risk-on서 alpha -0.53p inline = 독립 alpha 소멸 베타 동행, thesis(risk-off haven) vs 현 regime(조정 후반 반등) 상충. 신규 비권장."
+    }
+  ],
   "calendar_dates": [
     "20260511",
     "20260512",
