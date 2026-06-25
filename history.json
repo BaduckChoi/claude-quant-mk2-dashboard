@@ -2824,7 +2824,6 @@
     "buy_won": 0,
     "buys": 0,
     "date": "2026-06-24",
-    "open_positions": 0,
     "pm_decisions": [
       {
         "action": "hold",
@@ -2967,7 +2966,80 @@
         "name": "KB금융"
       }
     ],
-    "trades_count": 1,
+    "trades_count": 1
+  },
+  "20260625": {
+    "auditor_verdict": null,
+    "buy_won": 0,
+    "buys": 0,
+    "date": "2026-06-25",
+    "open_positions": 0,
+    "pm_decisions": [],
+    "realized_pnl_won": null,
+    "sell_won": 0,
+    "sells": 0,
+    "strategist_brief": null,
+    "themes": [
+      {
+        "days_active": 7,
+        "entry_status": "후반",
+        "leaders": [
+          {
+            "code": "",
+            "name": "삼성전자"
+          },
+          {
+            "code": "",
+            "name": "SK하이닉스"
+          },
+          {
+            "code": "",
+            "name": "삼성전자우"
+          },
+          {
+            "code": "",
+            "name": "삼성전기"
+          }
+        ],
+        "name": "AI 반도체/HBM",
+        "strength_trend": "강화"
+      },
+      {
+        "days_active": 2,
+        "entry_status": "중반",
+        "leaders": [
+          {
+            "code": "",
+            "name": "삼성생명"
+          },
+          {
+            "code": "",
+            "name": "삼성화재"
+          },
+          {
+            "code": "",
+            "name": "KB금융"
+          },
+          {
+            "code": "",
+            "name": "신한지주"
+          },
+          {
+            "code": "",
+            "name": "삼성물산"
+          },
+          {
+            "code": "",
+            "name": "메리츠금융"
+          }
+        ],
+        "name": "금융/보험 value 로테이션",
+        "strength_trend": "약화"
+      }
+    ],
+    "top_movers": [],
+    "traded_codes": [],
+    "trades_count": 0,
     "unrealized_pnl_won": null
   }
 }
