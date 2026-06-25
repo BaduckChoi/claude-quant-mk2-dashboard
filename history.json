@@ -2981,16 +2981,16 @@
     "strategist_brief": null,
     "themes": [
       {
-        "days_active": 7,
+        "days_active": 8,
         "entry_status": "후반",
         "leaders": [
           {
             "code": "",
-            "name": "삼성전자"
+            "name": "SK하이닉스"
           },
           {
             "code": "",
-            "name": "SK하이닉스"
+            "name": "삼성전자"
           },
           {
             "code": "",
@@ -3005,8 +3005,8 @@
         "strength_trend": "강화"
       },
       {
-        "days_active": 2,
-        "entry_status": "중반",
+        "days_active": 3,
+        "entry_status": "후반",
         "leaders": [
           {
             "code": "",
@@ -3026,15 +3026,35 @@
           },
           {
             "code": "",
-            "name": "삼성물산"
-          },
-          {
-            "code": "",
             "name": "메리츠금융"
           }
         ],
         "name": "금융/보험 value 로테이션",
         "strength_trend": "약화"
+      },
+      {
+        "days_active": 1,
+        "entry_status": "초입",
+        "leaders": [
+          {
+            "code": "",
+            "name": "신세계"
+          },
+          {
+            "code": "",
+            "name": "이마트"
+          },
+          {
+            "code": "",
+            "name": "롯데쇼핑"
+          },
+          {
+            "code": "",
+            "name": "현대백화점"
+          }
+        ],
+        "name": "유통/내수 value",
+        "strength_trend": "강화"
       }
     ],
     "top_movers": [],
