@@ -3022,6 +3022,54 @@
         "qty": null,
         "reason": "보험 risk-on서 alpha -0.53p inline = 독립 alpha 소멸 베타 동행, thesis(risk-off haven) vs 현 regime(조정 후반 반등) 상충. 신규 비권장.",
         "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "004170",
+        "qty": null,
+        "reason": "신세계 2주 @740k, 현 724k. 컷 트리거(유통 sector rotating_out OR 종가 680k 이탈) 둘 다 미점등 — 724k는 680k 한참 위, sector 유통업 leading day1 강화 유지, 4일 alpha 양전 트랙 유효. thesis 살아있음. 2차 add 게이트는 'KOSPI 8700 사수 종가 확정 + 유통 alpha 지속' = 종가 기준이라 12:30 슬롯서 평가 불가, 익일/15:20 종가로 carry. 보유 2주=자본 2.96%로 목표 10% 대비 미달이나 가격엣지 없는 +5.69% 자리서 분봉 추격 안 함.",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "000660",
+        "qty": null,
+        "reason": "SK하이닉스 +11% 단일봉, HBM days8 후반 성숙. 미보유 — 신규 추격 절대 금지 구간. 진입 0.",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "005930",
+        "qty": null,
+        "reason": "삼성전자 +5.07% 갭. HBM 강한 leader지만 days8 후반 + 갭상승 자리 = 1차 probe도 종가확정 전 보류. retest 닿으면(직전 일봉 저점권 종가) 익일 소량 starter 검토, 분봉 갭 추격 안 함.",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "139480",
+        "qty": null,
+        "reason": "이마트 +2.36% = 후보 중 최소 갭이나 유통 테마 최약 leg. 이미 신세계 보유 중 → 같은 유통 sector 게이트 N=2 도배 + 약한 leg 누적(anti-momentum). 채울 거면 leader(신세계)지 laggard 아님. 신규 0.",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "006800",
+        "qty": null,
+        "reason": "미래에셋증권 +5.03%. 증권 rotating_in day1, alpha+0.84p marginal = 1일 noise 가능. 익일 alpha>+1p+vol 증가 확정 전 진입 0.",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "032830",
+        "qty": null,
+        "reason": "삼성생명 +7.04% 갭. 보험 테마 약화, risk-on 복귀로 독립 alpha 소멸 베타 동행. 신규 비권장 + 갭상승 = 진입 0.",
+        "slot": "1230"
       }
     ],
     "realized_pnl_won": null,
@@ -3115,6 +3163,6 @@
       }
     ],
     "trades_count": 1,
-    "unrealized_pnl_won": 6000
+    "unrealized_pnl_won": -26000
   }
 }
