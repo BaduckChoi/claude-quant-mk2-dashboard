@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-06-25 12:30:47",
+  "generated_at": "2026-06-25 15:21:05",
   "date": "20260625",
   "mode": "dry_run",
   "stats": {
     "open_positions": 1,
-    "trades_count": 1,
-    "buys": 1,
+    "trades_count": 2,
+    "buys": 2,
     "sells": 0,
-    "buy_won": 1480000,
+    "buy_won": 2221000,
     "sell_won": 0,
     "realized_pnl_won": null,
     "capital_won": 50000000,
-    "deployed_won": 1480000,
-    "cash_remaining_won": 49393400,
-    "total_eval_won": 1454000,
-    "unrealized_pnl_won": -26000
+    "deployed_won": 2220999,
+    "cash_remaining_won": 48652401,
+    "total_eval_won": 2223000,
+    "unrealized_pnl_won": 2001
   },
   "positions": [
     {
       "code": "004170",
       "name": "신세계",
-      "qty": 2,
-      "avg_price": 740000,
-      "cost_won": 1480000,
-      "current_price": 727000,
-      "change_rate": 6.13,
-      "eval_won": 1454000,
-      "pnl_won": -26000,
-      "pnl_pct": -1.7567567567567568,
-      "thesis": "유통/내수 value day-1 active 승격 + 유통업 sector rotating_in->leading 승격, 4일 연속 alpha 양전(6-19 +4.44p ~ 6-25 +4.34p, vol 5450 4천+ 확인) = 단일 부분봉 아닌 일봉 누적 구조. strategist 최선호 비-반도체 분산축으로 분할 소량 green-light. 신세계가 견인 leader(+8.03%) — 이마트 +1.12% laggard 대신 leader 선택(anti-momentum 회피). 단 +8% 갭은 높음 -> seed 축소: 목표 유통 ~10%(500만)의 ~30% probe 1차(2주, 자본 2.96%)로만 진입, 추격 아닌 starter. 손절 구조선: 유통업 sector rotating_out 강등 OR 신세계 회전시작 이전 가격구조(직전 일봉 저점권 ~680k 종가 이탈) 시 thesis 무효. 약점: 조정 후반 day1 + KOSPI 부분봉 미확정 자리라 진성 회복 미정 — 그래서 풀 아닌 소량 probe. 다음 슬롯/익일 KOSPI 8700 사수 종가 확정 + 유통 alpha 양전 지속 시 분할 2차."
+      "qty": 3,
+      "avg_price": 740333,
+      "cost_won": 2220999,
+      "current_price": 741000,
+      "change_rate": 8.18,
+      "eval_won": 2223000,
+      "pnl_won": 2001,
+      "pnl_pct": 0.09009459256847932,
+      "thesis": "신세계 분할 2차 소량. 1차 thesis 사전트리거(KOSPI 8700 사수 종가확정 OR 유통 alpha 양전 지속) 둘 다 점등: KOSPI 6-25 +6%대 8700 종가 사수 확정, 유통업 sector rotating_in->leading 승격 alpha+4.34p 전섹터1위 4일 연속(6-19 +4.44~6-25 +4.34). 견인 leader 신세계 선택(이마트 +0.25% laggard 회피=anti-momentum 차단). 사이즈 1주로 제한: 일중 +8.18% 갭 높음 + 막슬롯 몰빵 회피, 코어 빌딩이지 추격 아님. 누적 3주(~222만, 자본 4.4%)로 유통 목표 10%(500만)의 ~44%. 약점: +8% 자리 추가는 가격엣지 낮음. 손절구조선 불변: 유통업 sector rotating_out 강등 OR 신세계 회전이전 구조 680k 종가 이탈 시 thesis 무효."
     }
   ],
   "trades": [
@@ -42,6 +42,20 @@
       "price": 740000,
       "amount_won": 1480000,
       "reason": "유통/내수 value day-1 active 승격 + 유통업 sector rotating_in->leading 승격, 4일 연속 alpha 양전(6-19 +4.44p ~ 6-25 +4.34p, vol 5450 4천+ 확인) = 단일 부분봉 아닌 일봉 누적 구조. strategist 최선호 비-반도체 분산축으로 분할 소량 green-light. 신세계가 견인 leader(+8.03%) — 이마트 +1.12% laggard 대신 leader 선택(anti-momentum 회피). 단 +8% 갭은 높음 -> seed 축소: 목표 유통 ~10%(500만)의 ~30% probe 1차(2주, 자본 2.96%)로만 진입, 추격 아닌 starter. 손절 구조선: 유통업 sector rotating_out 강등 OR 신세계 회전시작 이전 가격구조(직전 일봉 저점권 ~680k 종가 이탈) 시 thesis 무효. 약점: 조정 후반 day1 + KOSPI 부분봉 미확정 자리라 진성 회복 미정 — 그래서 풀 아닌 소량 probe. 다음 슬롯/익일 KOSPI 8700 사수 종가 확정 + 유통 alpha 양전 지속 시 분할 2차.",
+      "dry_run": true,
+      "order_no": "",
+      "realized_pnl_won": null
+    },
+    {
+      "ts": "2026-06-25T15:21:05",
+      "cycle_id": "20260625-1520",
+      "action": "buy",
+      "code": "004170",
+      "name": "신세계",
+      "qty": 1,
+      "price": 741000,
+      "amount_won": 741000,
+      "reason": "신세계 분할 2차 소량. 1차 thesis 사전트리거(KOSPI 8700 사수 종가확정 OR 유통 alpha 양전 지속) 둘 다 점등: KOSPI 6-25 +6%대 8700 종가 사수 확정, 유통업 sector rotating_in->leading 승격 alpha+4.34p 전섹터1위 4일 연속(6-19 +4.44~6-25 +4.34). 견인 leader 신세계 선택(이마트 +0.25% laggard 회피=anti-momentum 차단). 사이즈 1주로 제한: 일중 +8.18% 갭 높음 + 막슬롯 몰빵 회피, 코어 빌딩이지 추격 아님. 누적 3주(~222만, 자본 4.4%)로 유통 목표 10%(500만)의 ~44%. 약점: +8% 자리 추가는 가격엣지 낮음. 손절구조선 불변: 유통업 sector rotating_out 강등 OR 신세계 회전이전 구조 680k 종가 이탈 시 thesis 무효.",
       "dry_run": true,
       "order_no": "",
       "realized_pnl_won": null
@@ -143,6 +157,46 @@
       "amount_won": null,
       "qty": null,
       "reason": "삼성생명 +7.04% 갭. 보험 테마 약화, risk-on 복귀로 독립 alpha 소멸 베타 동행. 신규 비권장 + 갭상승 = 진입 0."
+    },
+    {
+      "slot": "1520",
+      "action": "buy",
+      "code": "004170",
+      "amount_won": 74,
+      "qty": 1,
+      "reason": "신세계 분할 2차 소량. 1차 thesis 사전트리거(KOSPI 8700 사수 종가확정 OR 유통 alpha 양전 지속) 둘 다 점등: KOSPI 6-25 +6%대 8700 종가 사수 확정, 유통업 sector rotating_in->leading 승격 alpha+4.34p 전섹터1위 4일 연속(6-19 +4.44~6-25 +4.34). 견인 leader 신세계 선택(이마트 +0.25% laggard 회피=anti-momentum 차단). 사이즈 1주로 제한: 일중 +8.18% 갭 높음 + 막슬롯 몰빵 회피, 코어 빌딩이지 추격 아님. 누적 3주(~222만, 자본 4.4%)로 유통 목표 10%(500만)의 ~44%. 약점: +8% 자리 추가는 가격엣지 낮음. 손절구조선 불변: 유통업 sector rotating_out 강등 OR 신세계 회전이전 구조 680k 종가 이탈 시 thesis 무효."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": "005930",
+      "amount_won": null,
+      "qty": null,
+      "reason": "HBM days8 후반 + 삼성전자 +5.43%. 강화 유지나 strategist 기보유 홀드 전용 명시, 미보유 신규는 후반 추격 금지. 진입 0."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": "000660",
+      "amount_won": null,
+      "qty": null,
+      "reason": "하이닉스 +13.91% 단일봉 과열 + days8 후반. 추격 절대 금지축, 미보유."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": "006800",
+      "amount_won": null,
+      "qty": null,
+      "reason": "증권 rotating_in day1 alpha+0.84p marginal=1일 noise 가능. 익일 alpha>+1p + vol 증가 확인 전 진입 보류."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": "032830",
+      "amount_won": null,
+      "qty": null,
+      "reason": "삼성생명 alpha-0.53p inline, risk-on 복귀로 value haven 독립 alpha 소멸 베타동행. 신규 비권장."
     }
   ],
   "calendar_dates": [
