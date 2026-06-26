@@ -3213,7 +3213,7 @@
     "realized_pnl_won": null,
     "sell_won": 0,
     "sells": 0,
-    "strategist_brief": null,
+    "strategist_brief": "```json\n{\n  \"themes\": [\n    {\"name\": \"유통/내수 value\", \"stance\": \"분할매수 가능(중반)\", \"note\": \"상승장 점화+하락장 방어 양국면 일관 alpha, 오늘 -3.85% 광폭 risk-off서 유통업 alpha 최강. 단 절대수익 미발생(방어 alpha)=추격 금지 눌림 분할만\"},\n    {\"name\": \"방어 haven(보험)\", \"stance\": \"기보유 홀드/소량\", \"note\": \"risk-off haven 비드 부활 alpha+1.12. vol 빈약=베타회피성, 신규 보수\"},\n    {\"name\": \"방어 로테이션(통신/의약품)\", \"stance\": \"watching, 소액 분할\", \"note\": \"통신 alpha+2.92 전섹터 유일 양전, 의약품 alpha+1.75. 단 vol 미미=가격 방어 비드, 시장 반등 시 즉시 되감김 위험\"},\n    {\"name\": \"AI반도체/HBM\", \"stance\": \"신규 금지\", \"note\": \"days9 후반 약화, 레버붕괴+인버스 상위 재탈환. 기보유 9000저항 거부 약화 시 분할익절 검토\"},\n    {\"name\": \"건설/토목 소형주(watching)\", \"stance\": \"관망\", \"note\": \"cluster 역행 급등이나 전부 마이크로~소형캡+대형건설 부재+남화 정치noise=조정후반 regime서 승격 보류\"}\n  ],\n  \"candidates\": [\n    {\"code\": \"004170\", \"name\": \"신세계\", \"reason\": \"유통/내수 value 1군. 광폭 하락장 alpha 최강 방어, 구조적 내수 주도. 눌림 분할만 추격금지\"},\n    {\"code\": \"139480\", \"name\": \"이마트\", \"reason\": \"유통/내수 value 1군. 유통업 leading 강화 동반, 방어 비드 핵심\"},\n    {\"code\": \"032830\", \"name\": \"삼성생명\", \"reason\": \"보험 haven 방어. risk-off alpha+1.12 복귀, 시총7위 -1.01% 사수. 신규 보수/홀드\"},\n    {\"code\": \"000810\", \"name\": \"삼성화재\", \"reason\": \"보험 leading 강화 2군. value haven 방어 비드\"},\n    {\"code\": \"017670\", \"name\": \"SK텔레콤\", \"reason\": \"통신 rotating_in, 오늘 +0.15% 전섹터 유일 양전 alpha+2.92. 방어 로테이션 선두, 소액 분할만(vol 미미 경계)\"},\n    {\"code\": \"207940\", \"name\": \"삼성바이오로직스\", \"reason\": \"의약품 rotating_in 방어, -0.36% 대형 제약 선방. 경기둔감 비드, 소액 분할\"}\n  ],\n  \"notes\": \"조정 후반 day2, confidence 보통, 오늘 KOSPI -3.85% 광폭 risk-off(dec761) + breadth 전체하락 = 신규 보수·분할만, 추격 절대금지. 후보 6개 전부 의도적 분산: 유통2/보험2/통신1/의약품1 = 4개 방어 테마로 깔아 PM 단일테마 도배 방지. 단 6개 모두 '방어 로테이션' 메타 성격(risk-off 수혜) — 시장 V반등 전환 시 동반 되감김 위험 공유하므로 portfolio-level 익스포저는 PM 자율 판단 필요. 공격형 모멘텀(반도체)은 약화·신규금지로 의도적 제외, 건설/토목 소형주는 regime상 관망. 풀포지션 금지·한 사이클 한 종목 통째 금지 준수.\"\n}\n```",
     "themes": [
       {
         "days_active": 9,
@@ -3291,6 +3291,6 @@
     "top_movers": [],
     "traded_codes": [],
     "trades_count": 0,
-    "unrealized_pnl_won": 2001
+    "unrealized_pnl_won": -999
   }
 }
