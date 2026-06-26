@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26 09:32:53",
+  "generated_at": "2026-06-26 09:35:41",
   "date": "20260626",
   "mode": "dry_run",
   "stats": {
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 2220999,
     "cash_remaining_won": 48652401,
-    "total_eval_won": 2223000,
-    "unrealized_pnl_won": 2001
+    "total_eval_won": 2220000,
+    "unrealized_pnl_won": -999
   },
   "positions": [
     {
@@ -23,11 +23,11 @@
       "qty": 3,
       "avg_price": 740333,
       "cost_won": 2220999,
-      "current_price": 741000,
-      "change_rate": 0.0,
-      "eval_won": 2223000,
-      "pnl_won": 2001,
-      "pnl_pct": 0.09009459256847932,
+      "current_price": 740000,
+      "change_rate": -0.13,
+      "eval_won": 2220000,
+      "pnl_won": -999,
+      "pnl_pct": -0.04497975910840122,
       "thesis": "신세계 분할 2차 소량. 1차 thesis 사전트리거(KOSPI 8700 사수 종가확정 OR 유통 alpha 양전 지속) 둘 다 점등: KOSPI 6-25 +6%대 8700 종가 사수 확정, 유통업 sector rotating_in->leading 승격 alpha+4.34p 전섹터1위 4일 연속(6-19 +4.44~6-25 +4.34). 견인 leader 신세계 선택(이마트 +0.25% laggard 회피=anti-momentum 차단). 사이즈 1주로 제한: 일중 +8.18% 갭 높음 + 막슬롯 몰빵 회피, 코어 빌딩이지 추격 아님. 누적 3주(~222만, 자본 4.4%)로 유통 목표 10%(500만)의 ~44%. 약점: +8% 자리 추가는 가격엣지 낮음. 손절구조선 불변: 유통업 sector rotating_out 강등 OR 신세계 회전이전 구조 680k 종가 이탈 시 thesis 무효."
     }
   ],
@@ -65,6 +65,6 @@
     "20260625",
     "20260626"
   ],
-  "strategist_brief": null,
+  "strategist_brief": "```json\n{\n  \"themes\": [\n    {\"name\": \"유통/내수 value\", \"stance\": \"분할매수 가능(중반)\", \"note\": \"상승장 점화+하락장 방어 양국면 일관 alpha, 오늘 -3.85% 광폭 risk-off서 유통업 alpha 최강. 단 절대수익 미발생(방어 alpha)=추격 금지 눌림 분할만\"},\n    {\"name\": \"방어 haven(보험)\", \"stance\": \"기보유 홀드/소량\", \"note\": \"risk-off haven 비드 부활 alpha+1.12. vol 빈약=베타회피성, 신규 보수\"},\n    {\"name\": \"방어 로테이션(통신/의약품)\", \"stance\": \"watching, 소액 분할\", \"note\": \"통신 alpha+2.92 전섹터 유일 양전, 의약품 alpha+1.75. 단 vol 미미=가격 방어 비드, 시장 반등 시 즉시 되감김 위험\"},\n    {\"name\": \"AI반도체/HBM\", \"stance\": \"신규 금지\", \"note\": \"days9 후반 약화, 레버붕괴+인버스 상위 재탈환. 기보유 9000저항 거부 약화 시 분할익절 검토\"},\n    {\"name\": \"건설/토목 소형주(watching)\", \"stance\": \"관망\", \"note\": \"cluster 역행 급등이나 전부 마이크로~소형캡+대형건설 부재+남화 정치noise=조정후반 regime서 승격 보류\"}\n  ],\n  \"candidates\": [\n    {\"code\": \"004170\", \"name\": \"신세계\", \"reason\": \"유통/내수 value 1군. 광폭 하락장 alpha 최강 방어, 구조적 내수 주도. 눌림 분할만 추격금지\"},\n    {\"code\": \"139480\", \"name\": \"이마트\", \"reason\": \"유통/내수 value 1군. 유통업 leading 강화 동반, 방어 비드 핵심\"},\n    {\"code\": \"032830\", \"name\": \"삼성생명\", \"reason\": \"보험 haven 방어. risk-off alpha+1.12 복귀, 시총7위 -1.01% 사수. 신규 보수/홀드\"},\n    {\"code\": \"000810\", \"name\": \"삼성화재\", \"reason\": \"보험 leading 강화 2군. value haven 방어 비드\"},\n    {\"code\": \"017670\", \"name\": \"SK텔레콤\", \"reason\": \"통신 rotating_in, 오늘 +0.15% 전섹터 유일 양전 alpha+2.92. 방어 로테이션 선두, 소액 분할만(vol 미미 경계)\"},\n    {\"code\": \"207940\", \"name\": \"삼성바이오로직스\", \"reason\": \"의약품 rotating_in 방어, -0.36% 대형 제약 선방. 경기둔감 비드, 소액 분할\"}\n  ],\n  \"notes\": \"조정 후반 day2, confidence 보통, 오늘 KOSPI -3.85% 광폭 risk-off(dec761) + breadth 전체하락 = 신규 보수·분할만, 추격 절대금지. 후보 6개 전부 의도적 분산: 유통2/보험2/통신1/의약품1 = 4개 방어 테마로 깔아 PM 단일테마 도배 방지. 단 6개 모두 '방어 로테이션' 메타 성격(risk-off 수혜) — 시장 V반등 전환 시 동반 되감김 위험 공유하므로 portfolio-level 익스포저는 PM 자율 판단 필요. 공격형 모멘텀(반도체)은 약화·신규금지로 의도적 제외, 건설/토목 소형주는 regime상 관망. 풀포지션 금지·한 사이클 한 종목 통째 금지 준수.\"\n}\n```",
   "auditor_verdict": null
 }
