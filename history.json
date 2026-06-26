@@ -3233,6 +3233,14 @@
         "qty": null,
         "reason": "신규 0. 후보 6종 전부 방어 로테이션 단일 메타인데 live 가 thesis 반증: 삼성생명 -5.93%/삼성화재 -5.22%/삼성바이오 -5.12%/SKT -3.5%(어제 +0.15% alpha 음전 전환)=오늘 실시간서 방어 비드 미작동, 실패중 thesis 신규 진입 역행. 통신/의약품 rotating_in 은 day-1+vol 미미 미확정. KOSPI -3.85% 광폭 risk-off+breadth 전체하락+조정후반 day2 confidence 보통=신규 선별 보수 regime, 추격 금지. 데이터 부재 아닌 데이터 반증이므로 보류 일관 적용.",
         "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "004170",
+        "qty": null,
+        "reason": "신세계 3주 본전(740000 vs 평단740333). 지지선 740k>680k 종가유효 + 유통 sector leading 강화 alpha+3.19 광폭risk-off 최강방어 = 두축 견조, trim 미점등. 3차add 보류: 종가flat=가격엣지0(횡보), 광폭risk-off+breadth전체하락+막슬롯+단일명집중, 익일 유사가격 추가가능. 신규0: 보험 종목단 -3.3%동반하락(haven 종목레벨 미작동), 통신/의약품 day-1 rotating_in 미확정 추격금지, 이마트 동일게이트. 단일 유통 probe 유지, risk-off 막슬롯 신규보수.",
+        "slot": "1520"
       }
     ],
     "realized_pnl_won": null,
@@ -3316,6 +3324,6 @@
     "top_movers": [],
     "traded_codes": [],
     "trades_count": 0,
-    "unrealized_pnl_won": -27999
+    "unrealized_pnl_won": -999
   }
 }
