@@ -3216,7 +3216,7 @@
     "strategist_brief": null,
     "themes": [
       {
-        "days_active": 8,
+        "days_active": 9,
         "entry_status": "후반",
         "leaders": [
           {
@@ -3229,18 +3229,18 @@
           },
           {
             "code": "",
-            "name": "삼성전자우"
+            "name": "삼성전기"
           },
           {
             "code": "",
-            "name": "삼성전기"
+            "name": "삼성전자우"
           }
         ],
         "name": "AI 반도체/HBM",
-        "strength_trend": "강화"
+        "strength_trend": "약화"
       },
       {
-        "days_active": 3,
+        "days_active": 4,
         "entry_status": "후반",
         "leaders": [
           {
@@ -3253,11 +3253,7 @@
           },
           {
             "code": "",
-            "name": "KB금융"
-          },
-          {
-            "code": "",
-            "name": "신한지주"
+            "name": "DB손해보험"
           },
           {
             "code": "",
@@ -3268,8 +3264,8 @@
         "strength_trend": "약화"
       },
       {
-        "days_active": 1,
-        "entry_status": "초입",
+        "days_active": 2,
+        "entry_status": "중반",
         "leaders": [
           {
             "code": "",
@@ -3295,6 +3291,6 @@
     "top_movers": [],
     "traded_codes": [],
     "trades_count": 0,
-    "unrealized_pnl_won": -12999
+    "unrealized_pnl_won": 2001
   }
 }
