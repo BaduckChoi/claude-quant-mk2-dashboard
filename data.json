@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26 09:35:41",
+  "generated_at": "2026-06-26 09:41:01",
   "date": "20260626",
   "mode": "dry_run",
   "stats": {
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 2220999,
     "cash_remaining_won": 48652401,
-    "total_eval_won": 2220000,
-    "unrealized_pnl_won": -999
+    "total_eval_won": 2250000,
+    "unrealized_pnl_won": 29001
   },
   "positions": [
     {
@@ -23,16 +23,25 @@
       "qty": 3,
       "avg_price": 740333,
       "cost_won": 2220999,
-      "current_price": 740000,
-      "change_rate": -0.13,
-      "eval_won": 2220000,
-      "pnl_won": -999,
-      "pnl_pct": -0.04497975910840122,
+      "current_price": 750000,
+      "change_rate": 1.21,
+      "eval_won": 2250000,
+      "pnl_won": 29001,
+      "pnl_pct": 1.3057637576604042,
       "thesis": "신세계 분할 2차 소량. 1차 thesis 사전트리거(KOSPI 8700 사수 종가확정 OR 유통 alpha 양전 지속) 둘 다 점등: KOSPI 6-25 +6%대 8700 종가 사수 확정, 유통업 sector rotating_in->leading 승격 alpha+4.34p 전섹터1위 4일 연속(6-19 +4.44~6-25 +4.34). 견인 leader 신세계 선택(이마트 +0.25% laggard 회피=anti-momentum 차단). 사이즈 1주로 제한: 일중 +8.18% 갭 높음 + 막슬롯 몰빵 회피, 코어 빌딩이지 추격 아님. 누적 3주(~222만, 자본 4.4%)로 유통 목표 10%(500만)의 ~44%. 약점: +8% 자리 추가는 가격엣지 낮음. 손절구조선 불변: 유통업 sector rotating_out 강등 OR 신세계 회전이전 구조 680k 종가 이탈 시 thesis 무효."
     }
   ],
   "trades": [],
-  "pm_decisions": [],
+  "pm_decisions": [
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "004170",
+      "amount_won": null,
+      "qty": null,
+      "reason": "신세계 코어 3주 유지. trim 트리거 미점등(유통업 rotating_out 강등 X, 신세계 680k 종가 이탈 X). 유통업 sector leading 강화, 상승장 alpha+4.34/하락장 alpha+3.19 양국면 일관 = 구조적 내수 주도 thesis 견조. 3차 add 보류: 현재 751k(+1.35%) 평단 740k 위 + 지지선 680k 대비 retest 가격엣지 없음, 시초 773k(+7%) 자리는 추격 영역. 배치율 4.4%는 매수 사유 아님(dry-powder 옵션가치). add 트리거: 유통업 leading 강화 종가 유지 AND 신세계 725k 이하 눌림 종가 도달 OR 유통 sector alpha 재확대 종가확정 시 1주 분할, 미충족 시 익일 carry. 신규 0: 후보 6종 전부 방어 로테이션=V반등 시 동반 되감김 공유 risk, 조정 후반 breadth 전체하락서 보수. 이마트=유통 동일 sector gate(분산 아님)+laggard anti-momentum. SKT 통신/삼바 의약품=rotating_in day1 vol 미미(SKT vol 369=자본유입 전무) 추격금지. 삼성생명/삼성화재 보험=vol 빈약 베타회피성+leading day5 막바지. 독립축 진입은 해당 sector vol 동반 회복 종가확정 후."
+    }
+  ],
   "calendar_dates": [
     "20260511",
     "20260512",
