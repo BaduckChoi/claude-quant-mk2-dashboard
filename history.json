@@ -3334,7 +3334,7 @@
     "realized_pnl_won": null,
     "sell_won": 0,
     "sells": 0,
-    "strategist_brief": null,
+    "strategist_brief": "핵심: regime 조정 진입(신규 사실상 중단) + KOSPI -3.23% 반도체 distribution 단독 급락 vs KOSDAQ +4.63% risk-on. 대형주 약세-중소형 랠리 divergence. 1일 바운스 noise 경계.\n\n스탠스: 관망 우위. active 테마 둘(반도체/유통) 다 신규금지(소진/후반). 살아있는 신호는 watching 시클리컬 로테이션(건설/화학 자본동반) + 의약품뿐. regime 게이트상 풀 진입 금지 → 소액 분할 후보만 깔고 PM 자율판단 넘김. 단일테마 쏠림 방지 위해 시클리컬+제약 2갈래.\n\n```json\n{\n  \"themes\": [\n    {\n      \"name\": \"경기민감 시클리컬 로테이션(건설/화학)\",\n      \"stance\": \"watch_only_small\",\n      \"rationale\": \"6-29 risk-on서 건설+4.0%(vol 비메가1위)·화학+3.44%(vol+66%) 자본동반 점화. sector_tracker rotating_in 최우선. 단 regime 조정진입 + 1일 바운스 noise 미배제 = 승격 미완. 신규는 소액 분할 한정, 추격 금지. 6-30 alpha양전+vol유지 2일 확인 전 본진입 보류.\"\n    },\n    {\n      \"name\": \"의약품/헬스케어 리바운드\",\n      \"stance\": \"watch_only_small\",\n      \"rationale\": \"의약품 sector +2.99% 2일 outperform, 방어비드->risk-on 참여 성격진화. 단 vol 폭증 아님, breadth 상위권 standout 미검증, 저신뢰. 분산 옵션용 소액만.\"\n    }\n  ],\n  \"candidates\": [\n    {\n      \"code\": \"000720\",\n      \"name\": \"현대건설\",\n      \"reason\": \"건설 rotating_in 선두주(섹터+4.0% alpha+6.39, vol 비메가1위=가격·자본 동시폭발). 시클리컬 로테이션 대표. 소액 분할 진입 후보, 추격금지. 익일 vol5천+ 유지 확인이 본진입 게이트.\"\n    },\n    {\n      \"code\": \"051910\",\n      \"name\": \"LG화학\",\n      \"reason\": \"화학 rotating_in 선두(섹터+3.44% alpha+5.83, vol+66%=자본동반이 차별강점). 건설과 함께 시클리컬 클러스터. 소액 분할만.\"\n    },\n    {\n      \"code\": \"207940\",\n      \"name\": \"삼성바이오로직스\",\n      \"reason\": \"의약품 rotating_in carry(+2.76%, 2일 outperform), 시총10위 대형 안정주. 시클리컬과 다른 테마 = 분산 옵션. 저신뢰라 최소 분할만.\"\n    }\n  ],\n  \"notes\": \"관망 우위 brief. regime 조정진입 day1 = 신규 사실상 중단, confidence 보통. active 테마(반도체 소진/유통 후반) 둘 다 신규금지라 후보 제외. 살아있는 신호는 watching 단계(시클리컬+제약)뿐이고 전부 1일 risk-on 바운스 noise 미배제 = 본진입 부적합, 소액 분할 후보로만 제시. 후보 3개 중 2개(현대건설/LG화학) 동일 시클리컬 테마 쏠림 — portfolio 분산 관점에서 PM 자율 판단 필요. 삼바는 분산용. 핵심 경계: KOSPI -3.23%는 반도체 distribution 단독 드래그(전기전자 rotating_out), KOSDAQ +4.63% risk-on과 divergence = 광범위 risk-on 아님. 시클리컬 점화가 진성인지 1일 바운스인지 6-30 확정봉(KOSPI 8203 사수 vs 이탈) 확인 전엔 신규 비중 최소화. 기보유 약종목(MA20 8472 미회복/반도체) 분할익절 우선이 디폴트.\"\n}\n```",
     "themes": [
       {
         "days_active": 10,
@@ -3388,6 +3388,6 @@
     "top_movers": [],
     "traded_codes": [],
     "trades_count": 0,
-    "unrealized_pnl_won": -54999
+    "unrealized_pnl_won": -42999
   }
 }
