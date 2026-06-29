@@ -3394,6 +3394,22 @@
         "qty": null,
         "reason": "reject. 의약품 watching 저신뢰, vol 폭증 아님 standout 미검증. 갭 +5.81% + regime 조정진입 신규중단. 보류.",
         "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "004170",
+        "qty": null,
+        "reason": "신세계 2주 carry. 매도 트리거(유통 sector rotating_out 강등 OR 680k 종가 이탈) 둘 다 미점등: 728k>680k, 유통 leading d3 carry. 테마 유효성 약화 축 점등(risk-on서 red 소외, haven 프리미엄 소멸, days3 후반)이나 객관 stop 미점등 상태서 무른 서술형으로 당겨 파는 건 reverse disposition(평단740<728 underwater)이라 보류. 익일 680k 종가 이탈 또는 유통 rotating_out 강등 시 부분정리 집행. add thesis(KOSPI8700/유통 haven alpha) regime 조정진입 전환으로 무효 = 유통 코어 동결, 추가 없음.",
+        "slot": "1520"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": null,
+        "qty": null,
+        "reason": "신규 0. 후보 3종(현대건설+12.29/LG화학+13.65/삼바+7.67) 전부 day-1 risk-on 바운스 +7~14% 갭, 가격엣지 없음. regime 조정진입 day1 신규 사실상 중단 + strategist 본진입 보류(6-30 확정봉 KOSPI 8203 사수 확인 전). KOSPI-3.23% 반도체 distribution vs KOSDAQ risk-on divergence = 광범위 risk-on 아님, 1일 바운스 미배제. 막슬롯 몰빵 회피. 익일 확정봉서 시클리컬 alpha 양전 지속+vol유지 확인 시 소액 분할 재평가.",
+        "slot": "1520"
       }
     ],
     "realized_pnl_won": -22333,
@@ -3465,6 +3481,6 @@
       }
     ],
     "trades_count": 1,
-    "unrealized_pnl_won": -90666
+    "unrealized_pnl_won": -24666
   }
 }
