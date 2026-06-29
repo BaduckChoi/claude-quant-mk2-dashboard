@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-26 16:05:57",
-  "date": "20260626",
+  "generated_at": "2026-06-29 09:22:44",
+  "date": "20260629",
   "mode": "dry_run",
   "stats": {
     "open_positions": 1,
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 2220999,
     "cash_remaining_won": 48652401,
-    "total_eval_won": 2220000,
-    "unrealized_pnl_won": -999
+    "total_eval_won": 2154000,
+    "unrealized_pnl_won": -66999
   },
   "positions": [
     {
@@ -23,49 +23,16 @@
       "qty": 3,
       "avg_price": 740333,
       "cost_won": 2220999,
-      "current_price": 740000,
-      "change_rate": -0.13,
-      "eval_won": 2220000,
-      "pnl_won": -999,
-      "pnl_pct": -0.04497975910840122,
+      "current_price": 718000,
+      "change_rate": -2.97,
+      "eval_won": 2154000,
+      "pnl_won": -66999,
+      "pnl_pct": -3.016615495999773,
       "thesis": "신세계 분할 2차 소량. 1차 thesis 사전트리거(KOSPI 8700 사수 종가확정 OR 유통 alpha 양전 지속) 둘 다 점등: KOSPI 6-25 +6%대 8700 종가 사수 확정, 유통업 sector rotating_in->leading 승격 alpha+4.34p 전섹터1위 4일 연속(6-19 +4.44~6-25 +4.34). 견인 leader 신세계 선택(이마트 +0.25% laggard 회피=anti-momentum 차단). 사이즈 1주로 제한: 일중 +8.18% 갭 높음 + 막슬롯 몰빵 회피, 코어 빌딩이지 추격 아님. 누적 3주(~222만, 자본 4.4%)로 유통 목표 10%(500만)의 ~44%. 약점: +8% 자리 추가는 가격엣지 낮음. 손절구조선 불변: 유통업 sector rotating_out 강등 OR 신세계 회전이전 구조 680k 종가 이탈 시 thesis 무효."
     }
   ],
   "trades": [],
-  "pm_decisions": [
-    {
-      "slot": "0940",
-      "action": "hold",
-      "code": "004170",
-      "amount_won": null,
-      "qty": null,
-      "reason": "신세계 코어 3주 유지. trim 트리거 미점등(유통업 rotating_out 강등 X, 신세계 680k 종가 이탈 X). 유통업 sector leading 강화, 상승장 alpha+4.34/하락장 alpha+3.19 양국면 일관 = 구조적 내수 주도 thesis 견조. 3차 add 보류: 현재 751k(+1.35%) 평단 740k 위 + 지지선 680k 대비 retest 가격엣지 없음, 시초 773k(+7%) 자리는 추격 영역. 배치율 4.4%는 매수 사유 아님(dry-powder 옵션가치). add 트리거: 유통업 leading 강화 종가 유지 AND 신세계 725k 이하 눌림 종가 도달 OR 유통 sector alpha 재확대 종가확정 시 1주 분할, 미충족 시 익일 carry. 신규 0: 후보 6종 전부 방어 로테이션=V반등 시 동반 되감김 공유 risk, 조정 후반 breadth 전체하락서 보수. 이마트=유통 동일 sector gate(분산 아님)+laggard anti-momentum. SKT 통신/삼바 의약품=rotating_in day1 vol 미미(SKT vol 369=자본유입 전무) 추격금지. 삼성생명/삼성화재 보험=vol 빈약 베타회피성+leading day5 막바지. 독립축 진입은 해당 sector vol 동반 회복 종가확정 후."
-    },
-    {
-      "slot": "1230",
-      "action": "hold",
-      "code": "004170",
-      "amount_won": null,
-      "qty": null,
-      "reason": "신세계 3주 보유 hold. 손절구조선 680k 종가이탈/유통 rotating_out 강등 둘 다 미점등(현재 731k, low726k 일중저점이나 종가 미확정·680k 크게 위). 유통업 sector leading 강화(상승장 alpha+4.34/하락장 alpha+3.19 양국면 일관)=thesis 견조. 책 내 최선 방어(-1.35% vs KOSPI -3.85%). 3차 add 보류: 731k<avg740k 로 2차(+8%)보다 가격 우월하나 오늘 광폭 risk-off+breadth 붕괴+일중 신저가 갱신중=일봉 지지 종가확정 불가, 시장견인 하락이지 방어 retest 아님. 익일 700k+ 종가사수+유통 leading 유지 시 3차 발동."
-    },
-    {
-      "slot": "1230",
-      "action": "hold",
-      "code": null,
-      "amount_won": null,
-      "qty": null,
-      "reason": "신규 0. 후보 6종 전부 방어 로테이션 단일 메타인데 live 가 thesis 반증: 삼성생명 -5.93%/삼성화재 -5.22%/삼성바이오 -5.12%/SKT -3.5%(어제 +0.15% alpha 음전 전환)=오늘 실시간서 방어 비드 미작동, 실패중 thesis 신규 진입 역행. 통신/의약품 rotating_in 은 day-1+vol 미미 미확정. KOSPI -3.85% 광폭 risk-off+breadth 전체하락+조정후반 day2 confidence 보통=신규 선별 보수 regime, 추격 금지. 데이터 부재 아닌 데이터 반증이므로 보류 일관 적용."
-    },
-    {
-      "slot": "1520",
-      "action": "hold",
-      "code": "004170",
-      "amount_won": null,
-      "qty": null,
-      "reason": "신세계 3주 본전(740000 vs 평단740333). 지지선 740k>680k 종가유효 + 유통 sector leading 강화 alpha+3.19 광폭risk-off 최강방어 = 두축 견조, trim 미점등. 3차add 보류: 종가flat=가격엣지0(횡보), 광폭risk-off+breadth전체하락+막슬롯+단일명집중, 익일 유사가격 추가가능. 신규0: 보험 종목단 -3.3%동반하락(haven 종목레벨 미작동), 통신/의약품 day-1 rotating_in 미확정 추격금지, 이마트 동일게이트. 단일 유통 probe 유지, risk-off 막슬롯 신규보수."
-    }
-  ],
+  "pm_decisions": [],
   "calendar_dates": [
     "20260511",
     "20260512",
@@ -96,8 +63,9 @@
     "20260623",
     "20260624",
     "20260625",
-    "20260626"
+    "20260626",
+    "20260629"
   ],
-  "strategist_brief": "```json\n{\n  \"themes\": [\n    {\"name\": \"유통/내수 value\", \"stance\": \"분할매수 가능(중반)\", \"note\": \"상승장 점화+하락장 방어 양국면 일관 alpha, 오늘 -3.85% 광폭 risk-off서 유통업 alpha 최강. 단 절대수익 미발생(방어 alpha)=추격 금지 눌림 분할만\"},\n    {\"name\": \"방어 haven(보험)\", \"stance\": \"기보유 홀드/소량\", \"note\": \"risk-off haven 비드 부활 alpha+1.12. vol 빈약=베타회피성, 신규 보수\"},\n    {\"name\": \"방어 로테이션(통신/의약품)\", \"stance\": \"watching, 소액 분할\", \"note\": \"통신 alpha+2.92 전섹터 유일 양전, 의약품 alpha+1.75. 단 vol 미미=가격 방어 비드, 시장 반등 시 즉시 되감김 위험\"},\n    {\"name\": \"AI반도체/HBM\", \"stance\": \"신규 금지\", \"note\": \"days9 후반 약화, 레버붕괴+인버스 상위 재탈환. 기보유 9000저항 거부 약화 시 분할익절 검토\"},\n    {\"name\": \"건설/토목 소형주(watching)\", \"stance\": \"관망\", \"note\": \"cluster 역행 급등이나 전부 마이크로~소형캡+대형건설 부재+남화 정치noise=조정후반 regime서 승격 보류\"}\n  ],\n  \"candidates\": [\n    {\"code\": \"004170\", \"name\": \"신세계\", \"reason\": \"유통/내수 value 1군. 광폭 하락장 alpha 최강 방어, 구조적 내수 주도. 눌림 분할만 추격금지\"},\n    {\"code\": \"139480\", \"name\": \"이마트\", \"reason\": \"유통/내수 value 1군. 유통업 leading 강화 동반, 방어 비드 핵심\"},\n    {\"code\": \"032830\", \"name\": \"삼성생명\", \"reason\": \"보험 haven 방어. risk-off alpha+1.12 복귀, 시총7위 -1.01% 사수. 신규 보수/홀드\"},\n    {\"code\": \"000810\", \"name\": \"삼성화재\", \"reason\": \"보험 leading 강화 2군. value haven 방어 비드\"},\n    {\"code\": \"017670\", \"name\": \"SK텔레콤\", \"reason\": \"통신 rotating_in, 오늘 +0.15% 전섹터 유일 양전 alpha+2.92. 방어 로테이션 선두, 소액 분할만(vol 미미 경계)\"},\n    {\"code\": \"207940\", \"name\": \"삼성바이오로직스\", \"reason\": \"의약품 rotating_in 방어, -0.36% 대형 제약 선방. 경기둔감 비드, 소액 분할\"}\n  ],\n  \"notes\": \"조정 후반 day2, confidence 보통, 오늘 KOSPI -3.85% 광폭 risk-off(dec761) + breadth 전체하락 = 신규 보수·분할만, 추격 절대금지. 후보 6개 전부 의도적 분산: 유통2/보험2/통신1/의약품1 = 4개 방어 테마로 깔아 PM 단일테마 도배 방지. 단 6개 모두 '방어 로테이션' 메타 성격(risk-off 수혜) — 시장 V반등 전환 시 동반 되감김 위험 공유하므로 portfolio-level 익스포저는 PM 자율 판단 필요. 공격형 모멘텀(반도체)은 약화·신규금지로 의도적 제외, 건설/토목 소형주는 regime상 관망. 풀포지션 금지·한 사이클 한 종목 통째 금지 준수.\"\n}\n```",
-  "auditor_verdict": "검토 완료. 오늘 = KOSPI -3.85% 광폭 risk-off, breadth 붕괴(dec761). 집행 0건, 3슬롯 전부 hold. 책 = 신세계 단일 3주(평단 740,333, 본전, 자본 4.4%). trades 빈 배열.\n\n**먼저 잘한 것 (강화할 행동).** 12:30 신규 판단이 오늘 최고 추론. 후보 6종 방어 메타인데 live 가 thesis 반증(삼성생명 -5.93/삼성화재 -5.22/삼바 -5.12/SKT 어제 +0.15 alpha 음전) → \"데이터 부재 아닌 데이터 반증이므로 보류\". 이건 확증편향 회피의 교과서 사례다. 방어 thesis 가 종목 레벨서 안 먹히는 걸 보고도 brief 가 깔아준 6종을 안 받았음 = strategist anchor 에 안 끌려감. 신세계 hold 도 두 축(지지선 740>680, 유통 leading 강화 alpha+3.19) 실체 근거. 그리고 어제 auditor verdict 를 alibi 로 안 썼다 — 세 슬롯 reason 전부 지지선·sector alpha·vol 같은 본질 사유로 시작, \"verdict §N\" / \"auditor 가 지목한\" 인용 0건. 이 패턴 유지해라.\n\n**진짜 짚을 것: 3차 add 의 움직이는 골대.** 유통 목표 10% 대비 현재 44%, 코어 반쪽 상태로 carry. 세 슬롯서 add 보류 사유가 가격 조건마다 갈아끼워졌다 —\n- 09:40 751k(평단 위) → \"추격 영역, 엣지 없음\"\n- 12:30 731k(평단 **아래**, PM 본인이 \"2차 +8% 추격보다 가격 우월\" 인정) → \"신저가 갱신중 종가 미확정\"\n- 15:20 740k(횡보) → \"엣지 0, 막슬롯 단일명 부적합\"\n\n즉 평단 위면 비싸서 패스, 평단 아래면 종가 미확정이라 패스, 횡보면 엣지 0 라 패스. **모든 가격 상태가 \"보류\"를 산출**했다. 이게 same-rule cherry-pick / non-falsifiable trigger 패턴이다. 특히 12:30 — PM 의 직전 2차 add 는 본인 말로 +8% 추격(엣지 낮음 자인)에 들어갔는데, 그보다 가격 우월한 평단하회 자리는 \"종가확정\" 기준 들어 거부했다. 종가확정 잣대를 *행동 안 할 때만* 적용 = 룰의 비대칭 집행.\n\n여기에 더해 익일 트리거도 슬롯마다 달라졌다: 725k 눌림 → 700k+ 종가사수 → 유사가격 추가가능. 트리거 자체가 표류 중이라 어떤 가격이 와도 \"조건 미충족\" 선언이 가능한 구조다. PM 이 \"이건 omission 아님, 가격엣지 부재가 본질\" 이라고 매 슬롯 명명하는데 — 그 방어는 add 트리거가 *실재하고 언젠가 발화할 때만* 유효하다. 트리거가 계속 바뀌면 \"omission 아님\" 선언 자체가 무행동 면죄부 의식이 된다.\n\n**중요한 균형:** 오늘 -3.85% 크래시 날 add 안 한 건 *개별적으로는 옳다*. 떨어지는 칼 안 잡는 건 regime 정합. 그러니 내일 이걸 과교정해서 추격하지 마라. 비판의 대상은 오늘의 hold 가 아니라 *반쪽 코어가 며칠째 표류하며 add 조건이 매번 새로 발명되는 구조*다. 시스템 mandate 는 분할진입을 강제하는데, 분할진입은 \"스케일인 계획을 세워 실행\"이지 \"영구 보류\"가 아니다. 44% 에 무한정 멈춰 규율로 포장된 우유부단으로 굳으면 그게 mandate 위반 쪽이다.\n\n**단일종목 집중도 메모.** strategist 가 의도적으로 6종/4테마 분산을 깔았는데 PM 집행은 유통 1종 = 96% 현금. 크래시 날엔 정합이나, 이게 PM 의 암묵적 \"거의 전면 risk-off\" regime 콜임을 자각해라. 신세계가 conviction core 면 유효 트리거에 채워라. core 아니면 왜 드냐. 어중간한 \"probe\" 영속 상태가 commitment-escalation-lite(이미 들고 있어서 든다) 위험. 단 오늘 hold 논리는 실체 있으니 hold 자체는 정당.\n\n## 내일 PM 지침\n\n신세계 add 를 *하나의 falsifiable 조건*으로 못박아라. 슬롯마다 새 사유 발명 금지. 의도는 이거다 — \"분할진입은 실행 계획이지 영구 보류가 아니다. 들어갈 가격·신호를 미리 한 줄로 정하고, 충족되면 기계적으로 1주, 미충족이면 carry, 그게 전부.\" 가격 위/아래/횡보 셋 다 패스를 낳는 구조가 또 나오면 그건 add 의지 없음이니 차라리 \"유통 코어 44% 에서 동결, 추가 없음\"을 명시적으로 선언하고 dry-powder 를 다른 축에 쓸지 판단해라. 둘 중 하나로 결판내라.\n\n신규 진입은 12:30 추론 그대로 유지 — sector 가 *종목 레벨서* 실제 작동(가격+vol 동반)할 때만. 방어 메타의 brief alpha 는 sector 지수 방어일 뿐, 종목이 같이 빠지면(오늘 보험 -5%대) haven 미작동이다. 시장 V반등 시 통신/의약품 rotating_in day-1 들이 되감길 위험 그대로. 추격 금지 유지.\n\nreason 작성 시 \"omission 아님\" 같은 메타 선언 줄이고, add 트리거를 그 자리서 *검증 가능한 한 문장*으로 적어라. 트리거가 매일 바뀌면 audit 가 잡는다."
+  "strategist_brief": null,
+  "auditor_verdict": null
 }
