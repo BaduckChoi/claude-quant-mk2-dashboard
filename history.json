@@ -3362,6 +3362,38 @@
         "qty": null,
         "reason": "삼바 +2.76%, 의약품 rotating_in carry 분산 옵션이나 저신뢰(vol 폭증 아님, breadth standout 미검증). regime 조정 진입 신규 중단. 신규 0.",
         "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "004170",
+        "qty": null,
+        "reason": "696k -5.95% 고거래량 하락(distribution), sector -2.46% 대비 단독 언더퍼폼. 그러나 구조선 680k 종가 미이탈(현 696k) + KOSPI -2.4% 광폭 대형주 약세장 내 유통 inline = 단독 붕괴 아님. 일중 강제정리 3조건 동시 미충족(지지 미이탈). 평가손 위치 무관하게 약화테마 추가매수 안 함. 정리 트리거 고정: 종가 680k 이탈 OR 유통 sector rotating_out 강등 시 1/2 정리(다음슬롯 재손대X), 또는 유통 leader 2종+ 동반 -5% 시 1/2.",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "000720",
+        "qty": null,
+        "reason": "reject. regime 조정진입 day1 신규 중단 + 건설 watching 미승격 + 갭 +11.23% 추격 부적격. 6-30 확정봉 8203 사수+vol유지 2일 확인 전 보류.",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "051910",
+        "qty": null,
+        "reason": "reject. 화학 rotating_in이나 건설과 동일 시클리컬 게이트 한뿌리=분산 아님. 갭 +9.59% + regime 신규중단 + 1일 바운스 noise. 보류.",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "207940",
+        "qty": null,
+        "reason": "reject. 의약품 watching 저신뢰, vol 폭증 아님 standout 미검증. 갭 +5.81% + regime 조정진입 신규중단. 보류.",
+        "slot": "1230"
       }
     ],
     "realized_pnl_won": -22333,
@@ -3433,6 +3465,6 @@
       }
     ],
     "trades_count": 1,
-    "unrealized_pnl_won": -40666
+    "unrealized_pnl_won": -90666
   }
 }
