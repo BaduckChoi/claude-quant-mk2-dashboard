@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29 09:28:15",
+  "generated_at": "2026-06-29 09:34:12",
   "date": "20260629",
   "mode": "dry_run",
   "stats": {
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 2220999,
     "cash_remaining_won": 48652401,
-    "total_eval_won": 2199000,
-    "unrealized_pnl_won": -21999
+    "total_eval_won": 2166000,
+    "unrealized_pnl_won": -54999
   },
   "positions": [
     {
@@ -23,11 +23,11 @@
       "qty": 3,
       "avg_price": 740333,
       "cost_won": 2220999,
-      "current_price": 733000,
-      "change_rate": -0.95,
-      "eval_won": 2199000,
-      "pnl_won": -21999,
-      "pnl_pct": -0.9905002208465651,
+      "current_price": 722000,
+      "change_rate": -2.43,
+      "eval_won": 2166000,
+      "pnl_won": -54999,
+      "pnl_pct": -2.476318089292251,
       "thesis": "신세계 분할 2차 소량. 1차 thesis 사전트리거(KOSPI 8700 사수 종가확정 OR 유통 alpha 양전 지속) 둘 다 점등: KOSPI 6-25 +6%대 8700 종가 사수 확정, 유통업 sector rotating_in->leading 승격 alpha+4.34p 전섹터1위 4일 연속(6-19 +4.44~6-25 +4.34). 견인 leader 신세계 선택(이마트 +0.25% laggard 회피=anti-momentum 차단). 사이즈 1주로 제한: 일중 +8.18% 갭 높음 + 막슬롯 몰빵 회피, 코어 빌딩이지 추격 아님. 누적 3주(~222만, 자본 4.4%)로 유통 목표 10%(500만)의 ~44%. 약점: +8% 자리 추가는 가격엣지 낮음. 손절구조선 불변: 유통업 sector rotating_out 강등 OR 신세계 회전이전 구조 680k 종가 이탈 시 thesis 무효."
     }
   ],
