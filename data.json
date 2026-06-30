@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30 09:32:36",
+  "generated_at": "2026-06-30 09:35:32",
   "date": "20260630",
   "mode": "dry_run",
   "stats": {
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 1480666,
     "cash_remaining_won": 49370401,
-    "total_eval_won": 1468000,
-    "unrealized_pnl_won": -12666
+    "total_eval_won": 1466000,
+    "unrealized_pnl_won": -14666
   },
   "positions": [
     {
@@ -23,11 +23,11 @@
       "qty": 2,
       "avg_price": 740333,
       "cost_won": 1480666,
-      "current_price": 734000,
-      "change_rate": 0.69,
-      "eval_won": 1468000,
-      "pnl_won": -12666,
-      "pnl_pct": -0.8554258691696844,
+      "current_price": 733000,
+      "change_rate": 0.55,
+      "eval_won": 1466000,
+      "pnl_won": -14666,
+      "pnl_pct": -0.9905002208465651,
       "thesis": "신세계 분할 2차 소량. 1차 thesis 사전트리거(KOSPI 8700 사수 종가확정 OR 유통 alpha 양전 지속) 둘 다 점등: KOSPI 6-25 +6%대 8700 종가 사수 확정, 유통업 sector rotating_in->leading 승격 alpha+4.34p 전섹터1위 4일 연속(6-19 +4.44~6-25 +4.34). 견인 leader 신세계 선택(이마트 +0.25% laggard 회피=anti-momentum 차단). 사이즈 1주로 제한: 일중 +8.18% 갭 높음 + 막슬롯 몰빵 회피, 코어 빌딩이지 추격 아님. 누적 3주(~222만, 자본 4.4%)로 유통 목표 10%(500만)의 ~44%. 약점: +8% 자리 추가는 가격엣지 낮음. 손절구조선 불변: 유통업 sector rotating_out 강등 OR 신세계 회전이전 구조 680k 종가 이탈 시 thesis 무효."
     }
   ],
@@ -67,6 +67,6 @@
     "20260629",
     "20260630"
   ],
-  "strategist_brief": null,
+  "strategist_brief": "조정 진입 day2 + KOSPI 확정 -0.89%(부분봉 +0.22서 악화) + MA20(8468) 미회복 = 신규 사실상 중단. 후보 최소화, watching 위주. PM 게이트 디폴트 켜라.\n\n```json\n{\n  \"themes\": [\n    {\n      \"name\": \"전기전자(rotating_in)\",\n      \"status\": \"관찰진입\",\n      \"note\": \"sector rotating_in 복귀(전섹터 vol#1, 어제 distribution->오늘 단독 견인). 삼성전기 +3.68% 독립 강세가 alpha 견인. 단 leading 미복귀 1일 green whipsaw 경계 + 삼성전기 이미 신고가권 = 추격 금지. 분할만.\"\n    },\n    {\n      \"name\": \"AI반도체/HBM(소진)\",\n      \"status\": \"보유전용\",\n      \"note\": \"days11 소진, 신규 절대금지. 본진 SK하이닉스 -1.9% red = 본질 약화(부속/기판으로 분산). 약종목(하이닉스/SK스퀘어 -4.88%) 지지선 분할익절 우선.\"\n    },\n    {\n      \"name\": \"소형건설/토목(watching)\",\n      \"status\": \"관망\",\n      \"note\": \"동양파일 상한가권/한성크린텍 +25% = 추격 절대금지. 1일 pop 미검증 + 조정 regime. 진입대상 아님, 승격 관찰만.\"\n    }\n  ],\n  \"candidates\": [\n    {\n      \"code\": \"009150\",\n      \"name\": \"삼성전기\",\n      \"reason\": \"전기전자 rotating_in leader, 시총5위 +3.68% 독립 디커플(HBM기판/MLCC). 유일 진성 accumulation 단서. 단 이미 강한 양봉 = 신규는 되돌림 시 소량 분할만, 현가 추격 금지.\"\n    },\n    {\n      \"code\": \"005930\",\n      \"name\": \"삼성전자\",\n      \"reason\": \"시총1위 +0.62% 인덱스 단독 견인, MA지지 양종목. AI반도체 active 내 보유우선군. 신규는 regime상 자제, 분할 한정.\"\n    }\n  ],\n  \"notes\": \"조정 진입 day2, KOSPI 확정 -0.89% MA20 미회복 = 신규 사실상 중단이 디폴트. 후보 2개 모두 전기전자/반도체 대형주로 동일 sector 쏠림 — 의도적(오늘 유일 살아있는 rotating_in 이 전기전자뿐, 타 sector 전부 rotating_out/약세). portfolio 분산 옵션 부족하므로 PM 은 portfolio-level 신규중단 게이트 켜고 기보유 관리(약종목 분할익절) 우선 판단할 것. watching 3종(건설/콘덴서)은 전부 소형 단발·상한가권 = 추격금지, 진입후보 아님. 다음 확정봉 MA20(8468) 회복 전까지 관망 디폴트.\"\n}\n```",
   "auditor_verdict": null
 }
