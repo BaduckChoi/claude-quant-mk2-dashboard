@@ -3511,6 +3511,14 @@
         "qty": null,
         "reason": "신규 미진입. 후보 둘 다 전기전자 단일 sector 쏠림 = 분산 아님. 조정 regime 신규중단 게이트 유효. AI반도체 days11 소진, 본진 SK하이닉스 red. 진입 사유 없음.",
         "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": null,
+        "qty": null,
+        "reason": "빈 계좌, 관리 포지션 없음. regime 조정 진입 day2 + KOSPI 확정 -0.89% + MA20(8468) 미회복 = 신규 진입 환경 아님. 후보 2종 모두 전기전자/반도체 단일 sector 쏠림이라 분산 불가. 삼성전기 009150 +8.39% 신고가권 = 1차 진입 부적격(갭 절대값 큼, 가격 엣지 없음). 삼성전자 005930 +3.41% 갭상승 = 조정 regime에서 추격 자리, 분할 1차 넣을 구조 지지/되돌림 없음. 전기전자 rotating_in 은 1일 green whipsaw 미확정(leading 미복귀). 다음 확정봉이 MA20(8468) 회복하면 중소형/leader 되돌림 자리에서 소량 probe 검토. 오늘은 진입 0.",
+        "slot": "1230"
       }
     ],
     "realized_pnl_won": -18666,
