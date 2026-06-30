@@ -3494,16 +3494,16 @@
     "strategist_brief": null,
     "themes": [
       {
-        "days_active": 10,
+        "days_active": 11,
         "entry_status": "소진",
         "leaders": [
           {
             "code": "",
-            "name": "SK하이닉스"
+            "name": "삼성전자"
           },
           {
             "code": "",
-            "name": "삼성전자"
+            "name": "SK하이닉스"
           },
           {
             "code": "",
@@ -3516,35 +3516,11 @@
         ],
         "name": "AI 반도체/HBM",
         "strength_trend": "약화"
-      },
-      {
-        "days_active": 3,
-        "entry_status": "후반",
-        "leaders": [
-          {
-            "code": "",
-            "name": "신세계"
-          },
-          {
-            "code": "",
-            "name": "이마트"
-          },
-          {
-            "code": "",
-            "name": "롯데쇼핑"
-          },
-          {
-            "code": "",
-            "name": "현대백화점"
-          }
-        ],
-        "name": "유통/내수 value",
-        "strength_trend": "약화"
       }
     ],
     "top_movers": [],
     "traded_codes": [],
     "trades_count": 0,
-    "unrealized_pnl_won": -22666
+    "unrealized_pnl_won": -12666
   }
 }
