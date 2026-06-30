@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-06-29 16:06:20",
-  "date": "20260629",
+  "generated_at": "2026-06-30 09:21:28",
+  "date": "20260630",
   "mode": "dry_run",
   "stats": {
     "open_positions": 1,
-    "trades_count": 1,
+    "trades_count": 0,
     "buys": 0,
-    "sells": 1,
+    "sells": 0,
     "buy_won": 0,
-    "sell_won": 718000,
-    "realized_pnl_won": -22333,
+    "sell_won": 0,
+    "realized_pnl_won": null,
     "capital_won": 50000000,
     "deployed_won": 1480666,
     "cash_remaining_won": 49370401,
-    "total_eval_won": 1458000,
-    "unrealized_pnl_won": -22666
+    "total_eval_won": 1474000,
+    "unrealized_pnl_won": -6666
   },
   "positions": [
     {
@@ -23,113 +23,16 @@
       "qty": 2,
       "avg_price": 740333,
       "cost_won": 1480666,
-      "current_price": 729000,
-      "change_rate": -1.49,
-      "eval_won": 1458000,
-      "pnl_won": -22666,
-      "pnl_pct": -1.5307976275540873,
+      "current_price": 737000,
+      "change_rate": 1.1,
+      "eval_won": 1474000,
+      "pnl_won": -6666,
+      "pnl_pct": -0.4502028141390428,
       "thesis": "신세계 분할 2차 소량. 1차 thesis 사전트리거(KOSPI 8700 사수 종가확정 OR 유통 alpha 양전 지속) 둘 다 점등: KOSPI 6-25 +6%대 8700 종가 사수 확정, 유통업 sector rotating_in->leading 승격 alpha+4.34p 전섹터1위 4일 연속(6-19 +4.44~6-25 +4.34). 견인 leader 신세계 선택(이마트 +0.25% laggard 회피=anti-momentum 차단). 사이즈 1주로 제한: 일중 +8.18% 갭 높음 + 막슬롯 몰빵 회피, 코어 빌딩이지 추격 아님. 누적 3주(~222만, 자본 4.4%)로 유통 목표 10%(500만)의 ~44%. 약점: +8% 자리 추가는 가격엣지 낮음. 손절구조선 불변: 유통업 sector rotating_out 강등 OR 신세계 회전이전 구조 680k 종가 이탈 시 thesis 무효."
     }
   ],
-  "trades": [
-    {
-      "ts": "2026-06-29T09:41:17",
-      "cycle_id": "20260629-0940",
-      "action": "sell",
-      "code": "004170",
-      "name": "신세계",
-      "qty": 1,
-      "price": 718000,
-      "amount_won": 718000,
-      "reason": "부분 trim 1주(3->2). 두 축 점검: 가격축=지지선 680k 종가 미이탈(현 718k, 한참 위) 미점등 / 테마 유효성축=점등. 유통 방어 haven thesis 가 6-29 risk-on 광폭 리바운드(KOSDAQ +4%대, 대부분 섹터 +3~4%)서 유통 red(-2.46%) 명백 소외 = 방어 프리미엄 소멸, theme 강화->약화 후반 강등, 유통 sector leading 마지막 줄. OR 디폴트로 테마축 점등 = 부분정리 발동. 전량 아닌 1주: ended 아님 + sector rotating_out 강등 아님 + 680k 견조라 본질 깨짐 미달. 오늘 theme 약화 확정 = 새 트리거(어제 add 보류와 다른 방향). 잔여 2주 carry, 익일 유통 sector rotating_out 강등 OR 신세계 680k 종가 이탈 시 잔량 정리. 평단 손익 무관 thesis 기반.",
-      "dry_run": true,
-      "order_no": "",
-      "avg_cost": 740333,
-      "realized_pnl_won": -22333
-    }
-  ],
-  "pm_decisions": [
-    {
-      "slot": "0940",
-      "action": "sell",
-      "code": "004170",
-      "amount_won": null,
-      "qty": 1,
-      "reason": "부분 trim 1주(3->2). 두 축 점검: 가격축=지지선 680k 종가 미이탈(현 718k, 한참 위) 미점등 / 테마 유효성축=점등. 유통 방어 haven thesis 가 6-29 risk-on 광폭 리바운드(KOSDAQ +4%대, 대부분 섹터 +3~4%)서 유통 red(-2.46%) 명백 소외 = 방어 프리미엄 소멸, theme 강화->약화 후반 강등, 유통 sector leading 마지막 줄. OR 디폴트로 테마축 점등 = 부분정리 발동. 전량 아닌 1주: ended 아님 + sector rotating_out 강등 아님 + 680k 견조라 본질 깨짐 미달. 오늘 theme 약화 확정 = 새 트리거(어제 add 보류와 다른 방향). 잔여 2주 carry, 익일 유통 sector rotating_out 강등 OR 신세계 680k 종가 이탈 시 잔량 정리. 평단 손익 무관 thesis 기반."
-    },
-    {
-      "slot": "0940",
-      "action": "hold",
-      "code": "000720",
-      "amount_won": null,
-      "qty": null,
-      "reason": "현대건설 +3.1%, 건설 sector rotating_in 선두이나 first_seen 6-29 day1. regime 조정 진입 day1 = 신규 사실상 중단. 1일 risk-on bounce noise 미배제(6-30 확정봉 KOSPI 8203 사수 확인 전). watching-stage 본진입 부적합. 신규 0."
-    },
-    {
-      "slot": "0940",
-      "action": "hold",
-      "code": "051910",
-      "amount_won": null,
-      "qty": null,
-      "reason": "LG화학 +5.35% = 갭 추격 부담 큼. 화학 rotating_in day1(자본동반 vol+66%)이나 regime 신규 중단 + 1일 bounce noise. 갭 강세 자리 1차 진입 부적격. 신규 0."
-    },
-    {
-      "slot": "0940",
-      "action": "hold",
-      "code": "207940",
-      "amount_won": null,
-      "qty": null,
-      "reason": "삼바 +2.76%, 의약품 rotating_in carry 분산 옵션이나 저신뢰(vol 폭증 아님, breadth standout 미검증). regime 조정 진입 신규 중단. 신규 0."
-    },
-    {
-      "slot": "1230",
-      "action": "hold",
-      "code": "004170",
-      "amount_won": null,
-      "qty": null,
-      "reason": "696k -5.95% 고거래량 하락(distribution), sector -2.46% 대비 단독 언더퍼폼. 그러나 구조선 680k 종가 미이탈(현 696k) + KOSPI -2.4% 광폭 대형주 약세장 내 유통 inline = 단독 붕괴 아님. 일중 강제정리 3조건 동시 미충족(지지 미이탈). 평가손 위치 무관하게 약화테마 추가매수 안 함. 정리 트리거 고정: 종가 680k 이탈 OR 유통 sector rotating_out 강등 시 1/2 정리(다음슬롯 재손대X), 또는 유통 leader 2종+ 동반 -5% 시 1/2."
-    },
-    {
-      "slot": "1230",
-      "action": "hold",
-      "code": "000720",
-      "amount_won": null,
-      "qty": null,
-      "reason": "reject. regime 조정진입 day1 신규 중단 + 건설 watching 미승격 + 갭 +11.23% 추격 부적격. 6-30 확정봉 8203 사수+vol유지 2일 확인 전 보류."
-    },
-    {
-      "slot": "1230",
-      "action": "hold",
-      "code": "051910",
-      "amount_won": null,
-      "qty": null,
-      "reason": "reject. 화학 rotating_in이나 건설과 동일 시클리컬 게이트 한뿌리=분산 아님. 갭 +9.59% + regime 신규중단 + 1일 바운스 noise. 보류."
-    },
-    {
-      "slot": "1230",
-      "action": "hold",
-      "code": "207940",
-      "amount_won": null,
-      "qty": null,
-      "reason": "reject. 의약품 watching 저신뢰, vol 폭증 아님 standout 미검증. 갭 +5.81% + regime 조정진입 신규중단. 보류."
-    },
-    {
-      "slot": "1520",
-      "action": "hold",
-      "code": "004170",
-      "amount_won": null,
-      "qty": null,
-      "reason": "신세계 2주 carry. 매도 트리거(유통 sector rotating_out 강등 OR 680k 종가 이탈) 둘 다 미점등: 728k>680k, 유통 leading d3 carry. 테마 유효성 약화 축 점등(risk-on서 red 소외, haven 프리미엄 소멸, days3 후반)이나 객관 stop 미점등 상태서 무른 서술형으로 당겨 파는 건 reverse disposition(평단740<728 underwater)이라 보류. 익일 680k 종가 이탈 또는 유통 rotating_out 강등 시 부분정리 집행. add thesis(KOSPI8700/유통 haven alpha) regime 조정진입 전환으로 무효 = 유통 코어 동결, 추가 없음."
-    },
-    {
-      "slot": "1520",
-      "action": "hold",
-      "code": null,
-      "amount_won": null,
-      "qty": null,
-      "reason": "신규 0. 후보 3종(현대건설+12.29/LG화학+13.65/삼바+7.67) 전부 day-1 risk-on 바운스 +7~14% 갭, 가격엣지 없음. regime 조정진입 day1 신규 사실상 중단 + strategist 본진입 보류(6-30 확정봉 KOSPI 8203 사수 확인 전). KOSPI-3.23% 반도체 distribution vs KOSDAQ risk-on divergence = 광범위 risk-on 아님, 1일 바운스 미배제. 막슬롯 몰빵 회피. 익일 확정봉서 시클리컬 alpha 양전 지속+vol유지 확인 시 소액 분할 재평가."
-    }
-  ],
+  "trades": [],
+  "pm_decisions": [],
   "calendar_dates": [
     "20260511",
     "20260512",
@@ -161,8 +64,9 @@
     "20260624",
     "20260625",
     "20260626",
-    "20260629"
+    "20260629",
+    "20260630"
   ],
-  "strategist_brief": "핵심: regime 조정 진입(신규 사실상 중단) + KOSPI -3.23% 반도체 distribution 단독 급락 vs KOSDAQ +4.63% risk-on. 대형주 약세-중소형 랠리 divergence. 1일 바운스 noise 경계.\n\n스탠스: 관망 우위. active 테마 둘(반도체/유통) 다 신규금지(소진/후반). 살아있는 신호는 watching 시클리컬 로테이션(건설/화학 자본동반) + 의약품뿐. regime 게이트상 풀 진입 금지 → 소액 분할 후보만 깔고 PM 자율판단 넘김. 단일테마 쏠림 방지 위해 시클리컬+제약 2갈래.\n\n```json\n{\n  \"themes\": [\n    {\n      \"name\": \"경기민감 시클리컬 로테이션(건설/화학)\",\n      \"stance\": \"watch_only_small\",\n      \"rationale\": \"6-29 risk-on서 건설+4.0%(vol 비메가1위)·화학+3.44%(vol+66%) 자본동반 점화. sector_tracker rotating_in 최우선. 단 regime 조정진입 + 1일 바운스 noise 미배제 = 승격 미완. 신규는 소액 분할 한정, 추격 금지. 6-30 alpha양전+vol유지 2일 확인 전 본진입 보류.\"\n    },\n    {\n      \"name\": \"의약품/헬스케어 리바운드\",\n      \"stance\": \"watch_only_small\",\n      \"rationale\": \"의약품 sector +2.99% 2일 outperform, 방어비드->risk-on 참여 성격진화. 단 vol 폭증 아님, breadth 상위권 standout 미검증, 저신뢰. 분산 옵션용 소액만.\"\n    }\n  ],\n  \"candidates\": [\n    {\n      \"code\": \"000720\",\n      \"name\": \"현대건설\",\n      \"reason\": \"건설 rotating_in 선두주(섹터+4.0% alpha+6.39, vol 비메가1위=가격·자본 동시폭발). 시클리컬 로테이션 대표. 소액 분할 진입 후보, 추격금지. 익일 vol5천+ 유지 확인이 본진입 게이트.\"\n    },\n    {\n      \"code\": \"051910\",\n      \"name\": \"LG화학\",\n      \"reason\": \"화학 rotating_in 선두(섹터+3.44% alpha+5.83, vol+66%=자본동반이 차별강점). 건설과 함께 시클리컬 클러스터. 소액 분할만.\"\n    },\n    {\n      \"code\": \"207940\",\n      \"name\": \"삼성바이오로직스\",\n      \"reason\": \"의약품 rotating_in carry(+2.76%, 2일 outperform), 시총10위 대형 안정주. 시클리컬과 다른 테마 = 분산 옵션. 저신뢰라 최소 분할만.\"\n    }\n  ],\n  \"notes\": \"관망 우위 brief. regime 조정진입 day1 = 신규 사실상 중단, confidence 보통. active 테마(반도체 소진/유통 후반) 둘 다 신규금지라 후보 제외. 살아있는 신호는 watching 단계(시클리컬+제약)뿐이고 전부 1일 risk-on 바운스 noise 미배제 = 본진입 부적합, 소액 분할 후보로만 제시. 후보 3개 중 2개(현대건설/LG화학) 동일 시클리컬 테마 쏠림 — portfolio 분산 관점에서 PM 자율 판단 필요. 삼바는 분산용. 핵심 경계: KOSPI -3.23%는 반도체 distribution 단독 드래그(전기전자 rotating_out), KOSDAQ +4.63% risk-on과 divergence = 광범위 risk-on 아님. 시클리컬 점화가 진성인지 1일 바운스인지 6-30 확정봉(KOSPI 8203 사수 vs 이탈) 확인 전엔 신규 비중 최소화. 기보유 약종목(MA20 8472 미회복/반도체) 분할익절 우선이 디폴트.\"\n}\n```",
-  "auditor_verdict": "핵심 한 방: 오늘 신세계 다룬 게 한 신호를 슬롯마다 반대로 판정함. 같은-룰 cherry-pick + 가격 따라 논지 뒤집힘. 짚는다.\n\n**09:40 vs 15:20 모순 = 오늘 최대 결함.**\n09:40 — \"유통 haven thesis 붕괴, 테마 유효성축 점등 = 새 트리거\" → 1주 trim @718k(평단 740 아래, 손실 실현). 테마 약화를 *집행 충분 근거*로 씀.\n15:20 — 똑같은 테마 약화(haven 프리미엄 소멸, risk-on서 red 소외, days3 후반)를 두고 \"무른 서술형으로 당겨 파는 건 reverse disposition\" 으로 *집행 불가 근거*로 재분류. hold.\n\n한 종목, 하루 안에, 동일 신호 → 정반대 판정. 차이 나는 변수는 가격뿐: 718k(개장)서 팔고, 728k(반등)서 안 팖. 이게 disposition effect 본체다 — 되돌림 나오니 손절 미루고, \"객관 트리거 미점등\" + \"reverse disposition\" 이라는 anti-bias 어휘로 hold 를 정당화. 그리고 hold 사유에 \"평단740<728 underwater\" 를 *직접 인용*했다. \"평단은 결정변수 아님\" 이라 써놓고 평단으로 안 판 이유를 만든 것 = 자기모순.\n\n**어느 쪽이 룰 정합인가.** 이 시스템 손절 철학은 ATR 같은 기계식 금지, *지지선/테마 유효성* 기준이다. 즉 \"테마 유효성 붕괴\" 는 이 시스템이 인정하는 정당한 청산 사유다 — 09:40 논리가 맞다. 15:20 가 테마 침식을 \"noise/무른 서술형\" 으로 강등시킨 건 오히려 시스템 자체 stop 철학을 부정한 것. 반등 한 번에 정당한 thesis stop 을 noise 로 깎아내린 것 = 약한 결정. reverse disposition 라벨이 진짜 disposition 을 가렸다.\n\n교정 의도: 한 종목 thesis 를 정하면 슬롯 가로질러 일관 유지해라. 3슬롯은 분할 집행용이지 같은 포지션을 하루 3번 기분 따라 재심하라는 게 아니다. 테마 유효성으로 09:40 에 자르기 시작했으면 그 프레임 유지 — 종가 기준으로 더 자르든가, 아니면 애초에 09:40 에도 객관 트리거(680k 종가/rotating_out) 기다렸어야. 둘 중 하나 골라라. 오전엔 thesis-stop, 오후엔 trigger-stop 으로 갈아탄 게 drift.\n\n**둘째 — 12:30 에 분봉 기계 스멀스멀.** \"일중 강제정리 3조건(680k -2% 이탈/vol_rate 31/유통 1군 동반약세)\", \"일중 저가\", \"vol_rate\" = 전부 장중 진폭 신호. 시스템 불변식상 금지 데이터다. PM 이 \"일중 저가 이탈은 트리거 아님\" 하고 행동 안 한 건 맞았지만, *그 판정 틀 자체* 가 존재하면 안 됨. 일봉 종가 + 누적 state 로만 판단. 그 3조건 프레임 폐기.\n\n**셋째 — 신규 0 은 합당, 단 alibi 화 경계.** 후보 3종 +7~14% day-1 갭 추격 거부 = 옳다. 가격엣지 진짜 사라진 자리. regime 조정 진입 day1 + 1일 바운스 미배제도 정당. 이건 칭찬할 규율. 단 \"갭이라 reject\" 가 영구 핑계 되면 안 됨 — 6-30 확정봉서 시클리컬 alpha 양전 + vol 유지 뜨면 strategist 가 깔아둔 소액 분할 집행해라. 완벽한 눌림은 안 온다. 계속 기다리면 omission bias/관망 자기합리화로 뒤집힌다.\n\n**넷째 — 잔여 2주 모서리.** reporter 가 이미 짚음(정확함): trim 사유가 \"프리미엄 소멸\" 이면 잔여 2주 끌 논리도 같이 약해짐. 절반만 자른 자리가 어정쩡. 이건 위 09:40/15:20 모순의 또 다른 얼굴이다. 내일 정리: thesis 가 죽었다 보면 잔량도 종가 기준 마저 정리, 살았다 보면 1주도 안 잘랐어야 — 반쪽 hold 의 능동 근거를 thesis 로 다시 적든가 정리하든가.\n\n어제 verdict alibi 인용은 안 보임 — decision_raw 첫 줄이 외부 인용으로 시작 안 했고 본질 사유로 풀어씀. 그 점 양호. 유지해라.\n\n## 내일 PM 지침\n\n신세계: 한 프레임으로 일관하게 판정해라. 테마 유효성 stop 이 이 계좌가 인정하는 정당 청산 사유다 — 유통 haven thesis 죽었다고 봤으면 장중 반등에 흔들리지 말고 그 판단 유지(종가 기준 잔량 정리 검토). 살았다고 보면 trim 자체를 재고. 하루 안에 같은 신호를 오전엔 trigger, 오후엔 noise 로 갈아타지 마라. 평단/underwater 를 \"안 파는 이유\" 로 끌어오면 그 순간 disposition. 정리 트리거(680k 종가 이탈 OR 유통 rotating_out)는 일봉 종가로만 판정 — 일중 저가/vol_rate/일중 강제정리 3조건 같은 분봉 기계 쓰지 마라.\n\n신규: 갭 추격 거부는 계속 옳다. 단 6-30 확정봉서 시클리컬(건설/화학) alpha 양전 지속 + vol 유지 확인되면 소액 분할 실제 집행 — \"1일 바운스 미배제\" 를 무한 보류 핑계로 굳히지 마라. regime 게이트가 신규 거의 중단이라도 watching→active 승격 신호 뜨면 최소 분할은 시작.\n\nreason 작성: 트리거 점등/미점등을 본질 사유(테마 살아있나 죽었나, 지지선 의미 있나)로 풀어써라. \"reverse disposition\", \"OR 디폴트 점등\" 같은 라벨은 결론 아니라 자기점검 도구다 — 라벨로 결정을 마감하면 오늘처럼 라벨이 진짜 편향을 가린다."
+  "strategist_brief": null,
+  "auditor_verdict": null
 }
