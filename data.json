@@ -1,38 +1,65 @@
 {
-  "generated_at": "2026-06-30 09:35:32",
+  "generated_at": "2026-06-30 09:40:34",
   "date": "20260630",
   "mode": "dry_run",
   "stats": {
-    "open_positions": 1,
-    "trades_count": 0,
+    "open_positions": 0,
+    "trades_count": 1,
     "buys": 0,
-    "sells": 0,
+    "sells": 1,
     "buy_won": 0,
-    "sell_won": 0,
-    "realized_pnl_won": null,
+    "sell_won": 1462000,
+    "realized_pnl_won": -18666,
     "capital_won": 50000000,
-    "deployed_won": 1480666,
-    "cash_remaining_won": 49370401,
-    "total_eval_won": 1466000,
-    "unrealized_pnl_won": -14666
+    "deployed_won": 0,
+    "cash_remaining_won": 50832401,
+    "total_eval_won": null,
+    "unrealized_pnl_won": null
   },
-  "positions": [
+  "positions": [],
+  "trades": [
     {
+      "ts": "2026-06-30T09:40:34",
+      "cycle_id": "20260630-0940",
+      "action": "sell",
       "code": "004170",
       "name": "신세계",
       "qty": 2,
-      "avg_price": 740333,
-      "cost_won": 1480666,
-      "current_price": 733000,
-      "change_rate": 0.55,
-      "eval_won": 1466000,
-      "pnl_won": -14666,
-      "pnl_pct": -0.9905002208465651,
-      "thesis": "신세계 분할 2차 소량. 1차 thesis 사전트리거(KOSPI 8700 사수 종가확정 OR 유통 alpha 양전 지속) 둘 다 점등: KOSPI 6-25 +6%대 8700 종가 사수 확정, 유통업 sector rotating_in->leading 승격 alpha+4.34p 전섹터1위 4일 연속(6-19 +4.44~6-25 +4.34). 견인 leader 신세계 선택(이마트 +0.25% laggard 회피=anti-momentum 차단). 사이즈 1주로 제한: 일중 +8.18% 갭 높음 + 막슬롯 몰빵 회피, 코어 빌딩이지 추격 아님. 누적 3주(~222만, 자본 4.4%)로 유통 목표 10%(500만)의 ~44%. 약점: +8% 자리 추가는 가격엣지 낮음. 손절구조선 불변: 유통업 sector rotating_out 강등 OR 신세계 회전이전 구조 680k 종가 이탈 시 thesis 무효."
+      "price": 731000,
+      "amount_won": 1462000,
+      "reason": "thesis 두 축 동시 붕괴 전량 청산. 손절구조선 OR 조건 점등: 유통업 sector leading->rotating_out 강등(alpha -1.31p 명확 음전, vol 1868 감소) + theme '유통/내수 value' ended 확정(방어 프리미엄 2일 연속 소멸). 680k 종가 이탈은 아직(731k)이나 OR 디폴트상 sector 강등 한 축만으로 thesis 무효 발동, 게다가 theme ended 까지 동반 = 본질 깨짐 1슬롯 전량. state 기반 판정이라 종가 미확정 무관. 평단 740>731 평가손·저가 723 반등은 결정변수 아님(disposition 차단). 어제 판단 유지.",
+      "dry_run": true,
+      "order_no": "",
+      "avg_cost": 740333,
+      "realized_pnl_won": -18666
     }
   ],
-  "trades": [],
-  "pm_decisions": [],
+  "pm_decisions": [
+    {
+      "slot": "0940",
+      "action": "sell",
+      "code": "004170",
+      "amount_won": null,
+      "qty": 2,
+      "reason": "thesis 두 축 동시 붕괴 전량 청산. 손절구조선 OR 조건 점등: 유통업 sector leading->rotating_out 강등(alpha -1.31p 명확 음전, vol 1868 감소) + theme '유통/내수 value' ended 확정(방어 프리미엄 2일 연속 소멸). 680k 종가 이탈은 아직(731k)이나 OR 디폴트상 sector 강등 한 축만으로 thesis 무효 발동, 게다가 theme ended 까지 동반 = 본질 깨짐 1슬롯 전량. state 기반 판정이라 종가 미확정 무관. 평단 740>731 평가손·저가 723 반등은 결정변수 아님(disposition 차단). 어제 판단 유지."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "009150",
+      "amount_won": null,
+      "qty": null,
+      "reason": "신규 미진입. 조정 진입 day2 + KOSPI 확정 -0.89% MA20(8468) 미회복 = 신규 사실상 중단. 삼성전기 +3.14% 갭상승 추격 부담 + 전기전자 rotating_in 1일 green whipsaw 미확정(leading 미복귀). 다음 확정봉 MA20 회복 전 관망."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "005930",
+      "amount_won": null,
+      "qty": null,
+      "reason": "신규 미진입. 후보 둘 다 전기전자 단일 sector 쏠림 = 분산 아님. 조정 regime 신규중단 게이트 유효. AI반도체 days11 소진, 본진 SK하이닉스 red. 진입 사유 없음."
+    }
+  ],
   "calendar_dates": [
     "20260511",
     "20260512",
