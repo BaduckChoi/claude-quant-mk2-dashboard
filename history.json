@@ -3329,7 +3329,6 @@
     "buy_won": 0,
     "buys": 0,
     "date": "2026-06-29",
-    "open_positions": 1,
     "pm_decisions": [
       {
         "action": "sell",
@@ -3480,7 +3479,72 @@
         "name": "신세계"
       }
     ],
-    "trades_count": 1,
-    "unrealized_pnl_won": -22666
+    "trades_count": 1
+  },
+  "20260630": {
+    "auditor_verdict": null,
+    "buy_won": 0,
+    "buys": 0,
+    "date": "2026-06-30",
+    "open_positions": 1,
+    "pm_decisions": [],
+    "realized_pnl_won": null,
+    "sell_won": 0,
+    "sells": 0,
+    "strategist_brief": null,
+    "themes": [
+      {
+        "days_active": 10,
+        "entry_status": "소진",
+        "leaders": [
+          {
+            "code": "",
+            "name": "SK하이닉스"
+          },
+          {
+            "code": "",
+            "name": "삼성전자"
+          },
+          {
+            "code": "",
+            "name": "삼성전기"
+          },
+          {
+            "code": "",
+            "name": "삼성전자우"
+          }
+        ],
+        "name": "AI 반도체/HBM",
+        "strength_trend": "약화"
+      },
+      {
+        "days_active": 3,
+        "entry_status": "후반",
+        "leaders": [
+          {
+            "code": "",
+            "name": "신세계"
+          },
+          {
+            "code": "",
+            "name": "이마트"
+          },
+          {
+            "code": "",
+            "name": "롯데쇼핑"
+          },
+          {
+            "code": "",
+            "name": "현대백화점"
+          }
+        ],
+        "name": "유통/내수 value",
+        "strength_trend": "약화"
+      }
+    ],
+    "top_movers": [],
+    "traded_codes": [],
+    "trades_count": 0,
+    "unrealized_pnl_won": -6666
   }
 }
