@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01 09:40:56",
+  "generated_at": "2026-07-01 12:31:44",
   "date": "20260701",
   "mode": "dry_run",
   "stats": {
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 1947200,
     "cash_remaining_won": 48885201,
-    "total_eval_won": 1948800,
-    "unrealized_pnl_won": 1600
+    "total_eval_won": 1894400,
+    "unrealized_pnl_won": -52800
   },
   "positions": [
     {
@@ -23,11 +23,11 @@
       "qty": 16,
       "avg_price": 121700,
       "cost_won": 1947200,
-      "current_price": 121800,
-      "change_rate": 6.65,
-      "eval_won": 1948800,
-      "pnl_won": 1600,
-      "pnl_pct": 0.08216926869350863,
+      "current_price": 118400,
+      "change_rate": 3.68,
+      "eval_won": 1894400,
+      "pnl_won": -52800,
+      "pnl_pct": -2.711585866885785,
       "thesis": "건설 sector rotating_in 대표 leader 현대건설 소량 probe 1차 (~4% 자본). 건설=오늘 최강 테마, 2일 연속 vol#1 accumulation(alpha+7.20, day-1 noise 아님). 조정후반 day1 thin MA20 재상회 regime = 소량 첫 트랜치. +6.57% 갭 moderate라 풀추격 아닌 한 조각. 구조 stop: 건설 sector rotating_out 강등 OR KOSPI 종가 MA20 8452 재이탈 마감 시 정리. 2차 add trigger: 건설 leading 승격(alpha 양전 지속+vol#1 2일 유지) 확정 시 익일 검토. 단일 probe, 타 축(화학/철강/전력) 미진입."
     }
   ],
@@ -103,6 +103,22 @@
       "amount_won": null,
       "qty": null,
       "reason": "삼성전기 +3.43%이나 sector 전기전자 rotating_out + HBM active 약화/소진. sector 역풍. 미진입."
+    },
+    {
+      "slot": "1230",
+      "action": "hold",
+      "code": "000720",
+      "amount_won": null,
+      "qty": null,
+      "reason": "건설 probe 유지. stop(건설 rotating_out OR KOSPI 종가 MA20 8452 이탈) 미점등, sector rotating_in vol#1 2일 thesis 유효. 2차 add trigger(건설 leading 승격) 미충족 → 추가 없음. 평단 underwater지만 평단 결정변수 아님."
+    },
+    {
+      "slot": "1230",
+      "action": "hold",
+      "code": null,
+      "amount_won": null,
+      "qty": null,
+      "reason": "신규 0. GS건설 +17.73% 극단갭 reject, DL이앤씨 건설 2번째=같은게이트 집중, POSCO/LG화학/두산에너빌 day-1 unconfirmed reflation 코호트로 기보유 건설과 상관 add, 삼성전기 전기전자 rotating_out sector 역행. 비상관 축 부재 + day1 thin(MA20+0.28% 확정봉1개) → day-2 확인 대기. 익일: KOSPI 종가 MA20 유지+건설 leading 승격시 2차, 또는 비-reflation 축 출현시 분산."
     }
   ],
   "calendar_dates": [
