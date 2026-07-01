@@ -3652,6 +3652,22 @@
         "qty": null,
         "reason": "신규 0. GS건설 +17.73% 극단갭 reject, DL이앤씨 건설 2번째=같은게이트 집중, POSCO/LG화학/두산에너빌 day-1 unconfirmed reflation 코호트로 기보유 건설과 상관 add, 삼성전기 전기전자 rotating_out sector 역행. 비상관 축 부재 + day1 thin(MA20+0.28% 확정봉1개) → day-2 확인 대기. 익일: KOSPI 종가 MA20 유지+건설 leading 승격시 2차, 또는 비-reflation 축 출현시 분산.",
         "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "000720",
+        "qty": null,
+        "reason": "건설업 sector rotating_in 강화(alpha+7.20, vol#1 2일 accumulation), 구조 stop(건설 rotating_out 강등 OR KOSPI 종가 MA20 8452 재이탈) 미점등 = thesis 유효. live +4.2% 참여 지속. 2차 add 트리거=건설 leading 승격(sector leading 리스트 등재)인데 오늘 leading=[] 미충족 → 증액 근거 없음, 익일 alpha 양전+vol#1 유지 확정 시 현대건설 코어 증액 우선 검토. 16주 풀 유지. 잔량 stop: 크래시 이후 박스 하단 구조 종가 이탈 or 건설 sector 강등.",
+        "slot": "1520"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": null,
+        "qty": null,
+        "reason": "신규 보류. (1)006360 GS건설 +20.12% 갭 = 추격금지, 375500 DL이앤씨 = 둘 다 건설 = 기보유 현대건설과 동일 sector gate 도배(분산 아닌 같은 베팅 분할). (2)005490 POSCO -0.79%/051910 LG화학 +0.18% = 화학·철강 rotating_in 이나 first_seen 오늘 day-1 시클리컬, 게다가 갭 최소 = 코호트 최약 leg 선택 = anti-momentum. (3)034020 두산에너빌 = 기계 day-1 rotating_in, vol modest, 확인 미숙성. (4)009150 삼성전기 = HBM active 소진 + 전기전자 오늘 rotating_out 강등 = 축 자체 약세. 조정 후반 day1 thin MA20 재상회(margin+0.28%, 확정봉1개) = 저공격 regime, day-1 sector 신호는 확인 우선. 마지막 슬롯 basket 진입 회피. dry powder carry 옵션가치 유지, 익일 건설 leading 승격이 코어 증액 트리거.",
+        "slot": "1520"
       }
     ],
     "realized_pnl_won": null,
@@ -3693,6 +3709,6 @@
       }
     ],
     "trades_count": 1,
-    "unrealized_pnl_won": -52800
+    "unrealized_pnl_won": -43200
   }
 }
