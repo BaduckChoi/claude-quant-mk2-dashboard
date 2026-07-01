@@ -3576,11 +3576,68 @@
   },
   "20260701": {
     "auditor_verdict": null,
-    "buy_won": 0,
-    "buys": 0,
+    "buy_won": 1947200,
+    "buys": 1,
     "date": "2026-07-01",
-    "open_positions": 0,
-    "pm_decisions": [],
+    "open_positions": 1,
+    "pm_decisions": [
+      {
+        "action": "buy",
+        "amount_won": 195,
+        "code": "000720",
+        "qty": 16,
+        "reason": "건설 sector rotating_in 대표 leader 현대건설 소량 probe 1차 (~4% 자본). 건설=오늘 최강 테마, 2일 연속 vol#1 accumulation(alpha+7.20, day-1 noise 아님). 조정후반 day1 thin MA20 재상회 regime = 소량 첫 트랜치. +6.57% 갭 moderate라 풀추격 아닌 한 조각. 구조 stop: 건설 sector rotating_out 강등 OR KOSPI 종가 MA20 8452 재이탈 마감 시 정리. 2차 add trigger: 건설 leading 승격(alpha 양전 지속+vol#1 2일 유지) 확정 시 익일 검토. 단일 probe, 타 축(화학/철강/전력) 미진입.",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "006360",
+        "qty": null,
+        "reason": "GS건설 +18.33% vol_rate 621% parabolic. 추격 가격엣지 0. 회피.",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "375500",
+        "qty": null,
+        "reason": "DL이앤씨 +4.68% 건설 2번 leader. 건설 이미 현대건설 probe 확보, 한 슬롯 동일테마 중복 도배 회피. retest 시 익일 재평가.",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "005490",
+        "qty": null,
+        "reason": "POSCO +0.63% near-flat, 장중 red. 철강 rotating_in day1 신선도 부족+강세 signal 최약. 최저갭=anchor 함정 회피 위해 미진입.",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "051910",
+        "qty": null,
+        "reason": "LG화학 +0.36% near-flat. 화학 rotating_in day1, 가격 signal 약함. 미진입, dry-powder 유지.",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "034020",
+        "qty": null,
+        "reason": "두산에너빌 +3.23% 전력 축 분산 옵션이나 빈 책 첫 probe는 하나로 충분. dry-powder 유지, 익일 분산 후보 carry.",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "009150",
+        "qty": null,
+        "reason": "삼성전기 +3.43%이나 sector 전기전자 rotating_out + HBM active 약화/소진. sector 역풍. 미진입.",
+        "slot": "0940"
+      }
+    ],
     "realized_pnl_won": null,
     "sell_won": 0,
     "sells": 0,
@@ -3612,8 +3669,14 @@
       }
     ],
     "top_movers": [],
-    "traded_codes": [],
-    "trades_count": 0,
-    "unrealized_pnl_won": null
+    "traded_codes": [
+      {
+        "action": "buy",
+        "code": "000720",
+        "name": "현대건설"
+      }
+    ],
+    "trades_count": 1,
+    "unrealized_pnl_won": 1600
   }
 }
