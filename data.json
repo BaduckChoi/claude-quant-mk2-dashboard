@@ -1,24 +1,110 @@
 {
-  "generated_at": "2026-07-01 09:35:43",
+  "generated_at": "2026-07-01 09:40:56",
   "date": "20260701",
   "mode": "dry_run",
   "stats": {
-    "open_positions": 0,
-    "trades_count": 0,
-    "buys": 0,
+    "open_positions": 1,
+    "trades_count": 1,
+    "buys": 1,
     "sells": 0,
-    "buy_won": 0,
+    "buy_won": 1947200,
     "sell_won": 0,
     "realized_pnl_won": null,
     "capital_won": 50000000,
-    "deployed_won": 0,
-    "cash_remaining_won": 50832401,
-    "total_eval_won": null,
-    "unrealized_pnl_won": null
+    "deployed_won": 1947200,
+    "cash_remaining_won": 48885201,
+    "total_eval_won": 1948800,
+    "unrealized_pnl_won": 1600
   },
-  "positions": [],
-  "trades": [],
-  "pm_decisions": [],
+  "positions": [
+    {
+      "code": "000720",
+      "name": "현대건설",
+      "qty": 16,
+      "avg_price": 121700,
+      "cost_won": 1947200,
+      "current_price": 121800,
+      "change_rate": 6.65,
+      "eval_won": 1948800,
+      "pnl_won": 1600,
+      "pnl_pct": 0.08216926869350863,
+      "thesis": "건설 sector rotating_in 대표 leader 현대건설 소량 probe 1차 (~4% 자본). 건설=오늘 최강 테마, 2일 연속 vol#1 accumulation(alpha+7.20, day-1 noise 아님). 조정후반 day1 thin MA20 재상회 regime = 소량 첫 트랜치. +6.57% 갭 moderate라 풀추격 아닌 한 조각. 구조 stop: 건설 sector rotating_out 강등 OR KOSPI 종가 MA20 8452 재이탈 마감 시 정리. 2차 add trigger: 건설 leading 승격(alpha 양전 지속+vol#1 2일 유지) 확정 시 익일 검토. 단일 probe, 타 축(화학/철강/전력) 미진입."
+    }
+  ],
+  "trades": [
+    {
+      "ts": "2026-07-01T09:40:56",
+      "cycle_id": "20260701-0940",
+      "action": "buy",
+      "code": "000720",
+      "name": "현대건설",
+      "qty": 16,
+      "price": 121700,
+      "amount_won": 1947200,
+      "reason": "건설 sector rotating_in 대표 leader 현대건설 소량 probe 1차 (~4% 자본). 건설=오늘 최강 테마, 2일 연속 vol#1 accumulation(alpha+7.20, day-1 noise 아님). 조정후반 day1 thin MA20 재상회 regime = 소량 첫 트랜치. +6.57% 갭 moderate라 풀추격 아닌 한 조각. 구조 stop: 건설 sector rotating_out 강등 OR KOSPI 종가 MA20 8452 재이탈 마감 시 정리. 2차 add trigger: 건설 leading 승격(alpha 양전 지속+vol#1 2일 유지) 확정 시 익일 검토. 단일 probe, 타 축(화학/철강/전력) 미진입.",
+      "dry_run": true,
+      "order_no": "",
+      "realized_pnl_won": null
+    }
+  ],
+  "pm_decisions": [
+    {
+      "slot": "0940",
+      "action": "buy",
+      "code": "000720",
+      "amount_won": 195,
+      "qty": 16,
+      "reason": "건설 sector rotating_in 대표 leader 현대건설 소량 probe 1차 (~4% 자본). 건설=오늘 최강 테마, 2일 연속 vol#1 accumulation(alpha+7.20, day-1 noise 아님). 조정후반 day1 thin MA20 재상회 regime = 소량 첫 트랜치. +6.57% 갭 moderate라 풀추격 아닌 한 조각. 구조 stop: 건설 sector rotating_out 강등 OR KOSPI 종가 MA20 8452 재이탈 마감 시 정리. 2차 add trigger: 건설 leading 승격(alpha 양전 지속+vol#1 2일 유지) 확정 시 익일 검토. 단일 probe, 타 축(화학/철강/전력) 미진입."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "006360",
+      "amount_won": null,
+      "qty": null,
+      "reason": "GS건설 +18.33% vol_rate 621% parabolic. 추격 가격엣지 0. 회피."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "375500",
+      "amount_won": null,
+      "qty": null,
+      "reason": "DL이앤씨 +4.68% 건설 2번 leader. 건설 이미 현대건설 probe 확보, 한 슬롯 동일테마 중복 도배 회피. retest 시 익일 재평가."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "005490",
+      "amount_won": null,
+      "qty": null,
+      "reason": "POSCO +0.63% near-flat, 장중 red. 철강 rotating_in day1 신선도 부족+강세 signal 최약. 최저갭=anchor 함정 회피 위해 미진입."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "051910",
+      "amount_won": null,
+      "qty": null,
+      "reason": "LG화학 +0.36% near-flat. 화학 rotating_in day1, 가격 signal 약함. 미진입, dry-powder 유지."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "034020",
+      "amount_won": null,
+      "qty": null,
+      "reason": "두산에너빌 +3.23% 전력 축 분산 옵션이나 빈 책 첫 probe는 하나로 충분. dry-powder 유지, 익일 분산 후보 carry."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "009150",
+      "amount_won": null,
+      "qty": null,
+      "reason": "삼성전기 +3.43%이나 sector 전기전자 rotating_out + HBM active 약화/소진. sector 역풍. 미진입."
+    }
+  ],
   "calendar_dates": [
     "20260511",
     "20260512",
