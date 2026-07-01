@@ -3636,6 +3636,22 @@
         "qty": null,
         "reason": "삼성전기 +3.43%이나 sector 전기전자 rotating_out + HBM active 약화/소진. sector 역풍. 미진입.",
         "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "000720",
+        "qty": null,
+        "reason": "건설 probe 유지. stop(건설 rotating_out OR KOSPI 종가 MA20 8452 이탈) 미점등, sector rotating_in vol#1 2일 thesis 유효. 2차 add trigger(건설 leading 승격) 미충족 → 추가 없음. 평단 underwater지만 평단 결정변수 아님.",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": null,
+        "qty": null,
+        "reason": "신규 0. GS건설 +17.73% 극단갭 reject, DL이앤씨 건설 2번째=같은게이트 집중, POSCO/LG화학/두산에너빌 day-1 unconfirmed reflation 코호트로 기보유 건설과 상관 add, 삼성전기 전기전자 rotating_out sector 역행. 비상관 축 부재 + day1 thin(MA20+0.28% 확정봉1개) → day-2 확인 대기. 익일: KOSPI 종가 MA20 유지+건설 leading 승격시 2차, 또는 비-reflation 축 출현시 분산.",
+        "slot": "1230"
       }
     ],
     "realized_pnl_won": null,
@@ -3677,6 +3693,6 @@
       }
     ],
     "trades_count": 1,
-    "unrealized_pnl_won": 1600
+    "unrealized_pnl_won": -52800
   }
 }
