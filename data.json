@@ -1,38 +1,49 @@
 {
-  "generated_at": "2026-07-02 09:43:30",
+  "generated_at": "2026-07-02 12:30:41",
   "date": "20260702",
   "mode": "dry_run",
   "stats": {
-    "open_positions": 1,
-    "trades_count": 0,
+    "open_positions": 0,
+    "trades_count": 1,
     "buys": 0,
-    "sells": 0,
+    "sells": 1,
     "buy_won": 0,
-    "sell_won": 0,
-    "realized_pnl_won": null,
+    "sell_won": 1868800,
+    "realized_pnl_won": -78400,
     "capital_won": 50000000,
-    "deployed_won": 1947200,
-    "cash_remaining_won": 48885201,
-    "total_eval_won": 1809600,
-    "unrealized_pnl_won": -137600
+    "deployed_won": 0,
+    "cash_remaining_won": 50754001,
+    "total_eval_won": null,
+    "unrealized_pnl_won": null
   },
-  "positions": [
+  "positions": [],
+  "trades": [
     {
+      "ts": "2026-07-02T12:30:41",
+      "cycle_id": "20260702-1230",
+      "action": "sell",
       "code": "000720",
       "name": "현대건설",
       "qty": 16,
-      "avg_price": 121700,
-      "cost_won": 1947200,
-      "current_price": 113100,
-      "change_rate": -4.96,
-      "eval_won": 1809600,
-      "pnl_won": -137600,
-      "pnl_pct": -7.066557107641742,
-      "thesis": "건설 sector rotating_in 대표 leader 현대건설 소량 probe 1차 (~4% 자본). 건설=오늘 최강 테마, 2일 연속 vol#1 accumulation(alpha+7.20, day-1 noise 아님). 조정후반 day1 thin MA20 재상회 regime = 소량 첫 트랜치. +6.57% 갭 moderate라 풀추격 아닌 한 조각. 구조 stop: 건설 sector rotating_out 강등 OR KOSPI 종가 MA20 8452 재이탈 마감 시 정리. 2차 add trigger: 건설 leading 승격(alpha 양전 지속+vol#1 2일 유지) 확정 시 익일 검토. 단일 probe, 타 축(화학/철강/전력) 미진입."
+      "price": 116800,
+      "amount_won": 1868800,
+      "reason": "structural stop 점등 전량청산. 내 진입 thesis stop = '건설 rotating_out OR KOSPI 종가 MA20 재이탈 마감 시 정리'(OR). KOSPI 실측 MA20=8427.91, 7-01 확정종가 8303.41 = -1.48% 재이탈 마감 확정, 오늘 -6.51% 폭락으로 방향 재확인 → leg(b) 점등. 진입 근거였던 조정후반 MA20 재상회 regime 이 조정 진입(day1, conf 높음, 신규 전면보류)으로 소멸 = thesis 본질 붕괴. 단일 결정 트리거로 전량 디폴트, 미점등 sector leg 는 안 끌어옴. 평단 121700 underwater 는 결정변수 아님 — 종가/state 기준 청산이지 live저가 111700 투매추격 아님.",
+      "dry_run": true,
+      "order_no": "",
+      "avg_cost": 121700,
+      "realized_pnl_won": -78400
     }
   ],
-  "trades": [],
-  "pm_decisions": [],
+  "pm_decisions": [
+    {
+      "slot": "1230",
+      "action": "sell",
+      "code": "000720",
+      "amount_won": null,
+      "qty": 16,
+      "reason": "structural stop 점등 전량청산. 내 진입 thesis stop = '건설 rotating_out OR KOSPI 종가 MA20 재이탈 마감 시 정리'(OR). KOSPI 실측 MA20=8427.91, 7-01 확정종가 8303.41 = -1.48% 재이탈 마감 확정, 오늘 -6.51% 폭락으로 방향 재확인 → leg(b) 점등. 진입 근거였던 조정후반 MA20 재상회 regime 이 조정 진입(day1, conf 높음, 신규 전면보류)으로 소멸 = thesis 본질 붕괴. 단일 결정 트리거로 전량 디폴트, 미점등 sector leg 는 안 끌어옴. 평단 121700 underwater 는 결정변수 아님 — 종가/state 기준 청산이지 live저가 111700 투매추격 아님."
+    }
+  ],
   "calendar_dates": [
     "20260511",
     "20260512",
