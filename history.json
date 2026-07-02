@@ -3579,7 +3579,6 @@
     "buy_won": 1947200,
     "buys": 1,
     "date": "2026-07-01",
-    "open_positions": 1,
     "pm_decisions": [
       {
         "action": "buy",
@@ -3708,7 +3707,48 @@
         "name": "현대건설"
       }
     ],
-    "trades_count": 1,
-    "unrealized_pnl_won": -43200
+    "trades_count": 1
+  },
+  "20260702": {
+    "auditor_verdict": null,
+    "buy_won": 0,
+    "buys": 0,
+    "date": "2026-07-02",
+    "open_positions": 1,
+    "pm_decisions": [],
+    "realized_pnl_won": null,
+    "sell_won": 0,
+    "sells": 0,
+    "strategist_brief": null,
+    "themes": [
+      {
+        "days_active": 11,
+        "entry_status": "소진",
+        "leaders": [
+          {
+            "code": "",
+            "name": "삼성전자"
+          },
+          {
+            "code": "",
+            "name": "SK하이닉스"
+          },
+          {
+            "code": "",
+            "name": "삼성전기"
+          },
+          {
+            "code": "",
+            "name": "삼성전자우"
+          }
+        ],
+        "name": "AI 반도체/HBM",
+        "strength_trend": "약화"
+      }
+    ],
+    "top_movers": [],
+    "traded_codes": [],
+    "trades_count": 0,
+    "unrealized_pnl_won": -129600
   }
 }
