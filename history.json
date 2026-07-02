@@ -3722,7 +3722,7 @@
     "strategist_brief": null,
     "themes": [
       {
-        "days_active": 11,
+        "days_active": 13,
         "entry_status": "소진",
         "leaders": [
           {
@@ -3749,6 +3749,6 @@
     "top_movers": [],
     "traded_codes": [],
     "trades_count": 0,
-    "unrealized_pnl_won": -132000
+    "unrealized_pnl_won": -134400
   }
 }
