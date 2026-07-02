@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02 09:22:11",
+  "generated_at": "2026-07-02 09:27:03",
   "date": "20260702",
   "mode": "dry_run",
   "stats": {
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 1947200,
     "cash_remaining_won": 48885201,
-    "total_eval_won": 1817600,
-    "unrealized_pnl_won": -129600
+    "total_eval_won": 1815200,
+    "unrealized_pnl_won": -132000
   },
   "positions": [
     {
@@ -23,11 +23,11 @@
       "qty": 16,
       "avg_price": 121700,
       "cost_won": 1947200,
-      "current_price": 113600,
-      "change_rate": -4.54,
-      "eval_won": 1817600,
-      "pnl_won": -129600,
-      "pnl_pct": -6.655710764174199,
+      "current_price": 113450,
+      "change_rate": -4.66,
+      "eval_won": 1815200,
+      "pnl_won": -132000,
+      "pnl_pct": -6.778964667214462,
       "thesis": "건설 sector rotating_in 대표 leader 현대건설 소량 probe 1차 (~4% 자본). 건설=오늘 최강 테마, 2일 연속 vol#1 accumulation(alpha+7.20, day-1 noise 아님). 조정후반 day1 thin MA20 재상회 regime = 소량 첫 트랜치. +6.57% 갭 moderate라 풀추격 아닌 한 조각. 구조 stop: 건설 sector rotating_out 강등 OR KOSPI 종가 MA20 8452 재이탈 마감 시 정리. 2차 add trigger: 건설 leading 승격(alpha 양전 지속+vol#1 2일 유지) 확정 시 익일 검토. 단일 probe, 타 축(화학/철강/전력) 미진입."
     }
   ],
