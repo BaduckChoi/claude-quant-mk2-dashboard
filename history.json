@@ -3714,11 +3714,20 @@
     "buy_won": 0,
     "buys": 0,
     "date": "2026-07-02",
-    "open_positions": 1,
-    "pm_decisions": [],
-    "realized_pnl_won": null,
-    "sell_won": 0,
-    "sells": 0,
+    "open_positions": 0,
+    "pm_decisions": [
+      {
+        "action": "sell",
+        "amount_won": null,
+        "code": "000720",
+        "qty": 16,
+        "reason": "structural stop 점등 전량청산. 내 진입 thesis stop = '건설 rotating_out OR KOSPI 종가 MA20 재이탈 마감 시 정리'(OR). KOSPI 실측 MA20=8427.91, 7-01 확정종가 8303.41 = -1.48% 재이탈 마감 확정, 오늘 -6.51% 폭락으로 방향 재확인 → leg(b) 점등. 진입 근거였던 조정후반 MA20 재상회 regime 이 조정 진입(day1, conf 높음, 신규 전면보류)으로 소멸 = thesis 본질 붕괴. 단일 결정 트리거로 전량 디폴트, 미점등 sector leg 는 안 끌어옴. 평단 121700 underwater 는 결정변수 아님 — 종가/state 기준 청산이지 live저가 111700 투매추격 아님.",
+        "slot": "1230"
+      }
+    ],
+    "realized_pnl_won": -78400,
+    "sell_won": 1868800,
+    "sells": 1,
     "strategist_brief": "[ERROR] claude rc=1: Ignoring 20 permissions.allow entries from .claude/settings.json and .claude/settings.local.json: this workspace has not been trusted. Run Claude Code interactively here once and accept the trust dialog, or set projects[\"C:/Work/claude_quant2\"].hasTrustDialogAccepted: true in C:\\Users\\showz\\.claude.json.",
     "themes": [
       {
@@ -3746,9 +3755,21 @@
         "strength_trend": "약화"
       }
     ],
-    "top_movers": [],
-    "traded_codes": [],
-    "trades_count": 0,
-    "unrealized_pnl_won": -137600
+    "top_movers": [
+      {
+        "code": "000720",
+        "name": "현대건설",
+        "realized_pnl_won": -78400
+      }
+    ],
+    "traded_codes": [
+      {
+        "action": "sell",
+        "code": "000720",
+        "name": "현대건설"
+      }
+    ],
+    "trades_count": 1,
+    "unrealized_pnl_won": null
   }
 }
