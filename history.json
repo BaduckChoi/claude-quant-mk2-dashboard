@@ -3776,7 +3776,16 @@
     "buys": 0,
     "date": "2026-07-03",
     "open_positions": 0,
-    "pm_decisions": [],
+    "pm_decisions": [
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": null,
+        "qty": null,
+        "reason": "Regime 추세장약세 day1 = 신규 전면보류 게이트 off(1순위 체질 게이트). KOSPI 7-02확정 -7.9%, MA20 -8.7%이탈+MA60테스트, breadth 선별하락(adv/dec 0.285) = 떨어지는 칼날. 빈 책(0포지션) = 관리 트리거 없음. 후보 삼바(+1.99)/셀트리온(+3.06) 의약품 rotating_in(alpha 2일 +3.22->+3.45)은 haven 상대강도 정보지 절대 진입엣지 아님, crash익일 지속 미확인. 익일 7-03 확정봉 MA60 사수 + haven 2일째 확인 시 소량 분할 probe 재평가.",
+        "slot": "0940"
+      }
+    ],
     "realized_pnl_won": null,
     "sell_won": 0,
     "sells": 0,
