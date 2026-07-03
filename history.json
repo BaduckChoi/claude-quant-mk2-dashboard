@@ -3783,7 +3783,7 @@
     "strategist_brief": null,
     "themes": [
       {
-        "days_active": 13,
+        "days_active": 14,
         "entry_status": "소진",
         "leaders": [
           {
@@ -3800,7 +3800,7 @@
           },
           {
             "code": "",
-            "name": "삼성전자우"
+            "name": "SK스퀘어"
           }
         ],
         "name": "AI 반도체/HBM",
