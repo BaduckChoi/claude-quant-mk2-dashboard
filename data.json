@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03 12:30:20",
+  "generated_at": "2026-07-03 15:20:21",
   "date": "20260703",
   "mode": "dry_run",
   "stats": {
@@ -34,6 +34,14 @@
       "amount_won": null,
       "qty": null,
       "reason": "빈 책 0포지션, 관리할 포지션 없음. Regime 추세장약세 day1(KOSPI 7-02 확정 -7.9%, MA20 -8.7% 이탈, MA60 테스트권) = 떨어지는 칼날, 신규 전면보류가 디폴트. 후보 삼바(+0.71)/셀트리온(+3.74) 은 광폭 투매 속 haven 상대강도일 뿐 매수 트리거 아님 — 의약품 sector rotating_in 도 강도정보지 진입신호 아님. 신선한 신호는 종가 미확정 부분봉뿐이라 진입 근거 부족. 오늘 진입 0, 신규는 regime 심화/반등 분기 확정 후 재검토."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": null,
+      "amount_won": null,
+      "qty": null,
+      "reason": "책 flat, 관리 포지션 0. regime 추세장약세 day1 = 신규 중단 게이트 ON (KOSPI -3%대/KOSDAQ -4%대, breadth dec 3.5:1, MA20 -8.7% 이탈, MA60 테스트). 후보 삼바(+1.0)·셀트리온(+3.79) 둘 다 제약/바이오 haven watching 미승격, 의약품 sector rotating_in day-1 = 상대강도 정보지 매수 트리거 아님(crash 익일 haven 지속 미확인). 신규 0. 진입 재개는 regime 조정후반/반등초입 격상 + haven 대형 3+ 동반양봉 2일 확인 후."
     }
   ],
   "calendar_dates": [
