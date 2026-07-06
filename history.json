@@ -3775,7 +3775,6 @@
     "buy_won": 0,
     "buys": 0,
     "date": "2026-07-03",
-    "open_positions": 0,
     "pm_decisions": [
       {
         "action": "hold",
@@ -3806,6 +3805,47 @@
     "sell_won": 0,
     "sells": 0,
     "strategist_brief": "관망 우세 day. Regime 추세장약세 day1 + KOSPI -3.01% + KOSDAQ -4.08%, breadth 참혹(adv161/dec715, KOSDAQ 248/1428). 떨어지는 칼날 = 신규 전면 보수. 살아있는 테마 하나뿐 = 제약/바이오 haven(의약품 sector rotating_in, 유일 green, alpha 최고). AI반도체/HBM 은 약화·소진이라 신규 후보 부적격(기보유 관리 영역).\n\n후보는 haven leaders 소수만. 급등 소형(비엘팜텍/조아제약 +20~30%)은 추격금지라 제외.\n\n```json\n{\n  \"themes\": [\n    {\n      \"name\": \"제약/바이오 haven\",\n      \"status\": \"watching\",\n      \"stance\": \"관망 우선, 소량 분할만 허용\",\n      \"rationale\": \"의약품 sector 2일 연속 alpha 최고(+3.22->+3.45), 광폭 투매 속 유일 방어 bid. 삼바 +1.64 down-day 방어. haven 로테이션(음식료->의약품 교대). 단 regime 추세장약세 = 상대강도 정보지 매수 트리거 아님. crash 익일 haven 지속 미확인.\"\n    }\n  ],\n  \"candidates\": [\n    {\"code\": \"207940\", \"name\": \"삼성바이오로직스\", \"reason\": \"haven 대형 앵커. -3% 시장서 +1.64 독립 강세, 의약품 sector 리더. 지지선 확인 후 소량 분할 관망만.\"},\n    {\"code\": \"068270\", \"name\": \"셀트리온\", \"reason\": \"제약/바이오 haven 2번 리더, 의약품 rotating_in 코호트. 대형 방어축. 신규는 소량·분할 한정.\"}\n  ],\n  \"notes\": \"오늘 관망 우세. Regime 추세장약세 day1 + KOSPI -3.01%/KOSDAQ -4.08% + breadth 참혹(dec 715/1428) = 신규 진입 사실상 중단, 떨어지는 칼날 추격 절대 금지. 살아있는 테마 haven 하나뿐이라 candidates 2개 모두 동일 제약/바이오 테마로 쏠림 — 분산 옵션 없음. 이는 시장 상황(risk-off crash 익일, 방어 로테이션만 생존)의 반영이지 종목 확신 아님. PM 은 portfolio-level 에서 '오늘 신규 최소화/보류' 게이트 켜는 게 디폴트. 급등 소형 pharma(비엘팜텍 +20.9, 조아제약 +29.9)는 추격금지로 후보 제외. AI반도체/HBM 은 약화·소진 = 기보유 지지선붕괴 종목 분할익절 영역, 신규 후보 아님. 자신 있으면 candidates 무시하고 전량 현금 관망도 정당한 날.\"\n}\n```",
+    "themes": [
+      {
+        "days_active": 14,
+        "entry_status": "소진",
+        "leaders": [
+          {
+            "code": "",
+            "name": "삼성전자"
+          },
+          {
+            "code": "",
+            "name": "SK하이닉스"
+          },
+          {
+            "code": "",
+            "name": "삼성전기"
+          },
+          {
+            "code": "",
+            "name": "SK스퀘어"
+          }
+        ],
+        "name": "AI 반도체/HBM",
+        "strength_trend": "약화"
+      }
+    ],
+    "top_movers": [],
+    "traded_codes": [],
+    "trades_count": 0
+  },
+  "20260706": {
+    "auditor_verdict": null,
+    "buy_won": 0,
+    "buys": 0,
+    "date": "2026-07-06",
+    "open_positions": 0,
+    "pm_decisions": [],
+    "realized_pnl_won": null,
+    "sell_won": 0,
+    "sells": 0,
+    "strategist_brief": null,
     "themes": [
       {
         "days_active": 14,
