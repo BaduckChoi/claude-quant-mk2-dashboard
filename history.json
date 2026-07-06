@@ -3848,7 +3848,7 @@
     "strategist_brief": null,
     "themes": [
       {
-        "days_active": 14,
+        "days_active": 15,
         "entry_status": "소진",
         "leaders": [
           {
@@ -3861,15 +3861,11 @@
           },
           {
             "code": "",
-            "name": "삼성전기"
-          },
-          {
-            "code": "",
             "name": "SK스퀘어"
           }
         ],
         "name": "AI 반도체/HBM",
-        "strength_trend": "약화"
+        "strength_trend": "유지"
       }
     ],
     "top_movers": [],
