@@ -3849,6 +3849,14 @@
         "qty": null,
         "reason": "빈 책 0포지션. regime 조정후반 day1, kospi 8293<MA20 8374 미회복 = regime 자체 게이트가 공격성 억제·추격금지. 후보 6종 전부 day-1 신규 rotating_in을 오늘 부분봉(vol~15% 미확정) 위에서 잡은 신호 + 시초 갭 +1.9~6.8%. probe 진입 근거는 종가확정 일봉이어야 하는데 오늘 확정봉 없음. auditor가 예약한 haven probe 조건은 오늘 붕괴(의약품 alpha-3.01 laggard 강등, 제약/바이오 ended)로 미점등. 새 시클리컬/증권 신호는 strategist도 익일 alpha 재확인이 증량조건이라 명시. 최소갭 현대차(+1.93%) anchor 선택은 최약 leg anti-momentum이라 배제. 오늘 순매수 0. [익일 트리거] 확정봉 종가 MA20 8374 상향 돌파 OR 운송장비(alpha양전 2일)·증권 rotating_in 종가 확정 유지 시, 확인된 leg에 자본 4~5% 소량 probe 1차 발동 — 갭 추격 아닌 눌림 진입. 미충족이면 carry.",
         "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": null,
+        "qty": null,
+        "reason": "빈 책, 신규 probe 보류. regime 조정후반 day1 conf보통, KOSPI 부분봉 8293 = MA20(8374) 미회복 = 공격성 억제·추격금지 유효. 매수후보 테마 전부 day-1 rotating_in(증권 alpha+3.34, 운송장비 alpha+1.43) = 상대강도 정보지 매수트리거 아님, 익일 alpha 2일차 확인이 증량조건(strategist 명시). dead-cat 이력(6-23 이후 반등 반복실패) 상존. 현재 등락률 day기준 clean 지지선 retest 엣지 없음(미래에셋 +2.46% 중단권, SK스퀘어 -4.34% 적봉, 현대차 +0.41% 미미, HD현중 -1.56% 적봉) = 엣지0 자리 자동집행 금지. HBM active는 entry_status 소진, 신규불가. 삼성물산은 지지 sector게이트 없음(건설업 rotating_out)이라 반도체 분산옵션이어도 제외. probe 트리거(익일 state로 평가): 증권 or 운송장비 sector alpha 2일차 양전 유지 + 종목 지지선 유효 → 자본 4-5% 소량 1종 probe. 미충족=보류, 마비 아님.",
+        "slot": "1230"
       }
     ],
     "realized_pnl_won": null,
