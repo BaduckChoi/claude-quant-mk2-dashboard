@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06 09:35:42",
+  "generated_at": "2026-07-06 09:41:08",
   "date": "20260706",
   "mode": "dry_run",
   "stats": {
@@ -18,7 +18,16 @@
   },
   "positions": [],
   "trades": [],
-  "pm_decisions": [],
+  "pm_decisions": [
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": null,
+      "amount_won": null,
+      "qty": null,
+      "reason": "빈 책 0포지션. regime 조정후반 day1, kospi 8293<MA20 8374 미회복 = regime 자체 게이트가 공격성 억제·추격금지. 후보 6종 전부 day-1 신규 rotating_in을 오늘 부분봉(vol~15% 미확정) 위에서 잡은 신호 + 시초 갭 +1.9~6.8%. probe 진입 근거는 종가확정 일봉이어야 하는데 오늘 확정봉 없음. auditor가 예약한 haven probe 조건은 오늘 붕괴(의약품 alpha-3.01 laggard 강등, 제약/바이오 ended)로 미점등. 새 시클리컬/증권 신호는 strategist도 익일 alpha 재확인이 증량조건이라 명시. 최소갭 현대차(+1.93%) anchor 선택은 최약 leg anti-momentum이라 배제. 오늘 순매수 0. [익일 트리거] 확정봉 종가 MA20 8374 상향 돌파 OR 운송장비(alpha양전 2일)·증권 rotating_in 종가 확정 유지 시, 확인된 leg에 자본 4~5% 소량 probe 1차 발동 — 갭 추격 아닌 눌림 진입. 미충족이면 carry."
+    }
+  ],
   "calendar_dates": [
     "20260511",
     "20260512",
