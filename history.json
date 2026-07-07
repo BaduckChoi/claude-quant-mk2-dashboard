@@ -3947,11 +3947,36 @@
     "buy_won": 0,
     "buys": 0,
     "date": "2026-07-07",
-    "open_positions": 1,
-    "pm_decisions": [],
-    "realized_pnl_won": null,
-    "sell_won": 0,
-    "sells": 0,
+    "open_positions": 0,
+    "pm_decisions": [
+      {
+        "action": "sell",
+        "amount_won": null,
+        "code": "005930",
+        "qty": 6,
+        "reason": "probe 진입 전제(2일연속반등=반등초입)가 regime 확정봉에서 무효화 — 7-06 상승분 전량반납·dead-cat 확인·조정진입 재하향. 명시 stop '대형주 반등 반납' 점등: 전기전자 sector rotating_out distribution 지속(vol#1 alpha-negative) state 조건. 트리거는 종가/state 기반, 장중 진폭 아님. entry 근거 자체가 붕괴 = 부분 아닌 전량. 손실 위치는 결정변수 아님, 전제 falsified 라 정리.",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "298000",
+        "qty": null,
+        "reason": "화학 역행강세 watching day1(승격 alpha양전 2일 미충족). 상한가 +29.84% = 추격 절대금지. regime 조정진입 신규 동결. 진입 0.",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "002990",
+        "qty": null,
+        "reason": "금호 restructuring watching day1, 뉴스근거 미확인 +21.94% 단발급등. 추격금지 + 신규 동결. 진입 0.",
+        "slot": "0940"
+      }
+    ],
+    "realized_pnl_won": -108000,
+    "sell_won": 1791000,
+    "sells": 1,
     "strategist_brief": "```json\n{\n  \"themes\": [\n    {\n      \"name\": \"관망 (조정 진입 day1)\",\n      \"stance\": \"신규 사실상 동결\",\n      \"rationale\": \"regime 조정 진입 재하향. KOSPI -3.63%(7759) 확정 하방 follow-through, 7648 크래시 저점 재접근. 반등 2회 연속 실패 dead-cat. MA20(8403) 아래 재이탈 심화. 신규 첫 발도 보류, 추격 절대 금지. AI반도체/HBM active지만 삼성전자 -5.9%/SK스퀘어 -6.49% distribution, entry 소진 = 신규 없음, 지지선 이탈분 분할익절 우선.\"\n    },\n    {\n      \"name\": \"화학/소재 역행강세 (watching)\",\n      \"stance\": \"관찰만, 진입 보류\",\n      \"rationale\": \"화학 sector alpha +3.15p risk-off 역행 outperform, vol #2 폭증. 효성화학 상한가(+29.84%). 단 승격조건 day1(alpha 양전 2일 미충족) + 상한가 = 추격 금지. defensive artifact 가능성. 익일 alpha 유지 + 눌림 확인 전엔 진입 없음.\"\n    },\n    {\n      \"name\": \"금호그룹 restructuring (watching)\",\n      \"stance\": \"관찰만, 근거 미확인\",\n      \"rationale\": \"금호건설 +17.33, 금호전기 +11.73, 금호타이어 +5.68 그룹 3종목 동반 + 거래대금 폭증. 재편/M&A 기대 추정이나 뉴스 근거 미확인. 단발 급등 소멸 리스크. 근거 확인 + 익일 강세 지속 전엔 진입 없음.\"\n    }\n  ],\n  \"candidates\": [\n    {\n      \"code\": \"298000\",\n      \"name\": \"효성화학\",\n      \"reason\": \"화학 역행강세 리더, sector alpha +3.15 risk-off 진성 bid. 단 상한가 = 추격 절대 금지. watch-only, 익일 alpha 유지 + 눌림 시에만 소량 분할 1차 검토.\"\n    },\n    {\n      \"code\": \"002990\",\n      \"name\": \"금호건설\",\n      \"reason\": \"금호 restructuring 대장, 거래대금 폭증. +17% 단일 급등 + 테마근거 미확인 = watch-only. 뉴스 확인 + 익일 지속 전 진입 금지.\"\n    }\n  ],\n  \"notes\": \"조정 진입 day1, 신규 동결이 디폴트 — candidates 는 진입 지시 아닌 관찰 풀. 둘 다 no-chase 태그, 이번 사이클 매수 없음 상정. 살아있는 두 테마(화학/금호)는 서로 다른 축이라 단일 테마 쏠림 아님. KOSDAQ +1.33% green 이나 KOSPI 대형주 주도 하락 = 선별하락, 지수 방향 확인 전 저점매수 유혹 억제. 7648 지지 사수 여부가 다음 분기 핵심 — 붕괴 시 후보 전부 drop, 사수 + MA20 재접근 시 소량 재개 검토.\"\n}\n```\n\nNote: 조정 진입 = 신규 동결 default. Candidate 둘 다 watch-only, no-chase. 화학·금호 두 축 = 쏠림 아님. PM 은 이번 사이클 매수 없음 상정하고 7648 지지·alpha 재확인만 추적.",
     "themes": [
       {
@@ -3975,9 +4000,21 @@
         "strength_trend": "약화"
       }
     ],
-    "top_movers": [],
-    "traded_codes": [],
-    "trades_count": 0,
-    "unrealized_pnl_won": -102000
+    "top_movers": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "realized_pnl_won": -108000
+      }
+    ],
+    "traded_codes": [
+      {
+        "action": "sell",
+        "code": "005930",
+        "name": "삼성전자"
+      }
+    ],
+    "trades_count": 1,
+    "unrealized_pnl_won": null
   }
 }
