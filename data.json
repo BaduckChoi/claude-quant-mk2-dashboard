@@ -1,38 +1,65 @@
 {
-  "generated_at": "2026-07-07 09:35:41",
+  "generated_at": "2026-07-07 09:41:01",
   "date": "20260707",
   "mode": "dry_run",
   "stats": {
-    "open_positions": 1,
-    "trades_count": 0,
+    "open_positions": 0,
+    "trades_count": 1,
     "buys": 0,
-    "sells": 0,
+    "sells": 1,
     "buy_won": 0,
-    "sell_won": 0,
-    "realized_pnl_won": null,
+    "sell_won": 1791000,
+    "realized_pnl_won": -108000,
     "capital_won": 50000000,
-    "deployed_won": 1899000,
-    "cash_remaining_won": 48855001,
-    "total_eval_won": 1797000,
-    "unrealized_pnl_won": -102000
+    "deployed_won": 0,
+    "cash_remaining_won": 50646001,
+    "total_eval_won": null,
+    "unrealized_pnl_won": null
   },
-  "positions": [
+  "positions": [],
+  "trades": [
     {
+      "ts": "2026-07-07T09:41:01",
+      "cycle_id": "20260707-0940",
+      "action": "sell",
       "code": "005930",
       "name": "삼성전자",
       "qty": 6,
-      "avg_price": 316500,
-      "cost_won": 1899000,
-      "current_price": 299500,
-      "change_rate": -5.82,
-      "eval_won": 1797000,
-      "pnl_won": -102000,
-      "pnl_pct": -5.371248025276461,
-      "thesis": "AI반도체 본진 leader 삼성전자 소량 첫 probe. regime 조정후반 day1 = 분할진입 '시작' 허용(어제 crash-day 신규중단 완화), MA60 +7% 재탈환·MA20 -0.98% 재접근·2일 연속 반등 = 반등초입 조건 점등. 삼성전자 +2.26% = up후보 중 갭 최소이며 mcap#1 최강 leg(약화 leg 아님, 전기전자 vol#1 유지). 극소량 3.8%cap 첫발 = 분할 확인도구. 추격 아님, 풀사이즈 아님. 구조 stop: AI반도체 theme ended 강등 OR 삼성전자 7-02 crash 저점권 종가 이탈 OR 대형주 반등 반납(전기전자 vol#1 붕괴) = thesis 무효, 부분/전량 정리(고정% 아닌 구조선). 2차 트리거: 익일 KOSPI MA20(8374) 종가 상향돌파 + 삼성전자 지지 유지 시 분할 증액. 미충족이면 probe 동결, 신규 변명 누적 금지."
+      "price": 298500,
+      "amount_won": 1791000,
+      "reason": "probe 진입 전제(2일연속반등=반등초입)가 regime 확정봉에서 무효화 — 7-06 상승분 전량반납·dead-cat 확인·조정진입 재하향. 명시 stop '대형주 반등 반납' 점등: 전기전자 sector rotating_out distribution 지속(vol#1 alpha-negative) state 조건. 트리거는 종가/state 기반, 장중 진폭 아님. entry 근거 자체가 붕괴 = 부분 아닌 전량. 손실 위치는 결정변수 아님, 전제 falsified 라 정리.",
+      "dry_run": true,
+      "order_no": "",
+      "avg_cost": 316500,
+      "realized_pnl_won": -108000
     }
   ],
-  "trades": [],
-  "pm_decisions": [],
+  "pm_decisions": [
+    {
+      "slot": "0940",
+      "action": "sell",
+      "code": "005930",
+      "amount_won": null,
+      "qty": 6,
+      "reason": "probe 진입 전제(2일연속반등=반등초입)가 regime 확정봉에서 무효화 — 7-06 상승분 전량반납·dead-cat 확인·조정진입 재하향. 명시 stop '대형주 반등 반납' 점등: 전기전자 sector rotating_out distribution 지속(vol#1 alpha-negative) state 조건. 트리거는 종가/state 기반, 장중 진폭 아님. entry 근거 자체가 붕괴 = 부분 아닌 전량. 손실 위치는 결정변수 아님, 전제 falsified 라 정리."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "298000",
+      "amount_won": null,
+      "qty": null,
+      "reason": "화학 역행강세 watching day1(승격 alpha양전 2일 미충족). 상한가 +29.84% = 추격 절대금지. regime 조정진입 신규 동결. 진입 0."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "002990",
+      "amount_won": null,
+      "qty": null,
+      "reason": "금호 restructuring watching day1, 뉴스근거 미확인 +21.94% 단발급등. 추격금지 + 신규 동결. 진입 0."
+    }
+  ],
   "calendar_dates": [
     "20260511",
     "20260512",
