@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07 09:21:48",
+  "generated_at": "2026-07-07 09:26:45",
   "date": "20260707",
   "mode": "dry_run",
   "stats": {
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 1899000,
     "cash_remaining_won": 48855001,
-    "total_eval_won": 1821000,
-    "unrealized_pnl_won": -78000
+    "total_eval_won": 1812000,
+    "unrealized_pnl_won": -87000
   },
   "positions": [
     {
@@ -23,11 +23,11 @@
       "qty": 6,
       "avg_price": 316500,
       "cost_won": 1899000,
-      "current_price": 303500,
-      "change_rate": -4.56,
-      "eval_won": 1821000,
-      "pnl_won": -78000,
-      "pnl_pct": -4.107424960505529,
+      "current_price": 302000,
+      "change_rate": -5.03,
+      "eval_won": 1812000,
+      "pnl_won": -87000,
+      "pnl_pct": -4.581358609794629,
       "thesis": "AI반도체 본진 leader 삼성전자 소량 첫 probe. regime 조정후반 day1 = 분할진입 '시작' 허용(어제 crash-day 신규중단 완화), MA60 +7% 재탈환·MA20 -0.98% 재접근·2일 연속 반등 = 반등초입 조건 점등. 삼성전자 +2.26% = up후보 중 갭 최소이며 mcap#1 최강 leg(약화 leg 아님, 전기전자 vol#1 유지). 극소량 3.8%cap 첫발 = 분할 확인도구. 추격 아님, 풀사이즈 아님. 구조 stop: AI반도체 theme ended 강등 OR 삼성전자 7-02 crash 저점권 종가 이탈 OR 대형주 반등 반납(전기전자 vol#1 붕괴) = thesis 무효, 부분/전량 정리(고정% 아닌 구조선). 2차 트리거: 익일 KOSPI MA20(8374) 종가 상향돌파 + 삼성전자 지지 유지 시 분할 증액. 미충족이면 probe 동결, 신규 변명 누적 금지."
     }
   ],
