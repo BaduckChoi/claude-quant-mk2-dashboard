@@ -3955,7 +3955,7 @@
     "strategist_brief": null,
     "themes": [
       {
-        "days_active": 15,
+        "days_active": 16,
         "entry_status": "소진",
         "leaders": [
           {
@@ -3972,12 +3972,12 @@
           }
         ],
         "name": "AI 반도체/HBM",
-        "strength_trend": "유지"
+        "strength_trend": "약화"
       }
     ],
     "top_movers": [],
     "traded_codes": [],
     "trades_count": 0,
-    "unrealized_pnl_won": -87000
+    "unrealized_pnl_won": -90000
   }
 }
