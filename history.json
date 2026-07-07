@@ -3840,7 +3840,6 @@
     "buy_won": 1899000,
     "buys": 1,
     "date": "2026-07-06",
-    "open_positions": 1,
     "pm_decisions": [
       {
         "action": "hold",
@@ -3941,7 +3940,44 @@
         "name": "삼성전자"
       }
     ],
-    "trades_count": 1,
-    "unrealized_pnl_won": 9000
+    "trades_count": 1
+  },
+  "20260707": {
+    "auditor_verdict": null,
+    "buy_won": 0,
+    "buys": 0,
+    "date": "2026-07-07",
+    "open_positions": 1,
+    "pm_decisions": [],
+    "realized_pnl_won": null,
+    "sell_won": 0,
+    "sells": 0,
+    "strategist_brief": null,
+    "themes": [
+      {
+        "days_active": 15,
+        "entry_status": "소진",
+        "leaders": [
+          {
+            "code": "",
+            "name": "삼성전자"
+          },
+          {
+            "code": "",
+            "name": "SK하이닉스"
+          },
+          {
+            "code": "",
+            "name": "SK스퀘어"
+          }
+        ],
+        "name": "AI 반도체/HBM",
+        "strength_trend": "유지"
+      }
+    ],
+    "top_movers": [],
+    "traded_codes": [],
+    "trades_count": 0,
+    "unrealized_pnl_won": -78000
   }
 }
