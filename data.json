@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07 09:41:01",
+  "generated_at": "2026-07-07 12:30:15",
   "date": "20260707",
   "mode": "dry_run",
   "stats": {
@@ -58,6 +58,14 @@
       "amount_won": null,
       "qty": null,
       "reason": "금호 restructuring watching day1, 뉴스근거 미확인 +21.94% 단발급등. 추격금지 + 신규 동결. 진입 0."
+    },
+    {
+      "slot": "1230",
+      "action": "hold",
+      "code": null,
+      "amount_won": null,
+      "qty": null,
+      "reason": "빈 책, 관리 포지션 0. regime 조정 진입 day1, KOSPI -2.9% 부분봉 재하락, 7648 크래시 저점 재접근, 반등 2회 실패 dead-cat = 신규 동결 국면. 후보 2종 다 watching day1(승격 alpha양전 2일 미충족) + 갭추격 자리: 효성화학 상한가 +29.84%(즉시 1차 가격엣지 0), 금호건설 현재 +8%지만 장중 고점 15380서 13340까지 반납 + 테마근거(M&A) 미확인 단발 급등. 둘 다 종가 미확정 부분봉, 진입 근거 부재. 신규 0."
     }
   ],
   "calendar_dates": [
