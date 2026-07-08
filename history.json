@@ -4053,6 +4053,14 @@
         "qty": null,
         "reason": "빈 책 100% 현금. Regime 조정 진입 day2, 7648 크래시저점 종가 붕괴 + breadth 전체하락(KOSPI adv113/dec749=0.15) = 신규 전면 동결 국면. Strategist candidates=0, live_quotes 도 KOSDAQ stub(price 0)뿐 = 평가할 신규 fresh 데이터 없음. HBM(하이닉스 단독 견조)·금호전기는 watching 격리, promote 게이트 미충족(하이닉스 alpha 양전 2일 미확인 / 금호 뉴스+2종목 동반 미확인). 관리할 포지션 0 + 신규 게이트 충족 0 = 무행동이 정직한 답. 재개 트리거: 7-08 하락축소 반전 마감 + 익일 7300~7500 지지형성 + 거래대금 급증(투매소진) 확인 후 소량 분할 1차 검토.",
         "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": null,
+        "qty": null,
+        "reason": "빈 책, 0포지션. Regime 조정 진입 day2, breadth 전체하락(KOSPI adv113/dec749=0.15 투매), 7648 크래시저점 종가 붕괴+신저점 진입. mandate 상 신규 전면 동결 구간=떨어지는 칼날. strategist candidates 0. live_quotes 는 KOSDAQ 지수뿐(개별 fresh 데이터 없음)이라 신규 평가 대상도 없음. HBM(하이닉스 단독 견조)·금호전기 둘 다 watching 미숙성, promote 미충족. 관리할 포지션도 신규 게이트 충족도 없음. 신규 재개는 7300선 사수+하락축소 반전+거래대금 급증(투매소진) 확인 후. 오늘 무행동.",
+        "slot": "1520"
       }
     ],
     "realized_pnl_won": null,
