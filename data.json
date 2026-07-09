@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09 09:31:42",
+  "generated_at": "2026-07-09 09:35:36",
   "date": "20260709",
   "mode": "dry_run",
   "stats": {
@@ -60,6 +60,6 @@
     "20260708",
     "20260709"
   ],
-  "strategist_brief": null,
+  "strategist_brief": "조정 진입 day3, dead-cat 의심, 신규 동결 국면. 공격 후보 zero. 살아있는 leadership 하나뿐 = HBM/전기전자 대형주. 스몰캡 급등(AI SW)은 저거래 1일 스파이크 = watching only. 후보는 관찰·분할준비용 최소 2개만, 단일 테마 쏠림 명시.\n\n```json\n{\n  \"themes\": [\n    {\n      \"name\": \"AI 반도체/HBM\",\n      \"status\": \"active-관찰\",\n      \"note\": \"유일 실재 leadership. 전기전자 rotating_in day2(alpha+1.96, vol#1). SK하이닉스+7.27%, SK스퀘어+7.72%, 삼성전자+2.88% 대형주 동반. 단 KOSPI 반등 자체가 전기전자 편중 = alpha 자기부풀림. entry_status 소진 + regime 조정 진입 day3 dead-cat 의심 = 신규 동결, 지지사수분만. MA20(8357) 회복 or 7500선 확정 방어 전 실행 금지.\"\n    },\n    {\n      \"name\": \"AI SW/비전 스몰캡\",\n      \"status\": \"watching\",\n      \"note\": \"데이타솔루션/씨이랩/이노뎁 동반 급등이나 저거래 마이크로캡 1일 스파이크. 2일째 유지+거래대금 지속 전 진입 금지. 조정 국면 마이크로캡 추격 = 최악 리스크.\"\n    },\n    {\n      \"name\": \"금호그룹 restructuring\",\n      \"status\": \"watching\",\n      \"note\": \"금호건설+15.36% 단독 급등, 금호전기 -6.61% 반납 = 그룹 결속 불명. 2종목 동반 재강세+뉴스 확정 전 관망.\"\n    }\n  ],\n  \"candidates\": [\n    {\n      \"code\": \"005930\",\n      \"name\": \"삼성전자\",\n      \"reason\": \"HBM/전기전자 rotating_in 대장, +2.88% 시총1위. 유동성·지지선 견고 = 조정 후반 재상향 확정 시 분할 재개 1순위. 오늘 실행 아님, 관찰·분할준비용.\"\n    },\n    {\n      \"code\": \"000660\",\n      \"name\": \"SK하이닉스\",\n      \"reason\": \"HBM 축 주도 +7.27%, 레버리지 ETF +14.7%/인버스 -14.8% = 방향성 명확. leadership 실재 확인용. 동일 관찰·분할준비, regime 동결 하 신규 금지.\"\n    }\n  ],\n  \"notes\": \"regime 조정 진입 day3(신규 사실상 동결) + 크래시 저점 붕괴 후 첫 저거래 좁은 반등(dead-cat 의심) = 오늘 신규 진입 공격성 zero. candidates 2개 전부 HBM/전기전자 단일 테마 — 실재 leadership이 이 축 하나뿐이라 의도적 쏠림. PM은 portfolio 분산 게이트 켜서 오늘은 신규 배제, 관찰·분할준비 태세로만 다뤄라. 분할 재개 트리거: 7-09 확정 +2%+ 마감 + 7500 종가 사수 + 익일 재반등 + 거래대금 회복 + breadth adv>dec. 트리거 전 candidates는 매수신호 아닌 watchlist. 다른 살아있는 분산 테마 부재(타 19섹터 전부 alpha-neg, laggard/rotating_out) = 분산용 대체 후보 제시 불가, 그래서 현금 유지가 디폴트 분산.\"\n}\n```",
   "auditor_verdict": null
 }
