@@ -4036,7 +4036,6 @@
     "buy_won": 0,
     "buys": 0,
     "date": "2026-07-08",
-    "open_positions": 0,
     "pm_decisions": [
       {
         "action": "hold",
@@ -4067,6 +4066,43 @@
     "sell_won": 0,
     "sells": 0,
     "strategist_brief": "관망 국면. Regime 조정 진입 day2 + 투매 + 7648 크래시저점 붕괴 = 신규 전면 동결. Strategist 후보 최소화, watching 위주.\n\n```json\n{\n  \"themes\": [\n    {\n      \"name\": \"AI 반도체/HBM\",\n      \"status\": \"active-소진\",\n      \"stance\": \"관망/지지사수분만 보유\",\n      \"note\": \"SK하이닉스 +0.27% 홀로 견조(레버리지 ETF +1%대, 인버스 -0.86%), HBM축 역행. 삼성전자 -2.03%/삼성전기 -5.04% = 대형주 여전 약세. 신규 진입 근거 아님. 하이닉스 alpha 양전 2일 지속 시에만 재평가.\"\n    },\n    {\n      \"name\": \"금호그룹 restructuring\",\n      \"status\": \"watching\",\n      \"stance\": \"관찰만\",\n      \"note\": \"금호전기 +12.08% 2일째 vol#10 폭증이나 금호건설/타이어 동반 미확인 = 그룹 결속 불명. 조정 투매장 단독 급등 = 추격 금지. promote 조건(뉴스+2종목 동반) 미충족.\"\n    }\n  ],\n  \"candidates\": [],\n  \"notes\": \"regime 조정 진입 day2, breadth 전체하락(KOSPI adv177/dec688, KOSDAQ dec1281), 7648 크래시저점 종가 붕괴 = 떨어지는 칼날. mandate 철학상 신규 첫 발도 금지 구간이라 candidates 의도적 공란. PM 은 신규 zero, 기보유 지지선 이탈분 분할익절 + 현금확보에 집중. 오늘 시장 리더는 인버스/인버스2X ETF(volume_top 도배) = 방어 심리 확정, 매수 후보 부재가 정직한 그림. 유일 살아있는 개별 모멘텀(금호전기)도 검증 미달로 watching 격리. 분산 논점 무의미 — 애초 진입 후보 없음. 분기점: 7300선 이탈 시 추가 방어, 하락축소 반전+7300~7500 지지형성+거래대금 급증(투매소진) 시에만 소량 분할 재개 검토.\"\n}\n```\n\n**요약**: 후보 0. 칼날 한복판, 신규 동결. HBM(하이닉스 단독 견조)·금호전기만 watching 걸어두고 PM 신호 대기. 매수 후보 없음이 오늘 정직한 답.",
+    "themes": [
+      {
+        "days_active": 17,
+        "entry_status": "소진",
+        "leaders": [
+          {
+            "code": "",
+            "name": "삼성전자"
+          },
+          {
+            "code": "",
+            "name": "SK하이닉스"
+          },
+          {
+            "code": "",
+            "name": "SK스퀘어"
+          }
+        ],
+        "name": "AI 반도체/HBM",
+        "strength_trend": "유지"
+      }
+    ],
+    "top_movers": [],
+    "traded_codes": [],
+    "trades_count": 0
+  },
+  "20260709": {
+    "auditor_verdict": null,
+    "buy_won": 0,
+    "buys": 0,
+    "date": "2026-07-09",
+    "open_positions": 0,
+    "pm_decisions": [],
+    "realized_pnl_won": null,
+    "sell_won": 0,
+    "sells": 0,
+    "strategist_brief": null,
     "themes": [
       {
         "days_active": 17,
