@@ -4166,7 +4166,7 @@
     "strategist_brief": null,
     "themes": [
       {
-        "days_active": 18,
+        "days_active": 19,
         "entry_status": "소진",
         "leaders": [
           {
@@ -4183,7 +4183,7 @@
           }
         ],
         "name": "AI 반도체/HBM",
-        "strength_trend": "강화"
+        "strength_trend": "약화"
       }
     ],
     "top_movers": [],
