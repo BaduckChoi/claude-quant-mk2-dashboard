@@ -4404,45 +4404,21 @@
     "strategist_brief": null,
     "themes": [
       {
-        "days_active": 1,
-        "entry_status": "중반",
+        "days_active": 2,
+        "entry_status": "후반",
         "leaders": [
           {
             "code": "",
             "name": "빛과전자"
-          },
-          {
-            "code": "",
-            "name": "기가레인"
-          },
-          {
-            "code": "",
-            "name": "대한광통신"
           }
         ],
         "name": "전선/광통신 인프라",
-        "strength_trend": "강화"
-      },
-      {
-        "days_active": 1,
-        "entry_status": "초입",
-        "leaders": [
-          {
-            "code": "",
-            "name": "LG에너지솔루션"
-          },
-          {
-            "code": "",
-            "name": "LG화학"
-          }
-        ],
-        "name": "2차전지 반등",
-        "strength_trend": "강화"
+        "strength_trend": "약화"
       }
     ],
     "top_movers": [],
     "traded_codes": [],
     "trades_count": 0,
-    "unrealized_pnl_won": -711500
+    "unrealized_pnl_won": -593000
   }
 }
