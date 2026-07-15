@@ -4543,7 +4543,32 @@
     "buys": 0,
     "date": "2026-07-15",
     "open_positions": 2,
-    "pm_decisions": [],
+    "pm_decisions": [
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "005930",
+        "qty": null,
+        "reason": "하이닉스 +10.82% 동반으로 진입 thesis '2번째 축' live 확인 = 증거 강화. 그러나 내가 쓴 2차 add 게이트(전기전자 확정 종가 alpha 양전 + vol 25000 회복)는 09:40 부분봉에서 참/거짓 미평가. 부분봉 spike는 add 근거 부적격. 15:20 확정 종가에서 alpha 양전 유지 + vol 25000 회복 시 삼전 2차 tranche 집행(목표 자본6% 중 현 2.1%). 삼전 확정 종가 247000 하회 시 전량 정리. hold.",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "373220",
+        "qty": null,
+        "reason": "+4.97%, 매도 트리거 미점등(확정 종가 지지선 이탈·테마 유효성 붕괴 없음). 부분봉 회복 narrative로 홀딩 정당화 안 함. 오늘 뒤집는 숫자: 확정 종가 지지 이탈 or 화학축 leaders 음전. hold.",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": null,
+        "qty": null,
+        "reason": "신규 후보 000660/009150 및 삼전 신규 tranche 전부 defer. 진입 트리거가 전기전자 확정 종가 sector 승격(alpha 양전 + vol 25000)인데 09:40 부분봉이라 평가 불가. 부분봉 spike 진입 금지 룰. 확정 종가 나오는 15:20 슬롯에서 (a)전기전자 확정 alpha 양전 유지+vol 25000 회복 시 하이닉스/삼성전기 1차 분할 발동 (b)미충족 시 익일 carry. 자본 배치 3.5%로 낮으나 이는 확정 종가 게이트의 time-gate 결과이지 omission 아님 - 매도도 같은 잣대로 0.",
+        "slot": "0940"
+      }
+    ],
     "realized_pnl_won": null,
     "sell_won": 0,
     "sells": 0,
@@ -4585,6 +4610,6 @@
     "top_movers": [],
     "traded_codes": [],
     "trades_count": 0,
-    "unrealized_pnl_won": 62500
+    "unrealized_pnl_won": 54000
   }
 }
