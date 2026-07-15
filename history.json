@@ -4599,6 +4599,38 @@
         "qty": null,
         "reason": "2주(자본 1.34%) = 이전 슬롯 반복 trim 후 잔량 dead-weight, 이 슬롯 미집행. thesis 기반(2차전지 반등 + 화학 rotating_in)은 state-level 침식: themes.json 2차전지 반등 ended(2026-07-15), sectors 화학 laggards(median-alpha -0.72). 정당한 청산 사유이나 (1)이미 같은 사유로 과거 슬롯 heavily 정리했고 그 이후 새로 점등한 트리거 없음 - 같은 사유 재집행 금지, (2)12:30 부분봉 확정 종가 없음 - 매수를 확정 종가로 기각하는 것과 대칭으로 매도도 확정 종가까지 대기. dead-weight 결단 + 1/2 디폴트 결합이 자동 전량청산 되는 구조 인지 -> 쪼개지 않고 최종 사이즈 한번에 결정. 15:20 확정 종가 트리거: 화학 median-alpha 음전 확정 유지 + 2차전지 ended 유지(둘 다 오늘 종가 관측 가능) -> 잔량 2주 전량 청산(thesis 기반 소멸 = one-shot 전량, 1/2 아님). 하나라도 반전(화학 alpha 양전 회복 등)이면 익일 carry. 현재 +4.04%(335000) 부분봉 반등을 홀딩 정당화로도 안 씀.",
         "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "005930",
+        "qty": null,
+        "reason": "삼성전자 4주(279000, +6.08%) 보유 유지. 증거는 슬롯 내 강화됨: 하이닉스 +9.41%(strategist가 '2번째 축 미확인'이라던 항목 live 확정), 삼성전기 +12.46%, theme '반도체대형주/HBM재점화' active 승격. 그럼에도 add 0 인 이유: 2차 add 게이트=전기전자 확정종가 alpha양전+vol 25000 회복인데 현재 vol 18577<25000, 종가임박이라 오늘 도달 불가=미충족 확정. regime 조정진입 day2 '반등확정 전 추가보류'도 유효. 초기 4주는 thesis등급 中+regime상한 반영한 의도적 소량이지 thesis의심 아님=사이즈 정합. 손절선 247000(일봉 구조선) 미접근. 오늘 뒤집는 숫자 없음(vol 25000 미달 확정)→익일 확정종가 재채점.",
+        "slot": "1520"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "000660",
+        "qty": null,
+        "reason": "하이닉스 2093000 +9.41% 신규 미진입. strategist 명시 진입경로=전기전자 sector 확정승격(확정종가 alpha양전+vol 25000 회복) 확인시 첫분할. vol 18577<25000 미충족, 종가임박 도달불가=오늘 경로 안 열림. 부분봉 근거로 갭 추격(+9.41%) 첫분할은 매수게이트 완화. 이미 삼성전자 보유=반도체대형주 단일테마 쏠림도 고려. 매수게이트 vol 25000 문언 그대로 적용(매도쪽과 대칭). 오늘 관측: vol 미달 확정→미진입. 익일 확정종가 vol 25000+ & alpha 양전 유지시 첫분할 후보로 carry.",
+        "slot": "1520"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "009150",
+        "qty": null,
+        "reason": "삼성전기 1417000 +12.46% 신규 미진입. 000660 과 동일 게이트(전기전자 sector 확정승격 vol 25000+ 미충족, 현재 18577). strategist 도 3종 중 후순위·신호무게 최저로 명시. 갭 +12.46% 최대=첫분할 추격부담 최대. 미진입=매수게이트 대칭 적용. 익일 sector 확정승격시에만 분산용 3번째 조각 재검토.",
+        "slot": "1520"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "373220",
+        "qty": null,
+        "reason": "2주(335000, +4.04%) 유지, dead-weight(자본 1.3%) carry-with-trigger 로 결단. 매도 안 하는 이유: 이 포지션 thesis 에 정의된 매도트리거 없음(정의된 건 3차 add 취소트리거뿐). 미점등 상태에서 'theme ended/dead-weight' 서술형으로 갈아끼워 파는 건 자기룰 위반=매수쪽 문언 지킨 것과 대칭. 15:20 확정종가 없음. 오늘 +4.04%(vs 시장 +6.8% underperform)이나 여전히 양봉=단독약세 아님, thesis깨짐 카테고리 미발동. dead-weight 해소=carry 트리거 명시: 익일 확정종가에서 화학 sector median-alpha 음전 유지 OR 328000(오늘 저) 일봉 종가 이탈 -> 잔량 전량 청산. 이 매도사유 부재는 다음 진입 트리거 설계에 반영할 항목.",
+        "slot": "1520"
       }
     ],
     "realized_pnl_won": null,
@@ -4642,6 +4674,6 @@
     "top_movers": [],
     "traded_codes": [],
     "trades_count": 0,
-    "unrealized_pnl_won": 70000
+    "unrealized_pnl_won": 55000
   }
 }
