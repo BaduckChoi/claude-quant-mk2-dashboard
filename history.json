@@ -4712,6 +4712,38 @@
         "qty": null,
         "reason": "watching first_seen 오늘. promote(익일 제약 연속강세)는 day1 에 연속 성립 불가+익일 채점. +14.44% 부분봉 스파이크, 지지선 부재. strategist 명시 관찰 프레임. 진입 0.",
         "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "005930",
+        "qty": null,
+        "reason": "손절선=삼전 확정 종가 247000 하회 OR 전기전자 alpha 음전 2일. 미점등: live 255500 일중값(저 252500 도 247000 위)+확정 종가 아님, 전기전자 음전 1일차. theme_tracker 오늘 반도체 재점화 ended 강등했으나 내 정리 트리거 목록에 없는 서술형 사유 - 미점등 트리거를 서사로 뚫어 일중 -8.59% 에 파는 건 문언 위반이자 후보를 일중 스파이크로 안 사는 것과 비대칭. 확정 종가 판정은 15:20. 오늘 뒤집는 숫자: 확정 종가 247000 하회->전량. 약점: 09:40 진입 자체가 아침 부분봉 스파이크 기반이었고 그게 되돌려짐=thesis 심하게 훼손, 종가 방어 실패 시 전량. 그 근거무효는 다음 진입 트리거 설계 항목이지 오늘 즉석 매도 핑계로 못 씀.",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "373220",
+        "qty": null,
+        "reason": "보유 2주(~67만, 자본 1.3%). live 334000 -0.3%, 저 329000=안정. 2/3차 add·정리 게이트 전부 LGES·LG화학 확정 종가 기준인데 12:30 확정 종가 없고 두 종목 live_quotes 부재=이 슬롯 관측 불가. 정리 트리거(둘 중 하나 음전 마감)도 확정 종가 기준 미도래. 새 정보 없음, 직전 슬롯 유지.",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "003280",
+        "qty": null,
+        "reason": "흥아해운 watching 테마. promote 게이트=해운주 2+ 동반+운수창고 rotating_in. 오늘 단일 리더, 미충족. live +2.09% 완만한 일중값. regime 조정 진입 day3 신규 보류. 진입 안 함.",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "067290",
+        "qty": null,
+        "reason": "JW신약 제약 haven first_seen 오늘. promote 게이트=익일 제약주 연속 강세(익일 채점, 오늘 아님). +12.57% 1일 스파이크+지지 구조선 부재=손절선 없음, 며칠 보유 부적합. 오늘 진입 아님.",
+        "slot": "1230"
       }
     ],
     "realized_pnl_won": null,
@@ -4722,6 +4754,6 @@
     "top_movers": [],
     "traded_codes": [],
     "trades_count": 0,
-    "unrealized_pnl_won": -21000
+    "unrealized_pnl_won": -36000
   }
 }
