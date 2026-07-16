@@ -4680,7 +4680,40 @@
     "buys": 0,
     "date": "2026-07-16",
     "open_positions": 2,
-    "pm_decisions": [],
+    "pm_decisions": [
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "005930",
+        "qty": null,
+        "reason": "손절 트리거 미점등: 전기전자 alpha 음전 day1(2일 연속 아님) + 삼전 258000 > 종가트리거 247000. -7.69% 는 09:40 부분봉 미확정. 매수 후보를 문언으로 기각하는 슬롯이므로 매도도 문언까지만(대칭). 2일 트리거는 whipsaw day1 청산 방지 설계. HOLD. 약점: 반도체 대형주 테마 오늘 theme_tracker ended, 진입근거(전기전자 양전 2일) day1 사후무효 진행. 종가 음전 확정이면 트리거 day1, 하루 더면 익일 전량. on-notice.",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "373220",
+        "qty": null,
+        "reason": "+2.84%(344500) 매도트리거 무근접. 3차 add 게이트=LGES/LG화학 둘 다 상방 확정인데 두 leader 시세 이 feed 에 없음=축 판정불가, 344500 부분봉. add 근거 부재. 새 정보 없음, 유지.",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "003280",
+        "qty": null,
+        "reason": "watching. promote 게이트(해운주 2+ 동반+운수창고 rotating_in) 미충족: 흥아 단독 leader, 운수창고 rotating_in 아님. 자체검증 동일적용해도 해운 2+ 증거 부재. +6.45% 부분봉. regime 조정 day3 신규보류. 진입 0.",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "067290",
+        "qty": null,
+        "reason": "watching first_seen 오늘. promote(익일 제약 연속강세)는 day1 에 연속 성립 불가+익일 채점. +14.44% 부분봉 스파이크, 지지선 부재. strategist 명시 관찰 프레임. 진입 0.",
+        "slot": "0940"
+      }
+    ],
     "realized_pnl_won": null,
     "sell_won": 0,
     "sells": 0,
@@ -4689,6 +4722,6 @@
     "top_movers": [],
     "traded_codes": [],
     "trades_count": 0,
-    "unrealized_pnl_won": -7000
+    "unrealized_pnl_won": -21000
   }
 }
