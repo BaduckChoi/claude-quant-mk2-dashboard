@@ -4791,7 +4791,7 @@
     "buy_won": 0,
     "buys": 0,
     "date": "2026-07-20",
-    "open_positions": 1,
+    "open_positions": 0,
     "pm_decisions": [
       {
         "action": "sell",
@@ -4816,11 +4816,27 @@
         "qty": null,
         "reason": "strategist 진입경로 조건 '거래대금상위 잔류+운수창고 rotating_in' 중 운수창고 rotating_in 미충족(sectors rotating_in=철강금속뿐, 원문조건). promote 게이트도 운수창고 rotating_in 미충족+상대강세3세션 부분봉 미확정. regime 조정진입 day4 신규보류. +3.98%는 09:35 부분봉 스파이크=진입근거 부적격. no entry.",
         "slot": "0940"
+      },
+      {
+        "action": "sell",
+        "amount_won": null,
+        "code": "005930",
+        "qty": 4,
+        "reason": "진입 축 테마 '반도체 대형주/HBM 재점화' themes.json ended 확정(7-16) = INVARIANT 1순위 손절축(테마 유효성 붕괴) 점등, thesis 본질붕괴 -> 전량. carry-over 정리라 24h회전 아님. 가격선 247000(부분봉 243000)은 기계손절이라 트리거로 안 씀. 오늘 전기전자 부분봉 alpha 1위는 미확정+삼전 live -4.71%로 증발, 부활 근거 불가. 약점: -4.71% 일저 부근 저점매도 가능성 - 그러나 근거는 확정 state이지 일중가 아님. 종가 전기전자 alpha양전+vol25000 확정으로 테마 부활 시 재진입은 새 thesis+2거래일 cooldown.",
+        "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "003280",
+        "qty": null,
+        "reason": "진입 트리거 운수창고 rotating_in 미전환(sectors 부재)+물류 leg 2+ 미확인 = strategist entry 트리거 미충족. 남는 건 부분봉 +3.65% 등락률뿐. regime 조정 day4 신규보류. 종가 운수창고 rotating_in 전환+흥아 거래대금 상위 잔류 확정 시 익일 재평가.",
+        "slot": "1230"
       }
     ],
-    "realized_pnl_won": -25000,
-    "sell_won": 650000,
-    "sells": 1,
+    "realized_pnl_won": -108000,
+    "sell_won": 1622000,
+    "sells": 2,
     "strategist_brief": "조정 진입 day4 + 전체하락(KOSPI adv143/dec727, KOSDAQ 0.19:1) + volume_top 인버스 도배. regime 게이트 = 신규 보류. 후보 최소, watching 비중.\n\n살아있는 축 하나뿐: 해운/물류(watching, first_seen 7-13). 나머지 change_top 은 스몰캡 상한가 릴레이(엑시온·한울반도체·손오공·진영·STX그린로지스) — 며칠~수주 보유 구조선 없음, 후보 배제.\n\n아침 프린트 경고: market snapshot 은 09:35 부분봉. 흥아해운 +5.16% 128억도 확정 종가 아님. 확정된 것(theme_tracker watching 등록·전체하락 tape)과 미확정(오늘 등락률) 구분해 적음.\n\n```json\n{\n  \"themes\": [\n    {\n      \"name\": \"해운/물류\",\n      \"state\": \"watching (theme_tracker first_seen 2026-07-13)\",\n      \"stance\": \"조정 진입 전체하락 tape 에서 유일하게 살아있는 상대강세 축. 단 확정 아님 - promote 게이트(흥아해운 붕괴장 상대강세 3세션 유지 + STX그린로지스 등 물류 leg 2+ 동반 거래대금 + 운수창고 rotating_in)는 theme_tracker 문언이고 아직 미충족. 내가 오늘 아침 프린트로 앞당겨 충족 선언하지 않음.\",\n      \"note_to_pm\": \"오늘 candidates 는 단일 테마(해운/물류) 1종목뿐. 이건 기회집합이 넓다는 신호 아니라 조정장에서 살아있는 게 이거 하나뿐이라는 신호. portfolio 디폴트는 관망/기보유 방어. 단일 테마 도배 위험 없음 - 애초에 소량.\"\n    }\n  ],\n  \"candidates\": [\n    {\n      \"code\": \"003280\",\n      \"name\": \"흥아해운\",\n      \"reason\": \"해운/물류 watching leader. [확정] theme_tracker 7-13 등록, 붕괴장 상대강세 관찰 대상. 중형 거래대금 종목이라 스몰캡 상한가 릴레이와 달리 지지선 그릴 구조 존재 - 손절은 지지 이탈·해운 leg 소멸(흥아해운 미노출) 기준. [미확정] 오늘 09:35 +5.16% 128억은 부분봉 프린트 - 확정 종가 아님, 방향 단정 금지. 전체하락 tape(adv143/dec727) 속 상대강세라는 횡단면 순위·거래대금 상위 노출은 아침에도 판정 가능한 사실이나, 절대 등락률의 확정성은 아님. PM 은 이 종목을 확정 신호가 아닌 watching-tier 후보로 다뤄라. 재개(첫 분할) 트리거: 해운/물류 leg 이 오늘 슬롯 데이터에서 상대강세 유지(거래대금 상위 잔류) + 운수창고 계열 rotating_in 전환 확인 시 - 그 state 전환을 PM 이 당일 판단해 첫 조각 태울 수 있음. 완결 확인 대기 아님.\"\n    }\n  ],\n  \"notes\": \"regime 조정 진입 day4 신규 보류가 상위 게이트. 이 brief 는 관망 디폴트 + 해운/물류 1종목 옵션 제공이 전부. change_top 스몰캡 상한가군(엑시온그룹 +29.93, 한울반도체 +29.97, 손오공 +29.98, 진영 +29.92, STX그린로지스 +29.98)은 보유 구조선 부재로 전량 배제 - 상한가 릴레이는 며칠~수주 지평에서 손절 그릴 자리 없음. 전기전자 alpha(삼성전자)는 sector_tracker 판정대로 지수 왜곡, 부분봉 1위 단정 금지 - 후보 안 올림. 수량·분율·현금 상한은 PM 자율.\"\n}\n```",
     "themes": [],
     "top_movers": [
@@ -4828,6 +4844,11 @@
         "code": "373220",
         "name": "LG에너지솔루션",
         "realized_pnl_won": -25000
+      },
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "realized_pnl_won": -83000
       }
     ],
     "traded_codes": [
@@ -4835,9 +4856,14 @@
         "action": "sell",
         "code": "373220",
         "name": "LG에너지솔루션"
+      },
+      {
+        "action": "sell",
+        "code": "005930",
+        "name": "삼성전자"
       }
     ],
-    "trades_count": 1,
-    "unrealized_pnl_won": -31000
+    "trades_count": 2,
+    "unrealized_pnl_won": null
   }
 }
