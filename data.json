@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20 12:31:41",
+  "generated_at": "2026-07-20 15:20:34",
   "date": "20260720",
   "mode": "dry_run",
   "stats": {
@@ -89,6 +89,14 @@
       "amount_won": null,
       "qty": null,
       "reason": "진입 트리거 운수창고 rotating_in 미전환(sectors 부재)+물류 leg 2+ 미확인 = strategist entry 트리거 미충족. 남는 건 부분봉 +3.65% 등락률뿐. regime 조정 day4 신규보류. 종가 운수창고 rotating_in 전환+흥아 거래대금 상위 잔류 확정 시 익일 재평가."
+    },
+    {
+      "slot": "1520",
+      "action": "hold",
+      "code": "003280",
+      "amount_won": null,
+      "qty": null,
+      "reason": "Empty book, cash 100%, 0->1 first starter (portfolio 분산 게이트 미적용). Regime 조정 진입 day4 + 전체하락(KOSPI adv121/dec749) = 상위 게이트 신규 보류. 003280 = 유일 후보이나 watching-tier: promote 게이트(붕괴장 상대강세 3세션 + 물류 leg 2+ 동반 거래대금 + 운수창고 rotating_in) 미충족 - sectors 에 운수창고 rotating_in 없음. strategist 명시 진입 경로도 '운수창고 rotating_in 전환 확인 시 첫 조각' 인데 그 조건 부재. live 1820 +2.08% = 09:35 부분봉 +5.16% 에서 반감, high 1932 대비 -5.8% 밀림. 15:20 종가임박, 진입 근거는 정착 일봉/종가 신호여야 하나 오늘 확정 상대강세는 반감된 tape 뿐 - 이 가격에 엣지 없음. 신호 약하면 현금 정당. 뒤집힐 숫자: 운수창고 rotating_in 확정 또는 흥아해운 확정 종가가 상대강세 유지 - 둘 다 지금 관측 불가, 익일 게이트로 carry."
     }
   ],
   "calendar_dates": [
