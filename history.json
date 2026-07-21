@@ -4791,7 +4791,6 @@
     "buy_won": 0,
     "buys": 0,
     "date": "2026-07-20",
-    "open_positions": 0,
     "pm_decisions": [
       {
         "action": "sell",
@@ -4871,7 +4870,23 @@
         "name": "삼성전자"
       }
     ],
-    "trades_count": 2,
+    "trades_count": 2
+  },
+  "20260721": {
+    "auditor_verdict": null,
+    "buy_won": 0,
+    "buys": 0,
+    "date": "2026-07-21",
+    "open_positions": 0,
+    "pm_decisions": [],
+    "realized_pnl_won": null,
+    "sell_won": 0,
+    "sells": 0,
+    "strategist_brief": null,
+    "themes": [],
+    "top_movers": [],
+    "traded_codes": [],
+    "trades_count": 0,
     "unrealized_pnl_won": null
   }
 }
