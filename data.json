@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21 09:35:43",
+  "generated_at": "2026-07-21 09:40:25",
   "date": "20260721",
   "mode": "dry_run",
   "stats": {
@@ -18,7 +18,16 @@
   },
   "positions": [],
   "trades": [],
-  "pm_decisions": [],
+  "pm_decisions": [
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": null,
+      "amount_won": null,
+      "qty": null,
+      "reason": "빈 책, 보유 0. Regime 조정 진입 day5(MA20 -16.5%, 확정 종가 6516.27 신저점, breadth 0.22:1 전체하락) = 신규 보류가 오늘 확정 디폴트. 후보 003280/465770 둘 다 해운/물류 watching 테마 - 진입 후보 아닌 관찰 풀. Promote 게이트 복합조건 개별 판정: (1)운수창고 rotating_in 확정 = 미충족(sectors 에 운수창고 없음, rotating_out=보험/금융/유통/건설, laggards=철강/전기전자/화학, rotating_in 공백). (2)theme_tracker watching->active 승격 = 미충족(active 공백). strategist 명시 진입경로 = '운수창고 state 전환 OR theme active 승격' 한 개면 첫 분할 - 둘 다 오늘 미발생. live_quotes 003280 +7.52%(vol_rate 163) / 465770 +21.86%(vol_rate 267)는 09:40 부분봉, 확정 등락률 아님 - 매수 근거로 부적격. 관망 유지. 약점: 강세 leg 가 확정봉에서 살아 익일 promote 게이트 채우면 첫 진입 놓친 것 - 그러나 그건 미래 확정봉 몫이고 오늘 데이터로 게이트 앞당겨 충족 선언 불가. 뒤집을 오늘 관측치 없음(운수창고는 익일 sector state 갱신에서만 확인)."
+    }
+  ],
   "calendar_dates": [
     "20260511",
     "20260512",
