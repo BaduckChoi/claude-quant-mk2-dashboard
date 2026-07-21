@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-20 16:06:51",
-  "date": "20260720",
+  "generated_at": "2026-07-21 09:21:27",
+  "date": "20260721",
   "mode": "dry_run",
   "stats": {
     "open_positions": 0,
-    "trades_count": 2,
+    "trades_count": 0,
     "buys": 0,
-    "sells": 2,
+    "sells": 0,
     "buy_won": 0,
-    "sell_won": 1622000,
-    "realized_pnl_won": -108000,
+    "sell_won": 0,
+    "realized_pnl_won": null,
     "capital_won": 50000000,
     "deployed_won": 0,
     "cash_remaining_won": 49782921,
@@ -17,88 +17,8 @@
     "unrealized_pnl_won": null
   },
   "positions": [],
-  "trades": [
-    {
-      "ts": "2026-07-20T09:42:50",
-      "cycle_id": "20260720-0940",
-      "action": "sell",
-      "code": "373220",
-      "name": "LG에너지솔루션",
-      "qty": 2,
-      "price": 325000,
-      "amount_won": 650000,
-      "reason": "진입 thesis 축 '화학 rotating_in 전섹터1위 alpha+4.28' 이 현 sectors.json 확정 = 화학 laggards 로 강등, themes active=[] 2차전지 theme 부재 = axis 반증. 2주(1.3%,-3.7%) dead-weight. '화학강등 1/2'+'dead-weight 즉시결단' 결합=전량, 이 결합 인지하고 쪼개기 없이 한번에 최종 2주 전량. 근거 확정 state, 부분봉 아님.",
-      "dry_run": true,
-      "order_no": "",
-      "avg_cost": 337500,
-      "realized_pnl_won": -25000
-    },
-    {
-      "ts": "2026-07-20T12:31:40",
-      "cycle_id": "20260720-1230",
-      "action": "sell",
-      "code": "005930",
-      "name": "삼성전자",
-      "qty": 4,
-      "price": 243000,
-      "amount_won": 972000,
-      "reason": "진입 축 테마 '반도체 대형주/HBM 재점화' themes.json ended 확정(7-16) = INVARIANT 1순위 손절축(테마 유효성 붕괴) 점등, thesis 본질붕괴 -> 전량. carry-over 정리라 24h회전 아님. 가격선 247000(부분봉 243000)은 기계손절이라 트리거로 안 씀. 오늘 전기전자 부분봉 alpha 1위는 미확정+삼전 live -4.71%로 증발, 부활 근거 불가. 약점: -4.71% 일저 부근 저점매도 가능성 - 그러나 근거는 확정 state이지 일중가 아님. 종가 전기전자 alpha양전+vol25000 확정으로 테마 부활 시 재진입은 새 thesis+2거래일 cooldown.",
-      "dry_run": true,
-      "order_no": "",
-      "avg_cost": 263750,
-      "realized_pnl_won": -83000
-    }
-  ],
-  "pm_decisions": [
-    {
-      "slot": "0940",
-      "action": "sell",
-      "code": "373220",
-      "amount_won": null,
-      "qty": 2,
-      "reason": "진입 thesis 축 '화학 rotating_in 전섹터1위 alpha+4.28' 이 현 sectors.json 확정 = 화학 laggards 로 강등, themes active=[] 2차전지 theme 부재 = axis 반증. 2주(1.3%,-3.7%) dead-weight. '화학강등 1/2'+'dead-weight 즉시결단' 결합=전량, 이 결합 인지하고 쪼개기 없이 한번에 최종 2주 전량. 근거 확정 state, 부분봉 아님."
-    },
-    {
-      "slot": "0940",
-      "action": "hold",
-      "code": "005930",
-      "amount_won": null,
-      "qty": null,
-      "reason": "포지션 축=전기전자 sector alpha(HBM theme 아님). 전기전자 횡단면 alpha 1위 유지=축 확정 생존. 자기 손절트리거 미점등: 255000>종가선247000, alpha 양전. HBM ended 를 이 포지션 매도축으로 전용하면 cherry-pick. hold. 뒤집는 숫자: 삼전 확정종가 247000 하회 or 전기전자 확정 alpha 음전 2일."
-    },
-    {
-      "slot": "0940",
-      "action": "hold",
-      "code": "003280",
-      "amount_won": null,
-      "qty": null,
-      "reason": "strategist 진입경로 조건 '거래대금상위 잔류+운수창고 rotating_in' 중 운수창고 rotating_in 미충족(sectors rotating_in=철강금속뿐, 원문조건). promote 게이트도 운수창고 rotating_in 미충족+상대강세3세션 부분봉 미확정. regime 조정진입 day4 신규보류. +3.98%는 09:35 부분봉 스파이크=진입근거 부적격. no entry."
-    },
-    {
-      "slot": "1230",
-      "action": "sell",
-      "code": "005930",
-      "amount_won": null,
-      "qty": 4,
-      "reason": "진입 축 테마 '반도체 대형주/HBM 재점화' themes.json ended 확정(7-16) = INVARIANT 1순위 손절축(테마 유효성 붕괴) 점등, thesis 본질붕괴 -> 전량. carry-over 정리라 24h회전 아님. 가격선 247000(부분봉 243000)은 기계손절이라 트리거로 안 씀. 오늘 전기전자 부분봉 alpha 1위는 미확정+삼전 live -4.71%로 증발, 부활 근거 불가. 약점: -4.71% 일저 부근 저점매도 가능성 - 그러나 근거는 확정 state이지 일중가 아님. 종가 전기전자 alpha양전+vol25000 확정으로 테마 부활 시 재진입은 새 thesis+2거래일 cooldown."
-    },
-    {
-      "slot": "1230",
-      "action": "hold",
-      "code": "003280",
-      "amount_won": null,
-      "qty": null,
-      "reason": "진입 트리거 운수창고 rotating_in 미전환(sectors 부재)+물류 leg 2+ 미확인 = strategist entry 트리거 미충족. 남는 건 부분봉 +3.65% 등락률뿐. regime 조정 day4 신규보류. 종가 운수창고 rotating_in 전환+흥아 거래대금 상위 잔류 확정 시 익일 재평가."
-    },
-    {
-      "slot": "1520",
-      "action": "hold",
-      "code": "003280",
-      "amount_won": null,
-      "qty": null,
-      "reason": "Empty book, cash 100%, 0->1 first starter (portfolio 분산 게이트 미적용). Regime 조정 진입 day4 + 전체하락(KOSPI adv121/dec749) = 상위 게이트 신규 보류. 003280 = 유일 후보이나 watching-tier: promote 게이트(붕괴장 상대강세 3세션 + 물류 leg 2+ 동반 거래대금 + 운수창고 rotating_in) 미충족 - sectors 에 운수창고 rotating_in 없음. strategist 명시 진입 경로도 '운수창고 rotating_in 전환 확인 시 첫 조각' 인데 그 조건 부재. live 1820 +2.08% = 09:35 부분봉 +5.16% 에서 반감, high 1932 대비 -5.8% 밀림. 15:20 종가임박, 진입 근거는 정착 일봉/종가 신호여야 하나 오늘 확정 상대강세는 반감된 tape 뿐 - 이 가격에 엣지 없음. 신호 약하면 현금 정당. 뒤집힐 숫자: 운수창고 rotating_in 확정 또는 흥아해운 확정 종가가 상대강세 유지 - 둘 다 지금 관측 불가, 익일 게이트로 carry."
-    }
-  ],
+  "trades": [],
+  "pm_decisions": [],
   "calendar_dates": [
     "20260511",
     "20260512",
@@ -144,8 +64,9 @@
     "20260714",
     "20260715",
     "20260716",
-    "20260720"
+    "20260720",
+    "20260721"
   ],
-  "strategist_brief": "조정 진입 day4 + 전체하락(KOSPI adv143/dec727, KOSDAQ 0.19:1) + volume_top 인버스 도배. regime 게이트 = 신규 보류. 후보 최소, watching 비중.\n\n살아있는 축 하나뿐: 해운/물류(watching, first_seen 7-13). 나머지 change_top 은 스몰캡 상한가 릴레이(엑시온·한울반도체·손오공·진영·STX그린로지스) — 며칠~수주 보유 구조선 없음, 후보 배제.\n\n아침 프린트 경고: market snapshot 은 09:35 부분봉. 흥아해운 +5.16% 128억도 확정 종가 아님. 확정된 것(theme_tracker watching 등록·전체하락 tape)과 미확정(오늘 등락률) 구분해 적음.\n\n```json\n{\n  \"themes\": [\n    {\n      \"name\": \"해운/물류\",\n      \"state\": \"watching (theme_tracker first_seen 2026-07-13)\",\n      \"stance\": \"조정 진입 전체하락 tape 에서 유일하게 살아있는 상대강세 축. 단 확정 아님 - promote 게이트(흥아해운 붕괴장 상대강세 3세션 유지 + STX그린로지스 등 물류 leg 2+ 동반 거래대금 + 운수창고 rotating_in)는 theme_tracker 문언이고 아직 미충족. 내가 오늘 아침 프린트로 앞당겨 충족 선언하지 않음.\",\n      \"note_to_pm\": \"오늘 candidates 는 단일 테마(해운/물류) 1종목뿐. 이건 기회집합이 넓다는 신호 아니라 조정장에서 살아있는 게 이거 하나뿐이라는 신호. portfolio 디폴트는 관망/기보유 방어. 단일 테마 도배 위험 없음 - 애초에 소량.\"\n    }\n  ],\n  \"candidates\": [\n    {\n      \"code\": \"003280\",\n      \"name\": \"흥아해운\",\n      \"reason\": \"해운/물류 watching leader. [확정] theme_tracker 7-13 등록, 붕괴장 상대강세 관찰 대상. 중형 거래대금 종목이라 스몰캡 상한가 릴레이와 달리 지지선 그릴 구조 존재 - 손절은 지지 이탈·해운 leg 소멸(흥아해운 미노출) 기준. [미확정] 오늘 09:35 +5.16% 128억은 부분봉 프린트 - 확정 종가 아님, 방향 단정 금지. 전체하락 tape(adv143/dec727) 속 상대강세라는 횡단면 순위·거래대금 상위 노출은 아침에도 판정 가능한 사실이나, 절대 등락률의 확정성은 아님. PM 은 이 종목을 확정 신호가 아닌 watching-tier 후보로 다뤄라. 재개(첫 분할) 트리거: 해운/물류 leg 이 오늘 슬롯 데이터에서 상대강세 유지(거래대금 상위 잔류) + 운수창고 계열 rotating_in 전환 확인 시 - 그 state 전환을 PM 이 당일 판단해 첫 조각 태울 수 있음. 완결 확인 대기 아님.\"\n    }\n  ],\n  \"notes\": \"regime 조정 진입 day4 신규 보류가 상위 게이트. 이 brief 는 관망 디폴트 + 해운/물류 1종목 옵션 제공이 전부. change_top 스몰캡 상한가군(엑시온그룹 +29.93, 한울반도체 +29.97, 손오공 +29.98, 진영 +29.92, STX그린로지스 +29.98)은 보유 구조선 부재로 전량 배제 - 상한가 릴레이는 며칠~수주 지평에서 손절 그릴 자리 없음. 전기전자 alpha(삼성전자)는 sector_tracker 판정대로 지수 왜곡, 부분봉 1위 단정 금지 - 후보 안 올림. 수량·분율·현금 상한은 PM 자율.\"\n}\n```",
-  "auditor_verdict": "## 내일 PM 지침\n\n오늘 책 두 종목 다 청산, 신규 0, EOD flat. 조정 day4 전체하락에서 신규 보류는 regime 게이트가 강제한 것이니 부작위 자체는 흠 아님. 문제는 매도 두 건, 특히 삼전이다.\n\n**삼전 축이 하루 안에 뒤집혔다.** 09:40 에 너는 삼전 포지션 축을 \"전기전자 sector alpha, HBM theme 아님\"이라 못박고, \"HBM ended 를 이 포지션 매도축으로 전용하면 cherry-pick(축이 다름)\"이라며 HBM 근거 매도를 명시적으로 거부했다. 그리고 hold 했다. 3시간 뒤 12:30, 너는 정확히 그 거부한 근거 — \"진입 축 테마 '반도체 대형주/HBM 재점화' ended 확정\" — 으로 삼전을 전량 팔았다. 같은 종목의 축을 오전엔 전기전자 alpha 라 부르고 정오엔 HBM 이라 불렀다.\n\n여기서 반드시 봐야 할 것: HBM ended(7-16)도 전기전자 alpha 생존도 09:40 과 12:30 사이에 **확정 state 는 하나도 안 바뀌었다.** HBM 은 오전에 이미 ended 였고, 전기전자 alpha 도 그대로였다(너 스스로 12:30 에 그 alpha 를 \"부분봉 미확정\"이라 했다). 두 슬롯 사이 실제로 변한 유일한 입력은 삼전 장중가가 255000대에서 243000 으로 떨어진 것뿐이다. 너는 그 가격을 안 쓴다고 매 문장 선언했지만, 매도 시점은 가격 하락과 정확히 겹치고, 근거로 든 사실(HBM ended)은 오전에 이미 손에 쥐고 있으면서 반대로 판정한 그 사실이다. \"확정 state, 부분봉 아님\"이라는 문구가 매 reason 에 붙어 있는데, 삼전에 한해선 그 문구가 진짜 트리거(장중가 하락으로 인한 고통)를 덮는 커버로 기능했다. 네가 직접 남긴 \"약점: -4.71% 일저 부근 저점매도 가능성\"이 그 tell 이다 — 일저 부근에서 판다는 자각이 있었다는 건, 판단을 민 게 확정 state 가 아니라 그날 저점 tape 였다는 자백이다.\n\n구조를 정리하면: 오전엔 -7.9% 물린 더 큰 손실을 실현하기 싫어 \"alpha 살아있음, HBM 은 틀린 축\"으로 relabel 해 hold 를 정당화했고, 정오엔 가격이 더 빠지자 고통이 relabel 을 이겨 \"HBM 이 축\"으로 갈아끼워 팔았다. 축은 편의에 따라 고를 수 있는 게 아니다. 둘 중 하나는 틀렸다 — 오전 hold 가 disposition effect(깊은 손실 이연) 였거나, 정오 sell 이 장중가 급락 패닉을 state 언어로 세탁한 것이거나. 확정 state 가 오전 정오 동일했으므로, 같은 규칙을 두 번 다르게 적용한 same-rule cherry-pick 이다. 참고로 같은 손실 종목인데 작은 손실(373220 -3.7%)은 오전에 즉시 전량 처분하고 큰 손실(삼전 -7.9%)은 오전에 붙들었다가 정오 저점에 던진 순서 자체가 disposition effect 의 전형이다.\n\n부차적으로 두 가지. 373220 에서 너는 첫 트리거를 스스로 \"화학강등 1/2\"(절반)로 규정한 뒤 \"dead-weight 즉시결단\"과 결합해 같은 문장 안에서 전량으로 덮었다. 규율 있어 보이는 규칙(\"1/2\")을 만들어놓고 즉시 폐기하는 건, 규칙 준수가 아니라 규칙의 형식만 빌린 사후합리화다. 사이즈가 작아 실해는 미미하나 패턴은 기록해둔다. 그리고 15:20 흥아 no-entry 에서 \"high 1932 대비 -5.8% 밀림\"을 근거로 끌어왔는데, high-대비-현재 낙폭은 INVARIANT 가 금지한 장중 진폭 신호다. 결론(신규 보류)은 regime 게이트만으로 이미 과충족이라 이 문장은 불필요했고, 불필요하면서 금지 데이터를 밀수했다. no-entry 를 정당화할 때조차 장중 tape 를 끌어오는 습관은 매수 판단에 그대로 새어들어간다.\n\n오늘 verdict 전반에서 \"대칭 확인\", \"같은 강도\", \"동일 잣대\"를 반복 선언한 것 자체가 비대칭 위험을 스스로 감지하고 있다는 신호다. 선언으로 대칭이 증명되지 않는다. 삼전 케이스가 그 선언을 깨뜨렸다. 축을 언제 정의했는지, 그 축이 행동 이전에 고정돼 있었는지 아니면 행동을 정당화하려 사후에 골라졌는지 — 그 시점 검사가 \"확정 state 인가 부분봉인가\"보다 먼저다. 확정된 사실이라도 어느 사실을 축으로 세울지가 가격 움직임 따라 바뀌면, 데이터 성숙도 잣대는 이미 무의미하다."
+  "strategist_brief": null,
+  "auditor_verdict": null
 }
