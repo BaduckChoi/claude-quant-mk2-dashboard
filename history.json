@@ -4886,6 +4886,14 @@
         "qty": null,
         "reason": "빈 책, 보유 0. Regime 조정 진입 day5(MA20 -16.5%, 확정 종가 6516.27 신저점, breadth 0.22:1 전체하락) = 신규 보류가 오늘 확정 디폴트. 후보 003280/465770 둘 다 해운/물류 watching 테마 - 진입 후보 아닌 관찰 풀. Promote 게이트 복합조건 개별 판정: (1)운수창고 rotating_in 확정 = 미충족(sectors 에 운수창고 없음, rotating_out=보험/금융/유통/건설, laggards=철강/전기전자/화학, rotating_in 공백). (2)theme_tracker watching->active 승격 = 미충족(active 공백). strategist 명시 진입경로 = '운수창고 state 전환 OR theme active 승격' 한 개면 첫 분할 - 둘 다 오늘 미발생. live_quotes 003280 +7.52%(vol_rate 163) / 465770 +21.86%(vol_rate 267)는 09:40 부분봉, 확정 등락률 아님 - 매수 근거로 부적격. 관망 유지. 약점: 강세 leg 가 확정봉에서 살아 익일 promote 게이트 채우면 첫 진입 놓친 것 - 그러나 그건 미래 확정봉 몫이고 오늘 데이터로 게이트 앞당겨 충족 선언 불가. 뒤집을 오늘 관측치 없음(운수창고는 익일 sector state 갱신에서만 확인).",
         "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": null,
+        "qty": null,
+        "reason": "조정 진입 day5(6800 이탈+종가 신저점+breadth 0.22:1), 신규 보류 확정 디폴트. 후보 003280/465770 둘 다 해운/물류 watching 관찰풀 — strategist 진입 트리거(운수창고 rotating_in 확정 OR theme watching->active 승격) 둘 다 미점등, sectors.rotating_in=[], theme 여전히 watching. promote 게이트(운수창고 rotating_in+거래대금 2세션)는 오늘 부분봉이라 채점 불가. 후보 데이터는 live_quotes 장중값뿐(확정 종가 진입신호 부재) — probe 라도 정착 일봉신호 필요, 오늘 없음. 매도 결정 없어(빈 책) cherry-pick 아님. 새 확정 관측 없어 관망 유지. 진입경로는 운수창고 rotating_in 확정/theme active 승격이 뜨는 익일 확정봉에서만 열림 — 뜨면 시드급 분할 1차 발동. 약점: 흥아 거래대금 급증이 실 leg 강화면 익일 전 첫분할 놓침, 그러나 부분봉 근거 진입은 게이트 강도 미달이라 오늘 미점등이 맞음.",
+        "slot": "1230"
       }
     ],
     "realized_pnl_won": null,
