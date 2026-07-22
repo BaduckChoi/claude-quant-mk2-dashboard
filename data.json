@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22 15:21:31",
+  "generated_at": "2026-07-22 15:40:53",
   "date": "20260722",
   "mode": "dry_run",
   "stats": {
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 1990000,
     "cash_remaining_won": 47792921,
-    "total_eval_won": 1836000,
-    "unrealized_pnl_won": -154000
+    "total_eval_won": 1830000,
+    "unrealized_pnl_won": -160000
   },
   "positions": [
     {
@@ -23,11 +23,11 @@
       "qty": 1,
       "avg_price": 1990000,
       "cost_won": 1990000,
-      "current_price": 1836000,
-      "change_rate": 0.0,
-      "eval_won": 1836000,
-      "pnl_won": -154000,
-      "pnl_pct": -7.738693467336684,
+      "current_price": 1830000,
+      "change_rate": -0.33,
+      "eval_won": 1830000,
+      "pnl_won": -160000,
+      "pnl_pct": -8.040201005025125,
       "thesis": "조정후반 day1 분할재개 구간 + 반도체대형주 클러스터 거래대금 횡단면 지배(하이닉스 레버리지ETF 619B 1위, 아침 프린트로 관측가능). strategist entry경로(promote게이트 익일채점과 별개)로 첫 분할 1주(자본4%). 약점: +8.39% 갭 = 추격리스크, 그래서 단일주 최소 starter로만 제한하고 사이즈로 겁을 표현. 오늘관측 add게이트: 12:30까지 시가 1977000 위 유지 & 클러스터 거래대금 상위 유지 시 2차 검토. 익일게이트: 확정종가 alpha 양전+대형주 동반 유지. 정리트리거(테마유효성 축): 클러스터 거래대금 상위 이탈 or regime 조정진입 회귀. 삼성전자·삼성생명은 지수왜곡/sector 미전환으로 오늘 제외."
     }
   ],
