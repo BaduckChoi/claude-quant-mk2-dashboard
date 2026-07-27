@@ -5020,6 +5020,22 @@
         "qty": null,
         "reason": "신규 4후보 전부 entry trigger 문언 미충족(하이닉스 hold와 동일 강도). 005930 삼전: strategist entry경로=종가 동반상방+전기전자 laggards→rotating_in, 전기전자 여전 laggards inline(median+0.10, vol15025) → 미충족(+같은테마 이미 보유, 추격리스크). 207940 삼바: entry=삼바+후속주 동반+의약품 vol2000+, 의약품 vol946<<2000 자금유입 미확인 → 미충족(first_seen 오늘, 근거 얕음). 950160 코오롱티슈진·439960 코스모로보틱스: 스몰캡, 며칠~수주 보유용 지지선 손절 불가 = 조정후반 부적격. 신호 약해 현금 유지 - probe로 '마비아님' 알리바이 안 만듦. 오늘 flip: 어느 후보든 확정 신호 미도래로 same-day flip 조건 없음, 익일 게이트로 carry.",
         "slot": "1230"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "000660",
+        "qty": null,
+        "reason": "carry-over 1주 avg 1990000, live 1820000(-8.5%)이나 오늘 +3.47% 저가1707000->고가1821000 회복. 정리트리거(클러스터 거래대금 이탈/regime 조정진입 회귀) 미점등, regime 조정후반 day2 유지, 삼전 동반+2.0% = 대형주 leg 생존. add축(전기전자 sector 전환) 미충족: vol 15025<25000, median-alpha +0.10 inline 확정 state. 평단아래 물타기는 모멘텀 thesis 역방향, 부분봉 엣지 없음. 매도 근거 0(24h 전량청산 wrap위반). 내일 전기전자 vol 25000+ 양전 or 하이닉스 alpha 2세션이면 add 발동.",
+        "slot": "1520"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": null,
+        "qty": null,
+        "reason": "신규 4종 기각. 삼전(005930): strategist 진입경로 동반상방 AND 전기전자전환 중 섹터전환 미충족(vol미달), 이미 하이닉스로 동일테마 노출. 삼바(207940)/티슈진(950160): 제약바이오 first_seen 오늘=1세션, promote 2세션게이트 자체 미충족, vol 얄팍. 코스모로보(439960 +0.07%): 아침+16% 되돌림 보합·구조선부재. 매수·매도 동일강도(부분봉 부적격/게이트 미충족). regime 선별+전기전자 laggards 확정 게이트 닫힘, 관망.",
+        "slot": "1520"
       }
     ],
     "realized_pnl_won": null,
@@ -5030,6 +5046,6 @@
     "top_movers": [],
     "traded_codes": [],
     "trades_count": 0,
-    "unrealized_pnl_won": -225000
+    "unrealized_pnl_won": -170000
   }
 }
