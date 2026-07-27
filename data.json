@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27 09:36:03",
+  "generated_at": "2026-07-27 09:41:42",
   "date": "20260727",
   "mode": "dry_run",
   "stats": {
@@ -13,8 +13,8 @@
     "capital_won": 50000000,
     "deployed_won": 1990000,
     "cash_remaining_won": 47792921,
-    "total_eval_won": 1766000,
-    "unrealized_pnl_won": -224000
+    "total_eval_won": 1765000,
+    "unrealized_pnl_won": -225000
   },
   "positions": [
     {
@@ -23,16 +23,57 @@
       "qty": 1,
       "avg_price": 1990000,
       "cost_won": 1990000,
-      "current_price": 1766000,
-      "change_rate": 0.4,
-      "eval_won": 1766000,
-      "pnl_won": -224000,
-      "pnl_pct": -11.256281407035177,
+      "current_price": 1765000,
+      "change_rate": 0.34,
+      "eval_won": 1765000,
+      "pnl_won": -225000,
+      "pnl_pct": -11.306532663316583,
       "thesis": "조정후반 day1 분할재개 구간 + 반도체대형주 클러스터 거래대금 횡단면 지배(하이닉스 레버리지ETF 619B 1위, 아침 프린트로 관측가능). strategist entry경로(promote게이트 익일채점과 별개)로 첫 분할 1주(자본4%). 약점: +8.39% 갭 = 추격리스크, 그래서 단일주 최소 starter로만 제한하고 사이즈로 겁을 표현. 오늘관측 add게이트: 12:30까지 시가 1977000 위 유지 & 클러스터 거래대금 상위 유지 시 2차 검토. 익일게이트: 확정종가 alpha 양전+대형주 동반 유지. 정리트리거(테마유효성 축): 클러스터 거래대금 상위 이탈 or regime 조정진입 회귀. 삼성전자·삼성생명은 지수왜곡/sector 미전환으로 오늘 제외."
     }
   ],
   "trades": [],
-  "pm_decisions": [],
+  "pm_decisions": [
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "000660",
+      "amount_won": null,
+      "qty": null,
+      "reason": "이월 1주(avg 1990000), 현재가 1766000 = -11.3%. 매도 트리거는 종가/state 축으로만 판정: 정리트리거(클러스터 거래대금 상위 이탈 or regime 조정진입 회귀) 둘 다 미점등 - regime 조정후반 day2 유지(6516 사수, 회귀 아님), 삼전+하이닉스 거래대금 여전 횡단면 top(하이닉스 turnover ~1.58조, 삼전 ~9천억대). 테마축(반도체/HBM 대형주)은 themes state상 watching-alive, ended 아님. -11%는 장중 가격 고통이지 확정 매도신호 아님 -> 기계손절 금지, hold. 약점: regime breadth가 '대형주 약세·중소형 강세 선별'이라 대형주 semi thesis는 침식 중 - 이건 확정신호 아직 아니고 방패도 아니다. 오늘 확정종가 6516 하회(regime 되돌림) or 클러스터 거래대금 상위 이탈 확정되면 다음 슬롯 1/2 정리 발동."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "005930",
+      "amount_won": null,
+      "qty": null,
+      "reason": "신규 미진입. strategist 진입경로는 '삼전·하이닉스 종가 동반 상방 + 전기전자 rotating_in 전환' AND. 전기전자 sector 오늘 laggards 유지(alpha +0.10 inline, vol 15025<25000), rotating_in 전환 신호 없음 = 경로 leg 미충족. +1.4%는 09:35 부분봉이라 종가 leg도 미확정. 매수 잣대는 내 하이닉스 매도 잣대와 동일 강도(종가/state) - 그쪽 미점등으로 hold면 이쪽도 미충족으로 미진입, 대칭. 추가로 하이닉스와 동일테마라 진입하면 -11% 침수 semi leg 가중집중이고, 내 하이닉스 자체 add게이트(시가 1977000 위)도 오늘 시가 1814000으로 실패 - 같은 테마 add 막힌 채 삼전 신규는 비정합. 오늘 관측 뒤집기: 확정종가 삼전+하이닉스 동반 강세 & 전기전자 sector 전환 확인되면 다음 슬롯 첫 분할 근거."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "207940",
+      "amount_won": null,
+      "qty": null,
+      "reason": "미진입. 진입 트리거(코오롱티슈진+삼바 동반 + 의약품 sector vol 회복 2000+) 중 vol leg 명확 실패 - 의약품 sector vol 946 << 2000, 자금유입 미확인. 946은 부분봉이라도 임계의 절반 이하로 여유 없음. 테마 first_seen=오늘, 근거 얕음. 제약바이오는 유효한 분산 후보이나 확정 자금유입 신호 없어 오늘 소분할도 보류."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "950160",
+      "amount_won": null,
+      "qty": null,
+      "reason": "미진입. 스몰캡 +9.07%, 지지선 기준 손절선 그릴 구조선 부재 = 며칠~수주 보유 전제에서 진입가-손절선 사이 갭공백, 사실상 전액 리스크 자리. 갭 강세라도 probe 진입 근거는 정착 일봉/종가여야 하는데 아침 부분봉 스파이크뿐. 미진입."
+    },
+    {
+      "slot": "0940",
+      "action": "hold",
+      "code": "439960",
+      "amount_won": null,
+      "qty": null,
+      "reason": "미진입. +18.03% 상한가 릴레이 스몰캡, 구조선 부재로 지지선 손절 불가. 진입 근거가 아침 부분봉 급등뿐. 950160과 동일 잣대로 배제 - 스몰캡 구조선 부재 일관 적용."
+    }
+  ],
   "calendar_dates": [
     "20260511",
     "20260512",
