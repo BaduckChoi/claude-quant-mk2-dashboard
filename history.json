@@ -4964,7 +4964,48 @@
     "buys": 0,
     "date": "2026-07-27",
     "open_positions": 1,
-    "pm_decisions": [],
+    "pm_decisions": [
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "000660",
+        "qty": null,
+        "reason": "이월 1주(avg 1990000), 현재가 1766000 = -11.3%. 매도 트리거는 종가/state 축으로만 판정: 정리트리거(클러스터 거래대금 상위 이탈 or regime 조정진입 회귀) 둘 다 미점등 - regime 조정후반 day2 유지(6516 사수, 회귀 아님), 삼전+하이닉스 거래대금 여전 횡단면 top(하이닉스 turnover ~1.58조, 삼전 ~9천억대). 테마축(반도체/HBM 대형주)은 themes state상 watching-alive, ended 아님. -11%는 장중 가격 고통이지 확정 매도신호 아님 -> 기계손절 금지, hold. 약점: regime breadth가 '대형주 약세·중소형 강세 선별'이라 대형주 semi thesis는 침식 중 - 이건 확정신호 아직 아니고 방패도 아니다. 오늘 확정종가 6516 하회(regime 되돌림) or 클러스터 거래대금 상위 이탈 확정되면 다음 슬롯 1/2 정리 발동.",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "005930",
+        "qty": null,
+        "reason": "신규 미진입. strategist 진입경로는 '삼전·하이닉스 종가 동반 상방 + 전기전자 rotating_in 전환' AND. 전기전자 sector 오늘 laggards 유지(alpha +0.10 inline, vol 15025<25000), rotating_in 전환 신호 없음 = 경로 leg 미충족. +1.4%는 09:35 부분봉이라 종가 leg도 미확정. 매수 잣대는 내 하이닉스 매도 잣대와 동일 강도(종가/state) - 그쪽 미점등으로 hold면 이쪽도 미충족으로 미진입, 대칭. 추가로 하이닉스와 동일테마라 진입하면 -11% 침수 semi leg 가중집중이고, 내 하이닉스 자체 add게이트(시가 1977000 위)도 오늘 시가 1814000으로 실패 - 같은 테마 add 막힌 채 삼전 신규는 비정합. 오늘 관측 뒤집기: 확정종가 삼전+하이닉스 동반 강세 & 전기전자 sector 전환 확인되면 다음 슬롯 첫 분할 근거.",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "207940",
+        "qty": null,
+        "reason": "미진입. 진입 트리거(코오롱티슈진+삼바 동반 + 의약품 sector vol 회복 2000+) 중 vol leg 명확 실패 - 의약품 sector vol 946 << 2000, 자금유입 미확인. 946은 부분봉이라도 임계의 절반 이하로 여유 없음. 테마 first_seen=오늘, 근거 얕음. 제약바이오는 유효한 분산 후보이나 확정 자금유입 신호 없어 오늘 소분할도 보류.",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "950160",
+        "qty": null,
+        "reason": "미진입. 스몰캡 +9.07%, 지지선 기준 손절선 그릴 구조선 부재 = 며칠~수주 보유 전제에서 진입가-손절선 사이 갭공백, 사실상 전액 리스크 자리. 갭 강세라도 probe 진입 근거는 정착 일봉/종가여야 하는데 아침 부분봉 스파이크뿐. 미진입.",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "439960",
+        "qty": null,
+        "reason": "미진입. +18.03% 상한가 릴레이 스몰캡, 구조선 부재로 지지선 손절 불가. 진입 근거가 아침 부분봉 급등뿐. 950160과 동일 잣대로 배제 - 스몰캡 구조선 부재 일관 적용.",
+        "slot": "0940"
+      }
+    ],
     "realized_pnl_won": null,
     "sell_won": 0,
     "sells": 0,
@@ -4973,6 +5014,6 @@
     "top_movers": [],
     "traded_codes": [],
     "trades_count": 0,
-    "unrealized_pnl_won": -224000
+    "unrealized_pnl_won": -225000
   }
 }
