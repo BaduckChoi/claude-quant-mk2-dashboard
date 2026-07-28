@@ -5051,16 +5051,45 @@
     "buy_won": 0,
     "buys": 0,
     "date": "2026-07-28",
-    "open_positions": 1,
-    "pm_decisions": [],
-    "realized_pnl_won": null,
-    "sell_won": 0,
-    "sells": 0,
+    "open_positions": 0,
+    "pm_decisions": [
+      {
+        "action": "sell",
+        "amount_won": null,
+        "code": "000660",
+        "qty": 1,
+        "reason": "등록 정리트리거 'regime 조정진입 회귀' 확정 점등(regime.json 조정후반->조정진입, 사전정의 breadth 트리거 발화, 실현 breadth KOSPI 0.10:1/KOSDAQ 0.146:1 = 부분봉 아닌 확정). 진입축 반도체 대형주 클러스터 leadership 소멸: 전기전자 sector median-alpha -5.01=20/20 최하위 확정, 테마 반도체재점화 themes.ended. thesis 본질붕괴=전량. carry-over probe라 24h청산 자기모순 룰 무관. 판정은 확정 state지 일중 -10.3% 아님.",
+        "slot": "0940"
+      },
+      {
+        "action": "hold",
+        "amount_won": null,
+        "code": "207940",
+        "qty": null,
+        "reason": "watching tier + regime 조정진입 신규중단. promote 게이트(확정종가 의약품 median-alpha 양전2일+횡단면 vol 2000+)는 익일 채점, 아침 +0.45% 부분봉으로 충족선언 안함=순환논증 회피. 진입 트리거 미제시=관망.",
+        "slot": "0940"
+      }
+    ],
+    "realized_pnl_won": -361000,
+    "sell_won": 1629000,
+    "sells": 1,
     "strategist_brief": "관망. 조정 진입 day1 + breadth 9:1 전체하락 크래시장. Regime = 신규 중단. 상한가 릴레이 스몰캡(셀리드/포톤/파이온엑스)은 구조선 부재 + 크래시장 = 제외. Volume top 전부 인버스 ETF = 크래시 확인. 살아있는 축 없음. 방어주 로테이션 1개만 watch tier 로 깔되 진입 신호 아님 명시.\n\n```json\n{\n  \"themes\": [\n    {\n      \"name\": \"제약/바이오 방어주 (watch only, 진입 신호 아님)\",\n      \"state\": \"watching\",\n      \"note\": \"themes_state.watching 그대로. promote 게이트 = '확정종가 의약품 median-alpha 양전 2일 + 횡단면 vol 2000+ 동시' 로 익일에만 채점됨. 오늘 아침 프린트(삼성바이오 +0.65%)로 이 게이트 충족 선언 안 함 - 순환논증 회피. 오늘 확정 관측은 횡단면 상대순위(방어주 최상위)뿐, 절대 등락률 확정성 아님. sector_tracker 상 의약품/음식료 laggards(rotating_in 아님) = 자금유입 미확인.\",\n      \"entry_trigger_for_pm\": \"오늘 슬롯 판정 불가 - 신규 진입 트리거 미제시. 재개 조건은 state 전환: (1)regime 조정진입->조정후반/박스권 회귀 AND (2)sectors 의약품 laggards->rotating_in 승격. 둘 중 하나라도 오늘 확정 데이터로 전환 나면 PM 이 첫 분할 정당화 가능. 현재는 둘 다 미전환 = 관망.\"\n    }\n  ],\n  \"candidates\": [\n    {\n      \"code\": \"207940\",\n      \"name\": \"삼성바이오로직스\",\n      \"reason\": \"[확정 vs 미확정 구분] *확정(어제까지)*: 다일 방어주 성격, 시총 8위 대형주로 구조선 존재(스몰캡 릴레이와 다른 성격). *미확정(오늘 아침 프린트)*: +0.65% 는 09:35 부분봉, 확정종가 아님 - 12:30/마감에 반락 가능. 시장 -7% 속 상대 양전은 횡단면 상위 신호로만 유효, 진입 근거로 쓸 확정 강세 아님. [성격] 크래시장 방어 로테이션 = 상승 베팅 아닌 상대 방어. regime 조정진입 신규 중단 하에서 이 종목도 신규 진입 대상 아님 - PM 이 확정 신호와 같은 무게로 다루지 말 것. watch tier 관찰용. [리스크] promote 게이트 미충족(vol 1616<2000, 확정 alpha 미형성). 방어주라도 전체하락은 개별 지지선 무차별 시험 - 지지 확정 이탈 시 관찰 중단.\"\n    }\n  ],\n  \"notes\": \"관망 브리프. 조정 진입 day1(전환 트리거 발화) + KOSPI -7.17% breadth 72:819 + KOSDAQ -5.54% 155:1540 = 양시장 크래시. regime rationale = 신규 사실상 중단. candidates 를 방어주 1개로 최소화한 건 단일 테마 쏠림이 아니라 *살아있는 진입 테마가 없어서* - PM 은 portfolio-level 신규 게이트를 사실상 꺼둔(관망) 상태로 읽어야 함. 오늘 3개 확정 관측(breadth 전체하락, 7-27 확정종가 6755.75, MA20 -8.1%)만으로 신규 중단 확정. 오늘 부분봉 6271/-7.17% 는 저점 6516 하회하나 미확정 - 확정 신호로 쓰지 않음. 기보유(현재 무포지션 추정)는 지지/테마 유효성 재점검. 사이즈·분율·현금 상한은 PM 자율.\"\n}\n```",
     "themes": [],
-    "top_movers": [],
-    "traded_codes": [],
-    "trades_count": 0,
-    "unrealized_pnl_won": -355000
+    "top_movers": [
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "realized_pnl_won": -361000
+      }
+    ],
+    "traded_codes": [
+      {
+        "action": "sell",
+        "code": "000660",
+        "name": "SK하이닉스"
+      }
+    ],
+    "trades_count": 1,
+    "unrealized_pnl_won": null
   }
 }
