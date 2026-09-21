@@ -5210,7 +5210,6 @@
     "buy_won": 5627900,
     "buys": 4,
     "date": "2026-09-18",
-    "open_positions": 5,
     "pm_decisions": [
       {
         "action": "buy",
@@ -5369,7 +5368,44 @@
         "name": "대한광통신"
       }
     ],
-    "trades_count": 4,
-    "unrealized_pnl_won": 309530
+    "trades_count": 4
+  },
+  "20260921": {
+    "auditor_verdict": null,
+    "buy_won": 0,
+    "buys": 0,
+    "date": "2026-09-21",
+    "open_positions": 5,
+    "pm_decisions": [],
+    "realized_pnl_won": null,
+    "sell_won": 0,
+    "sells": 0,
+    "strategist_brief": null,
+    "themes": [
+      {
+        "days_active": 1,
+        "entry_status": "중반",
+        "leaders": [
+          {
+            "code": "",
+            "name": "SK하이닉스"
+          },
+          {
+            "code": "",
+            "name": "삼성전자"
+          },
+          {
+            "code": "",
+            "name": "삼성전기"
+          }
+        ],
+        "name": "반도체 대형주/HBM 재점화",
+        "strength_trend": "유지"
+      }
+    ],
+    "top_movers": [],
+    "traded_codes": [],
+    "trades_count": 0,
+    "unrealized_pnl_won": 423300
   }
 }
