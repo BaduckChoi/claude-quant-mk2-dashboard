@@ -5383,16 +5383,16 @@
     "strategist_brief": null,
     "themes": [
       {
-        "days_active": 1,
+        "days_active": 2,
         "entry_status": "중반",
         "leaders": [
           {
             "code": "",
-            "name": "SK하이닉스"
+            "name": "삼성전자"
           },
           {
             "code": "",
-            "name": "삼성전자"
+            "name": "SK하이닉스"
           },
           {
             "code": "",
@@ -5400,12 +5400,12 @@
           }
         ],
         "name": "반도체 대형주/HBM 재점화",
-        "strength_trend": "유지"
+        "strength_trend": "약화"
       }
     ],
     "top_movers": [],
     "traded_codes": [],
     "trades_count": 0,
-    "unrealized_pnl_won": 432780
+    "unrealized_pnl_won": 451740
   }
 }
