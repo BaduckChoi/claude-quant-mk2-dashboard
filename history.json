@@ -5699,7 +5699,6 @@
     "buy_won": 3822000,
     "buys": 3,
     "date": "2026-09-22",
-    "open_positions": 5,
     "pm_decisions": [
       {
         "action": "sell",
@@ -5900,7 +5899,48 @@
         "name": "미래에셋증권"
       }
     ],
-    "trades_count": 5,
-    "unrealized_pnl_won": 468311
+    "trades_count": 5
+  },
+  "20260923": {
+    "auditor_verdict": null,
+    "buy_won": 0,
+    "buys": 0,
+    "date": "2026-09-23",
+    "open_positions": 5,
+    "pm_decisions": [],
+    "realized_pnl_won": null,
+    "sell_won": 0,
+    "sells": 0,
+    "strategist_brief": null,
+    "themes": [
+      {
+        "days_active": 3,
+        "entry_status": "중반",
+        "leaders": [
+          {
+            "code": "",
+            "name": "삼성전자"
+          },
+          {
+            "code": "",
+            "name": "SK하이닉스"
+          },
+          {
+            "code": "",
+            "name": "삼성전기"
+          },
+          {
+            "code": "",
+            "name": "SK스퀘어"
+          }
+        ],
+        "name": "반도체 대형주/HBM 재점화",
+        "strength_trend": "유지"
+      }
+    ],
+    "top_movers": [],
+    "traded_codes": [],
+    "trades_count": 0,
+    "unrealized_pnl_won": 775761
   }
 }
