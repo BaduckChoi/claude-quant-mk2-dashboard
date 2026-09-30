@@ -6307,7 +6307,6 @@
     "buy_won": 1526000,
     "buys": 1,
     "date": "2026-09-29",
-    "open_positions": 5,
     "pm_decisions": [
       {
         "action": "sell",
@@ -6505,7 +6504,48 @@
         "name": "삼성전기"
       }
     ],
-    "trades_count": 3,
-    "unrealized_pnl_won": 297905
+    "trades_count": 3
+  },
+  "20260930": {
+    "auditor_verdict": null,
+    "buy_won": 0,
+    "buys": 0,
+    "date": "2026-09-30",
+    "open_positions": 5,
+    "pm_decisions": [],
+    "realized_pnl_won": null,
+    "sell_won": 0,
+    "sells": 0,
+    "strategist_brief": null,
+    "themes": [
+      {
+        "days_active": 6,
+        "entry_status": "후반",
+        "leaders": [
+          {
+            "code": "",
+            "name": "삼성전자"
+          },
+          {
+            "code": "",
+            "name": "SK하이닉스"
+          },
+          {
+            "code": "",
+            "name": "SK스퀘어"
+          },
+          {
+            "code": "",
+            "name": "삼성전기"
+          }
+        ],
+        "name": "반도체 대형주/HBM 재점화",
+        "strength_trend": "유지"
+      }
+    ],
+    "top_movers": [],
+    "traded_codes": [],
+    "trades_count": 0,
+    "unrealized_pnl_won": 315155
   }
 }
