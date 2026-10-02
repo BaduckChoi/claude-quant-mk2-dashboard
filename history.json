@@ -6915,7 +6915,7 @@
     "strategist_brief": null,
     "themes": [
       {
-        "days_active": 8,
+        "days_active": 9,
         "entry_status": "후반",
         "leaders": [
           {
@@ -6942,6 +6942,6 @@
     "top_movers": [],
     "traded_codes": [],
     "trades_count": 0,
-    "unrealized_pnl_won": 469905
+    "unrealized_pnl_won": 462055
   }
 }
