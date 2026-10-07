@@ -7321,7 +7321,7 @@
     "strategist_brief": null,
     "themes": [
       {
-        "days_active": 10,
+        "days_active": 11,
         "entry_status": "후반",
         "leaders": [
           {
@@ -7343,11 +7343,27 @@
         ],
         "name": "반도체 대형주/HBM 재점화",
         "strength_trend": "유지"
+      },
+      {
+        "days_active": 1,
+        "entry_status": "초입",
+        "leaders": [
+          {
+            "code": "",
+            "name": "대한광통신"
+          },
+          {
+            "code": "",
+            "name": "빛과전자"
+          }
+        ],
+        "name": "광통신 부품",
+        "strength_trend": "강화"
       }
     ],
     "top_movers": [],
     "traded_codes": [],
     "trades_count": 0,
-    "unrealized_pnl_won": 374400
+    "unrealized_pnl_won": 381200
   }
 }
