@@ -7541,7 +7541,7 @@
     "strategist_brief": null,
     "themes": [
       {
-        "days_active": 11,
+        "days_active": 12,
         "entry_status": "후반",
         "leaders": [
           {
@@ -7565,7 +7565,7 @@
         "strength_trend": "유지"
       },
       {
-        "days_active": 1,
+        "days_active": 2,
         "entry_status": "초입",
         "leaders": [
           {
@@ -7578,12 +7578,12 @@
           }
         ],
         "name": "광통신 부품",
-        "strength_trend": "강화"
+        "strength_trend": "약화"
       }
     ],
     "top_movers": [],
     "traded_codes": [],
     "trades_count": 0,
-    "unrealized_pnl_won": -283500
+    "unrealized_pnl_won": -283700
   }
 }
