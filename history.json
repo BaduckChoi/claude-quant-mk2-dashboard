@@ -7726,7 +7726,7 @@
     "strategist_brief": null,
     "themes": [
       {
-        "days_active": 12,
+        "days_active": 13,
         "entry_status": "후반",
         "leaders": [
           {
@@ -7747,28 +7747,28 @@
           }
         ],
         "name": "반도체 대형주/HBM 재점화",
-        "strength_trend": "유지"
+        "strength_trend": "약화"
       },
       {
-        "days_active": 2,
+        "days_active": 1,
         "entry_status": "초입",
         "leaders": [
           {
             "code": "",
-            "name": "대한광통신"
+            "name": "LG에너지솔루션"
           },
           {
             "code": "",
-            "name": "빛과전자"
+            "name": "KODEX 2차전지산업레버리지"
           }
         ],
-        "name": "광통신 부품",
-        "strength_trend": "약화"
+        "name": "2차전지 셀/소재 반등",
+        "strength_trend": "유지"
       }
     ],
     "top_movers": [],
     "traded_codes": [],
     "trades_count": 0,
-    "unrealized_pnl_won": -37500
+    "unrealized_pnl_won": -28500
   }
 }
