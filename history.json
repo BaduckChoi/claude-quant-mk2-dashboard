@@ -7957,7 +7957,7 @@
     "strategist_brief": null,
     "themes": [
       {
-        "days_active": 2,
+        "days_active": 3,
         "entry_status": "초입",
         "leaders": [
           {
@@ -7976,6 +7976,6 @@
     "top_movers": [],
     "traded_codes": [],
     "trades_count": 0,
-    "unrealized_pnl_won": 26000
+    "unrealized_pnl_won": 23000
   }
 }
